@@ -19,3 +19,9 @@ makeglossaries main # Compile glossary
 
 pdflatex main # Compile template
 ```
+
+The following commands are simplified in only one in the Makefile. Instead of this list of command you can just use the following command to do all of them at the same time.
+
+```
+make compile
+```

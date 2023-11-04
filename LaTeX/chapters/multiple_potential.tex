@@ -7,7 +7,51 @@ Until this moment we have only work with 1 potential well but if our goal is to 
 
 \section{Definition}
 
-In this problem we will have N delta function potentials, as the one in the previous chapter, separated by a distance d.
+\begin{figure}[H]
+  \includegraphics{images5/def.png}
+  \centering
+  \caption{Multiple delta function potentials problem.}
+  \labfig{fig_5.1}
+\end{figure}
+
+In this problem we will have N delta function potentials, as the one in the previous chapter, separated by a distance d, with a fix value for g of g=1. The potential can be defined as:
+
+\begin{equation}
+  \label{5.1}
+  "V(x) = -2 V_0 a \left[\sum_{n=1}^{N} \delta(x-nd) \right]"
+\end{equation}
+
+Using \ref{5.1} we get the wave equation for this problem.
+
+\begin{equation}
+  \label{5.2}
+  "\alpha^2\phi(x) = \frac{\partial^2\phi(x)}{\partial x^2} + 2 g \left[\sum_{n=1}^{N} \delta(x-nd) \right] \phi(x)"
+\end{equation}
+
+Outside of the potentials the equation to solve will be the same as \ref{4.6}, our goal is going to be trying to find the relation between the A and B coefficients at both sides of a potential as we can see in \reffig{fig_5.2}
+
+\begin{figure}[H]
+  \includegraphics{images5/def_n.png}
+  \centering
+  \caption{Coefficients outside of the potentials near x=nd.}
+  \labfig{fig_5.2}
+\end{figure}
+
+\section{Solution}
+
+First, if we look at the limits when n=0 and n=N we get the solutions from the previous chapter.
+
+\begin{equation}
+  \label{5.3}
+  \begin{array}{l}
+    A_0 = 0 \\
+    B_N = 0
+  \end{array}
+\end{equation}
+
+We will use the continuity of $\phi(x)$ to relate the A and B coefficients.
+
+The first condition is that $\phi(x)$ is continuous. To simplify we will use $v = e^{-\alpha\frac{d}{2}}$.
 
 
 
