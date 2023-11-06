@@ -116,8 +116,10 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {5.2}Solution}{38}{section.5.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{39}{part*.34}%
+\contentsline {section}{\numberline {5.3}Solutions for N = 1,2}{39}{section.5.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{41}{chapter*.35}%
+\contentsline {mtocsection}{\numberline {5.3}Solutions for N = 1,2}{39}{section.5.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{43}{section*.36}%
+\contentsline {part}{\nonumberline Appendix}{41}{part*.34}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{43}{chapter*.35}%

@@ -1,17 +1,18 @@
 # Fdb version 3
 ["bibtex main"] 0 "main.aux" "main.bbl" "main" 0
   (generated)
-  "main.blg"
   "main.bbl"
-["makeindex build/main.idx"] 0 "build/main.idx" "build/main.ind" "build/main" 1699118850
+  "main.blg"
+["makeindex build/main.idx"] 0 "build/main.idx" "build/main.ind" "build/main" 1699295594
   "build/main.idx" 0 -1 0 ""
   (generated)
-  "build/main.ind"
   "build/main.ilg"
-["pdflatex"] 1699118850 "/home/adolfo/code/Fito-22/FIU_QM/LaTeX/main.tex" "/home/adolfo/code/Fito-22/FIU_QM/LaTeX\build/main.pdf" "main" 1699118850
+  "build/main.ind"
+["pdflatex"] 1699295594 "/home/adolfo/code/Fito-22/FIU_QM/LaTeX/main.tex" "/home/adolfo/code/Fito-22/FIU_QM/LaTeX\build/main.pdf" "main" 1699295594
   "/etc/texmf/web2c/texmf.cnf" 1698691383 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/adolfo/code/Fito-22/FIU_QM/LaTeX/main.tex" 1699073617 13098 2294c14927cb5be49b61cfcc4a5b3ab8 ""
-  "/home/adolfo/code/Fito-22/FIU_QM/LaTeX\build/main.aux" 1699118846 58190 fd547c3e735a3f695de89d6dad077959 ""
+  "/home/adolfo/code/Fito-22/FIU_QM/LaTeX\build/main.aux" 1699295590 60782 ab11ba5679a4104891006c74073229b2 ""
+  "/home/adolfo/code/Fito-22/FIU_QM/LaTeX\build/main.ind" 0 -1 0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-lf-sc.enc" 1439157308 2824 2fb2240dc8c5eac2d96a93478a815818 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-lf.enc" 1439157308 2629 b24439d0b12f73c025dc3937eefc75e3 ""
@@ -396,7 +397,7 @@
   "chapters/delta_potential.tex" 1698718924 13074 e5582a23df6927765a649ad36d6ddca4 ""
   "chapters/mathematics.tex" 1698681584 7516 9e8d2581cdd9736ee56debd6ea45b3f5 ""
   "chapters/mechanics.tex" 1698681584 29566 f59f94e603418661bf801f5bc10967a4 ""
-  "chapters/multiple_potential.tex" 1699118814 14963 3b056c831f4ea3e79acf1268d7000c86 ""
+  "chapters/multiple_potential.tex" 1699295558 19604 d423f52d57fb9469d3f11d2961c961e7 ""
   "chapters/potentials.tex" 1698681584 25391 ac5c01320129f91475423b80c653a8aa ""
   "chapters/preface.tex" 1698681584 2470 27dde56012448bbbac7039770ff2b164 ""
   "chapters/references.tex" 1698681584 14768 28969085c6329b40bc6b7b34ce417e8d ""

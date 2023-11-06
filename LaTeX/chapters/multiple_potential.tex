@@ -7,12 +7,12 @@ Until this moment we have only work with 1 potential well but if our goal is to 
 
 \section{Definition}
 
-\begin{figure}[H]
+\begin{marginfigure}
   \includegraphics{images5/def.png}
   \centering
   \caption{Multiple delta function potentials problem.}
   \labfig{fig_5.1}
-\end{figure}
+\end{marginfigure}
 
 In this problem we will have N delta function potentials, as the one in the previous chapter, separated by a distance d, with a fix value for g of g=1. The potential can be defined as:
 
@@ -39,19 +39,234 @@ Outside of the potentials the equation to solve will be the same as \ref{4.6}, o
 
 \section{Solution}
 
-First, if we look at the limits when n=0 and n=N we get the solutions from the previous chapter.
+Our potential at $x=nd$ will look like \reffig{fig_5.2} and the solution at the left and right side of the potential in x=nd will be: \marginnote[2pt]{We are adding the term $ -nd\pm d/2$ in the exponential because it will make the math easier later.}
+
 
 \begin{equation}
   \label{5.3}
+  \begin{array}{lc}
+    \phi(x) = A_{n-1}e^{-\alpha(x-[nd-\frac{d}{2}])}+B_{n-1}e^{\alpha(x-[nd-\frac{d}{2}])} & x < nd
+    \\
+
+    \\
+    \phi(x) = A_{n}e^{-\alpha(x-[nd+\frac{d}{2}])}+B_{n}e^{\alpha(x-[nd+\frac{d}{2}])} & x > nd
+  \end{array}
+\end{equation}
+
+
+
+First, if we look at the limits when n=1 and n=N we get the solutions from the previous chapter.
+
+\begin{equation}
+  \label{5.4}
   \begin{array}{l}
     A_0 = 0 \\
     B_N = 0
   \end{array}
 \end{equation}
 
-We will use the continuity of $\phi(x)$ to relate the A and B coefficients.
+We will use the continuity of the function and its derivatives, as we already explain in Chapter 4, to relate the A and B coefficients.
 
 The first condition is that $\phi(x)$ is continuous. To simplify we will use $v = e^{-\alpha\frac{d}{2}}$.
+
+\begin{equation}
+  \label{5.5}
+  A_{n-1}v+\frac{B_{n-1}}{v} = \frac{A_n}{v}+B_n v
+\end{equation}
+
+The second condition is our relation between the derivatives in $x=nd$ shown in \ref{4.11}
+
+\begin{equation}
+  \label{5.6}
+  \begin{array}{l}
+    [-\alpha A_{n-1} v + \alpha \frac{B_{n-1}}{v}]-[-\alpha\frac{A_n}{v}+\alpha B_n v] = 2[A_{n-1}v+\frac{B_{n-1}}{v}]
+    \\
+
+    \\
+    A_{n-1}(-\alpha v-2v)+B_{n-1}(\frac{\alpha}{v}-\frac{2}{v}) = -\alpha A_n \frac{1}{v}+\alpha B_n v
+    \\
+
+    \\
+    -A_n\frac{1}{v} + B_n v = -vA_{n-1}(1+\frac{2}{\alpha})+\frac{1}{v}B_{n-1}(1-\frac{2}{\alpha})
+  \end{array}
+\end{equation}
+
+If we add and substract both conditions we will get the next equations:
+
+\begin{equation}
+  \label{5.7}
+  \begin{array}{l}
+    B_n = -\frac{1}{\alpha} A_{n-1} + \frac{1}{v^2}(1-\frac{1}{\alpha}) B_{n-1}
+    \\
+
+    \\
+    A_n = v^2(1+\frac{1}{\alpha})A_{n-1} + \frac{1}{\alpha} B_{n-1}
+  \end{array}
+\end{equation}
+
+We want to show this like a matrix.
+
+\begin{equation}
+  \label{5.8}
+  \left(\begin{array}{c}
+    A_n
+    \\
+
+    \\
+    B_n
+  \end{array}
+  \right) =
+  \left[
+    \begin{array}{cc}
+      v^2(1+\frac{1}{\alpha}) & \frac{1}{\alpha}
+      \\
+
+      \\
+      -\frac{1}{v} & \frac{1}{v^2}(1-\frac{1}{\alpha})
+    \end{array}
+  \right]
+  \left(\begin{array}{c}
+    A_{n-1}
+    \\
+
+    \\
+    B_{n-1}
+  \end{array}
+  \right)
+\end{equation}
+
+We will called this matrix T. Now we can relate any index with each other because T does not depend on n, i.e. $T = T(\alpha,d)$. Now we will find the solutions for alpha using the relation between n=1 and n=N coefficients.
+
+\begin{equation}
+  \label{5.9}
+  \left(\begin{array}{c}
+    A_N
+    \\
+
+    \\
+    B_N
+  \end{array}
+  \right) =
+  \left[
+    T
+  \right]^N
+  \left(\begin{array}{c}
+    A_{0}
+    \\
+
+    \\
+    B_{0}
+  \end{array}
+  \right)
+\end{equation}
+
+To solve for alpha we will use \ref{5.4}.
+
+\begin{equation}
+  \label{5.10}
+  \left(\begin{array}{c}
+    A_N
+    \\
+
+    \\
+    0
+  \end{array}
+  \right) =
+  \left[
+    \begin{array}{cc}
+      (T^N)_{11} & (T^N)_{12}
+      \\
+
+      \\
+      (T^N)_{21} & (T^N)_{22}
+    \end{array}
+  \right]
+  \left(\begin{array}{c}
+    0
+    \\
+
+    \\
+    B_{0}
+  \end{array}
+  \right)
+\end{equation}
+
+For this equations to be true we get the condition, $(T^N)_{22}=0$. This will give the solutions for alpha and will depend only on d. \marginnote[2pt]{However, the number of solutions for alpha will be dependent on N, i.e. the number of delta function potentials}
+
+
+\section{Solutions for N = 1,2}
+
+Now that we have the general solution, we can try to get the simplest examples.
+
+For N = 1 it will be extremely simple.
+
+\begin{equation}
+  \label{5.11}
+  \frac{1}{v^2}(1-\frac{1}{\alpha}) = 0
+\end{equation}
+
+Solving for $\alpha$ we get $\alpha=1$ that exactly the value for g, this tell us that when N=1 we recover the solution from the previous chapter, wich make sense.
+
+For N = 2 we need to square the matrix.
+
+\begin{equation}
+  \label{5.12}
+  \begin{array}{c}
+    T^2 = R\left[
+      \begin{array}{cc}
+        v^2(1+\frac{1}{\alpha}) & \frac{1}{\alpha}
+        \\
+
+        \\
+        -\frac{1}{v} & \frac{1}{v^2}(1-\frac{1}{\alpha})
+      \end{array}
+    \right]^2=
+
+    \\
+
+    \\
+
+    =\left[
+      \begin{array}{cc}
+        v^2(1+\frac{1}{\alpha}) & \frac{1}{\alpha}
+        \\
+
+        \\
+        -\frac{1}{v} & \frac{1}{v^2}(1-\frac{1}{\alpha})
+      \end{array}
+    \right]
+    \left[
+      \begin{array}{cc}
+        v^2(1+\frac{1}{\alpha}) & \frac{1}{\alpha}
+        \\
+
+        \\
+        -\frac{1}{v} & \frac{1}{v^2}(1-\frac{1}{\alpha})
+      \end{array}
+    \right] =
+
+    \\
+
+    \\
+
+    =
+    \left[
+      \begin{array}{cc}
+        v^4(1+\frac{1}{\alpha})^2-\frac{1}{\alpha^2} & \frac{1}{\alpha}[v^2(1+\frac{1}{\alpha})+\frac{1}{v}(1-\frac{1}{\alpha})]
+        \\
+
+        \\
+        -\frac{1}{\alpha}[v^2(1+\frac{1}{\alpha})+\frac{1}{v}(1-\frac{1}{\alpha})] & -\frac{1}{\alpha^2} + \frac{1}{v^4}(1-\frac{1}{\alpha})^2
+      \end{array}
+    \right]
+  \end{array}
+\end{equation}
+
+
+
+
+
+
 
 
 
