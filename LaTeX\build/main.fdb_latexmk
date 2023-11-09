@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex main"] 0 "main.aux" "main.bbl" "main" 0
+["bibtex main"] 0 "main.aux" "main.bbl" "main" 1699488128
   (generated)
-  "main.bbl"
   "main.blg"
-["makeindex build/main.idx"] 0 "build/main.idx" "build/main.ind" "build/main" 1699295594
+  "main.bbl"
+["makeindex build/main.idx"] 0 "build/main.idx" "build/main.ind" "build/main" 1699488128
   "build/main.idx" 0 -1 0 ""
   (generated)
-  "build/main.ilg"
   "build/main.ind"
-["pdflatex"] 1699295594 "/home/adolfo/code/Fito-22/FIU_QM/LaTeX/main.tex" "/home/adolfo/code/Fito-22/FIU_QM/LaTeX\build/main.pdf" "main" 1699295594
+  "build/main.ilg"
+["pdflatex"] 1699488128 "/home/adolfo/code/Fito-22/FIU_QM/LaTeX/main.tex" "/home/adolfo/code/Fito-22/FIU_QM/LaTeX\build/main.pdf" "main" 1699488128
   "/etc/texmf/web2c/texmf.cnf" 1698691383 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/adolfo/code/Fito-22/FIU_QM/LaTeX/main.tex" 1699073617 13098 2294c14927cb5be49b61cfcc4a5b3ab8 ""
-  "/home/adolfo/code/Fito-22/FIU_QM/LaTeX\build/main.aux" 1699295590 60782 ab11ba5679a4104891006c74073229b2 ""
+  "/home/adolfo/code/Fito-22/FIU_QM/LaTeX\build/main.aux" 1699488124 61844 ccc86af7704f2e84d26939eff7a9da6e ""
   "/home/adolfo/code/Fito-22/FIU_QM/LaTeX\build/main.ind" 0 -1 0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-lf-sc.enc" 1439157308 2824 2fb2240dc8c5eac2d96a93478a815818 ""
@@ -394,10 +394,10 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1698713177 8260954 b13fe3db9abf19c0cac724ccfa038170 ""
   "build/main.ind" 0 -1 0 "makeindex build/main.idx"
   "chapters/appendix.tex" 1698681584 1980 880866ca3261ee534169807b3937d7a5 ""
-  "chapters/delta_potential.tex" 1698718924 13074 e5582a23df6927765a649ad36d6ddca4 ""
+  "chapters/delta_potential.tex" 1699488118 13038 8392e8ab7b390c409604787ea5f307a0 ""
   "chapters/mathematics.tex" 1698681584 7516 9e8d2581cdd9736ee56debd6ea45b3f5 ""
   "chapters/mechanics.tex" 1698681584 29566 f59f94e603418661bf801f5bc10967a4 ""
-  "chapters/multiple_potential.tex" 1699295558 19604 d423f52d57fb9469d3f11d2961c961e7 ""
+  "chapters/multiple_potential.tex" 1699487915 20754 fc074c9d1c99ea26e5e34f08eb1c41ad ""
   "chapters/potentials.tex" 1698681584 25391 ac5c01320129f91475423b80c653a8aa ""
   "chapters/preface.tex" 1698681584 2470 27dde56012448bbbac7039770ff2b164 ""
   "chapters/references.tex" 1698681584 14768 28969085c6329b40bc6b7b34ce417e8d ""
@@ -503,6 +503,8 @@
   "images3/theta_func.png" 1698681586 4949 0456a7cf65d0c243d1c5d93f91bc4749 ""
   "images4/delta.png" 1698715737 11207 9e96f676957edd788373dc518a23610d ""
   "images4/phi(x).png" 1698715736 13241 32a57d0ca9125b43fbaf653422f8b4a0 ""
+  "images5/N=2,d=0.5.png" 1699486879 28223 d741b44940f8f95af56062b9d9ad2523 ""
+  "images5/N=2,d=2.png" 1699486879 29007 726153b1723f81f8e67bc39ca2005cf1 ""
   "images5/def.png" 1699074404 3990 4a46c8d25f3bc979090bf44e38992881 ""
   "images5/def_n.png" 1699113673 6335 f903df0ccb027829d43681643efd736e ""
   "kao.sty" 1698681584 48899 53d60110f8df7b565a5fffc4572fe946 ""

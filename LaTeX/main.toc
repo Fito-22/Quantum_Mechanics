@@ -123,3 +123,5 @@
 \contentsline {part}{\nonumberline Appendix}{41}{part*.36}%
 \defcounter {refsection}{0}\relax
 \contentsline {chapter}{\nonumberline Notation}{43}{chapter*.37}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{45}{section*.38}%

@@ -212,7 +212,7 @@ For N = 2 we need to square the matrix.
 \begin{equation}
   \label{5.12}
   \begin{array}{c}
-    T^2 = R\left[
+    T^2 = \left[
       \begin{array}{cc}
         v^2(1+\frac{1}{\alpha}) & \frac{1}{\alpha}
         \\
@@ -263,7 +263,44 @@ For N = 2 we need to square the matrix.
 \end{equation}
 
 
+From the expresion of $T_{22}$ we can get the solutions for alpha.
 
+\begin{equation}
+  \label{5.13}
+  \begin{array}{c}
+    -\frac{1}{\alpha^2} + \frac{1}{v^4}(1-\frac{1}{\alpha})^2 = 0 \\
+    \pm \frac{1}{\alpha} = e^{\alpha d}(1-\frac{1}{\alpha})
+  \end{array}
+\end{equation}
+
+We get two different solutions from this equation.
+
+\begin{equation}
+  \label{5.13}
+  \begin{array}{c}
+    \alpha = 1 + e^{-\alpha d}
+
+    \\
+
+    \alpha = 1 - e^{-\alpha d}
+  \end{array}
+\end{equation}
+
+\begin{marginfigure}
+  \includegraphics{images5/N=2,d=2.png}
+  \centering
+  \caption{Solutions for $(T^N)_{22} = 0$ for N=2 and d=2}
+  \labfig{fig_5.3}
+\end{marginfigure}
+
+If we plot both sides of the equations we can see two different results depending on d. If d is greater than 1 we will get two solutions if d is least than 1 we will only find one solution. This can be observe in \reffig{fig_5.3} and \reffig{fig_5.4}. \marginnote{The solutions have been found using numerical analysis.}
+
+\begin{marginfigure}
+  \includegraphics{images5/N=2,d=0.5.png}
+  \centering
+  \caption{Solutions for $(T^N)_{22} = 0$ for N=2 and d=0.5}
+  \labfig{fig_5.4}
+\end{marginfigure}
 
 
 
