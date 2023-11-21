@@ -7,8 +7,8 @@ from function import *
 
 
 # Define our parameters
-N=17
-d=0.5
+N=40
+d=2
 alpha_array = np.linspace(1e-6,2,10000)
 tol = 1e-8
 
@@ -59,7 +59,7 @@ for N in range(2,41,2):
             a = alpha_old
             b = alpha
             sol = bisection(a,b,tol,d,N)
-            print(N, count)
+            # print(N, count)
             plt.scatter(N,sol[0], color="black")
         else: continue
 

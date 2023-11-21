@@ -63,6 +63,13 @@
 % Load package for animations
 \usepackage{graphicx, animate}
 
+% Loadpackage and definitions for Diracs delta notation
+\usepackage{mathtools}
+\DeclarePairedDelimiter\bra{\langle}{\rvert}
+\DeclarePairedDelimiter\ket{\lvert}{\rangle}
+\DeclarePairedDelimiterX\braket[2]{\langle}{\rangle}{#1\,\delimsize\vert\,\mathopen{}#2}
+
+
 
 \graphicspath{{examples/documentation/images/}{images/}} % Paths in which to look for images
 
@@ -220,7 +227,7 @@ Coding is easy, algebra is easy, calculus is easy, physics is imposible.\\
 
 \input{chapters/multiple_potential.tex}
 
-\input{chapters/references.tex}
+\input{chapters/algebra.tex}
 
 \input{chapters/mathematics.tex}
 

@@ -393,7 +393,7 @@ We will solve the problem between d/2 and -d/2 as we can see in \reffig{fig_5.7}
 Outside of the potential the wave equation is:
 
 \begin{equation}
-  \label{5.19}
+  \label{5.20}
   \frac{d^2\phi(x)}{dx^2} =
   \left\{
   \begin{array}{lc}
@@ -404,6 +404,120 @@ Outside of the potential the wave equation is:
   \right.
 \end{equation}
 
+The solution fo this equations is the same as the one in Chapter 4, but we will change the notation, intead of terms of n we will called the coefficients $A_L$, $B_L$ and $A_R$, $B_R$, for left and right of the potential.
+
+Let's resume all the conditions.
+
+\begin{equation}
+  \label{5.21}
+  \begin{array}{lc}
+    I) & \phi(d/2) = C \phi(-d/2)
+
+    \\
+
+    \\
+
+    II) & \frac{\phi}{dx}(d/2) = C \frac{\phi}{dx}(-d/2)
+
+    \\
+
+    \\
+
+    III) & \phi(x=0^{-}) = \phi(x=0^{+})
+
+    \\
+
+    \\
+
+    IV) & \left.\frac{d\phi}{dx}\right|_{x=0^{-}} - \left.\frac{d\phi}{dx}\right|_{x=0^{+}} = 2\phi(0)
+  \end{array}
+\end{equation}
+
+We have to solve for this conditions. We will use $v = e^{d\alpha/2}$ to simplify the math.
+
+
+\begin{equation}
+  \label{5.22}
+  \begin{array}{lc}
+
+    I + II & B_R = \frac{C}{v^2} B_L
+
+    \\
+
+    \\
+
+    I-II & A_R = C v^2 A_L
+
+    \\
+
+    \\
+
+    III => & (Cv^2-1) A_L = (1-\frac{C}{v^2}) B_L
+
+    \\
+
+    \\
+
+    IV => & [-A_L\alpha+B_L\alpha] - [-A_R\alpha + B_R\alpha] = 2[A_L + B_L]
+  \end{array}
+\end{equation}
+
+Combining the four expresions we can get the equation to solve alpha for.
+
+\begin{equation}
+  \label{5.23}
+  \cos{\left(\frac{2\pi k}{N}\right)} = \cosh{(\alpha d)} - \frac{1}{\alpha} \sinh{(\alpha d)}
+\end{equation}
+
+If d and N are given we can get $\alpha(k)$.
+
+We have to do a numerical analisis of the function in the right side. First, we want to find the limit for $\alpha \to 0$. We will need to use Taylor expansion to solve it.
+
+\begin{equation}
+  \label{5.24}
+  \begin{array}{c}
+    \lim_{\alpha \to 0} (\cosh{(\alpha d)} - \frac{1}{\alpha} \sinh{(\alpha d)}) =
+    \\
+
+    \\
+    = \cosh{(0)} - \lim_{\alpha \to 0} \frac{1}{\alpha} \frac{e^{\alpha d}-e^{-\alpha d}}{2} =
+    \\
+
+    \\
+    = 1 - \lim_{\alpha \to 0} \frac{1}{\alpha} \frac{2\alpha d + o(\alpha^2)}{2} = 1-d
+  \end{array}
+\end{equation}
+
+Now we want to see how the monotony of the function behaves, so we have to look at the derivative of the function. We will use taylor expansion again.
+
+
+\begin{equation}
+  \label{5.25}
+  \begin{array}{c}
+    \frac{d}{dx}\left[\cosh{(\alpha d)} - \frac{1}{\alpha} \sinh{(\alpha d)} \right] =
+    \\
+
+    \\
+    = \left(\alpha + \frac{1}{\alpha^2}\right)\sinh{(\alpha d)} -\frac{d}{\alpha}\cosh{(\alpha d)} \approx
+    \\
+
+    \\
+    \approx \alpha d^2 (1-\frac{d}{3}) + o(\alpha^3)
+  \end{array}
+\end{equation}
+
+If d is greater than 3 the function decreases first and then it increases until infinity. If d is less than 3 the function increases for all $\alpha$. Is not important for us where the minimum is located, the key aspect is that if d is greater than 3 we get solutions for bigger alphas of the equation because the left function is confine in [-1,1].
+
+In \reffig{fig_5.8} we can see that for fixed values of N we can get all the energies.
+
+% \begin{figure}
+%   \includegraphics{zzzzzzzzz}
+%   \centering
+%   \caption{Energy as a function of the distance between potentials.}
+%   \labfig{fig_5.7}
+% \end{figure}
+
+CONTINUARA, PERO VOY A HACER UNA PAUSA AL SIGUIENTE CAPITULO
 
 
 
