@@ -73,3 +73,5 @@ plt.xticks([])
 plt.yticks([])
 
 plt.savefig("GRAPHS/def_n.png")
+
+
