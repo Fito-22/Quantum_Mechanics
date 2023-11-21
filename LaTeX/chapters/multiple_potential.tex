@@ -218,7 +218,7 @@ For N = 2 we need to square the matrix.
         \\
 
         \\
-        -\frac{1}{v} & \frac{1}{v^2}(1-\frac{1}{\alpha})
+        -\frac{1}{\alpha} & \frac{1}{v^2}(1-\frac{1}{\alpha})
       \end{array}
     \right]^2=
 
@@ -232,7 +232,7 @@ For N = 2 we need to square the matrix.
         \\
 
         \\
-        -\frac{1}{v} & \frac{1}{v^2}(1-\frac{1}{\alpha})
+        -\frac{1}{\alpha} & \frac{1}{v^2}(1-\frac{1}{\alpha})
       \end{array}
     \right]
     \left[
@@ -241,7 +241,7 @@ For N = 2 we need to square the matrix.
         \\
 
         \\
-        -\frac{1}{v} & \frac{1}{v^2}(1-\frac{1}{\alpha})
+        -\frac{1}{\alpha} & \frac{1}{v^2}(1-\frac{1}{\alpha})
       \end{array}
     \right] =
 
@@ -262,7 +262,6 @@ For N = 2 we need to square the matrix.
   \end{array}
 \end{equation}
 
-
 From the expresion of $T_{22}$ we can get the solutions for alpha.
 
 \begin{equation}
@@ -276,7 +275,7 @@ From the expresion of $T_{22}$ we can get the solutions for alpha.
 We get two different solutions from this equation.
 
 \begin{equation}
-  \label{5.13}
+  \label{5.14}
   \begin{array}{c}
     \alpha = 1 + e^{-\alpha d}
 
@@ -302,7 +301,108 @@ If we plot both sides of the equations we can see two different results dependin
   \labfig{fig_5.4}
 \end{marginfigure}
 
+As N increase with a fix d the number of alphas will increase until the discrete turns into a almost continuous behaviour. With N from 1 to 40 we can see the behaviour for alpha when d=2.
 
+\begin{figure}
+  \includegraphics[H]{images5/N_alpha_d=2.png}
+  \centering
+  \caption{alpha as a function of N for $d = 2$.}
+  \labfig{fig_5.5}
+\end{figure}
+
+\section{Solving for x as a circunference}
+
+If we assume x axis is not a straight line, and instead it is inside a circunference of length L, like \reffig{fig_5.6}, the math will look better and we will get some interesting new results.
+
+\begin{marginfigure}
+  \begin{tikzpicture}
+
+    \draw[black] (0,0) circle (2);
+    \draw[->] (0,2) -- (0,1);
+    \draw[->] (1.4,1.4) -- (0.7,0.7);
+    \draw[->] (-1.4,-1.4) -- (-0.7,-0.7);
+    \filldraw[black] (-1.6,-1.4) circle (0) node [anchor=north]{kd};
+    \filldraw[black] (3,2) circle (0) node [anchor=east]{L=Nd};
+    \draw[->] (0,2.2) arc (90:45:2.2) node[anchor=south]{d};
+    \end{tikzpicture}
+    \caption[x as a circunference]{x as a circunference of distance L.}
+    \labfig{fig_5.6}
+\end{marginfigure}
+
+Because we have N potentials separated a distance d, we can say that $L= Nd$. When N is infinite we will have again that L is aproximately infinite and therefore the circunference will recover the straight line shape.
+
+One of the consequences of this new aproach is that now E is not confined to only negative values. We know get a new wave equation where E is the energy.
+
+\begin{equation}
+  \label{5.15}
+  -\frac{\hbar^2}{2m}\frac{d^2\phi}{dx^2} + V(x)\phi(x) = E\phi(x)
+\end{equation}
+
+We have to solve this equation with our boundaries as before, but we have new boundaries as a result of our transformation. We can use the rotation simetry to say that now our function is periodic. This give us new conditions:
+
+
+\begin{equation}
+  \label{5.16}
+  \begin{array}{c}
+    \phi(x+L) = \phi(x)
+
+    \\
+
+    \frac{d\phi}{dx}(x+L) = \frac{d\phi}{dx}(x)
+
+    \\
+
+    V(x+L) = V(x)
+  \end{array}
+\end{equation}
+
+We want to go even further and solve problems where $V(x)$ is periodic in d instead of L, i.e. $V(x+d)=V(x)$.
+
+In this case we say, and it can be prove, that $\phi(x)$ is quasi-periodic.
+
+\begin{equation}
+  \label{5.17}
+  \phi(x+d) = C \phi(x)
+\end{equation}
+
+After the N potentials $\phi(x)$ must be the same again according to \ref{5.16}.
+
+\begin{equation}
+  \label{5.18}
+  \phi(x+Nd) = C^N \phi(x) = \phi(x+L) = \phi(x)
+\end{equation}
+
+This means that $C^N = 1$ and this lead us to N solutions for C.
+
+\begin{equation}
+  \label{5.19}
+  \begin{array}{lc}
+    C = e^{i\frac{2\pi}{N}k} & k=0,1,2,...,N-1
+  \end{array}
+\end{equation}
+
+We will solve the problem between d/2 and -d/2 as we can see in \reffig{fig_5.7}
+
+\begin{marginfigure}
+  \includegraphics{images5/quasiperf.png}
+  \centering
+  \caption{Potential between -d/2 and d/2}
+  \labfig{fig_5.7}
+\end{marginfigure}
+
+Outside of the potential the wave equation is:
+
+\begin{equation}
+  \label{5.19}
+  \frac{d^2\phi(x)}{dx^2} =
+  \left\{
+  \begin{array}{lc}
+    \alpha^2 \phi(x) & E < 0
+    \\
+    \beta^2  \phi(x) & E > 0
+  \end{array}
+  \right.
+\end{equation}
 
 
 
