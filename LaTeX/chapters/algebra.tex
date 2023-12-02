@@ -65,12 +65,19 @@ Other property of the inner product:
   \braket{w}{v} = (\braket{v}{w})^{*}
 \end{equation}
 
-\section{Schwarz Inequation}
+We can define a unit vector in direction v as:
+
+\begin{equation}
+  \label{6.8}
+\ket{\hat{v}} = \frac{1}{\sqrt{\braket{v}{v}}} \ket{v}
+\end{equation}
+
+\section{Inequations}
 
 In two dimensional space the inner product is given by the angle between the two vectors.
 
 \begin{equation}
-  \label{6.8}
+  \label{6.9}
   \begin{array}{c}
     \vec{v_1} \cdot \vec{v_2} = \sqrt{\vec{v_1}\cdot\vec{v_1}} \sqrt{\vec{v_2}\cdot\vec{v_2}} \cos(\theta)
     \\
@@ -81,13 +88,50 @@ In two dimensional space the inner product is given by the angle between the two
 This is known as Schwarz Inequation and can be generalize to every number of dimensions.
 
 \begin{equation}
-  \label{6.9}
+  \label{6.10}
   \begin{array}{c}
     \braket{w}{v}\braket{v}{w} \leq \braket{v}{v} \braket{w}{w}
   \end{array}
 \end{equation}
 
+Now we want a relation between the sum of an inner product and it's conjugate.
 
+\begin{equation}
+  \label{6.11}
+  \braket{w}{v}+\braket{v}{w} \leq 2 \sqrt{\braket{v}{v} \braket{w}{w}}
+\end{equation}
+
+Using \ref{6.11} and \ref{6.10} we can get the Triangle Inequality.
+
+\begin{equation}
+  \label{6.12}
+  \begin{array}{c}
+    (\bra{w}+\bra{v})(\ket{w}+\ket{v}) = \braket{w}{w}+\braket{v}{v}+\braket{v}{w}+\braket{w}{v}
+    \\
+
+    \\
+    (\bra{w}+\bra{v})(\ket{w}+\ket{v}) \leq \sqrt{\braket{w}{w}}^2 + \sqrt{\braket{v}{v}}^2 + 2 \sqrt{\braket{w}{w}} \sqrt{\braket{v}{v}}
+    \\
+
+    \\
+    \sqrt{(\bra{w}+\bra{v})(\ket{w}+\ket{v})} \leq \sqrt{\braket{w}{w}} + \sqrt{\braket{v}{v}}
+    \\
+
+    \\
+    Norm(\ket{w}+\ket{v}) \leq Norm(\ket{w}) + Norm(\ket{v})
+  \end{array}
+\end{equation}
+
+\section{Definitions in Wave Mechanics}
+
+In our physical aproach $\ket{e_i}$ is a normalize function in one or more dimension, $\bra{e_i}$ is the conjugate of the function and $\braket{e_i}{e_j}$ is the inner product, define as an integral over all space.
+
+We can rewrite the wave equations for each energy, E_i.
+
+\begin{equation}
+\label{6.13}
+\left[-\frac{\hbar^2}{2m} \frac{d^2}{dx^2}+ V(x) \right] \phi_i(x) = [E_i] \phi_i(x)
+\end{equation}
 
 
 

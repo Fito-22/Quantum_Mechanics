@@ -301,14 +301,16 @@ If we plot both sides of the equations we can see two different results dependin
   \labfig{fig_5.4}
 \end{marginfigure}
 
-As N increase with a fix d the number of alphas will increase until the discrete turns into a almost continuous behaviour. With N from 1 to 40 we can see the behaviour for alpha when d=2.
 
 \begin{figure}
-  \includegraphics[H]{images5/N_alpha_d=2.png}
+  \includegraphics[H]{images5/N_E_d_eff=2.png}
   \centering
   \caption{alpha as a function of N for $d = 2$.}
   \labfig{fig_5.5}
 \end{figure}
+
+As N increase with a fix d the number of alphas will increase until the discrete turns into a almost continuous behaviour. For an infinite N we will aproach a continuous energy range with posible energies. With N from 1 to 60 we can see the behaviour of the energy when d=2 and we can appreciate how the posible energies are more and more continuous for larger N.
+
 
 \section{Solving for x as a circunference}
 
@@ -471,7 +473,16 @@ Combining the four expresions we can get the equation to solve alpha for.
 
 If d and N are given we can get $\alpha(k)$.
 
-We have to do a numerical analisis of the function in the right side. First, we want to find the limit for $\alpha \to 0$. We will need to use Taylor expansion to solve it.
+To see the behaviour of the function with N we can fixed d and try to get all the solutions for alpha. We can see in \reffig{fig_5.8} how the energy range became continuous when N increase to infinite.
+
+\begin{figure}[H]
+  \includegraphics{images5/E_d=2_N.png}
+  \centering
+  \caption{Energy as a function of the distance between potentials.}
+  \labfig{fig_5.8}
+\end{figure}
+
+In the other hand, if we want to see the behaviour of the function with d, we have to do before a numerical analisis of the function in the right side. First, we want to find the limit for $\alpha \to 0$. We will need to use Taylor expansion to solve it.
 
 \begin{equation}
   \label{5.24}
@@ -508,16 +519,24 @@ Now we want to see how the monotony of the function behaves, so we have to look 
 
 If d is greater than 3 the function decreases first and then it increases until infinity. If d is less than 3 the function increases for all $\alpha$. Is not important for us where the minimum is located, the key aspect is that if d is greater than 3 we get solutions for bigger alphas of the equation because the left function is confine in [-1,1].
 
-In \reffig{fig_5.8} we can see that for fixed values of N we can get all the energies.
+In \reffig{fig_5.9} we can see that for a fixed value of N we can get all the energies depending on the distance. If we take a look into the maximum energy we can see that for values of d greater than 2, this value starts to decrease.
 
-% \begin{figure}
-%   \includegraphics{zzzzzzzzz}
-%   \centering
-%   \caption{Energy as a function of the distance between potentials.}
-%   \labfig{fig_5.7}
-% \end{figure}
+\begin{figure}[H]
+  \includegraphics{images5/E_d_N=40.png}
+  \centering
+  \caption{Energy as a function of the distance between potentials.}
+  \labfig{fig_5.9}
+\end{figure}
 
-CONTINUARA, PERO VOY A HACER UNA PAUSA AL SIGUIENTE CAPITULO
+\section{Positive Energies}
+
+This is not the end of the chapter because as we already said, we have also positive energies. Solving for the second equation in \ref{5.20} we get a similar equation to \ref{5.23} but where $\beta = i\alpha$.
+
+\begin{equation}
+  \label{5.26}
+  \cos{\left(\frac{2\pi k}{N}\right)} = \cos{(\beta d)} - \frac{1}{\beta} \sinh{(\beta d)}
+\end{equation}
+
 
 
 

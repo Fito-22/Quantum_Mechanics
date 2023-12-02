@@ -124,6 +124,10 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {5.4}Solving for x as a circunference}{41}{section.5.4}%
 \defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {5.5}Positive Energies}{44}{section.5.5}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {5.5}Positive Energies}{44}{section.5.5}%
+\defcounter {refsection}{0}\relax
 \contentsline {chapter}{\numberline {6}Algebra: Linear vector space}{45}{chapter.6}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {10}
@@ -134,12 +138,16 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {6.1}Definition of linear vector space}{45}{section.6.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {6.2}Schwarz Inequation}{46}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Inequations}{46}{section.6.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {6.2}Schwarz Inequation}{46}{section.6.2}%
+\contentsline {mtocsection}{\numberline {6.2}Inequations}{46}{section.6.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{47}{part*.39}%
+\contentsline {section}{\numberline {6.3}Definitions in Wave Mechanics}{47}{section.6.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{49}{chapter*.40}%
+\contentsline {mtocsection}{\numberline {6.3}Definitions in Wave Mechanics}{47}{section.6.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{51}{section*.41}%
+\contentsline {part}{\nonumberline Appendix}{49}{part*.41}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{51}{chapter*.42}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{53}{section*.43}%

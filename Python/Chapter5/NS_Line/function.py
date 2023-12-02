@@ -20,7 +20,7 @@ def T_22_init(d,alpha):
     return (1/((np.exp(-alpha*d/2))**2)) * (1-1/alpha)
 
 
-# Definition of our class Matrix
+# Definition of our class Matrix (This procress is more slow)
 class Matrix():
 
     def __init__(self,M_11,M_12,M_21,M_22):
@@ -83,3 +83,34 @@ def bisection(a : float, b : float, tol: float, d: float, N: int):
 
 
     return x0, mat_x0_N.bb
+
+
+
+def T(alpha,d,N):
+    """
+    Code based in manue code.
+    """
+    a = (np.exp(-alpha*d/2))**2*(1+1/alpha)
+    b = (1/((np.exp(-alpha*d/2))**2)) * (1-1/alpha)
+    T_mat = np.array([
+        [a, 1/alpha],
+        [-1/alpha, b]
+        ])
+    T_N = np.linalg.matrix_power(T_mat,N)
+    return T_N[1,1]
+
+def bisection_eff(a,b,N,d,tol=1e-6):
+    if(abs(T(a,d,N))<tol):
+        return a,T(a,d,N)
+    elif(abs(T(b,d,N)) < tol):
+        return b,T(b,d,N)
+    else:
+        while(abs(T(a,d,N)-T(b,d,N))>tol):
+            x_0 = (a+b)/2
+            if T(x_0,d,N)*T(a,d,N) > 0:
+                a=x_0
+            elif T(x_0,d,N) == 0:
+                return x_0, 0
+            else:
+                b=x_0
+        return x_0, T(x_0,d,N)

@@ -42,7 +42,6 @@ for alpha in alpha_array:
 
 ################ Solving the real problem for multiple N #################
 
-plt.figure()
 for N in range(2,41,2):
     alpha_old = 1e-6
     count = 0
@@ -60,11 +59,23 @@ for N in range(2,41,2):
             b = alpha
             sol = bisection(a,b,tol,d,N)
             # print(N, count)
+            plt.figure("alpha")
             plt.scatter(N,sol[0], color="black")
-        else: continue
 
+            plt.figure("E")
+            plt.scatter(N,-sol[0]*sol[0], color="black")
+
+        else: continue
         alpha_old = alpha
+
+plt.figure("alpha")
 plt.title(f"d={d}")
 plt.xlabel("N")
 plt.ylabel("alpha")
 plt.savefig(f"GRAPHS/N_alpha_d={d}.png")
+
+plt.figure("E")
+plt.title(f"d={d}")
+plt.xlabel("N")
+plt.ylabel("E")
+plt.savefig(f"GRAPHS/N_E_d={d}.png")
