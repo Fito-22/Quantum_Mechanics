@@ -478,7 +478,7 @@ To see the behaviour of the function with N we can fixed d and try to get all th
 \begin{figure}[H]
   \includegraphics{images5/E_d=2_N.png}
   \centering
-  \caption{Energy as a function of the distance between potentials.}
+  \caption{Energy as a function of the number of potentials.}
   \labfig{fig_5.8}
 \end{figure}
 
@@ -528,7 +528,7 @@ In \reffig{fig_5.9} we can see that for a fixed value of N we can get all the en
   \labfig{fig_5.9}
 \end{figure}
 
-\section{Positive Energies}
+\section{Solution for all the posible energies.}
 
 This is not the end of the chapter because as we already said, we have also positive energies. Solving for the second equation in \ref{5.20} we get a similar equation to \ref{5.23} but where $\beta = i\alpha$.
 
@@ -537,8 +537,25 @@ This is not the end of the chapter because as we already said, we have also posi
   \cos{\left(\frac{2\pi k}{N}\right)} = \cos{(\beta d)} - \frac{1}{\beta} \sinh{(\beta d)}
 \end{equation}
 
+Plotting all the solutions together, the positive and the negative ones, we can see how the energy levels behaves depending on the other two parameters, d and N. Moreover we can also see the gaps between the different energy levels.
 
+\begin{figure}[H]
+  \includegraphics{images5/Etotal_d=2_N.png}
+  \centering
+  \caption{All the energies as a function of the number of potentials.}
+  \labfig{fig_5.10}
+\end{figure}
 
+\begin{figure}[H]
+  \includegraphics{images5/Etotal_d_N=100.png}
+  \centering
+  \caption{All the energies as a function of the distance between potentials.}
+  \labfig{fig_5.11}
+\end{figure}
+
+In the figures above is appreciated how the energy levels are well define and the distance between them remain constant when we increase N.However while d goes to ifinite the width of the energy levels is decreasing.
+
+There are more complicated problems that could be solved using this way of thinking. In this book we proposed the reader to solve this problem adding a new parameter, a, that is the distance between two potentials. Where d is still quasiperiodic and is the distance between this two pairs and the next pair.
 
 % \setchapterimage[6cm]{seaside}
 % \setchapterpreamble[u]{\margintoc}

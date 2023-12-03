@@ -122,7 +122,7 @@ Using \ref{6.11} and \ref{6.10} we can get the Triangle Inequality.
   \end{array}
 \end{equation}
 
-\section{Definitions in Wave Mechanics}
+\section{Definitions in Wave Mechanicsand Operators}
 
 In our physical aproach $\ket{e_i}$ is a normalize function in one or more dimension, $\bra{e_i}$ is the conjugate of the function and $\braket{e_i}{e_j}$ is the inner product, define as an integral over all space.
 
@@ -133,6 +133,53 @@ We can rewrite the wave equations for each energy, E_i.
 \left[-\frac{\hbar^2}{2m} \frac{d^2}{dx^2}+ V(x) \right] \phi_i(x) = [E_i] \phi_i(x)
 \end{equation}
 
+Where the left part in brackets is a linear operator in our vector space and is acting an element giving as a result a proportionality with him self.
+
+We have introduced a new concept, the linear operatorr. We say an operator is linear if:
+
+\begin{equation}
+  \label{6.14}
+  \begin{array}{c}
+    A \ket{v} = \ket{w} \\
+    A(\alpha_1 \ket{v_1}+\alpha_2\ket{v_2}) = \alpha_1 A \ket{v_1} + \alpha_2 A \ket{v_2}
+  \end{array}
+\end{equation}
+
+Where $\alpha_1$, $\alpha_2$ are complex numbers. As we did with vectors we have to established some rules.
+
+\begin{equation}
+  \label{6.15}
+  A \ket{e_i} = \sum_{j} \ket{e_j} A_{ji}
+\end{equation}
+
+Given A and the vectors that define our space, $\ket{e_i}$, we can find $A_{ij}$.
+
+\begin{equation}
+  \label{6.16}
+  \bra{e_k}(A \ket{e_i}) =\bra{e_k}(\sum_{j}\bra{e_j}A_{ji}) = \sum_{j} (\braket{e_k}{e_j})Aji = \sum_{j}\delta_{kj}A_{ji}=A_{ki}
+\end{equation}
+
+One consequence of this result is the matrix multiplication acting on components.
+
+\begin{equation}
+  \label{6.17}
+  \begin{array}{c}
+    \ket{w} = A \ket{v} = A \sum_{i} v_i\ket{e_i} = \sum_{i} v_i\sum_{j}\ket{e_j}A_{ji} = \sum_j\sum_i A_{ji} v_i \ket{e_j} = \sum_{j} w_i \ket{e_j}\\
+    w_j = \sum_{i}A_{ji} v_i
+  \end{array}
+\end{equation}
+
+We can aply more than one operator to a vector.
+
+\begin{equation}
+  \label{6.18}
+  \begin{array}{c}
+    \ket{w} = A(B \ket{v}) \\
+    w_j = \sum_{i}(A_{ji}(B\ket{v})_i) = \sum_{k}\sum{i}A_{ji}B_{ik}v_k = \sum_{k} (AB)_{jk} v_k
+  \end{array}
+\end{equation}
+
+In general A and B do not commute.
 
 
 
