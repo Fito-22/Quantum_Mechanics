@@ -249,6 +249,14 @@ We define the identity operator, I, as:
 
 If $A A^{\dagger} = I$ we say that A is a unitary operator.
 
+We can also prove that $(AB)^{\dagger} = (B^{\dagger}A^{\dagger})$.
+
+\begin{equation}
+  \begin{array}{c}
+    (AB)^{\dagger} = ((AB)^T)^* = (B^TA^T)^*= (B^T)^*(A^T)^* = B^\dagger A^\dagger
+  \end{array}
+\end{equation}
+
 Considering a hermitian operator H that satisfy:
 
 \begin{equation}
@@ -303,7 +311,7 @@ Where our inner product is the integral of the product of the functions and the 
 
 \begin{equation}
   \begin{array}{c}
-    \int_{-\infty}^{\infty}\psi^*(x)\left[\frac{d^2}{dx^2}\phi(x)\right] dx = \int_{-\infty}^{\infty} \frac{d}{dx}\left[\psi^*\frac{d}{dx}\phi\right]-\frac{d\psi}{dx}\frac{d\phi}{dx} dx =
+    \int_{-\infty}^{\infty}\psi^*(x)\left[\frac{d^2}{dx^2}\phi(x)\right] dx = \int_{-\infty}^{\infty} \frac{d}{dx}\left[\psi^*\frac{d}{dx}\phi\right]-\frac{d\psi^*}{dx}\frac{d\phi}{dx} dx =
     \\
 
     \\
@@ -326,6 +334,24 @@ This means that the operator is hermitian. And it will be also hermitian if we m
 \begin{equation}
   \left[\frac{-\hbar^2}{2m}\frac{d^2}{dx^2}+V(x)\right]\ket{E_i} = E_i \ket{E_i}
 \end{equation}
+
+We will need also to explore how the operator d/dx behaves.
+
+\begin{equation}
+  \begin{array}{c}
+    \int_{-\infty}^{\infty}\psi^*(x)\left[\frac{d}{dx}\phi(x)\right] dx = \int_{-\infty}^{\infty} \frac{d}{dx}\left[\psi^* \phi\right]-\left(\frac{d\psi^*}{dx}\right) \phi dx =
+    \\
+
+    \\
+    \left.\psi^*\phi\right|_{-\infty}^{\infty} + \int_{-\infty}^{\infty} \left(-\frac{d}{dx}\psi^*\right)\phi dx = \int_{-\infty}^{\infty} \left(-\frac{d}{dx}\psi^*\right)\phi dx
+    \\
+
+    \\
+    \left(\frac{d}{dx}\right)^{\dagger} = -\frac{d}{dx}
+  \end{array}
+\end{equation}
+
+We have proved that this operator is anti-hermitian.
 
 % \setchapterstyle{kao}
 % %\setchapterpreamble[u]{\margintoc}

@@ -156,8 +156,22 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {7.1}Definition}{53}{section.7.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{55}{part*.43}%
+\contentsline {section}{\numberline {7.2}Solving the Wave Equation}{54}{section.7.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{57}{chapter*.44}%
+\contentsline {mtocsection}{\numberline {7.2}Solving the Wave Equation}{54}{section.7.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{59}{section*.45}%
+\contentsline {section}{\numberline {7.3}Temperature}{57}{section.7.3}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {7.3}Temperature}{57}{section.7.3}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {8}2-Dimensional Potential}{59}{chapter.8}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {14}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {15}
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Appendix}{61}{part*.45}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{63}{chapter*.46}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{65}{section*.47}%
