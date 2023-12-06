@@ -146,8 +146,18 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {6.3}Definitions in Wave Mechanicsand Operators}{49}{section.6.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{51}{part*.43}%
+\contentsline {chapter}{\numberline {7}Harmonic Oscilator}{53}{chapter.7}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{53}{chapter*.44}%
+\etoc@startlocaltoc {12}
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{55}{section*.45}%
+\etoc@startlocaltoc {13}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {7.1}Definition}{53}{section.7.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {7.1}Definition}{53}{section.7.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Appendix}{55}{part*.43}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{57}{chapter*.44}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{59}{section*.45}%

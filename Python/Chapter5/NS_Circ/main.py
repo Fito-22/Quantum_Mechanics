@@ -18,32 +18,32 @@ plt.savefig("AUX/UnboundRHS")
 
 ### Continuous for infinite N ###
 
-# d = 2
-# alpha_array = np.linspace(0.1,5,100)
-# E_l=[]
-# N_l=[]
-# tol = 1E-6
-# for N in range(1,21):
-#     for k in range(N):
-#             if (LHS(N,k) < 1-d) : continue
-#             for i in range(len(alpha_array)):
-#                 try:
-#                     if func_alp(N,k,d,alpha_array[i+1]) * func_alp(N,k,d,alpha_array[i]) < 0:
-#                         a = alpha_array[i]
-#                         b = alpha_array[i+1]
-#                         sol = bisection(a,b,tol,d,N,k)
-#                         break
-#                 except: sol = (0, 0)
-#             E_l.append(-sol[0]*sol[0])
-#             N_l.append(N)
-#             # print(f"For k = {k}, d= {d}, alpha={sol[0]}")
+d = 2
+alpha_array = np.linspace(0.1,5,100)
+E_l=[]
+N_l=[]
+tol = 1E-6
+for N in range(1,21):
+    for k in range(N):
+            if (LHS(N,k) < 1-d) : continue
+            for i in range(len(alpha_array)):
+                try:
+                    if func_alp(N,k,d,alpha_array[i+1]) * func_alp(N,k,d,alpha_array[i]) < 0:
+                        a = alpha_array[i]
+                        b = alpha_array[i+1]
+                        sol = bisection(a,b,tol,d,N,k)
+                        break
+                except: sol = (0, 0)
+            E_l.append(-sol[0]*sol[0])
+            N_l.append(N)
+            # print(f"For k = {k}, d= {d}, alpha={sol[0]}")
 
-# plt.figure("0")
-# plt.scatter(N_l,E_l, color="black")
-# plt.xlabel("N")
-# plt.ylabel("E")
-# plt.title("d=2")
-# plt.savefig("GRAPHS/E_d=2_N.png")
+plt.figure("0")
+plt.scatter(N_l,E_l, color="black")
+plt.xlabel("N")
+plt.ylabel("E")
+plt.title("d=2")
+plt.savefig("GRAPHS/E_d=2_N.png")
 
 
 ### Behaviour for d ###
@@ -70,54 +70,54 @@ for d in np.arange(1,4,0.1):
         E_lbound.append(-sol[0]*sol[0])
         d_lbound.append(d)
 
-# plt.savefig("GRAPHS/E_d_N=40.png")
+plt.savefig("GRAPHS/E_d_N=40.png")
 
 ######### Solutions for beta (Unbound States) ###############
 
 
 ### Continuous for infinite N ###
 
-# d = 2
-# alpha_array = np.linspace(0.1,5,100)
-# E_l=[]
-# N_l=[]
-# tol = 1E-6
-# nband=2
+d = 2
+alpha_array = np.linspace(0.1,5,100)
+E_l=[]
+N_l=[]
+tol = 1E-6
+nband=2
 
-# for N in range(1,21):
-#     count = 0
-#     for k in range(N):
-#             for i in range(len(alpha_array)):
-#                 try:
-#                     if func_bet(N,k,d,alpha_array[i+1]) * func_bet(N,k,d,alpha_array[i]) < 0:
-#                         a = alpha_array[i]
-#                         b = alpha_array[i+1]
-#                         sol = bisection_bet(a,b,tol,d,N,k)
-#                         E_l.append(sol[0]*sol[0])
-#                         N_l.append(N)
-#                         count+=1
-#                         if count == nband: break
-#                 except:
-#                     sol = (0, 0)
-#                     E_l.append(sol[0]*sol[0])
-#                     N_l.append(N)
-#             # print(f"For k = {k}, d= {d}, alpha={sol[0]}")
+for N in range(1,21):
+    count = 0
+    for k in range(N):
+            for i in range(len(alpha_array)):
+                try:
+                    if func_bet(N,k,d,alpha_array[i+1]) * func_bet(N,k,d,alpha_array[i]) < 0:
+                        a = alpha_array[i]
+                        b = alpha_array[i+1]
+                        sol = bisection_bet(a,b,tol,d,N,k)
+                        E_l.append(sol[0]*sol[0])
+                        N_l.append(N)
+                        count+=1
+                        if count == nband: break
+                except:
+                    sol = (0, 0)
+                    E_l.append(sol[0]*sol[0])
+                    N_l.append(N)
+            # print(f"For k = {k}, d= {d}, alpha={sol[0]}")
 
-# E_sol = []
-# N_sol = []
+E_sol = []
+N_sol = []
 
-# for i in range(len(E_l)):
-#     if E_l[i]!=0:
-#         E_sol.append(E_l[i])
-#         N_sol.append(N_l[i])
+for i in range(len(E_l)):
+    if E_l[i]!=0:
+        E_sol.append(E_l[i])
+        N_sol.append(N_l[i])
 
 
-# plt.figure("0")
-# plt.scatter(N_sol,E_sol, color="black")
-# plt.xlabel("N")
-# plt.ylabel("E")
-# plt.title("d=2")
-# plt.savefig("GRAPHS/Etotal_d=2_N.png")
+plt.figure("0")
+plt.scatter(N_sol,E_sol, color="black")
+plt.xlabel("N")
+plt.ylabel("E")
+plt.title("d=2")
+plt.savefig("GRAPHS/Etotal_d=2_N.png")
 
 ### Behaviour for d ###
 

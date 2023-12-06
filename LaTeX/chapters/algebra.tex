@@ -156,7 +156,7 @@ Given A and the vectors that define our space, $\ket{e_i}$, we can find $A_{ij}$
 
 \begin{equation}
   \label{6.16}
-  \bra{e_k}(A \ket{e_i}) =\bra{e_k}(\sum_{j}\bra{e_j}A_{ji}) = \sum_{j} (\braket{e_k}{e_j})Aji = \sum_{j}\delta_{kj}A_{ji}=A_{ki}
+  \bra{e_k}(A \ket{e_i}) =\bra{e_k}(\sum_{j}\ket{e_j}A_{ji}) = \sum_{j} (\braket{e_k}{e_j})Aji = \sum_{j}\delta_{kj}A_{ji}=A_{ki}
 \end{equation}
 
 One consequence of this result is the matrix multiplication acting on components.
@@ -181,7 +181,151 @@ We can aply more than one operator to a vector.
 
 In general A and B do not commute.
 
+\begin{equation}
+  \ket{x} = (AB-BA) \ket{v}
+\end{equation}
 
+We call that difference of the multiplication of the operators, a commutator. It has the property:
+
+\begin{equation}
+  \begin{array}{c}
+    [A,\alpha B + \beta C]\ket{v} = (A(\alpha B+\beta C)-(\alpha B + \beta C)A)\ket{v} =
+    \\
+    = (\alpha AB+\beta AC-\alpha BA - \beta CA) \ket{v} =
+    \\
+    = (\alpha (AB-BA)+\beta(AC-CA)) \ket{v}
+  \end{array}
+\end{equation}
+
+This mean that:
+
+\begin{equation}
+    [A,\alpha B + \beta C] = \alpha [A,B] + \beta[A,C]
+\end{equation}
+
+There is also a rule with the product of two operators.
+
+\begin{equation}
+  \begin{array}{c}
+    [A,BC] = ABC - BCA - BAC + BAC =
+    \\
+    = (AB-BA)C + B(AC-CA) =
+    \\
+    = [A,B]C + B[A,C]
+  \end{array}
+\end{equation}
+
+We called operator adjunt to A to $A^{\dagger}$ if:
+
+\begin{equation}
+  \begin{array}{c}
+    A \ket{v} = \ket{w}
+    \\
+    \bra A^{\dagger} = \bra{w}
+  \end{array}
+\end{equation}
+
+$A^{\dagger}$ is the transpose complex conjugate of the operator A.
+
+\begin{equation}
+  A^{\dagger} = (A^{\star})^{T} = (A^{T})^{\star}
+\end{equation}
+
+If $A=A^{\dagger}$ A is called hermitian
+
+If $A=-A^{\dagger}$ A is called anti-hermitian
+
+We define the identity operator, I, as:
+
+\begin{equation}
+  (I)_{ij} = \left\{
+  \begin{array}{lc}
+    1 & i=j
+    \\
+    0 & i \neq j
+  \end{array}
+  \right.
+\end{equation}
+
+If $A A^{\dagger} = I$ we say that A is a unitary operator.
+
+Considering a hermitian operator H that satisfy:
+
+\begin{equation}
+  H\ket{h_i} = h_i \ket{h_i}
+\end{equation}
+
+Where $\ket{h_i}$ is an eigenvector such that the action of the operator on it, returns a vector proportional to itself with $h_i$ as the proportionality (eigenvalue).
+
+We can prove that the eigenvalue is a real number.
+
+\begin{equation}
+  \begin{array}{c}
+    \bra{h_i}H^{\dagger} = h_i^* \bra{h_i}
+    \\
+    \bra{h_i}H^{\dagger} = h_i^* \bra{h_i}
+    \\
+    \bra{h_i}H\ket{h_i} = h_i \braket{h_i}{h_i}
+    \\
+    \bra{h_i}H\ket{h_i} = h_i^* \braket{h_i}{h_i}
+  \end{array}
+\end{equation}
+
+We can also prove that the different eigenvectors are orthogonal.
+
+\begin{equation}
+  \begin{array}{c}
+    \bra{h_j}H\ket{h_i} = h_j \braket{h_i}{h_j}
+    \\
+    \bra{h_j}H\ket{h_i} = h_i \braket{h_i}{h_j}
+    \\
+    (h_i-h_j)\braket{h_j}{h_i} = 0
+  \end{array}
+\end{equation}
+
+If $h_i\neq h_j$ then the eigenvectors are orthogonal. In one dimensional problems we don't have problems because the eigenvalues are unique, we will talk about what happen when they are equal later when we introduce more dimensions.
+
+It can be prove that the set of eigenvectors form a base.
+
+\begin{equation}
+  \begin{array}{c}
+    PROVE \braket{h_i}{h_i} = 1 NOT PROVE YET
+  \end{array}
+\end{equation}
+
+Coming back to physics with all this properties we will define our inner product and our operator.
+
+\begin{equation}
+  \bra{\psi(x)}A\ket{\phi(x)} = \int_{-\infty}^{\infty}\psi^*(x)\left[\frac{d^2}{dx^2}\phi(x)\right]dx
+\end{equation}
+
+Where our inner product is the integral of the product of the functions and the operator is the second derivative. We can prove that in this inner product our operator is hermitian with the limits $\phi(\pm \infty) = 0$ and $\psi(\pm \infty) = 0$.
+
+\begin{equation}
+  \begin{array}{c}
+    \int_{-\infty}^{\infty}\psi^*(x)\left[\frac{d^2}{dx^2}\phi(x)\right] dx = \int_{-\infty}^{\infty} \frac{d}{dx}\left[\psi^*\frac{d}{dx}\phi\right]-\frac{d\psi}{dx}\frac{d\phi}{dx} dx =
+    \\
+
+    \\
+    \left.\psi^*\frac{d\phi}{dx}\right|_{-\infty}^{\infty} - \int_{-\infty}^{\infty} \frac{d\psi^*}{dx}\frac{d\phi}{dx} dx = -\int_{-\infty}^{\infty} \frac{d}{dx}\left(\frac{d\psi^*}{dx}\phi\right)-\frac{d^2\psi^*}{dx^2}\phi dx =
+    \\
+
+    \\
+    =\left.\frac{d\psi^*}{dx}\phi\right|_{-\infty}^{\infty} + \int_{-\infty}^{\infty} \left[\frac{d^2\psi^*}{dx^2}\right]^2\phi dx
+  \end{array}
+\end{equation}
+
+We have proved that:
+
+\begin{equation}
+  \bra{\psi(x)}\left(\frac{d^2}{dx^2}\ket{\phi}\right) = \left(\bra{\psi(x)}\frac{d^2}{dx^2}\right)\ket{\phi}
+\end{equation}
+
+This means that the operator is hermitian. And it will be also hermitian if we multiply by a real number and add a real number thats why we can say that our operator for the Schrödinger wave equation is hermitian if V(x) is real.
+
+\begin{equation}
+  \left[\frac{-\hbar^2}{2m}\frac{d^2}{dx^2}+V(x)\right]\ket{E_i} = E_i \ket{E_i}
+\end{equation}
 
 % \setchapterstyle{kao}
 % %\setchapterpreamble[u]{\margintoc}
