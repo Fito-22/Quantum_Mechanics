@@ -1,8 +1,401 @@
 \setchapterpreamble[u]{\margintoc}
 \chapter{2-Dimensional Potential}
 
+We will worked with the harmonic oscilator again, but this time in 2 spatial dimensions.
 
+\section{Classical Mechanics}
 
+As we did in chapter 1 we want to understand first the behaviour of the classical mechanics for the problem.
+
+The potential V(x,y) is:
+
+\begin{equation}
+  V(x,y) = \frac{1}{2} k (x^2+y^2) = \frac{1}{2} k \rho^2
+\end{equation}
+
+The math becomes easier if we used polar coordinates as we did in Chapter 1. In this coordinates the energy is:
+
+\begin{equation}
+  E = \frac{1}{2} m \left(\frac{\partial \rho}{\partial t}\right)^2 + \frac{L^2}{2m\rho^2} + \frac{1}{2}k \rho^2
+\end{equation}
+
+We are going to solve for the change among time in $\rho$ to solve the problem.
+
+\begin{equation}
+  \begin{array}{c}
+    \frac{\partial \rho}{\partial t} = \sqrt{\frac{2}{m}\left(E-\frac{L^2}{2 m \rho^2}-\frac{1}{2}k\rho^2\right)}
+    \\
+
+    \\
+    \frac{\partial \rho}{\partial t} = \sqrt{\frac{k}{m\rho^2}\left(\frac{2E}{k}\rho^2-\frac{L^2}{m k}-\rho^4\right)}
+  \end{array}
+\end{equation}
+
+Using equation 7.2 we can turn the previous equation into:
+
+\begin{equation}
+  \begin{array}{c}
+    \frac{\rho}{\omega}\frac{\partial \rho}{\partial t} = \sqrt{\frac{2E}{m^2\omega^2}\rho^2 - \frac{L^2}{m \omega^2}-\rho^4}
+  \end{array}
+\end{equation}
+
+We are going to change the variable $\rho$ to $u$, where $u=\rho^2$. Solving for u the equation turns into:
+
+\begin{equation}
+  \begin{array}{c}
+    \frac{1}{2\omega}\frac{\partial u}{\partial t} = \sqrt{- \frac{L^2}{m \omega^2}+ \frac{2E}{m^2\omega^2}u -u^2}
+    \\
+
+    \\
+    \frac{1}{2\omega}\frac{\partial u}{\partial t} = \sqrt{\left(\frac{E^2}{m^2\omega^4} - \frac{L^2}{m^2\omega^2}\right)-\left(u-\frac{E}{m\omega}\right)^2}
+    \\
+
+    \\
+    \frac{1}{2\omega}\frac{\partial u}{\partial t} = \sqrt{\frac{1}{m^2\omega^4}\left(E^2-L^2\omega^2\right)-\left(u-\frac{E}{m\omega^2}\right)^2}
+  \end{array}
+\end{equation}
+
+The function inside of the square root needs to be positive, which make us say than the left parenthesis is greater than the right one that is always greater than 0, i. e. :
+
+\begin{equation}
+  \begin{array}{c}
+    (E^2-L\omega^2) \geq 0
+    \\
+
+    \\
+    E \geq L\omega
+  \end{array}
+\end{equation}
+
+We know now that there is a minimum energy, which energy is $E=L\omega$. Whenthe energy is at it's minimum is easy to get u(t):
+
+\begin{equation}
+  \begin{array}{c}
+    u(t) = \frac{E}{m\omega^2} = constant
+    \\
+
+    \\
+    \frac{\partial u}{\partial t} = 0
+  \end{array}
+\end{equation}
+
+To analize the rest of the solution for the Energy we are going to change some of the variables by some unitless variables.
+
+\begin{equation}
+  \label{8.8}
+  \begin{array}{c}
+    E = \alpha L \omega
+    \\
+
+    \\
+    u = \beta \frac{E}{m\omega}
+    \\
+
+    \\
+    \omega t = \tau
+  \end{array}
+\end{equation}
+
+From the previous analysis of the minimum energy we can say that $\alpha \geq 1$. Now that we have our new parameters well define we can rewrite the expression we have been working with.
+
+\begin{equation}
+  \begin{array}{c}
+    \frac{\alpha L}{m\omega}\frac{1}{2} \frac{\partial \beta}{\partial \tau} = \sqrt{\frac{L^2\omega^2}{m^2\omega^4}[\alpha^2-1]-\frac{\alpha^2 L^2}{m^2\omega^2}[\beta-1]^2}
+    \\
+
+    \\
+    \frac{1}{2} \frac{\partial \beta}{\partial \tau} = \sqrt{\left(1-\frac{1}{\alpha^2}\right)-(\beta-1)^2}
+  \end{array}
+\end{equation}
+
+Knowing that alpha is a fixed constant we can solve this equation. But first i will make the math simpler by saying $A = \left(1-\frac{1}{\alpha^2}\right)$
+
+\begin{equation}
+  \begin{array}{c}
+    \frac{\partial \beta}{2\sqrt{A-(\beta-1)^2}} = \partial\tau
+  \end{array}
+\end{equation}
+
+To solve the integral we have to define the limits; for $\tau$ as it is a measure of time is going to start at $\tau=0$ and end in a general $\tau$, but for $\beta$ it can start at any arbitrary $\beta \geq 0$, so we will say that $\beta$ goes from $\beta_0$ to a general $\beta$.
+
+\begin{equation}
+  \begin{array}{c}
+    \int_{\beta_0}^{\beta}\frac{\partial \beta'}{2\sqrt{A-(\beta-1)^2}} = \int_{0}^{\tau}\partial\tau'
+  \end{array}
+\end{equation}
+
+This integral can be solved directly if we change the variable beta and the constant A by $f = \beta-1$ and $A = B^2$.
+
+\begin{equation}
+  \begin{array}{c}
+    \int_{f_0+1}^{f+1}\frac{\partial f'}{2\sqrt{A-f'^2}} = \int_{0}^{\tau}\partial\tau'
+    \\
+
+    \\
+    \int_{f_0+1}^{f+1}\frac{\partial f'}{2\sqrt{A(1-\frac{f'^2}{A}}} = \int_{0}^{\tau}\partial\tau'
+    \\
+
+    \\
+    \int_{f_0+1}^{f+1}\frac{B \partial f'}{2\sqrt{(1-\frac{f'^2}{B^2}}} = \int_{0}^{\tau}\partial\tau'
+  \end{array}
+\end{equation}
+
+This last integral can be solved directly and it will give us the result for $f(\tau)$ and then we can recover the solution for $\beta(\tau)$.
+
+\begin{equation}
+  \begin{array}{c}
+    \arcsin(\frac{f+1}{B}) - \arcsin(\frac{f_0}{B}) =2\tau
+    \\
+
+    \\
+    \beta(\tau) = B \sin\left(2\tau + \arcsin\left(\frac{\beta_0}{B}\right) \right)
+    \\
+
+    \\
+    \beta(\tau) = \sqrt{1-\frac{1}{\alpha^2}} \sin\left(2\tau + \arcsin\left(\frac{\beta_0}{\sqrt{1-\frac{1}{\alpha^2}}}\right) \right)
+  \end{array}
+\end{equation}
+
+This is our final solution for $\beta$, from this solution we can get $\rho(t)$ by undoing the changes of variables in \ref{8.8}.
+
+\begin{marginfigure}[-2cm]
+  \includegraphics{images8/beta_tau.png}
+  \caption{$\beta(\tau)$ function for different values of alpha}
+  \labfig{beta_tau}
+\end{marginfigure}
+
+We can not forget about the other variable, the angle $\phi$. To solve for phi we will used the definition of the angular momentum.
+
+\begin{equation}
+  \begin{array}{c}
+    L = m \rho^2 \frac{\partial \phi}{\partial t}
+    \\
+
+    \\
+    \frac{\partial \phi}{\partial t} = \frac{L}{m \rho^2}
+    \\
+
+    \\
+    \frac{\partial \phi}{\partial \tau} = \frac{1}{\alpha \beta(\tau)}
+  \end{array}
+\end{equation}
+
+We want to find the solution for $\beta (\phi)$.
+
+\begin{equation}
+  \begin{array}{c}
+    \frac{\beta}{\tau} = \frac{\frac{\beta}{\tau}}{\frac{\phi}{\tau}} = 2\alpha\beta\sqrt{\left(1-\frac{1}{\alpha^2}-(\beta-1)^2\right)}
+  \end{array}
+\end{equation}
+
+\section{Quantum Mechanics}
+
+We are going to solve the problem using the Schrödinger wave equation.
+
+\begin{equation}
+  \begin{array}{c}
+    -\frac{\hbar^2}{2m} \left[\frac{\partial^2\phi}{\partial x^2} + \frac{\partial^2\phi}{\partial y^2}\right] + \frac{1}{2} m \omega^2 (x^2+y^2)\phi = E \phi
+  \end{array}
+\end{equation}
+
+In this case we are not going to solve the problem in polar coordinates, we are going to solve it in cartesian coordinates. First, we have to set the equation to natural units.
+
+\begin{equation}
+  \begin{array}{c}
+    x = b u
+    \\
+
+    \\
+    y = b v
+    \\
+
+    \\
+    b^2 = \frac{\hbar}{m\omega}
+    \\
+
+    \\
+    \phi(x=bu,y=bv) = \psi(u,v)
+  \end{array}
+\end{equation}
+
+Our wave equation now is:
+
+\begin{equation}
+  \begin{array}{c}
+    -\frac{1}{2}\hbar\omega \left[\frac{\partial^2\psi}{\partial u^2} + \frac{\partial^2\psi}{\partial v^2}\right] + \frac{1}{2} \hbar \omega (u^2+v^2)\psi = E \psi
+  \end{array}
+\end{equation}
+
+As we did in the classical aproach we are going to change the energy by $E=\alpha\hbar\omega$. The wave equation now looks like:
+
+\begin{equation}
+  \begin{array}{c}
+    \left[-\frac{1}{2}\left(\frac{\partial^2}{\partial u^2}+\frac{\partial^2}{\partial v^2}\right)+\frac{1}{2}(u^2+v^2)\right]\psi = \alpha \psi
+  \end{array}
+\end{equation}
+
+As we did in one dimension we can use some operators to solve this equation. We are going to define this as:
+
+\begin{equation}
+  \begin{array}{c}
+    a_u = \frac{1}{\sqrt{2}}\left[\frac{\partial}{\partial u}+u\right]
+    \\
+
+    \\
+    a_v = \frac{1}{\sqrt{2}}\left[\frac{\partial}{\partial v}+v\right]
+    \\
+
+    \\
+    a_u^{\dagger} = \frac{1}{\sqrt{2}}\left[-\frac{\partial}{\partial u}+u\right]
+    \\
+
+    \\
+    a_v^{\dagger} = \frac{1}{\sqrt{2}}\left[-\frac{\partial}{\partial v}+v\right]
+  \end{array}
+\end{equation}
+
+It can be proved that $a a^{\dagger}$ is an hermitian operator of $\chi$ for any of the variables; u,v.
+
+We have also similar relations to the ones we had in one dimension.
+
+\begin{equation}
+  \begin{array}{c}
+    \left[a_u,a_u^{\dagger}\right] = 1
+    \\
+
+    \\
+    \left[a_v,a_v^{\dagger}\right] = 1
+    \\
+
+    \\
+    \left[a_u,a_v\right] = 0
+    \\
+
+    \\
+    \left[a_u^{\dagger},a_v^{\dagger}\right] = 0
+    \\
+
+    \\
+    N_u = a_u^{\dagger}a_u
+    \\
+
+    \\
+    N_v = a_v^{\dagger}a_v
+    \\
+
+    \\
+    \left[N_u,a_u^{\dagger}\right] = a_u^{\dagger}
+    \\
+
+    \\
+    \left[N_u,a_u\right] = -a_u
+    \\
+
+    \\
+    \left[N_v,a_v^{\dagger}\right] = a_v^{\dagger}
+    \\
+
+    \\
+    \left[N_v,a_v\right] = -a_v
+  \end{array}
+\end{equation}
+
+The commutator of any two cross operators is 0. With this we end up with the following equation:
+
+\begin{equation}
+  \begin{array}{c}
+    \left[N_u+N_v\right] \psi = (\alpha-1) \psi
+  \end{array}
+\end{equation}
+
+Which means that $\alpha \geq 1$, as it was in classical mechanics. We can use the operators $a_u^{\dagger}$ or $a_v^{\dagger}$ to get the next level of energy for the equation.
+
+\begin{equation}
+  \begin{array}{c}
+      \left[N_u+N_v+1\right] (a^{\dagger}\psi) = \left[a^{\dagger}N_u + a^{\dagger} + a^{\dagger}N_v \right]
+      \\
+
+      \\
+      \left[N_u+N_v+1\right] (a^{\dagger}\psi) = a^{\dagger}[N_u+N_v+1]\psi
+      \\
+
+      \\
+      \left[N_u+N_v+1\right] (a^{\dagger}\psi) = (\alpha+1-1)a^{\dagger}\psi
+  \end{array}
+\end{equation}
+
+The operator $a^{\dagger}$ could be either of the two posible operators, and the result is the same. We can say that the operator $a^{\dagger}$ is giving us the next level of energy for the equation, $\alpha$ increases by one.
+
+There is an $\alpha = 1$, which is the minimum energy for the system, which means that there is a lower energy state $\psi_0$ where:
+
+\begin{equation}
+  \begin{array}{c}
+    \left[N_u+N_v\right] \psi_0(u,v) = 0
+  \end{array}
+\end{equation}
+
+So:
+
+\begin{equation}
+  \begin{array}{c}
+    a_u \psi_0(u,v) = 0
+    a_v \psi_0(u,v) = 0
+  \end{array}
+\end{equation}
+
+There must be a function $\psi_0(u,v)$ that satisfies this two equations. Let's try to solve it.
+
+\begin{equation}
+  \begin{array}{c}
+    \left(\frac{\partial}{\partial u} + u\right)\psi_0(u,v) = 0
+    \\
+
+    \\
+    \left(\frac{\partial}{\partial v} + v\right)\psi_0(u,v) = 0
+  \end{array}
+\end{equation}
+
+The solution for this equation is:
+
+\begin{equation}
+  \begin{array}{c}
+    \ln\psi_0(u,v) + \frac{1}{2}u^2 = f(v)
+    \\
+
+    \\
+    \ln\psi_0(u,v) + \frac{1}{2}v^2 = f(u)
+    \\
+
+    \\
+    \psi_0(u,v) = A e^{-\frac{1}{2}(u^2+v^2)}
+  \end{array}
+\end{equation}
+
+Where A is the normalization factor than can be calculated by:
+
+\begin{equation}
+  \begin{array}{c}
+    \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \psi_0^2(u,v) du dv = 1
+    \\
+
+    \\
+    \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} A^2 e^{-u^2-v^2} du dv = 1
+    \\
+
+    \\
+    A^2 \int_{-\infty}^{\infty} e^{-u^2} du \int_{-\infty}^{\infty} e^{-v^2} dv = 1
+    \\
+
+    \\
+    A^2 \left(\sqrt{\pi}\right)^2 = 1
+    \\
+
+    \\
+    A = \frac{1}{\sqrt{\pi}}
+  \end{array}
+\end{equation}
+
+This is the solution for the ground state of the system. We can now use the operator $a^{\dagger}$ to get the next level of energy even for u or for v, both states will have the same energy but different functions, i.e. $\alpha=2$ have two states $\psi_{1,0}$ and $\psi_{0,1}$.
 
 
 

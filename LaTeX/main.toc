@@ -170,8 +170,16 @@
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {15}
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{61}{part*.45}%
+\contentsline {section}{\numberline {8.1}Classical Mechanics}{59}{section.8.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{63}{chapter*.46}%
+\contentsline {mtocsection}{\numberline {8.1}Classical Mechanics}{59}{section.8.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{65}{section*.47}%
+\contentsline {section}{\numberline {8.2}Quantum Mechanics}{61}{section.8.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {8.2}Quantum Mechanics}{61}{section.8.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Appendix}{65}{part*.46}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{67}{chapter*.47}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{69}{section*.48}%

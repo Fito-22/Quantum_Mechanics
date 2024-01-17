@@ -12,40 +12,49 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Define the constants. All of them should be >= 0
-m = 9.11*10**-31
-e = 1.6*10**(-19)    # Reduce mass (kg)
-L = 1.45*10**(-32)              # Angular momentum (kg m^2 /s)
-k = e**2 * 9*10**(9)          # Constant of the P.E (Potential Energy) (N m^2)
+m = 1            # Reduce mass (kg)
+L = 1            # Angular momentum (kg m^2 /s)
+k = 1            # Constant of the P.E (Potential Energy) (N m^2)
 
-rho = np.linspace(0.0000004, 0.00002,500)
+rho = np.linspace(0.4,10,100)
 
-y = np.linspace(-1.8,1.8,500)*10**(-22)
+y = np.linspace(0.6,-0.7,100)
 
 x = rho * 0
-rho_0 = np.linspace(0.0, 0.00002,500)
+rho_0 = np.linspace(0,10,100)
+rho_E = np.linspace(-0.05,10,100)
 
 
 U_eff = L**2/(2*m*rho*rho) - k/rho
 print(U_eff)
 
-plt.plot(x,y, color="black")        # y-axis
-plt.plot(rho_0,x, color="black")    # x-axis
-plt.plot(rho,U_eff)                 # Potential
+plt.plot(x,y, color="black")                # y-axis
+plt.plot(rho_0,x, color="black")            # x-axis
+plt.plot(rho,U_eff)                         # Potential
+plt.plot(rho_E,x-0.495, color="red")        # Lower Energy
+plt.plot(rho_E,x-0.2, color="red")          # Energy < 0
+plt.plot(rho_E,x+0.3, color="red")          # Energy > 0
 
-# plt.scatter(0.1,-50, color="red")
-# plt.scatter(0,-50, color="red", marker="_")
-# plt.xlim(-0.1,1.1)
-# plt.xticks([])
-# plt.yticks([])
-# plt.text(0.05,40,r"$\frac{L^2}{2m\rho^2}-\frac{k}{\rho}$")
-# plt.text(0.95,5,r"$\rho$")
-# plt.text(-0.025,50,"E")
-# plt.text(0.13,-54,r"$\rho_0$",fontdict={"color":"red"})
+
+
+
+plt.scatter(0.98,-0.495, color="red")
+# plt.scatter(0,-0.49, color="red", marker="_")
+plt.xlim(-1,11)
+plt.xticks([])
+plt.yticks([])
+plt.text(0.7,0.4,r"$\frac{L^2}{2m\rho^2}-\frac{k}{\rho}$")
+plt.text(10.2,0.01,r"$\rho$")
+plt.text(-0.3,0.5,"E")
+plt.text(1,-0.55,r"$\rho_0$",fontdict={"color":"red"})
+plt.text(-0.5,-0.5,r"$E_0$", color="red")
+plt.text(-0.9,-0.22,r"$E<0$", color="red")
+plt.text(-0.9,0.28,r"$E>0$", color="red")
+
+
+
 # plt.text(-0.08,-50,"E_0",fontdict={"color":"red"})
+
 # plt.title("Potential Well of Earth-Sun")
 
-
-
-
-
-plt.savefig("GRAPHS/E-P_elec_Potential_Well")
+plt.savefig("GRAPHS/general")

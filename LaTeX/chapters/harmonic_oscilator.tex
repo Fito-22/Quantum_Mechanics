@@ -5,7 +5,7 @@ We want to use the algebra we learnt in the previous chaoter, for that we will t
 
 \section{Definition}
 
-The potential for an harmonic oscilator in 1 dimension is given by the expresion:
+The potential for an harmonic oscilator in one dimension is given by the expresion:
 
 \begin{equation}
   \begin{array}{cc}
@@ -13,7 +13,7 @@ The potential for an harmonic oscilator in 1 dimension is given by the expresion
   \end{array}
 \end{equation}
 
-This potential comes from a force, $F(x) = -k x$, so the units of k are kg/s^2. Because of this we can say that:
+This potential comes from a force, $F(x) = -k x$, so the units of k are $kg/s^2$. Because of this we can say that:
 
 \begin{equation}
   \omega=\sqrt{\frac{k}{m}}
@@ -35,7 +35,7 @@ Solving this equation we get:
   \end{array}
 \end{equation}
 
-If we define some initial conditions such as $x(0)=x_0$ and $v(0)=0$, we can solve the coeficients, in this case B=x_0 and A=0.
+If we define some initial conditions such as $x(0)=x_0$ and $v(0)=0$, we can solve the coeficients, in this case $B=x_0$ and $A=0$.
 
 \begin{equation}
   \begin{array}{c}
@@ -51,7 +51,11 @@ And we can define two energies, a potential energy and a kinetic energy. The tot
   \begin{array}{c}
     P.E(t) = \frac{1}{2} k (x(t))^2 = \frac{1}{2} k x_0^2 cos^2(\omega t)
     \\
-    K:E(t) = \frac{1}{2} m (v(t))^2 = \frac{1}{2} m \omega^2 x_0^2 sin^2(\omega t)
+
+    \\
+    K.E(t) = \frac{1}{2} m (v(t))^2 = \frac{1}{2} m \omega^2 x_0^2 sin^2(\omega t)
+    \\
+
     \\
     T.E(t) = P.E + K.E = \frac{1}{2} k x_0^2 = constant > 0
   \end{array}
@@ -89,7 +93,7 @@ Now that we have the factor to turn into natural units we can rewrite our wave e
   \end{array}
 \end{equation}
 
-We want to find alpha and it's associate $\chi$. We will define the hermitian operator H from the previous equation.
+We want to find $\alpha_n$ and it's associate $\chi_n$ for every $n$. We will define the hermitian operator H from the previous equation.
 
 \begin{equation}
   \begin{array}{c}
@@ -99,18 +103,23 @@ We want to find alpha and it's associate $\chi$. We will define the hermitian op
   \end{array}
 \end{equation}
 
-We define the operator a using what we propose in the end of the previous chapter.
+We define the operator $a$ using what we propose in the end of the previous chapter.
 
 \begin{equation}
   \begin{array}{c}
     a=\frac{1}{\sqrt{2}}\left(\frac{d}{dy}+y\right)
     \\
+
+    \\
     a^\dagger = \frac{1}{\sqrt{2}}\left(\left(\frac{d}{dy}\right)^\dagger+(y)^\dagger\right) = \frac{1}{\sqrt{2}}\left(-\frac{d}{dy}+y\right)
-    (aa^\dagger)f(y) = \left(-\frac{1}{2}\frac{d^2}{dy^2}+\frac{1}{2}y^2-\frac{1}{2}\right)f(y)
+    \\
+
+    \\
+    (a^\dagger a)f(y) = \left(-\frac{1}{2}\frac{d^2}{dy^2}+\frac{1}{2}y^2-\frac{1}{2}\right)f(y)
   \end{array}
 \end{equation}
 
-We will called $aa^\dagger$ a new operator N, i. e. $N=aa^\dagger$. This operator is hermitian.
+We will called $a^\dagger a$ a new operator N, i. e. $N=a^\dagger a$. This operator is hermitian.
 
 \begin{equation}
   \begin{array}{c}
@@ -118,17 +127,17 @@ We will called $aa^\dagger$ a new operator N, i. e. $N=aa^\dagger$. This operato
   \end{array}
 \end{equation}
 
-This resolut is interesting for many reason but one of them is that it prove that a can not be represented as a matrix.
+This resolut is interesting for many reason but one of them is that it prove that $a$ can not be represented as a finite matrix.
 
-Summarizing what we do so far with this operators:
+Summarizing what we have done so far with this operators:
 
 \begin{equation}
   \begin{array}{c}
-    [a,a^\dagger]=1
+    \left[ a,a^\dagger \right] = 1
     \\
-    [N,a] = -a
+    \left[ N,a \right] = -a
     \\
-    [N,a^\dagger] = a^\dagger
+    \left[ N,a^{\dagger} \right] = a^\dagger
   \end{array}
 \end{equation}
 
@@ -136,7 +145,7 @@ If we go again to the wave equation we have:
 
 \begin{equation}
   \begin{array}{c}
-    [a,a^\dagger+\frac{1}{2}=\alpha]\chi
+    [a^\dagger a+\frac{1}{2}=\alpha]\chi
     \\
     N\chi = \left(\alpha-\frac{1}{2}\right)\chi
     \\
@@ -160,13 +169,13 @@ We can prove that $\chi$ have infinite solutions.
   \end{array}
 \end{equation}
 
-If $\chi$ has finite solutions, a has to be a finite matrix, and we prove that is not allowed.
+If $\chi$ has finite solutions, $a$ has to be a finite matrix, and we prove that is not allowed.
 
 \begin{equation}
-  \int_{-\infty}^{\infty} f*(aa^\dagger f)dx = \int_{-\infty}^{\infty} (af)*(af) dx \geq 0
+  \int_{-\infty}^{\infty} f^*(a^\dagger a f)dx = \int_{-\infty}^{\infty} (af)^*(af) dx \geq 0
 \end{equation}
 
-Now we know that $\alpha \geq\frac{1}{2}$.
+Now we know that $\alpha \geq\frac{1}{2}$, so the solutions have a minimum where $\alpha = \frac{1}{2}$ .
 
 We can search now for our first solution.
 
@@ -190,11 +199,33 @@ Now we want to calculate $\chi_0$.
 
 \begin{equation}
   \begin{array}{c}
-    N\chi_0 = 0
-    \\
     a\chi_0 = 0
     \\
-    \chi_0 = \frac{1}{\sqrt{2\pi}}e^{-\frac{y^2}{2}}
+    \chi_0 = A e^{-\frac{y^2}{2}}
+  \end{array}
+\end{equation}
+
+We need to find the value for A to normalize the solution.
+
+\begin{equation}
+  \begin{array}{c}
+    \int_{-\infty}^{\infty} \chi_0 \chi_0 dx = 1
+    \\
+
+    \\
+    A^2 \int_{-\infty}^{\infty} e^{-y^2} dx = 1
+    \\
+
+    \\
+    A=\frac{1}{\pi^{\frac{1}{4}}}
+  \end{array}
+\end{equation}
+
+Our final expresion for $\chi_0$ is:
+
+\begin{equation}
+  \begin{array}{c}
+    \chi_0 = \frac{1}{\pi^{\frac{1}{4}}} e^{-\frac{y^2}{2}}
   \end{array}
 \end{equation}
 
