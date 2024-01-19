@@ -178,8 +178,8 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {8.2}Quantum Mechanics}{61}{section.8.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{65}{part*.46}%
+\contentsline {part}{\nonumberline Appendix}{67}{part*.46}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{67}{chapter*.47}%
+\contentsline {chapter}{\nonumberline Notation}{69}{chapter*.47}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{69}{section*.48}%
+\contentsline {chapter}{Alphabetical Index}{71}{section*.48}%

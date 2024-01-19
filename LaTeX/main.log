@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.31)  17 JAN 2024 05:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.31)  17 JAN 2024 23:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5031,10 +5031,15 @@ Underfull \vbox (badness 7814) has occurred while \output is active []
  [63] (./main.mw)
 \openout4 = `main.mw'.
 
-)
 \openout4 = `main.mw'.
 
  [64] (./main.mw)
+\openout4 = `main.mw'.
+
+)
+\openout4 = `main.mw'.
+
+ [65] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5069,6 +5074,15 @@ Underfull \vbox (badness 7814) has occurred while \output is active []
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\openout4 = `main.mw'.
+
+ [66
+
+
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
 
 part without number
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
@@ -5087,16 +5101,12 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 \openout4 = `main.mw'.
 
-[65
-
-
-
-] (./main.mw)
+[67] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
- [66] (./main.mw)
+ [68] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5178,7 +5188,7 @@ LaTeX Font Info:    Font shape `T1/zpllf/m/it' will be
 (./main.gls)
 \openout4 = `main.mw'.
 
- [67
+ [69
 
 
 
@@ -5198,7 +5208,7 @@ LaTeX Font Info:    Font shape `T1/zpllf/m/it' will be
 
 \openout4 = `main.mw'.
 
- [68
+ [70
 
 
 ] (./main.mw)
@@ -5211,7 +5221,7 @@ runsystem(makeindex main.idx)...executed safely (allowed).
  (./main.ind)
 \openout4 = `main.mw'.
 
- [69
+ [71
 
 
 ] (./main.mw)
@@ -5221,6 +5231,9 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 341.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 341.
 
 (./main.aux
+
+Package pdfbase Warning: Rerun to get internal references right!
+
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -6453,11 +6466,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 57741 strings out of 481239
- 1103161 string characters out of 5920376
- 2214890 words of memory out of 5000000
+ 57752 strings out of 481239
+ 1103292 string characters out of 5920376
+ 2214891 words of memory out of 5000000
  71106 multiletter control sequences out of 15000+600000
- 677003 words of font info for 265 fonts, out of 8000000 for 9000
+ 677126 words of font info for 266 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  120i,27n,128p,10096b,2240s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texli
@@ -6479,10 +6492,10 @@ xmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/newpx/zplb.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/newpx/zplr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/zplri
 .pfb>
-Output written on main.pdf (79 pages, 2617390 bytes).
+Output written on main.pdf (81 pages, 2620323 bytes).
 PDF statistics:
- 2390 PDF objects out of 2487 (max. 8388607)
- 1787 compressed objects within 18 object streams
- 431 named destinations out of 1000 (max. 500000)
+ 2407 PDF objects out of 2487 (max. 8388607)
+ 1801 compressed objects within 19 object streams
+ 436 named destinations out of 1000 (max. 500000)
  36566 words of extra memory for PDF output out of 42996 (max. 10000000)
 

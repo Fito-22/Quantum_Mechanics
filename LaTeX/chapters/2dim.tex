@@ -397,7 +397,49 @@ Where A is the normalization factor than can be calculated by:
 
 This is the solution for the ground state of the system. We can now use the operator $a^{\dagger}$ to get the next level of energy even for u or for v, both states will have the same energy but different functions, i.e. $\alpha=2$ have two states $\psi_{1,0}$ and $\psi_{0,1}$.
 
+\begin{equation}
+  \begin{array}{c}
+    \psi_0 = \frac{1}{\sqrt{\pi}} e^{-\frac{1}{2}(u^2+v^2)}
+    \\
 
+    \\
+    A_{1,0} = a_u^{\dagger} \psi_0 = \frac{1}{\sqrt{2}}\left[-\frac{\partial}{\partial u}+u\right]\psi_0 = \frac{2}{\pi} u e^{-\frac{u^2+v^2}{2}}
+    \\
+
+    \\
+    A_{0,1} = a_v^{\dagger} \psi_0 = \frac{1}{\sqrt{2}}\left[-\frac{\partial}{\partial v}+v\right]\psi_0 = \frac{2}{\pi} v e^{-\frac{u^2+v^2}{2}}
+  \end{array}
+\end{equation}
+
+To determine the normalization coeficient we have to use the same procedure as before.
+
+\begin{equation}
+  \begin{array}{c}
+    A^2_{1,0} = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \psi_{1,0}^2(u,v) du dv = \frac{2}{\pi^2} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} u^2 e^{-\frac{u^2+v^2}{2}} du dv
+  \end{array}
+\end{equation}
+
+To solve this integral we are going to use polar coordinates.
+
+\begin{equation}
+  \begin{array}{c}
+    A^2_{1,0} = \frac{2}{\pi^2} \int_{0}^{\infty} rdr \int_{0}^{2\pi} r^2 \sin^2(\theta) e^{-r^2} d\theta =
+    \\
+
+    \\
+    = \frac{1}{\pi} \int_{0}^{\infty} r^3 e^{-r^2} dr \int_{0}^{2\pi} 2\sin^2(\theta) d\theta = \frac{1}{\pi} \frac{1}{2} 2\pi = 1
+  \end{array}
+\end{equation}
+
+Which means that $A^2 = 1$, so $A = e^{i\phi}$, but we are only interested in the real part of the function, so $A = 1$. We can do the same for $\psi_{0,1}$.
+
+\marginnote{This variables are called Hidden Variables in quantum mechanics. They are not observable, but they have become important for new physics, for example in the field of quantum computation.}
+
+We can continue this process to get the next levels of energy, but we are going to stop here.
+
+\begin{figure}
+  \includegraphics{}
+\end{figure}
 
 
 
