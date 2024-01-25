@@ -174,12 +174,20 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {8.1}Classical Mechanics}{59}{section.8.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {8.2}Quantum Mechanics}{61}{section.8.2}%
+\contentsline {section}{\numberline {8.2}Quantum Mechanics}{62}{section.8.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {8.2}Quantum Mechanics}{61}{section.8.2}%
+\contentsline {mtocsection}{\numberline {8.2}Quantum Mechanics}{62}{section.8.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{67}{part*.46}%
+\contentsline {section}{\numberline {8.3}Mixed Quantum states}{69}{section.8.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{69}{chapter*.47}%
+\contentsline {mtocsection}{\numberline {8.3}Mixed Quantum states}{69}{section.8.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{71}{section*.48}%
+\contentsline {section}{\numberline {8.4}The angular momentum}{69}{section.8.4}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {8.4}The angular momentum}{69}{section.8.4}%
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Appendix}{73}{part*.52}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{75}{chapter*.53}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{77}{section*.54}%

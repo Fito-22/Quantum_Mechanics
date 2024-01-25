@@ -88,7 +88,7 @@ To analize the rest of the solution for the Energy we are going to change some o
     \\
 
     \\
-    u = \beta \frac{E}{m\omega}
+    u = \beta \frac{E}{m\omega^2}
     \\
 
     \\
@@ -184,9 +184,31 @@ We want to find the solution for $\beta (\phi)$.
 
 \begin{equation}
   \begin{array}{c}
-    \frac{\beta}{\tau} = \frac{\frac{\beta}{\tau}}{\frac{\phi}{\tau}} = 2\alpha\beta\sqrt{\left(1-\frac{1}{\alpha^2}-(\beta-1)^2\right)}
+    \frac{\partial\beta}{\partial\phi} = \frac{\frac{\partial\beta}{\partial\tau}}{\frac{\partial\phi}{\partial\tau}} = 2\alpha\beta\sqrt{\left(1-\frac{1}{\alpha^2}-(\beta-1)^2\right)}
   \end{array}
 \end{equation}
+
+Solving this equation we end up with:
+
+\begin{equation}
+  \begin{array}{c}
+    \beta(\phi) = 1+\sqrt{\left(1-\frac{1}{\alpha^2}\right)} \sin\left(\frac{1}{\alpha}\tan(\phi)\right)
+  \end{array}
+\end{equation}
+
+We can turn beta into rho by undoing the changes of variables in \ref{8.8}.
+
+\begin{equation}
+    \rho(\phi) = \sqrt{\beta(\phi)\frac{E}{m\omega^2}} = \sqrt{\beta(\phi)\alpha \r}
+\end{equation}
+
+In the figure below we can see the orbital movement of the particle for different values of $\alpha$.
+
+\begin{figure}
+  \centering
+  \includegraphics{images8/beta_theta.png}
+  \caption{Orbital movement of the particle for different values of $\alpha$}
+\end{figure}
 
 \section{Quantum Mechanics}
 
@@ -435,11 +457,263 @@ Which means that $A^2 = 1$, so $A = e^{i\phi}$, but we are only interested in th
 
 \marginnote{This variables are called Hidden Variables in quantum mechanics. They are not observable, but they have become important for new physics, for example in the field of quantum computation.}
 
-We can continue this process to get the next levels of energy, but we are going to stop here.
+We can continue this process to get the next levels of energy. The final results fo the next level are:
+
+\begin{equation}
+  \begin{array}{c}
+    \psi_{2,0} = \frac{1-2u^2}{2\sqrt{\pi}}e^{-\frac{u^2+v^2}{2}}
+    \\
+
+    \\
+    \psi_{0,2} = \frac{1-2v^2}{2\sqrt{\pi}}e^{-\frac{u^2+v^2}{2}}
+    \\
+
+    \\
+    \psi_{1,1} = \frac{uv}{\sqrt{2\pi}}e^{-\frac{u^2+v^2}{2}}
+  \end{array}
+\end{equation}
+
+The solutions can be visualized in the following figures.
 
 \begin{figure}
-  \includegraphics{}
+  \centering
+  \includegraphics{images8/P_0,0.png}
+  \caption{Probability distribution for the state $\psi_{0,0}(u,v)$}
 \end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{images8/P_0,1.png}
+  \caption{Probability distribution for the state $\psi_{0,1}(u,v)$}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{images8/P_1,0.png}
+  \caption{Probability distribution for the state $\psi_{1,0}(u,v)$}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{images8/P_0,1(r).png}
+  \caption{Probability distribution for the state $\psi_{0,1}(r,\theta)$}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics{images8/P_1,0(r).png}
+  \caption{Probability distribution for the state $\psi_{1,0}(r,\theta)$}
+\end{figure}
+
+\section{Mixed Quantum states}
+
+Given $\alpha = 2$ and the density Probability of a mixed state $\psi$, we can say that:
+
+\begin{equation}
+  \psi = C_{1,0} \psi_{1,0} + C_{0,1} \psi_{0,1}
+\end{equation}
+
+Where $C_{1,0}$ and $C_{0,1}$ are real numbers, (to keep it simpler). If the probability density is normalized we found:
+
+\begin{equation}
+  \begin{array}{c}
+    \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} \psi^{\star}(u,v)\psi(u,v) du dv = 1
+    \\
+
+    \\
+    \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} \left(C_{1,0} \psi_{1,0} + C_{0,1} \psi_{0,1}\right)^{\star} \left(C_{1,0} \psi{1,0} + C_{0,1} \psi{0,1}\right) du dv = 1
+    \\
+
+    \\
+    \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} \left(C_{1,0}^2 \psi^*_{1,0} \psi{1,0} + C_{0,1}^2 \psi^*_{0,1} \psi{0,1}\right) du dv = 1
+    \\
+
+    \\
+    C_{1,0}^2 + C_{0,1}^2 = 1
+  \end{array}
+\end{equation}
+
+This means that the sum of the square of the coefficients is going to be 1.
+
+We can transform the probability into any system, we are going to choose the probability in terms of $r$ and $\theta$
+
+\begin{equation}
+  \begin{array}{c}
+    P(r,\theta) = \psi^{\star}(r,\theta)\psi(r,\theta) = \left(C_{1,0} \psi^*_{1,0} + C_{0,1} \psi^*_{0,1}\right)^{\star} \left(C_{1,0} \psi{1,0} + C_{0,1} \psi{0,1}\right)
+    \\
+
+    \\
+    P(r,\theta) = \frac{2}{\pi} \left(C_{1,0}^2\sin^2\theta + 2C_{1,0}C_{0,1} \sin\theta \cos\theta + C_{0,1}\cos^2\theta \right)
+    \\
+
+    \\
+    P(r,\theta) = \frac{2}{\pi} \left(\frac{1}{2}+\frac{C_{0,1}^2-C_{1,0}^2}{2}\cos 2\theta + C_{1,0}C_{0,1} \sin 2\theta \right)
+\end{array}
+\end{equation}
+
+This means than knowing the probability depending on the angle $\theta$ we can get the coefficients $C_{1,0}$ and $C_{0,1}$, i.e. how the state is distributed in terms of the pure quantum states.
+
+\section{The angular momentum}
+
+As we did in the classical mechanics we are going to solve the problem in polar coordinates.
+
+We need to transform the variables and derivatives into a polar system.
+
+\begin{equation}
+  \begin{array}{cc}
+    u = r \cos\theta & v = r \sin\theta
+    \\
+
+    \\
+    du = (dr) \cos\theta - r \sin\theta d\theta & dv = (dr) \sin\theta + r \cos\theta d\theta
+  \end{array}
+\end{equation}
+
+We will rename $\psi(u,v)$ to $\chi(r,\theta)$ and we want to know how the derivatives behave for $\chi$.
+
+\begin{equation}
+  \begin{array}{c}
+    \frac{\partial}{\partial u} \chi= \left[\left(\frac{\partial}{\partial\theta}\right)_{r} \left(\frac{\partial \theta}{\partial u}\right)_v +\left(\frac{\partial}{\partial r}\right)_\theta \left(\frac{\partial r}{\partial u}\right)_v \right] \chi =
+    \\
+
+    \\
+    = \left(\frac{-\sin\theta}{r}\frac{\partial}{\partial \theta} + \cos\theta\frac{\partial}{\partial r} \right) \chi
+    \\
+
+    \\
+    \frac{\partial}{\partial v} \chi= \left[\left(\frac{\partial}{\partial\theta}\right)_{r} \left(\frac{\partial \theta}{\partial v}\right)_u +\left(\frac{\partial}{\partial r}\right)_\theta \left(\frac{\partial r}{\partial v}\right)_u \right] \chi =
+    \\
+
+    \\
+    = \left(\frac{\cos\theta}{r}\frac{\partial}{\partial \theta} + \sin\theta\frac{\partial}{\partial r} \right) \chi
+  \end{array}
+\end{equation}
+
+We need to the second derivative.
+
+\begin{equation}
+  \begin{array}{c}
+    \frac{\partial^2}{\partial u^2} \chi = \left(\frac{-\sin\theta}{r}\frac{\partial}{\partial \theta} + \cos\theta\frac{\partial}{\partial r} \right) \left(\frac{-\sin\theta}{r}\frac{\partial}{\partial \theta} + \cos\theta\frac{\partial}{\partial r} \right) \chi =
+    \\
+
+    \\
+    = \left(\frac{\sin^2\theta}{r^2}\frac{\partial^2}{\partial\theta^2} + \frac{\sin^2\theta}{r}\frac{\partial}{\partial r} + \cos^2\theta \frac{\partial^2}{\partial r^2} \right) \chi
+    \\
+
+    \\
+    \frac{\partial^2}{\partial v^2} \chi = \left(\frac{\cos\theta}{r}\frac{\partial}{\partial \theta} + \sin\theta\frac{\partial}{\partial r} \right) \left(\frac{\cos\theta}{r}\frac{\partial}{\partial \theta} + \sin\theta\frac{\partial}{\partial r} \right) \chi =
+    \\
+
+    \\
+    = \left(\frac{\cos^2\theta}{r^2}\frac{\partial^2}{\partial\theta^2} + \frac{\cos^2\theta}{r}\frac{\partial}{\partial r} + \sin^2\theta \frac{\partial^2}{\partial r^2} \right) \chi
+  \end{array}
+\end{equation}
+
+Our wave equation now looks like:
+
+\begin{equation}
+  \begin{array}{c}
+    \left[-\frac{1}{2}\left(\frac{\partial^2}{\partial r^2}+\frac{1}{r}\frac{\partial}{\partial r}+\frac{1}{r^2}\frac{\partial^2}{\partial\theta^2}\right)+\frac{1}{2}r^2\right]\chi = \alpha \chi
+  \end{array}
+\end{equation}
+
+If we compare this equation with the one we had for classical mechanics we can see a relation between the different energies in classical mechanics and these terms.
+
+\begin{itemize}
+  \item $\frac{1}{2}\left(\frac{\partial^2}{\partial r^2}+\frac{1}{r}\frac{\partial}{\partial r}\right)$ is the kinetic energy in the radial direction.
+  \item $\frac{1}{2}\frac{1}{r^2}\frac{\partial^2}{\partial\theta^2}$ is the angular kinetic energy.
+  \item $\frac{1}{2}r^2$ is the potential energy.
+\end{itemize}
+
+As we did in classical mechanics we are going to define the angular momentum as the operator: $L_z = \frac{\partial}{\partial\theta}$.
+
+We want to know how this operator behaves with the operator $H$ and the wave function.
+
+\begin{equation}
+  \begin{array}{c}
+    (H L_z) \chi = \frac{-1}{2} \frac{\partial^3\chi}{\partial r^2 \partial\theta} - \frac{1}{2r} \frac{\partial^2\chi}{\partial r \partial\theta} + \frac{1}{2r^2} \frac{\partial^3\chi}{\partial\theta^3} + \frac{1}{2} r^2 \frac{\partial\chi}{\partial\theta}
+    \\
+
+    \\
+    (L_z H) \chi = \frac{-1}{2} \frac{\partial^3\chi}{\partial r^2 \partial\theta} - \frac{1}{2r} \frac{\partial^2\chi}{\partial r \partial\theta} + \frac{1}{2r^2} \frac{\partial^3\chi}{\partial\theta^3} + \frac{1}{2} r^2 \frac{\partial\chi}{\partial\theta}
+  \end{array}
+\end{equation}
+
+As we can see both operations are the same, this proves that the two operators commute.
+
+\begin{equation}
+  \begin{array}{c}
+    [H,L_z] = 0
+  \end{array}
+\end{equation}
+
+If $H\chi = \alpha \chi$:
+
+\begin{equation}
+  \begin{array}{c}
+    H(L_z\chi) = L_z(H\chi) = \alpha(L_z\chi)
+  \end{array}
+\end{equation}
+
+Wich means that $L_z\chi$ is an eigenvector of the operator $H$ with the same eigenvalue $\alpha$. The eigenspace can be defined by eigenvectors of $H$ and by eigenvectors of $H$ and $L_z$ at the same time.
+
+We can found now the eigenvectors of $L_z$.
+
+\begin{equation}
+  L_z \chi = l \chi
+\end{equation}
+
+The solution for this differential equation is:
+
+\begin{equation}
+  \begin{array}{c}
+    \chi = R(r) e^{l\theta}
+  \end{array}
+\end{equation}
+
+Because the function $\chi$ is periodic in $\theta$ we can say that $l=i m$.
+
+\begin{equation}
+  \begin{array}{c}
+    \chi = R(r) e^{i m \theta}
+  \end{array}
+\end{equation}
+
+We didn't assume anything, we proved that because the operator commute the function can be described as above. This two operators commute because the force is a central force wich means that $V(r)$ is only a function of $r$.
+
+\begin{equation}
+  \begin{array}{c}
+    H \chi_{\alpha,m} = \alpha \chi_{\alpha,m}
+    \\
+
+    \\
+    L_z \chi_{\alpha,m} = i m \chi_{\alpha,m}
+  \end{array}
+\end{equation}
+
+Now we have to solve the wave equation for the radial function, $R(r)$.
+
+\begin{equation}
+  \begin{array}{c}
+    \left[\frac{d^2}{dr^2}+\frac{1}{r}\frac{d}{dr}-\frac{m^2}{r^2}-r^2+2\alpha\right]R(r) = 0
+  \end{array}
+\end{equation}
+
+If we look at the results in Section 3, we can see that there is an exponential factor in the solution. We will take that out to make math simpler.
+
+\begin{equation}
+  \begin{array}{c}
+    R(r) = e^{-\frac{r^2}{2}} P(r)
+  \end{array}
+\end{equation}
+
+
+
+
+
+
+
+
 
 
 
