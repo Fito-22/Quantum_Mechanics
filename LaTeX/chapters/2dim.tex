@@ -728,14 +728,147 @@ If we substitute this into \ref{8.49}:
   \end{array}
 \end{equation}
 
-We expect P(r) to be a polinomic function, but for a polinome to be normalizable must be finite wich means having a finite number of terms.
 
 
+We expect P(r) to be a polinomic function, but for a polinome to be normalizable must be finite wich means having a finite number of terms. Let's assume $P(r) ~ r^\beta$ for $r\to 0$. Near $r=0$ the derivatives will be:
 
+\begin{equation}
+  \begin{array}{c}
+    \frac{dP}{dr} ~ r^{\beta-1}
+    \\
 
+    \\
+    \frac{d^2P}{dr^2} ~ r^{\beta-2}
+  \end{array}
+\end{equation}
 
+If we substitute this into the equation we get:
 
+\begin{equation}
+  \begin{array}{c}
+    \beta(\beta-1)r^{\beta-2}+ \left(\frac{1}{r}-2r\right)\beta r^{\beta-1} + (2\alpha-2-\frac{m^2}{r^2})r^\beta = 0
+    \\
 
+    \\
+    \left[\beta(\beta-1)+\beta-m^2\right]r^{\beta-2}+(2\alpha-2-2\beta)r^\beta = 0
+    \\
+
+    \\
+    \beta(\beta-1)+\beta-m^2 = 0 \Rightarrow \beta = \beta^2 = m^2 \Rightarrow \beta = |m|
+  \end{array}
+\end{equation}
+
+$\beta$ has to be positive. We can redefine $P(r)$ as:
+
+\begin{equation}
+  \begin{array}{c}
+    P(r) = r^{|m|} U(r)
+    \\
+
+    \\
+    \frac{d P}{dr} = |m| r^{|m|-1} U(r) + r^{|m|} \frac{dU}{dr}
+    \\
+
+    \\
+    \frac{d^2 P}{dr^2} = |m| (|m|-1) r^{|m|-2} U(r) + 2 |m| r^{|m|-1} \frac{dU}{dr} + r^{|m|} \frac{d^2U}{dr^2}
+    \\
+
+    \\
+    \left(\frac{1}{r}-2r\right) \frac{dP}{dr} = |m|r^{|m|-2} U(r) - 2 |m| r^{|m|-1} \frac{dU}{dr} - 2 r^{|m|+1} \frac{dU}{dr}
+    \\
+
+    \\
+    \left(2\alpha-2-\frac{m^2}{r^2}\right)P = (2\alpha-2) r^{|m|} U(r) - m^2 r^{|m|-2} U(r)
+  \end{array}
+\end{equation}
+
+If we substitute this into the differential equation we get:
+
+\begin{equation}
+  \begin{array}{c}
+    (2\alpha-2-2|m|) r^{|m|}U(r) + \left[(2|m|+1)r^{|m|-1}-2r^{|m|+1}\right]\frac{dU}{dr} +r^{|m|} \frac{d^2U}{dr^2} = 0
+    \\
+
+    \\
+    \frac{d^2U}{dr^2}+ \left(\frac{2|m|+1}{r}-2r\right)\frac{dU}{dr} + 2(\alpha-1-|m|) U = 0
+  \end{array}
+\end{equation}
+
+This differential equation can be solved using Frobenius Method. We are going to assume that U(r) is an "infinite" polinomic function.
+
+\begin{equation}
+  \begin{array}{c}
+  U(r) = \sum_{n=0}^{\infty} u_n r^n
+  \\
+
+  \\
+  \frac{dU}{dr} = \sum_{n=0}^{\infty} n u_n r^{n-1}
+  \\
+
+  \\
+  \frac{d^2U}{dr^2} = \sum_{n=0}^{\infty} n(n-1) u_n r^{n-2}
+  \\
+
+  \\
+  \left(\frac{2|m|+1}{r}-2r\right)\frac{dU}{dr} = \frac{(2|m|+1)u_1}{r} + \sum_{0}^{\infty} (2|m|+1)u_{n+2}(n+2)r^n - \sum_{0}^{\infty} 2 u_n n r^n
+  \\
+
+  \\
+  2(\alpha-1-|m|) U = \sum_{0}^{\infty} 2(\alpha-1-|m|)  u_n r^n
+  \end{array}
+\end{equation}
+
+Substituying:
+
+\begin{equation}
+  \begin{array}{c}
+    0 = \frac{2|m|+1}{r}u_1 + \sum_{0}^{\infty} \left[u_{n+2}\left((n+2)(2|m|+1)+(n+2)(n+1)\right)+u_n\left(\2(\alpha-1-|m|)-2n\right)\right]r^n
+  \end{array}
+\end{equation}
+
+This has to be 0 for every r, but also the first term has to be null, for the function to exist in $r=0$.
+
+\begin{equation}
+  \begin{array}{c}
+    u_1 = 0
+    \\
+
+    \\
+    u_{n+2}\left[(n+2)(2|m|+1)+(n+2)(n+1)\right]+u_n\left[\2(\alpha-1-|m|)-2n\right] = 0
+    \\
+
+    \\
+    u_{n+2} = \frac{2[1+|m|+n-\alpha]}{(n+2)(2|m|+n+2)}u_n ; n\geq0
+  \end{array}
+\end{equation}
+
+All the odd terms are going to be 0. We need this to be finite so we have to arrange a value N for when all the greater terms are 0, i.e. $u_{N+2} = 0$. This implies:
+
+\begin{equation}
+  \begin{array}{c}
+    2[1+|m|+N-\alpha] = 0 \Rightarrow \alpha= 1+|m|+N
+  \end{array}
+\end{equation}
+
+We know that N has to be even. We can represent alpha with this new parameters N and m.
+
+\begin{tabular}{| c | c | c | c |}
+  \hline
+  $N$ & $m$ & $\alpha$ & $\chi(r,\theta)$ \\
+  \hline
+  0 & 0 & 1  & $\chi(r,\theta) = u_0 e^{\frac{-r^2}{2}}$              \\
+  \hline
+  0 & +1 & 2 & $\chi(r,\theta) = u_0re^{\frac{-r^2}{2}}e^{i\theta}$   \\
+  \hline
+  0 & -1 & 2 & $\chi(r,\theta) = u_0 re^{\frac{-r^2}{2}}e^{i\theta}$  \\
+  \hline
+  2 & 0 & 3  & $ $ \\
+  \hline
+  0 & +2 & 3 & $ $ \\
+  \hline
+  0 & -2 & 3 & $ $ \\
+  \hline
+\end{tabular}
 
 % \setchapterstyle{kao}
 % \setchapterpreamble[u]{\margintoc}
