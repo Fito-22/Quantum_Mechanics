@@ -425,11 +425,11 @@ This is the solution for the ground state of the system. We can now use the oper
     \\
 
     \\
-    A_{1,0} = a_u^{\dagger} \psi_0 = \frac{1}{\sqrt{2}}\left[-\frac{\partial}{\partial u}+u\right]\psi_0 = \frac{2}{\pi} u e^{-\frac{u^2+v^2}{2}}
+    \psi_{1,0} = A_{1,0} a_u^{\dagger} \psi_0 = A_{1,0} \frac{1}{\sqrt{2}}\left[-\frac{\partial}{\partial u}+u\right]\psi_0 = A_{1,0} \sqrt{\frac{2}{\pi}} u e^{-\frac{u^2+v^2}{2}}
     \\
 
     \\
-    A_{0,1} = a_v^{\dagger} \psi_0 = \frac{1}{\sqrt{2}}\left[-\frac{\partial}{\partial v}+v\right]\psi_0 = \frac{2}{\pi} v e^{-\frac{u^2+v^2}{2}}
+    \psi_{0,1} = A_{0,1} a_v^{\dagger} \psi_0 = A_{0,1} \frac{1}{\sqrt{2}}\left[-\frac{\partial}{\partial v}+v\right]\psi_0 = A_{0,1} \sqrt{\frac{2}{\pi}} v e^{-\frac{u^2+v^2}{2}}
   \end{array}
 \end{equation}
 
@@ -437,7 +437,7 @@ To determine the normalization coeficient we have to use the same procedure as b
 
 \begin{equation}
   \begin{array}{c}
-    A^2_{1,0} = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \psi_{1,0}^2(u,v) du dv = \frac{2}{\pi^2} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} u^2 e^{-\frac{u^2+v^2}{2}} du dv
+    A^2_{1,0} = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} \psi_{1,0}^2(u,v) du dv = \frac{2}{\pi} \int_{-\infty}^{\infty}\int_{-\infty}^{\infty} u^2 e^{-(u^2+v^2)} du dv
   \end{array}
 \end{equation}
 
@@ -445,11 +445,11 @@ To solve this integral we are going to use polar coordinates.
 
 \begin{equation}
   \begin{array}{c}
-    A^2_{1,0} = \frac{2}{\pi^2} \int_{0}^{\infty} rdr \int_{0}^{2\pi} r^2 \sin^2(\theta) e^{-r^2} d\theta =
+    A^2_{1,0} = \frac{2}{\pi} \int_{0}^{\infty} rdr \int_{0}^{2\pi} r^2 \sin^2(\theta) e^{-r^2} d\theta =
     \\
 
     \\
-    = \frac{1}{\pi} \int_{0}^{\infty} r^3 e^{-r^2} dr \int_{0}^{2\pi} 2\sin^2(\theta) d\theta = \frac{1}{\pi} \frac{1}{2} 2\pi = 1
+    = \frac{2}{\pi} \int_{0}^{\infty} r^3 e^{-r^2} dr \int_{0}^{2\pi} \sin^2(\theta) d\theta = \frac{2}{\pi} \frac{1}{2} \pi = 1
   \end{array}
 \end{equation}
 
@@ -461,11 +461,11 @@ We can continue this process to get the next levels of energy. The final results
 
 \begin{equation}
   \begin{array}{c}
-    \psi_{2,0} = \frac{1-2u^2}{2\sqrt{\pi}}e^{-\frac{u^2+v^2}{2}}
+    \psi_{2,0} = \frac{2u^2-1}{2\sqrt{\pi}}e^{-\frac{u^2+v^2}{2}}
     \\
 
     \\
-    \psi_{0,2} = \frac{1-2v^2}{2\sqrt{\pi}}e^{-\frac{u^2+v^2}{2}}
+    \psi_{0,2} = \frac{2v^2-1}{2\sqrt{\pi}}e^{-\frac{u^2+v^2}{2}}
     \\
 
     \\
@@ -862,11 +862,11 @@ We know that N has to be even. We can represent alpha with this new parameters N
   \hline
   0 & -1 & 2 & $\chi(r,\theta) = u_0 re^{\frac{-r^2}{2}}e^{i\theta}$  \\
   \hline
-  2 & 0 & 3  & $ $ \\
+  2 & 0 & 3  & $\chi(r, \theta) = u_0(1-r^2)e^{\frac{-r^2}{2}}$ \\
   \hline
-  0 & +2 & 3 & $ $ \\
+  0 & +2 & 3 & $\chi(r, \theta) = u_0r^2e^{\frac{-r^2}{2}}e^{2i\theta}$ \\
   \hline
-  0 & -2 & 3 & $ $ \\
+  0 & -2 & 3 & $\chi(r, \theta) = u_0r^2e^{\frac{-r^2}{2}}e^{2i\theta}$ \\
   \hline
 \end{tabular}
 
