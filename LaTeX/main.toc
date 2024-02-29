@@ -186,8 +186,26 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {8.4}The angular momentum}{69}{section.8.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{75}{part*.52}%
+\contentsline {chapter}{\numberline {9}3-Dimensional Space}{75}{chapter.9}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{77}{chapter*.53}%
+\etoc@startlocaltoc {16}
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{79}{section*.54}%
+\etoc@startlocaltoc {17}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {9.1}Angular Momentum in 3 Dimensions}{75}{section.9.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {9.1}Angular Momentum in 3 Dimensions}{75}{section.9.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {9.2}Angular Momentum as a vector operator}{80}{section.9.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {9.2}Angular Momentum as a vector operator}{80}{section.9.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {9.3}Matrix representation for j={1, 1/2, 2}}{83}{section.9.3}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {9.3}Matrix representation for j={1, 1/2, 2}}{83}{section.9.3}%
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Appendix}{85}{part*.52}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{87}{chapter*.53}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{89}{section*.54}%
