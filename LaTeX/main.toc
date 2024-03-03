@@ -200,12 +200,20 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {9.2}Angular Momentum as a vector operator}{80}{section.9.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {9.3}Matrix representation for j={1, 1/2, 2}}{83}{section.9.3}%
+\contentsline {section}{\numberline {9.3}Matrix representation for j={1, 1/2, 3/2, 2}}{84}{section.9.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {9.3}Matrix representation for j={1, 1/2, 2}}{83}{section.9.3}%
+\contentsline {mtocsection}{\numberline {9.3}Matrix representation for j={1, 1/2, 3/2, 2}}{84}{section.9.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{85}{part*.52}%
+\contentsline {section}{\numberline {9.4}Eigenvalues and unitary transformations}{89}{section.9.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{87}{chapter*.53}%
+\contentsline {mtocsection}{\numberline {9.4}Eigenvalues and unitary transformations}{89}{section.9.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{89}{section*.54}%
+\contentsline {section}{\numberline {9.5}Spherical Coordinates}{91}{section.9.5}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {9.5}Spherical Coordinates}{91}{section.9.5}%
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Appendix}{93}{part*.54}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{95}{chapter*.55}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{97}{section*.56}%

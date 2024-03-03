@@ -82,6 +82,7 @@ We our going to use the Levi-Civita epsilon to write the angular momentum in a m
 
 \begin{equation}
   \begin{array}{c}
+    \label{9.6}
     [L_i,L_j] = i\hbar \epsilon_{ijk} L_k
   \end{array}
 \end{equation}
@@ -667,7 +668,9 @@ Using the knowledge from chapter 6, if we want to get the excat values for every
 
 We can see at first sight that $L_3$ has to be a diagonal matrix, while $L_1$ and $L_2$ can only have non-zero values on the secondary diagonals. In the next section we will get the values of the matrix for some j.
 
-\section{Matrix representation for j={1, 1/2, 2}}
+\pagelayout{wide} % No margins
+
+\section{Matrix representation for j={1, 1/2, 3/2, 2}}
 
 
 The case for j=0 is a trivial case. We are going to start with j=1, where the set of values for m is m={1,0,-1}. We are going to define the matrices as:
@@ -681,7 +684,7 @@ The case for j=0 is a trivial case. We are going to start with j=1, where the se
     \end{matrix}\right]
 \end{equation}
 
-Where the subindixes of the components represent $m_1$ and $m_2$. We can use the expresions from \ref{9.44} to get the matrix representation of the angular momentum.
+Where the subindixes of the components represent $m_1$ and $m_2$. We can use the expresions from the last equation fo the previous chapter to get the matrix representation of the angular momentum.
 
 
 \begin{equation}
@@ -707,3 +710,1068 @@ Where the subindixes of the components represent $m_1$ and $m_2$. We can use the
 
 We can find the other operators we are interested in just aplying matrix multiplication.
 
+\begin{equation}
+  \begin{array}{c}
+  L_1^2 = \frac{\hbar}{\sqrt{2}}
+  \left[\begin{matrix}
+    0 & 1 & 0\\
+      1 & 0 & 1\\
+      0 & 1 & 0
+  \end{matrix}
+  \right]\frac{\hbar}{\sqrt{2}}
+  \left[\begin{matrix}
+    0 & 1 & 0\\
+      1 & 0 & 1\\
+      0 & 1 & 0
+  \end{matrix}
+  \right] = \frac{\hbar^2}{2}
+  \left[\begin{matrix}
+    1 & 0 & 1\\
+      0 & 2 & 0\\
+      1 & 0 & 1
+  \end{matrix}
+  \right]
+  \\
+
+  \\
+  L_2^2 = \frac{i\hbar}{\sqrt{2}}
+  \left[\begin{matrix}
+    0 & 1 & 0\\
+    -1 & 0 & 1\\
+    0 & -1 & 0
+  \end{matrix}\right]
+  \frac{i\hbar}{\sqrt{2}}
+    \left[\begin{matrix}
+      0 & 1 & 0\\
+      -1 & 0 & 1\\
+      0 & -1 & 0
+    \end{matrix}\right] =
+    \frac{\hbar^2}{2}
+    \left[\begin{matrix}
+      1 & 0 & -1\\
+      0 & 2 & 0\\
+      -1 & 0 & 1
+    \end{matrix}\right]
+    \\
+
+    \\
+    L_3^2 = \hbar
+    \left[\begin{matrix}
+      -1 & 0 & 0\\
+      0 & 0 & 0\\
+      0 & 0 & 1
+    \end{matrix}\right]
+    \hbar
+    \left[\begin{matrix}
+      -1 & 0 & 0\\
+      0 & 0 & 0\\
+      0 & 0 & 1
+    \end{matrix}\right] =
+    \hbar^2
+    \left[\begin{matrix}
+      1 & 0 & 0\\
+      0 & 0 & 0\\
+      0 & 0 & 1
+    \end{matrix}\right]
+    \\
+
+    \\
+    L^2 = L_1^2 + L_2^2 + L_3^2 = 2\hbar^2
+    \left[\begin{matrix}
+      1 & 0 & 0\\
+      0 & 1 & 0\\
+      0 & 0 & 1
+    \end{matrix}\right]
+  \end{array}
+\end{equation}
+
+We can see that $L^2$ is also a diagonal amtrix as we expected it to be, this means that we did not make an algebra mistake.
+
+Just to make sure that we are doing everything right, we can check that the conmmutation properties are satisfied.
+
+\begin{equation}
+  \begin{array}{c}
+    [L_1,L_2] = L_1L_2-L_2L_1 =
+    \frac{\hbar}{\sqrt{2}}
+    \left[\begin{matrix}
+      0 & 1 & 0\\
+      1 & 0 & 1\\
+      0 & 1 & 0
+    \end{matrix}\right]
+    \frac{i\hbar}{\sqrt{2}}
+    \left[\begin{matrix}
+      0 & 1 & 0\\
+      -1 & 0 & 1\\
+      0 & -1 & 0
+    \end{matrix}\right] -
+    \frac{i\hbar}{2}
+    \left[\begin{matrix}
+      0 & 1 & 0\\
+      -1 & 0 & 1\\
+      0 & -1 & 0
+    \end{matrix}\right]
+    \frac{\hbar}{\sqrt{2}}
+    \left[\begin{matrix}
+      0 & 1 & 0\\
+      1 & 0 & 1\\
+      0 & 1 & 0
+    \end{matrix}\right] =
+    \\
+
+    \\
+    =
+    \frac{i\hbar^2}{2}
+    \left[\begin{matrix}
+      -1 & 0 & 1\\
+      0 & 0 & 0\\
+      -1 & 0 & 1
+    \end{matrix}\right]-
+    \frac{i\hbar^2}{2}
+    \left[
+    \begin{matrix}
+      1 & 0 & 1\\
+      0 & 0 & 0\\
+      -1 & 0 & -1
+    \end{matrix}
+    \right] = i \hbar \hbar\left[\begin{matrix}
+      -1 & 0 & 0\\
+      0 & 0 & 0\\
+      0 & 0 & 1
+    \end{matrix}\right] = i \hbar L_3
+  \end{array}
+\end{equation}
+
+We can do the same for the other commutators.
+
+Now we will work the math or j=1/2. The operator are gonna look like:
+
+\begin{equation}
+  L_a =
+    \left[\begin{matrix}
+      (L_a)_{-1/2,-1/2} & (L_a)_{-1/2,1/2}\\
+      (L_a)_{1/2,-1/2} & (L_a)_{1/2,1/2}
+    \end{matrix}\right]
+\end{equation}
+
+And in particular the operators are:
+
+\begin{equation}
+  L_1 = \frac{\hbar}{2}
+    \left[\begin{matrix}
+      0 & 1\\
+      1 & 0
+    \end{matrix}\right],
+  L_2 = \frac{i\hbar}{2}
+    \left[\begin{matrix}
+      0 & 1\\
+      -1 & 0
+    \end{matrix}\right],
+  L_3 = \frac{\hbar}{2}
+    \left[\begin{matrix}
+      -1 & 0\\
+      0 & 1
+    \end{matrix}\right]
+\end{equation}
+
+We can find the other operators we are interested in just aplying matrix multiplication.
+
+\begin{equation}
+  \begin{array}{c}
+  L_1^2 = \frac{\hbar^2}{4}
+  \left[
+  \begin{matrix}
+    0 & 1\\
+    1 & 0
+  \end{matrix}\right]
+  \left[
+    \begin{matrix}
+      0 & 1\\
+      1 & 0
+    \end{matrix}\right] =
+  \frac{\hbar^2}{4} \left[\begin{matrix}
+  1 & 0\\
+  0 & 1
+  \end{matrix}
+  \right]
+  \\
+
+  \\
+  L_2^2 = \frac{-\hbar^2}{4} \left[
+    \begin{matrix}
+      0 & 1\\
+      -1 & 0
+    \end{matrix}\right]\left[\begin{matrix}
+      0 & 1\\
+      -1 & 0
+    \end{matrix}
+  \right] =
+  \frac{\hbar^2}{4} \left[
+    \begin{matrix}
+      1 & 0\\
+      0 & 1
+    \end{matrix}
+  \right]
+  \\
+
+  \\
+  L_3^2 = \frac{\hbar^2}{4}
+  \left[\begin{matrix}
+    -1 & 0\\
+    0 & 1
+  \end{matrix}\right]\left[\begin{matrix}
+    -1 & 0\\
+    0 & 1
+  \end{matrix}\right] =
+  \frac{\hbar^2}{4}
+  \left[\begin{matrix}
+    1 & 0\\
+    0 & 1
+  \end{matrix}\right]
+  \\
+
+  \\
+  L^2 = L_1^2 + L_2^2 + L_3^2 = \frac{3\hbar^2}{4}\left[\begin{matrix}
+    1 & 0\\
+    0 & 1
+  \end{matrix}\right]
+  \end{array}
+\end{equation}
+
+We know we did the math correct because $L^2$ is a diagonal matrix with values $\hbar^2j(j+1)$.
+
+\begin{equation}
+  \begin{array}{c}
+    [L_1,L_2] = L_1L_2-L_2L_1 = \frac{\hbar}{2}\left[
+      \begin{matrix}
+        0 & 1\\
+        1 & 0
+      \end{matrix}\right]\frac{i\hbar}{2}
+      \left[\begin{matrix}
+        0 & 1\\
+        -1 & 0
+      \end{matrix}\right] - \frac{i\hbar}{2}\left[\begin{matrix}
+        0 & 1\\
+        -1 & 0
+      \end{matrix}\right]\frac{\hbar}{2}\left[
+        \begin{matrix}
+          0 & 1\\
+          1 & 0
+        \end{matrix}\right] =
+      \\
+
+      \\
+      = i \hbar \frac{\hbar}{2}\left[\begin{matrix}
+        -1 & 0\\
+        0 & 1
+      \end{matrix}\right] = i \hbar L_3
+  \end{array}
+\end{equation}
+
+The conmmutation properties are satisfied. We can do the same for j=3/2. To begin with our matrices are going to look like:
+
+\begin{equation}
+  L_a =
+    \left[\begin{matrix}
+      (L_a)_{-3/2,-3/2} & (L_a)_{-3/2,-1/2} & (L_a)_{-3/2,1/2} & (L_a)_{-3/2,3/2}\\
+      (L_a)_{-1/2,-3/2} & (L_a)_{-1/2,-1/2} & (L_a)_{-1/2,1/2} & (L_a)_{-1/2,3/2}\\
+      (L_a)_{1/2,-3/2} & (L_a)_{1/2,-1/2} & (L_a)_{1/2,1/2} & (L_a)_{1/2,3/2}\\
+      (L_a)_{3/2,-3/2} & (L_a)_{3/2,-1/2} & (L_a)_{3/2,1/2} & (L_a)_{3/2,3/2}
+    \end{matrix}\right]
+\end{equation}
+
+The components of the angular momentum are:
+
+\begin{equation}
+  L_1 = \frac{\hbar}{2}\left[\begin{matrix}
+    0 & \sqrt{3} & 0 & 0\\
+    \sqrt{3} & 0 & 2 & 0\\
+    0 & 2 & 0 & \sqrt{3}\\
+    0 & 0 & \sqrt{3} & 0
+  \end{matrix}\right],
+  L_2 = \frac{i\hbar}{2}\left[\begin{matrix}
+    0 & \sqrt{3} & 0 & 0\\
+    -\sqrt{3} & 0 & 2 & 0\\
+    0 & -2 & 0 & \sqrt{3}\\
+    0 & 0 & -\sqrt{3} & 0
+  \end{matrix}\right],
+  L_3 = \frac{\hbar}{2}\left[\begin{matrix}
+    -3 & 0 & 0 & 0\\
+    0 & -1 & 0 & 0\\
+    0 & 0 & 1 & 0\\
+    0 & 0 & 0 & 3
+  \end{matrix}\right]
+\end{equation}
+
+We can find the other operators we are interested in aplying matrix multiplication.
+
+\begin{equation}
+  \begin{array}{c}
+    L_1^2 = \frac{\hbar^2}{4}\left[\begin{matrix}
+      0 & \sqrt{3} & 0 & 0\\
+      \sqrt{3} & 0 & 2 & 0\\
+      0 & 2 & 0 & \sqrt{3}\\
+      0 & 0 & \sqrt{3} & 0
+    \end{matrix}\right]\left[\begin{matrix}
+      0 & \sqrt{3} & 0 & 0\\
+      \sqrt{3} & 0 & 2 & 0\\
+      0 & 2 & 0 & \sqrt{3}\\
+      0 & 0 & \sqrt{3} & 0
+    \end{matrix}\right] =
+    \frac{\hbar^2}{4}\left[\begin{matrix}
+      3 & 0 & 2\sqrt{3} & 0\\
+      0 & 7 & 0 & 2\sqrt{3}\\
+      2\sqrt{3} & 0 & 7 & 0\\
+      0 & 2\sqrt{3} & 0 & 3
+    \end{matrix}\right]
+    \\
+
+    \\
+    L_2^2 = \frac{-\hbar^2}{4}\left[\begin{matrix}
+      0 & \sqrt{3} & 0 & 0\\
+      -\sqrt{3} & 0 & 2 & 0\\
+      0 & -2 & 0 & \sqrt{3}\\
+      0 & 0 & -\sqrt{3} & 0
+    \end{matrix}\right]\left[\begin{matrix}
+      0 & \sqrt{3} & 0 & 0\\
+      -\sqrt{3} & 0 & 2 & 0\\
+      0 & -2 & 0 & \sqrt{3}\\
+      0 & 0 & -\sqrt{3} & 0
+    \end{matrix}\right] =
+    \frac{-\hbar^2}{4}\left[\begin{matrix}
+      -3 & 0 & 2\sqrt{3} & 0\\
+      0 & -7 & 0 & 2\sqrt{3}\\
+      2\sqrt{3} & 0 & -7 & 0\\
+      0 & 2\sqrt{3} & 0 & -3
+    \end{matrix}\right]
+    \\
+
+    \\
+    L_3^2 = \frac{\hbar^2}{4}\left[\begin{matrix}
+      -3 & 0 & 0 & 0\\
+      0 & -1 & 0 & 0\\
+      0 & 0 & 1 & 0\\
+      0 & 0 & 0 & 3
+    \end{matrix}\right]\left[\begin{matrix}
+      -3 & 0 & 0 & 0\\
+      0 & -1 & 0 & 0\\
+      0 & 0 & 1 & 0\\
+      0 & 0 & 0 & 3
+    \end{matrix}\right] =
+    \frac{\hbar^2}{4}\left[\begin{matrix}
+      9 & 0 & 0 & 0\\
+      0 & 1 & 0 & 0\\
+      0 & 0 & 1 & 0\\
+      0 & 0 & 0 & 9
+    \end{matrix}\right]
+    \\
+
+    \\
+    L^2 = L_1^2 + L_2^2 + L_3^2 = \frac{\hbar^2}{4} \left[\begin{matrix}
+      15 & 0 & 0 & 0\\
+      0 & 15 & 0 & 0\\
+      0 & 0 & 15 & 0\\
+      0 & 0 & 0 & 15
+    \end{matrix}\right] = \frac{15\hbar^2}{4} I_{4x4}
+  \end{array}
+\end{equation}
+
+We did a correct calculation because $L^2$ is a diagonal matrix with values $\hbar^2j(j+1)$. Let's Prove the conmmutation properties.
+
+\begin{equation}
+  \begin{array}{c}
+    [L_1,L_2] = L_1L_2-L_2L_1 =
+    \\
+
+    \\
+    \frac{\hbar}{2}\left[\begin{matrix}
+      0 & \sqrt{3} & 0 & 0\\
+      \sqrt{3} & 0 & 2 & 0\\
+      0 & 2 & 0 & \sqrt{3}\\
+      0 & 0 & \sqrt{3} & 0
+    \end{matrix}\right]\frac{i\hbar}{2}\left[\begin{matrix}
+      0 & \sqrt{3} & 0 & 0\\
+      -\sqrt{3} & 0 & 2 & 0\\
+      0 & -2 & 0 & \sqrt{3}\\
+      0 & 0 & -\sqrt{3} & 0
+    \end{matrix}\right] -
+    \frac{i\hbar}{2}\left[\begin{matrix}
+      0 & \sqrt{3} & 0 & 0\\
+      -\sqrt{3} & 0 & 2 & 0\\
+      0 & -2 & 0 & \sqrt{3}\\
+      0 & 0 & -\sqrt{3} & 0
+    \end{matrix}\right]\frac{\hbar}{2}\left[\begin{matrix}
+      0 & \sqrt{3} & 0 & 0\\
+      \sqrt{3} & 0 & 2 & 0\\
+      0 & 2 & 0 & \sqrt{3}\\
+      0 & 0 & \sqrt{3} & 0
+    \end{matrix}\right] =
+    \\
+
+    \\
+    = \frac{i\hbar^2}{4}\left[\begin{matrix}
+      -3 & 0 & 2\sqrt{3} & 0\\
+      0 & -1 & 0 & 2\sqrt{3}\\
+      -2\sqrt{3} & 0 & 1 & 0\\
+      0 & -2\sqrt{3} & 0 & 3
+    \end{matrix}\right] - \frac{i\hbar^2}{4}\left[\begin{matrix}
+      3 & 0 & 2\sqrt{3} & 0\\
+      0 & 1 & 0 & 2\sqrt{3}\\
+      -2\sqrt{3} & 0 & -1 & 0\\
+      0 & -2\sqrt{3} & 0 & -3
+    \end{matrix}\right] =
+    \\
+
+    \\
+    = i\hbar \frac{\hbar}{2}\left[\begin{matrix}
+      -3 & 0 & 0 & 0\\
+      0 & -1 & 0 & 0\\
+      0 & 0 & 1 & 0\\
+      0 & 0 & 0 & 3
+    \end{matrix}\right] = i \hbar L_3
+  \end{array}
+\end{equation}
+
+Everything seems in order, let's move to the last one, j=2. The matrices are gonna be defined by
+
+\begin{equation}
+  L_a =
+    \left[\begin{matrix}
+      (L_a)_{-2,-2} & (L_a)_{-2,-1} & (L_a)_{-2,0} & (L_a)_{-2,1} & (L_a)_{-2,2}\\
+      (L_a)_{-1,-2} & (L_a)_{-1,-1} & (L_a)_{-1,0} & (L_a)_{-1,1} & (L_a)_{-1,2}\\
+      (L_a)_{0,-2} & (L_a)_{0,-1} & (L_a)_{0,0} & (L_a)_{0,1} & (L_a)_{0,2}\\
+      (L_a)_{1,-2} & (L_a)_{1,-1} & (L_a)_{1,0} & (L_a)_{1,1} & (L_a)_{1,2}\\
+      (L_a)_{2,-2} & (L_a)_{2,-1} & (L_a)_{2,0} & (L_a)_{2,1} & (L_a)_{2,2}
+    \end{matrix}\right]
+\end{equation}
+
+The components of the angular momentum are:
+
+\begin{equation}
+  \begin{array}{c}
+    L_1 = \frac{\hbar}{2}\left[\begin{matrix}
+      0 & 2 & 0 & 0 & 0\\
+      2 & 0 & \sqrt{6} & 0 & 0\\
+      0 & \sqrt{6} & 0 & \sqrt{6} & 0\\
+      0 & 0 & \sqrt{6} & 0 & 2\\
+      0 & 0 & 0 & 2 & 0
+    \end{matrix}\right],
+    L_2 = \frac{i\hbar}{2}\left[\begin{matrix}
+      0 & 2 & 0 & 0 & 0\\
+      -2 & 0 & \sqrt{6} & 0 & 0\\
+      0 & -\sqrt{6} & 0 & \sqrt{6} & 0\\
+      0 & 0 & -\sqrt{6} & 0 & 2\\
+      0 & 0 & 0 & -2 & 0
+    \end{matrix}\right],
+    \\
+
+    \\
+    L_3 = \hbar\left[\begin{matrix}
+      -2 & 0 & 0 & 0 & 0\\
+      0 & -1 & 0 & 0 & 0\\
+      0 & 0 & 0 & 0 & 0\\
+      0 & 0 & 0 & 1 & 0\\
+      0 & 0 & 0 & 0 & 2
+    \end{matrix}\right]
+  \end{array}
+\end{equation}
+
+The other operators are:
+
+\begin{equation}
+  \begin{array}{c}
+    L_1^2 =\frac{\hbar^2}{4}\left[\begin{matrix}
+      0 & 2 & 0 & 0 & 0\\
+      2 & 0 & \sqrt{6} & 0 & 0\\
+      0 & \sqrt{6} & 0 & \sqrt{6} & 0\\
+      0 & 0 & \sqrt{6} & 0 & 2\\
+      0 & 0 & 0 & 2 & 0
+    \end{matrix}\right]\left[\begin{matrix}
+      0 & 2 & 0 & 0 & 0\\
+      2 & 0 & \sqrt{6} & 0 & 0\\
+      0 & \sqrt{6} & 0 & \sqrt{6} & 0\\
+      0 & 0 & \sqrt{6} & 0 & 2\\
+      0 & 0 & 0 & 2 & 0
+    \end{matrix}\right] =
+    \frac{\hbar^2}{4}\left[\begin{matrix}
+      4 & 0 & 2\sqrt{6} & 0 & 0\\
+      0 & 10 & 0 & 6 & 0\\
+      2\sqrt{6} & 0 & 12 & 0 & 2\sqrt{6}\\
+      0 & 6 & 0 & 10 & 0\\
+      0 & 0 & 2\sqrt{6} & 0 & 4
+    \end{matrix}\right]
+    \\
+
+    \\
+    L_2^2 = \frac{-\hbar^2}{4}\left[\begin{matrix}
+      0 & 2 & 0 & 0 & 0\\
+      -2 & 0 & \sqrt{6} & 0 & 0\\
+      0 & -\sqrt{6} & 0 & \sqrt{6} & 0\\
+      0 & 0 & -\sqrt{6} & 0 & 2\\
+      0 & 0 & 0 & -2 & 0
+    \end{matrix}\right]\left[\begin{matrix}
+      0 & 2 & 0 & 0 & 0\\
+      -2 & 0 & \sqrt{6} & 0 & 0\\
+      0 & -\sqrt{6} & 0 & \sqrt{6} & 0\\
+      0 & 0 & -\sqrt{6} & 0 & 2\\
+      0 & 0 & 0 & -2 & 0
+    \end{matrix}\right] =
+    \frac{-\hbar^2}{4}\left[\begin{matrix}
+      -4 & 0 & 2\sqrt{6} & 0 & 0\\
+      0 & -10 & 0 & 6 & 0\\
+      2\sqrt{6} & 0 & -12 & 0 & 2\sqrt{6}\\
+      0 & 6 & 0 & -10 & 0\\
+      0 & 0 & 2\sqrt{6} & 0 & -4
+    \end{matrix}\right]
+    \\
+
+    \\
+    L_3^2 = \hbar^2\left[\begin{matrix}
+      -2 & 0 & 0 & 0 & 0\\
+      0 & -1 & 0 & 0 & 0\\
+      0 & 0 & 0 & 0 & 0\\
+      0 & 0 & 0 & 1 & 0\\
+      0 & 0 & 0 & 0 & 2
+    \end{matrix}\right]\left[\begin{matrix}
+      -2 & 0 & 0 & 0 & 0\\
+      0 & -1 & 0 & 0 & 0\\
+      0 & 0 & 0 & 0 & 0\\
+      0 & 0 & 0 & 1 & 0\\
+      0 & 0 & 0 & 0 & 2
+    \end{matrix}\right] =
+    \hbar^2\left[\begin{matrix}
+      4 & 0 & 0 & 0 & 0\\
+      0 & 1 & 0 & 0 & 0\\
+      0 & 0 & 0 & 0 & 0\\
+      0 & 0 & 0 & 1 & 0\\
+      0 & 0 & 0 & 0 & 4
+    \end{matrix}\right]
+    \\
+
+    \\
+    L^2 = L_1^2+L_2^2+L_3^2 = \hbar^2 \left[\begin{matrix}
+      6 & 0 & 0 & 0 & 0\\
+      0 & 6 & 0 & 0 & 0\\
+      0 & 0 & 6 & 0 & 0\\
+      0 & 0 & 0 & 6 & 0\\
+      0 & 0 & 0 & 0 & 6
+    \end{matrix}\right]
+  \end{array}
+\end{equation}
+
+Again the math is correct because $L^2$ is a diagonal matrix with values $\hbar^2j(j+1)$. Let's prove the conmmutation properties.
+
+\begin{equation}
+  \begin{array}{c}
+    [L_1,L_2] = L_1L_2-L_2L_1 =
+    \\
+
+    \\
+    = \frac{\hbar}{2}\left[\begin{matrix}
+      0 & 2 & 0 & 0 & 0\\
+      2 & 0 & \sqrt{6} & 0 & 0\\
+      0 & \sqrt{6} & 0 & \sqrt{6} & 0\\
+      0 & 0 & \sqrt{6} & 0 & 2\\
+      0 & 0 & 0 & 2 & 0
+    \end{matrix}\right]\frac{i\hbar}{2}\left[\begin{matrix}
+      0 & 2 & 0 & 0 & 0\\
+      -2 & 0 & \sqrt{6} & 0 & 0\\
+      0 & -\sqrt{6} & 0 & \sqrt{6} & 0\\
+      0 & 0 & -\sqrt{6} & 0 & 2\\
+      0 & 0 & 0 & -2 & 0
+    \end{matrix}\right] - \frac{i\hbar}{2}\left[\begin{matrix}
+      0 & 2 & 0 & 0 & 0\\
+      -2 & 0 & \sqrt{6} & 0 & 0\\
+      0 & -\sqrt{6} & 0 & \sqrt{6} & 0\\
+      0 & 0 & -\sqrt{6} & 0 & 2\\
+      0 & 0 & 0 & -2 & 0
+    \end{matrix}\right]\frac{\hbar}{2}\left[\begin{matrix}
+      0 & 2 & 0 & 0 & 0\\
+      2 & 0 & \sqrt{6} & 0 & 0\\
+      0 & \sqrt{6} & 0 & \sqrt{6} & 0\\
+      0 & 0 & \sqrt{6} & 0 & 2\\
+      0 & 0 & 0 & 2 & 0
+    \end{matrix}\right] =
+    \\
+
+    \\
+    = \frac{i\hbar^2}{4}\left[\begin{matrix}
+      -4 & 0 & 2\sqrt{6} & 0 & 0\\
+      0 & -2 & 0 & 6 & 0\\
+      -2\sqrt{6} & 0 & 0 & 0 & 2\sqrt{6}\\
+      0 & -6 & 0 & 2 & 0\\
+      0 & 0 & -2\sqrt{6} & 0 & 4
+    \end{matrix}\right] -
+    \frac{i\hbar^2}{4}\left[\begin{matrix}
+      4 & 0 & 2\sqrt{6} & 0 & 0\\
+      0 & 2 & 0 & 6 & 0\\
+      -2\sqrt{6} & 0 & 0 & 0 & 2\sqrt{6}\\
+      0 & -6 & 0 & -2 & 0\\
+      0 & 0 & -2\sqrt{6} & 0 & -4
+    \end{matrix}\right] =
+    \\
+
+    \\
+    = i \hbar \hbar\left[\begin{matrix}
+      -2 & 0 & 0 & 0 & 0\\
+      0 & -1 & 0 & 0 & 0\\
+      0 & 0 & 0 & 0 & 0\\
+      0 & 0 & 0 & 1 & 0\\
+      0 & 0 & 0 & 0 & 2
+    \end{matrix}\right] = i \hbar L_3
+  \end{array}
+\end{equation}
+
+We have proved everythin for all the values of j that we wanted. In the next section we will try to find the eigenvalues of this operators.
+
+\pagelayout{margin} % margins
+
+\section{Eigenvalues and unitary transformations}
+
+During this chapter we are going to focus only in the case of $j=1$.
+
+\marginnote[-1cm]{In most experiments we can only measure for j. If we consider and eigenvector of the form $e^{-i\frac{E}{\hbar}t}$, then if a state has an energy $E_1$, the state can not be a superoposition of states with different energies. However in our 3 dimensional model we know that the energy depends on j, but for j=1 we have 3 different states of the same energy. This means that this model allows degenerate states.}
+
+To determine the eigen values of $L_1$ we need to get $\det(L_1-\lambda I) = 0$. We can do the same for $L_2$ and $L_3$. The eigenvalues of $L_1$ are:
+
+\begin{equation}
+  \begin{array}{c}
+    \det(L_1-\lambda I) = 0 \Rightarrow
+    \det\left[\begin{matrix}
+      -\lambda & \frac{\hbar}{\sqrt{2}} & 0\\
+      \frac{\hbar}{\sqrt{2}} & -\lambda & \frac{\hbar}{\sqrt{2}}\\
+      0 & \frac{\hbar}{\sqrt{2}} & -\lambda
+    \end{matrix}\right] = 0 \Rightarrow
+    \\
+
+    \\
+    \Rightarrow \lambda\left(\lambda^2-\hbar^2\right) = 0 \Rightarrow
+    \\
+
+    \\
+    \Rightarrow \lambda_1 = 0, \lambda_2 = \hbar, \lambda_3 = -\hbar
+  \end{array}
+\end{equation}
+
+We can observed that the eigenvalues are the same as the ones of $L_3$. Because the conmmutation of the operators are closed under the equation \ref{9.6} we can rewrite our matrices using unitary transformation. We say that U is an unitary operator if:
+
+\begin{equation}
+  U^{\dagger}U = I
+\end{equation}
+
+We can rewrite now our matrices as:
+
+\begin{equation}
+  L_a' = U L_a U^{\dagger}
+\end{equation}
+
+And it can be proved that this new system commute under the same rule.
+
+\begin{equation}
+  \begin{array}{c}
+    [L_a',L_b'] = UL_aU^{\dagger}UL_bU^{\dagger} - UL_bU^{\dagger}UL_aU^{\dagger} =
+    \\
+
+    \\
+    = UL_aL_bU^{\dagger} - UL_bL_aU^{\dagger} = U[L_a,L_b]U^{\dagger} = i\hbar \epsilon_{abc} UL_cU^{\dagger} = i\hbar \epsilon_{abc} L_c'\\
+
+    \\
+    [L_a',L_b']= i\hbar \epsilon_{abc} L_c'
+  \end{array}
+\end{equation}
+
+We want to find now the unitary matrix U that turns $L_1$ into $L_3$. As we saw in the beggining of the section $L_3$ is the diagonal matrix of $L_1$ so U will be the inverse of the matrix of eigenvalues.
+
+\begin{equation}
+  \begin{array}{c}
+  L_1 = S L_3 S^{-1}
+  \\
+
+  \\
+  L_3 = S^{-1} L_1 S
+  \\
+
+  \\
+  L_1 = S^{\dagger} L_3 S \text{if ||\vec{v_{1,2,3}}||=1}
+  \\
+
+  \\
+  L_3 = S L_1 S^{\dagger}
+  \end{array}
+\end{equation}
+
+We can find the matrix S by finding the eigenvectors of $L_1$.
+
+For $\lambda_1 = 0$
+
+\begin{equation}
+  \begin{array}{c}
+    \left[\begin{matrix}
+      0 & \frac{\hbar}{\sqrt{2}} & 0\\
+      \frac{\hbar}{\sqrt{2}} & 0 & \frac{\hbar}{\sqrt{2}}\\
+      0 & \frac{\hbar}{\sqrt{2}} & 0
+    \end{matrix}\right]\left[\begin{matrix}
+      x\\
+      y\\
+      z
+    \end{matrix}\right] = \vec{0} \Rightarrow
+    \\
+
+    \\
+    \Rightarrow y = 0, x = -z
+    \\
+
+    \\
+    v_1 = \left( \begin{matrix}
+      1\\
+      0\\
+      -1
+    \end{matrix}\right)
+  \end{array}
+\end{equation}
+
+For $\lambda_2 = \hbar$
+
+\begin{equation}
+  \begin{array}{c}
+    \left[\begin{matrix}
+      -\hbar & \frac{\hbar}{\sqrt{2}} & 0\\
+      \frac{\hbar}{\sqrt{2}} & -\hbar & \frac{\hbar}{\sqrt{2}}\\
+      0 & \frac{\hbar}{\sqrt{2}} & -\hbar
+    \end{matrix}\right]
+    \left[\begin{matrix}
+      x\\
+      y\\
+      z
+    \end{matrix}\right] = \vec{0} \Rightarrow
+    \\
+
+    \\
+    \Rightarrow x = z, y = \sqrt{2}x
+    \\
+
+    \\
+    v_2 = \left(\begin{matrix}
+      1\\
+      \sqrt{2}\\
+      1
+    \end{matrix}\right)
+  \end{array}
+\end{equation}
+
+For $\lambda_3= -\hbar$
+
+\begin{equation}
+  \begin{array}{c}
+    \left[\begin{matrix}
+      \hbar & \frac{\hbar}{\sqrt{2}} & 0\\
+      \frac{\hbar}{\sqrt{2}} & \hbar & \frac{\hbar}{\sqrt{2}}\\
+      0 & \frac{\hbar}{\sqrt{2}} & \hbar
+    \end{matrix}\right]
+    \left[\begin{matrix}
+      x\\
+      y\\
+      z
+    \end{matrix}\right] = \vec{0} \Rightarrow
+    \\
+
+    \\
+    \Rightarrow x = z, y = -\sqrt{2}x
+    \\
+
+    \\
+    v_3 = \left(\begin{matrix}
+      1\\
+      -\sqrt{2}\\
+      1
+    \end{matrix}\right)
+  \end{array}
+\end{equation}
+
+We can now build the matrix U.
+
+\begin{equation}
+  S=[c_3 v_3 | c_1 v_1 | c_2 v_2]
+\end{equation}
+
+\marginnote[-1cm]{We choose the order of the vectors in S to be the same as the order of the eigenvalues for $L_3$, to be the diagonal matrix we want to find.}
+
+This matriz is not unique, there are multiple matrices that satisfied the equation, but if we want S to be unitary we need it to be formed by unitary vectors.
+
+\begin{equation}
+  S = \left[\begin{matrix}
+    \frac{1}{2} & \frac{1}{\sqrt{2}} & \frac{1}{2}\\
+    -\frac{\sqrt{2}}{2} & 0 & \frac{\sqrt{2}}{2}\\
+    \frac{1}{2} & -\frac{1}{\sqrt{2}} & \frac{1}{2}
+  \end{matrix}\right]
+\end{equation}
+
+
+
+We can check that this matrix is unitary by checking that $S^{\dagger}S = I$.
+
+\begin{equation}
+  S^{\dagger} S = \left[\begin{matrix}
+    \frac{1}{2} & -\frac{\sqrt{2}}{2} & \frac{1}{2}\\
+    \frac{1}{\sqrt{2}} & 0 & -\frac{1}{\sqrt{2}}\\
+    \frac{1}{2} & \frac{\sqrt{2}}{2} & \frac{1}{2}
+  \end{matrix}\right] \left[\begin{matrix}
+    \frac{1}{2} & \frac{1}{\sqrt{2}} & \frac{1}{2}\\
+    -\frac{\sqrt{2}}{2} & 0 & -\frac{\sqrt{2}}{2}\\
+    \frac{1}{2} & -\frac{1}{\sqrt{2}} & \frac{1}{2}
+  \end{matrix}\right] =
+  \left[
+    \begin{matrix}
+      1 & 0 & 0\\
+      0 & 1 & 0\\
+      0 & 0 & 1
+    \end{matrix}
+  \right]
+\end{equation}
+
+Now we can say that $U = S^{\dagger}$ to get what we want. Now we can prove that $L_1' = L_3$.
+
+\begin{equation}
+  \begin{array}{c}
+    L_1' = U L_1 U^{\dagger}
+    \\
+
+    \\
+    L_1' = S^{\dagger} L_1 S = L_3
+  \end{array}
+\end{equation}
+
+So we know that $L_1'$ is $L_3$. What about $L_2'$ and $L_3'$
+
+\begin{equation}
+  \begin{array}{c}
+    L_2' = U L_2 U^{\dagger} =
+    \\
+
+    \\
+    \left[\begin{matrix}
+      1 & -\sqrt{2} & 1\\
+      1 & 0 & 1\\
+      1 & \sqrt{2} & 1
+    \end{matrix}\right] \frac{i\hbar}{\sqrt{2}}\left[\begin{matrix}
+      0 & 1 & 0\\
+      -1 & 0 & 1\\
+      0 & -1 & 0\\
+    \end{matrix}\right]
+    \left[
+      \begin{matrix}
+        1 & 1 & 1\\
+        -\sqrt{2} & 0 & \sqrt{2}\\
+        1 & 1 & 1
+      \end{matrix}\right] =
+
+
+
+  \end{array}
+\end{equation}
+
+
+
+
+\section{Spherical Coordinates}
+
+We can describe the position of a point in space using spherical coordinates. We can define a point in space using the distance from the origin, the angle between the x axis and the projection of the point in the x-y plane and the angle between the z axis and the point. We can define the position of a point in space using the following equations:
+
+\begin{equation}
+  \begin{array}{c}
+    x = r\sin(\theta)\cos(\phi)\\
+    y = r\sin(\theta)\sin(\phi)\\
+    z = r\cos(\theta)
+  \end{array}
+\end{equation}
+
+\begin{marginfigure}[-4cm]
+  \begin{tikzpicture}
+
+  \draw[-] (-2,0) -- (2,0); % x-y axis
+  \draw[-] (0,-2) -- (0,2); % z axis
+  \filldraw[black] (2,0) circle (0pt) node [anchor=north]{$x-y$};
+  \filldraw[black] (0,2) circle (0pt) node [anchor=east]{$z$};
+
+  %vector
+  \draw[->] (0,0) -- (1.5,1.5);
+  \filldraw[black] (1.5,1.5) circle (0pt) node [anchor=south]{$\vec{r}$};
+  %angle
+  \draw[blue] (0,0.7) arc (45:0:0.7);
+  \node at (0.2,0.8) {$\theta$};
+
+  \end{tikzpicture}
+  \caption{Spherical coordinates}
+  \labfig{sph_coor1}
+\end{marginfigure}
+
+\begin{marginfigure}[1cm]
+  \begin{tikzpicture}
+
+  \draw[-] (-2,0) -- (2,0); % x axis
+  \draw[-] (0,-2) -- (0,2); % y axis
+  \filldraw[black] (2,0) circle (0pt) node [anchor=north]{$x$};
+  \filldraw[black] (0,2) circle (0pt) node [anchor=east]{$y$};
+
+  %vector
+  \draw[->] (0,0) -- (1.5,-1.5);
+  \filldraw[black] (1.5,-1.5) circle (0pt) node [anchor=north]{$\vec{r}\sin{\theta}$};
+
+  %angle
+  \draw[blue] (0.7,0) arc (0:-45:0.7);
+  \node at (1.2,-0.3) {$\phi$};
+
+  \end{tikzpicture}
+  \caption{Spherical coordinates}
+  \labfig{sph_coor2}
+\end{marginfigure}
+
+
+We can find the derivatives with:
+
+\begin{equation}
+  \begin{array}{c}
+    \left(\begin{matrix}
+      dx\\
+      dy\\
+      dz
+    \end{matrix}\right) =
+    \left(\begin{matrix}
+      \frac{\partial x}{\partial r} & \frac{\partial x}{\partial \theta} & \frac{\partial x}{\partial \phi} \\
+      \frac{\partial y}{\partial r} & \frac{\partial y}{\partial \theta} & \frac{\partial y}{\partial \phi} \\
+      \frac{\partial z}{\partial r} & \frac{\partial z}{\partial \theta} & \frac{\partial z}{\partial \phi} \\
+    \end{matrix}\right)
+    \left(\begin{matrix}
+      dr\\
+      d\theta\\
+      d\phi
+    \end{matrix}
+    \right) =
+    \\
+
+    \\
+    = \left(\begin{matrix}
+      \sin{\theta}\cos{\phi} & r\cos{\theta}\cos{\phi} & -r\sin{\theta}\sin{\phi}  \\
+      \sin{\theta}\sin{\phi} & r\cos{\theta}\sin{\phi} & r\sin{\theta}\cos{\phi}   \\
+      \cos{\theta}           & -r\sin{\theta}          &           0               \\
+    \end{matrix}\right)
+    \left(\begin{matrix}
+      dr\\
+      d\theta\\
+      d\phi
+    \end{matrix}
+    \right)
+  \end{array}
+\end{equation}
+
+\pagelayout{wide} % margins
+
+We can get the expression for the derivatives of $r,\theta,\phi$ calculating the inverse of the matrix above.
+
+\begin{equation}
+  \begin{array}{c}
+    \left(\begin{matrix}
+      dr\\
+      d\theta\\
+      d\phi
+    \end{matrix}
+    \right) =
+    \left(\begin{matrix}
+      \sin{\theta}\cos{\phi} & \sin{\theta}\sin{\phi} & \cos{\theta} \\
+      \frac{\cos{\theta}\cos{\phi}}{r} & \frac{\cos{\theta}\sin{\phi}}{r} & -\frac{\sin{\theta}}{r} \\
+      -\frac{\sin{\phi}}{r\sin{\theta}} & \frac{\cos{\phi}}{r\sin{\theta}} & 0
+    \end{matrix}\right)
+    \left(\begin{matrix}
+      dx\\
+      dy\\
+      dz
+    \end{matrix}\right)
+  \end{array}
+\end{equation}
+
+Mow we can say that:
+
+\begin{equation}
+  \begin{array}{c}
+    \frac{\partial}{\partial x} = \cos{\phi}\sin{\theta}\frac{\partial}{\partial r} + \frac{\cos{\theta}\cos{\phi}}{r} \frac{\partial}{\partial \theta} - \frac{\sin{\phi}}{r\sin{\theta}} \frac{\partial}{\partial \phi}
+    \\
+
+    \\
+    \frac{\partial}{\partial y} = \sin{\phi}\sin{\theta}\frac{\partial}{\partial r} + \frac{\cos{\theta}\sin{\phi}}{r} \frac{\partial}{\partial \theta} + \frac{\cos{\phi}}{r\sin{\theta}} \frac{\partial}{\partial \phi}
+    \\
+
+    \\
+    \frac{\partial}{\partial z} = \cos{\theta}\frac{\partial}{\partial r} - \frac{\sin{\theta}}{r} \frac{\partial}{\partial \theta}
+  \end{array}
+\end{equation}
+
+We can rewrite the angular momentum in spherical coordinates.
+
+\begin{equation}
+  \begin{array}{c}
+    L_1 = -i\hbar\left[y\frac{\partial}{\partial z}-z\frac{\partial}{\partial y}\right] =
+    \\
+
+    \\
+    -i\hbar\left((r\sin{\theta}\sin{\phi})\left[\cos{\theta}\frac{\partial}{\partial r} - \frac{\sin{\theta}}{r} \frac{\partial}{\partial \theta}\right]-r\cos{\theta}\left[\sin{\phi}\sin{\theta}\frac{\partial}{\partial r} + \frac{\cos{\theta}\sin{\phi}}{r} \frac{\partial}{\partial \theta} + \frac{\cos{\phi}}{r\sin{\theta}} \frac{\partial}{\partial \phi}\right]\right) =
+    \\
+
+    \\
+    = -i\hbar\left(\left[-\sin^2\theta\sin\phi-\cos^2\theta\sin\phi\right]\frac{\partial}{\partial \theta}-\left[\cos\phi\frac{\cos\theta}{\sin\theta}\right]\frac{\partial}{\partial\phi}\right) = i\hbar\left[\sin\phi\frac{\partial}{\partial\theta}+\cos\phi\cot\theta\frac{\partial}{\partial\phi}\right]
+    \\
+
+    \\
+    L_2 = -i\hbar\left[z\frac{\partial}{\partial x}-x\frac{\partial}{\partial z}\right] =
+    \\
+
+    \\
+    = -i\hbar\left(\left[r\cos\theta\sin\theta\cos\phi-r\cos\theta\sin\theta\cos\phi\right]\frac{\partial}{\partial r} + \left[\cos^2\theta\cos\phi+\sin^2\theta\cos\phi\right]\frac{\partial}{\partial \theta}+\left[-\sin\phi\cot\theta\right]\frac{\partial}{\partial\phi}\right) =
+    \\
+
+    \\
+    = i\hbar\left[-\cos\phi\frac{\partial}{\partial\theta}+\sin\phi\cot\theta\frac{\partial}{\partial\phi}\right]
+    \\
+
+    \\
+    L_3 = -i\hbar\left[x\frac{\partial}{\partial y}-y\frac{\partial}{\partial x}\right] =
+    \\
+
+    \\
+    = -i\hbar\left(\left[r\sin^2\theta\sin\phi\cos\phi-r\sin^2\theta\sin\phi\cos\phi\right]\frac{\partial}{\partial r} + \left[\cos\phi\cos\theta\sin\phi\sin\theta-\cos\phi\cos\theta\sin\phi\sin\theta\right]\frac{\partial}{\partial\phi}\right) =
+    \\
+
+    \\
+    = -i\hbar\frac{\partial}{\partial \phi}
+  \end{array}
+\end{equation}
+
+We can see that any of the components of the angular momentm depend on the radial coordinate or in the derivate of this one. Because of this we can think that the angular momentum is going to commute with a radial change.
+
+\begin{equation}
+  \begin{array}{c}
+    [f(r) \text{o} \frac{\partial}{\partial r},L_a] = 0
+  \end{array}
+\end{equation}
+
+We are going to need the expression for $L_+$ and $L_-$.
+
+\begin{equation}
+  \begin{array}{c}
+    L_+ = L_1 + iL_2 = \hbar e^{i\phi}\left[\frac{\partial}{\partial\theta}+i\cot\theta\frac{\partial}{\partial\phi}\right]
+    \\
+
+    \\
+    L_- = L_1 - iL_2 = \hbar e^{-i\phi}\left[\frac{\partial}{\partial\theta}-i\cot\theta\frac{\partial}{\partial\phi}\right]
+  \end{array}
+\end{equation}
+
+\section{The eigenfunction Y}
+
+We've been labeling the eigen functions by $\ket{j,m}$, but we are going to rename it with:
+
+\begin{equation}
+  \begin{array}{c}
+    Y_{j,m}(\theta,\phi) <=> \bra{\theta,\phi}\ket{j,m}
+  \end{array}
+\end{equation}
+
+Y_{j,m} is only a function of theta 

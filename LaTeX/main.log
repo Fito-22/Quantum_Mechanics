@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.31)  29 FEB 2024 18:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.31)  3 MAR 2024 21:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3404,7 +3404,7 @@ Package marginnote Info: xpos seems to be 222.49937pt on input line 184.
 [2] (./main.mw)
 \openout4 = `main.mw'.
 
-<images/cylindrical.png, id=462, 247.21869pt x 278.4172pt>
+<images/cylindrical.png, id=474, 247.21869pt x 278.4172pt>
 File: images/cylindrical.png Graphic file (type png)
 <use images/cylindrical.png>
 Package pdftex.def Info: images/cylindrical.png  used on input line 232.
@@ -3558,7 +3558,7 @@ Package marginnote Info: xpos seems to be 197.21815pt on input line 320.
 [4] (./main.mw)
 \openout4 = `main.mw'.
 
-<images/general.png, id=498, 349.0641pt x 255.1131pt>
+<images/general.png, id=510, 349.0641pt x 255.1131pt>
 File: images/general.png Graphic file (type png)
 <use images/general.png>
 Package pdftex.def Info: images/general.png  used on input line 329.
@@ -3570,7 +3570,7 @@ Package textcomp Info: Symbol \textasciiacute not provided by
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-<images/E-S_Potential_Well.png, id=506, 462.528pt x 346.896pt>
+<images/E-S_Potential_Well.png, id=518, 462.528pt x 346.896pt>
 File: images/E-S_Potential_Well.png Graphic file (type png)
 <use images/E-S_Potential_Well.png>
 Package pdftex.def Info: images/E-S_Potential_Well.png  used on input line 369.
@@ -3582,7 +3582,7 @@ Package pdftex.def Info: images/E-S_Potential_Well.png  used on input line 369.
 [5 <./images/general.png> <./images/E-S_Potential_Well.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images/E-P_Potential_Well.png, id=521, 462.528pt x 346.896pt>
+<images/E-P_Potential_Well.png, id=533, 462.528pt x 346.896pt>
 File: images/E-P_Potential_Well.png Graphic file (type png)
 <use images/E-P_Potential_Well.png>
 Package pdftex.def Info: images/E-P_Potential_Well.png  used on input line 422.
@@ -3602,7 +3602,7 @@ Package marginnote Info: xpos seems to be 194.73721pt on input line 431.
 [6 <./images/E-P_Potential_Well.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images/E-P_elec_Potential_Well.png, id=541, 462.528pt x 346.896pt>
+<images/E-P_elec_Potential_Well.png, id=553, 462.528pt x 346.896pt>
 File: images/E-P_elec_Potential_Well.png Graphic file (type png)
 <use images/E-P_elec_Potential_Well.png>
 Package pdftex.def Info: images/E-P_elec_Potential_Well.png  used on input line
@@ -3716,7 +3716,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-<images2/PDF_function.png, id=600, 462.528pt x 346.896pt>
+<images2/PDF_function.png, id=612, 462.528pt x 346.896pt>
 File: images2/PDF_function.png Graphic file (type png)
 <use images2/PDF_function.png>
 Package pdftex.def Info: images2/PDF_function.png  used on input line 72.
@@ -3809,13 +3809,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
  [14] (./main.mw)
 \openout4 = `main.mw'.
 
-<images2/P_x&P_k_sigma=0.1.png, id=669, 462.528pt x 346.896pt>
+<images2/P_x&P_k_sigma=0.1.png, id=681, 462.528pt x 346.896pt>
 File: images2/P_x&P_k_sigma=0.1.png Graphic file (type png)
 <use images2/P_x&P_k_sigma=0.1.png>
 Package pdftex.def Info: images2/P_x&P_k_sigma=0.1.png  used on input line 337.
 
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images2/P_x&P_k_sigma=5.png, id=670, 462.528pt x 346.896pt>
+<images2/P_x&P_k_sigma=5.png, id=682, 462.528pt x 346.896pt>
 File: images2/P_x&P_k_sigma=5.png Graphic file (type png)
 <use images2/P_x&P_k_sigma=5.png>
 Package pdftex.def Info: images2/P_x&P_k_sigma=5.png  used on input line 344.
@@ -3834,130 +3834,130 @@ Package textcomp Info: Symbol \textasciiacute not provided by
  [16] (./main.mw)
 \openout4 = `main.mw'.
 
-<images2/Earth/sigma.png, id=697, 462.528pt x 346.896pt>
+<images2/Earth/sigma.png, id=709, 462.528pt x 346.896pt>
 File: images2/Earth/sigma.png Graphic file (type png)
 <use images2/Earth/sigma.png>
 Package pdftex.def Info: images2/Earth/sigma.png  used on input line 437.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images2/Earth/P-0.png, id=698, 462.528pt x 346.896pt>
+<images2/Earth/P-0.png, id=710, 462.528pt x 346.896pt>
 File: images2/Earth/P-0.png Graphic file (type png)
 <use images2/Earth/P-0.png>
 Package pdftex.def Info: images2/Earth/P-0.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-0.png> <a0,fr0>
-<images2/Earth/P-1.png, id=707, 462.528pt x 346.896pt>
+<images2/Earth/P-1.png, id=719, 462.528pt x 346.896pt>
 File: images2/Earth/P-1.png Graphic file (type png)
 <use images2/Earth/P-1.png>
 Package pdftex.def Info: images2/Earth/P-1.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-1.png> <a0,fr1>
-<images2/Earth/P-2.png, id=716, 462.528pt x 346.896pt>
+<images2/Earth/P-2.png, id=728, 462.528pt x 346.896pt>
 File: images2/Earth/P-2.png Graphic file (type png)
 <use images2/Earth/P-2.png>
 Package pdftex.def Info: images2/Earth/P-2.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-2.png>
 <a0,fr2>
-<images2/Earth/P-3.png, id=725, 462.528pt x 346.896pt>
+<images2/Earth/P-3.png, id=737, 462.528pt x 346.896pt>
 File: images2/Earth/P-3.png Graphic file (type png)
 <use images2/Earth/P-3.png>
 Package pdftex.def Info: images2/Earth/P-3.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-3.png> <a0,fr3>
-<images2/Earth/P-4.png, id=734, 462.528pt x 346.896pt>
+<images2/Earth/P-4.png, id=746, 462.528pt x 346.896pt>
 File: images2/Earth/P-4.png Graphic file (type png)
 <use images2/Earth/P-4.png>
 Package pdftex.def Info: images2/Earth/P-4.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-4.png> <a0,fr4>
-<images2/Earth/P-5.png, id=743, 462.528pt x 346.896pt>
+<images2/Earth/P-5.png, id=755, 462.528pt x 346.896pt>
 File: images2/Earth/P-5.png Graphic file (type png)
 <use images2/Earth/P-5.png>
 Package pdftex.def Info: images2/Earth/P-5.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-5.png> <a0,fr5>
-<images2/Earth/P-6.png, id=752, 462.528pt x 346.896pt>
+<images2/Earth/P-6.png, id=764, 462.528pt x 346.896pt>
 File: images2/Earth/P-6.png Graphic file (type png)
 <use images2/Earth/P-6.png>
 Package pdftex.def Info: images2/Earth/P-6.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-6.png> <a0,fr6>
-<images2/Earth/P-7.png, id=761, 462.528pt x 346.896pt>
+<images2/Earth/P-7.png, id=773, 462.528pt x 346.896pt>
 File: images2/Earth/P-7.png Graphic file (type png)
 <use images2/Earth/P-7.png>
 Package pdftex.def Info: images2/Earth/P-7.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-7.png> <a0,fr7>
-<images2/Earth/P-8.png, id=770, 462.528pt x 346.896pt>
+<images2/Earth/P-8.png, id=782, 462.528pt x 346.896pt>
 File: images2/Earth/P-8.png Graphic file (type png)
 <use images2/Earth/P-8.png>
 Package pdftex.def Info: images2/Earth/P-8.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-8.png> <a0,fr8>
-<images2/Earth/P-9.png, id=779, 462.528pt x 346.896pt>
+<images2/Earth/P-9.png, id=791, 462.528pt x 346.896pt>
 File: images2/Earth/P-9.png Graphic file (type png)
 <use images2/Earth/P-9.png>
 Package pdftex.def Info: images2/Earth/P-9.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-9.png> <a0,fr9>
-<images2/Earth/P-10.png, id=788, 462.528pt x 346.896pt>
+<images2/Earth/P-10.png, id=800, 462.528pt x 346.896pt>
 File: images2/Earth/P-10.png Graphic file (type png)
 <use images2/Earth/P-10.png>
 Package pdftex.def Info: images2/Earth/P-10.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-10.png> <a0,fr10>
-<images2/Earth/P-11.png, id=797, 462.528pt x 346.896pt>
+<images2/Earth/P-11.png, id=809, 462.528pt x 346.896pt>
 File: images2/Earth/P-11.png Graphic file (type png)
 <use images2/Earth/P-11.png>
 Package pdftex.def Info: images2/Earth/P-11.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-11.png> <a0,fr11>
-<images2/Earth/P-12.png, id=806, 462.528pt x 346.896pt>
+<images2/Earth/P-12.png, id=818, 462.528pt x 346.896pt>
 File: images2/Earth/P-12.png Graphic file (type png)
 <use images2/Earth/P-12.png>
 Package pdftex.def Info: images2/Earth/P-12.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-12.png> <a0,fr12>
-<images2/Earth/P-13.png, id=815, 462.528pt x 346.896pt>
+<images2/Earth/P-13.png, id=827, 462.528pt x 346.896pt>
 File: images2/Earth/P-13.png Graphic file (type png)
 <use images2/Earth/P-13.png>
 Package pdftex.def Info: images2/Earth/P-13.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-13.png>
 <a0,fr13>
-<images2/Earth/P-14.png, id=824, 462.528pt x 346.896pt>
+<images2/Earth/P-14.png, id=836, 462.528pt x 346.896pt>
 File: images2/Earth/P-14.png Graphic file (type png)
 <use images2/Earth/P-14.png>
 Package pdftex.def Info: images2/Earth/P-14.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-14.png> <a0,fr14>
-<images2/Earth/P-15.png, id=833, 462.528pt x 346.896pt>
+<images2/Earth/P-15.png, id=845, 462.528pt x 346.896pt>
 File: images2/Earth/P-15.png Graphic file (type png)
 <use images2/Earth/P-15.png>
 Package pdftex.def Info: images2/Earth/P-15.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-15.png>
 <a0,fr15>
-<images2/Earth/P-16.png, id=842, 462.528pt x 346.896pt>
+<images2/Earth/P-16.png, id=854, 462.528pt x 346.896pt>
 File: images2/Earth/P-16.png Graphic file (type png)
 <use images2/Earth/P-16.png>
 Package pdftex.def Info: images2/Earth/P-16.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-16.png> <a0,fr16>
-<images2/Earth/P-17.png, id=851, 462.528pt x 346.896pt>
+<images2/Earth/P-17.png, id=863, 462.528pt x 346.896pt>
 File: images2/Earth/P-17.png Graphic file (type png)
 <use images2/Earth/P-17.png>
 Package pdftex.def Info: images2/Earth/P-17.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-17.png>
 <a0,fr17>
-<images2/Earth/P-18.png, id=860, 462.528pt x 346.896pt>
+<images2/Earth/P-18.png, id=872, 462.528pt x 346.896pt>
 File: images2/Earth/P-18.png Graphic file (type png)
 <use images2/Earth/P-18.png>
 Package pdftex.def Info: images2/Earth/P-18.png  used on input line 447.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-18.png> <a0,fr18>
-<images2/Earth/P-19.png, id=869, 462.528pt x 346.896pt>
+<images2/Earth/P-19.png, id=882, 462.528pt x 346.896pt>
 File: images2/Earth/P-19.png Graphic file (type png)
 <use images2/Earth/P-19.png>
 Package pdftex.def Info: images2/Earth/P-19.png  used on input line 447.
@@ -3969,130 +3969,130 @@ Package pdftex.def Info: images2/Earth/P-19.png  used on input line 447.
  [17 <./images2/Earth/sigma.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images2/Electron/sigma.png, id=891, 462.528pt x 346.896pt>
+<images2/Electron/sigma.png, id=903, 462.528pt x 346.896pt>
 File: images2/Electron/sigma.png Graphic file (type png)
 <use images2/Electron/sigma.png>
 Package pdftex.def Info: images2/Electron/sigma.png  used on input line 471.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images2/Electron/P-0.png, id=892, 462.528pt x 346.896pt>
+<images2/Electron/P-0.png, id=904, 462.528pt x 346.896pt>
 File: images2/Electron/P-0.png Graphic file (type png)
 <use images2/Electron/P-0.png>
 Package pdftex.def Info: images2/Electron/P-0.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-0.png> <a1,fr0>
-<images2/Electron/P-1.png, id=901, 462.528pt x 346.896pt>
+<images2/Electron/P-1.png, id=913, 462.528pt x 346.896pt>
 File: images2/Electron/P-1.png Graphic file (type png)
 <use images2/Electron/P-1.png>
 Package pdftex.def Info: images2/Electron/P-1.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-1.png> <a1,fr1>
-<images2/Electron/P-2.png, id=910, 462.528pt x 346.896pt>
+<images2/Electron/P-2.png, id=922, 462.528pt x 346.896pt>
 File: images2/Electron/P-2.png Graphic file (type png)
 <use images2/Electron/P-2.png>
 Package pdftex.def Info: images2/Electron/P-2.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-2.png> <a1,fr2>
-<images2/Electron/P-3.png, id=919, 462.528pt x 346.896pt>
+<images2/Electron/P-3.png, id=931, 462.528pt x 346.896pt>
 File: images2/Electron/P-3.png Graphic file (type png)
 <use images2/Electron/P-3.png>
 Package pdftex.def Info: images2/Electron/P-3.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-3.png> <a1,fr3>
-<images2/Electron/P-4.png, id=928, 462.528pt x 346.896pt>
+<images2/Electron/P-4.png, id=940, 462.528pt x 346.896pt>
 File: images2/Electron/P-4.png Graphic file (type png)
 <use images2/Electron/P-4.png>
 Package pdftex.def Info: images2/Electron/P-4.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-4.png>
 <a1,fr4>
-<images2/Electron/P-5.png, id=937, 462.528pt x 346.896pt>
+<images2/Electron/P-5.png, id=949, 462.528pt x 346.896pt>
 File: images2/Electron/P-5.png Graphic file (type png)
 <use images2/Electron/P-5.png>
 Package pdftex.def Info: images2/Electron/P-5.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-5.png> <a1,fr5>
-<images2/Electron/P-6.png, id=946, 462.528pt x 346.896pt>
+<images2/Electron/P-6.png, id=958, 462.528pt x 346.896pt>
 File: images2/Electron/P-6.png Graphic file (type png)
 <use images2/Electron/P-6.png>
 Package pdftex.def Info: images2/Electron/P-6.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-6.png>
 <a1,fr6>
-<images2/Electron/P-7.png, id=955, 462.528pt x 346.896pt>
+<images2/Electron/P-7.png, id=967, 462.528pt x 346.896pt>
 File: images2/Electron/P-7.png Graphic file (type png)
 <use images2/Electron/P-7.png>
 Package pdftex.def Info: images2/Electron/P-7.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-7.png> <a1,fr7>
-<images2/Electron/P-8.png, id=964, 462.528pt x 346.896pt>
+<images2/Electron/P-8.png, id=976, 462.528pt x 346.896pt>
 File: images2/Electron/P-8.png Graphic file (type png)
 <use images2/Electron/P-8.png>
 Package pdftex.def Info: images2/Electron/P-8.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-8.png>
 <a1,fr8>
-<images2/Electron/P-9.png, id=973, 462.528pt x 346.896pt>
+<images2/Electron/P-9.png, id=985, 462.528pt x 346.896pt>
 File: images2/Electron/P-9.png Graphic file (type png)
 <use images2/Electron/P-9.png>
 Package pdftex.def Info: images2/Electron/P-9.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-9.png> <a1,fr9>
-<images2/Electron/P-10.png, id=982, 462.528pt x 346.896pt>
+<images2/Electron/P-10.png, id=994, 462.528pt x 346.896pt>
 File: images2/Electron/P-10.png Graphic file (type png)
 <use images2/Electron/P-10.png>
 Package pdftex.def Info: images2/Electron/P-10.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-10.png>
 <a1,fr10>
-<images2/Electron/P-11.png, id=991, 462.528pt x 346.896pt>
+<images2/Electron/P-11.png, id=1003, 462.528pt x 346.896pt>
 File: images2/Electron/P-11.png Graphic file (type png)
 <use images2/Electron/P-11.png>
 Package pdftex.def Info: images2/Electron/P-11.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-11.png> <a1,fr11>
-<images2/Electron/P-12.png, id=1000, 462.528pt x 346.896pt>
+<images2/Electron/P-12.png, id=1012, 462.528pt x 346.896pt>
 File: images2/Electron/P-12.png Graphic file (type png)
 <use images2/Electron/P-12.png>
 Package pdftex.def Info: images2/Electron/P-12.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-12.png> <a1,fr12>
-<images2/Electron/P-13.png, id=1009, 462.528pt x 346.896pt>
+<images2/Electron/P-13.png, id=1021, 462.528pt x 346.896pt>
 File: images2/Electron/P-13.png Graphic file (type png)
 <use images2/Electron/P-13.png>
 Package pdftex.def Info: images2/Electron/P-13.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-13.png> <a1,fr13>
-<images2/Electron/P-14.png, id=1018, 462.528pt x 346.896pt>
+<images2/Electron/P-14.png, id=1030, 462.528pt x 346.896pt>
 File: images2/Electron/P-14.png Graphic file (type png)
 <use images2/Electron/P-14.png>
 Package pdftex.def Info: images2/Electron/P-14.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-14.png> <a1,fr14>
-<images2/Electron/P-15.png, id=1027, 462.528pt x 346.896pt>
+<images2/Electron/P-15.png, id=1039, 462.528pt x 346.896pt>
 File: images2/Electron/P-15.png Graphic file (type png)
 <use images2/Electron/P-15.png>
 Package pdftex.def Info: images2/Electron/P-15.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-15.png> <a1,fr15>
-<images2/Electron/P-16.png, id=1036, 462.528pt x 346.896pt>
+<images2/Electron/P-16.png, id=1048, 462.528pt x 346.896pt>
 File: images2/Electron/P-16.png Graphic file (type png)
 <use images2/Electron/P-16.png>
 Package pdftex.def Info: images2/Electron/P-16.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-16.png> <a1,fr16>
-<images2/Electron/P-17.png, id=1045, 462.528pt x 346.896pt>
+<images2/Electron/P-17.png, id=1057, 462.528pt x 346.896pt>
 File: images2/Electron/P-17.png Graphic file (type png)
 <use images2/Electron/P-17.png>
 Package pdftex.def Info: images2/Electron/P-17.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-17.png> <a1,fr17>
-<images2/Electron/P-18.png, id=1054, 462.528pt x 346.896pt>
+<images2/Electron/P-18.png, id=1066, 462.528pt x 346.896pt>
 File: images2/Electron/P-18.png Graphic file (type png)
 <use images2/Electron/P-18.png>
 Package pdftex.def Info: images2/Electron/P-18.png  used on input line 481.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-18.png> <a1,fr18>
-<images2/Electron/P-19.png, id=1063, 462.528pt x 346.896pt>
+<images2/Electron/P-19.png, id=1075, 462.528pt x 346.896pt>
 File: images2/Electron/P-19.png Graphic file (type png)
 <use images2/Electron/P-19.png>
 Package pdftex.def Info: images2/Electron/P-19.png  used on input line 481.
@@ -4103,133 +4103,133 @@ Package pdftex.def Info: images2/Electron/P-19.png  used on input line 481.
  [18 <./images2/Electron/sigma.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images2/Neutron/sigma.png, id=1083, 462.528pt x 346.896pt>
+<images2/Neutron/sigma.png, id=1096, 462.528pt x 346.896pt>
 File: images2/Neutron/sigma.png Graphic file (type png)
 <use images2/Neutron/sigma.png>
 Package pdftex.def Info: images2/Neutron/sigma.png  used on input line 500.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images2/Neutron/P-0.png, id=1084, 462.528pt x 346.896pt>
+<images2/Neutron/P-0.png, id=1097, 462.528pt x 346.896pt>
 File: images2/Neutron/P-0.png Graphic file (type png)
 <use images2/Neutron/P-0.png>
 Package pdftex.def Info: images2/Neutron/P-0.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-0.png> <a2,fr0>
-<images2/Neutron/P-1.png, id=1093, 462.528pt x 346.896pt>
+<images2/Neutron/P-1.png, id=1106, 462.528pt x 346.896pt>
 File: images2/Neutron/P-1.png Graphic file (type png)
 <use images2/Neutron/P-1.png>
 Package pdftex.def Info: images2/Neutron/P-1.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-1.png> <a2,fr1>
-<images2/Neutron/P-2.png, id=1102, 462.528pt x 346.896pt>
+<images2/Neutron/P-2.png, id=1115, 462.528pt x 346.896pt>
 File: images2/Neutron/P-2.png Graphic file (type png)
 <use images2/Neutron/P-2.png>
 Package pdftex.def Info: images2/Neutron/P-2.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-2.png> <a2,fr2>
-<images2/Neutron/P-3.png, id=1112, 462.528pt x 346.896pt>
+<images2/Neutron/P-3.png, id=1124, 462.528pt x 346.896pt>
 File: images2/Neutron/P-3.png Graphic file (type png)
 <use images2/Neutron/P-3.png>
 Package pdftex.def Info: images2/Neutron/P-3.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-3.png> <a2,fr3>
-<images2/Neutron/P-4.png, id=1121, 462.528pt x 346.896pt>
+<images2/Neutron/P-4.png, id=1133, 462.528pt x 346.896pt>
 File: images2/Neutron/P-4.png Graphic file (type png)
 <use images2/Neutron/P-4.png>
 Package pdftex.def Info: images2/Neutron/P-4.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-4.png> <a2,fr4>
-<images2/Neutron/P-5.png, id=1130, 462.528pt x 346.896pt>
+<images2/Neutron/P-5.png, id=1142, 462.528pt x 346.896pt>
 File: images2/Neutron/P-5.png Graphic file (type png)
 <use images2/Neutron/P-5.png>
 Package pdftex.def Info: images2/Neutron/P-5.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-5.png>
 <a2,fr5>
-<images2/Neutron/P-6.png, id=1139, 462.528pt x 346.896pt>
+<images2/Neutron/P-6.png, id=1151, 462.528pt x 346.896pt>
 File: images2/Neutron/P-6.png Graphic file (type png)
 <use images2/Neutron/P-6.png>
 Package pdftex.def Info: images2/Neutron/P-6.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-6.png> <a2,fr6>
-<images2/Neutron/P-7.png, id=1148, 462.528pt x 346.896pt>
+<images2/Neutron/P-7.png, id=1160, 462.528pt x 346.896pt>
 File: images2/Neutron/P-7.png Graphic file (type png)
 <use images2/Neutron/P-7.png>
 Package pdftex.def Info: images2/Neutron/P-7.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-7.png>
 <a2,fr7>
-<images2/Neutron/P-8.png, id=1157, 462.528pt x 346.896pt>
+<images2/Neutron/P-8.png, id=1169, 462.528pt x 346.896pt>
 File: images2/Neutron/P-8.png Graphic file (type png)
 <use images2/Neutron/P-8.png>
 Package pdftex.def Info: images2/Neutron/P-8.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-8.png> <a2,fr8>
-<images2/Neutron/P-9.png, id=1166, 462.528pt x 346.896pt>
+<images2/Neutron/P-9.png, id=1178, 462.528pt x 346.896pt>
 File: images2/Neutron/P-9.png Graphic file (type png)
 <use images2/Neutron/P-9.png>
 Package pdftex.def Info: images2/Neutron/P-9.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-9.png>
 <a2,fr9>
-<images2/Neutron/P-10.png, id=1175, 462.528pt x 346.896pt>
+<images2/Neutron/P-10.png, id=1187, 462.528pt x 346.896pt>
 File: images2/Neutron/P-10.png Graphic file (type png)
 <use images2/Neutron/P-10.png>
 Package pdftex.def Info: images2/Neutron/P-10.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-10.png> <a2,fr10>
-<images2/Neutron/P-11.png, id=1184, 462.528pt x 346.896pt>
+<images2/Neutron/P-11.png, id=1196, 462.528pt x 346.896pt>
 File: images2/Neutron/P-11.png Graphic file (type png)
 <use images2/Neutron/P-11.png>
 Package pdftex.def Info: images2/Neutron/P-11.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-11.png>
 <a2,fr11>
-<images2/Neutron/P-12.png, id=1193, 462.528pt x 346.896pt>
+<images2/Neutron/P-12.png, id=1205, 462.528pt x 346.896pt>
 File: images2/Neutron/P-12.png Graphic file (type png)
 <use images2/Neutron/P-12.png>
 Package pdftex.def Info: images2/Neutron/P-12.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-12.png> <a2,fr12>
-<images2/Neutron/P-13.png, id=1202, 462.528pt x 346.896pt>
+<images2/Neutron/P-13.png, id=1214, 462.528pt x 346.896pt>
 File: images2/Neutron/P-13.png Graphic file (type png)
 <use images2/Neutron/P-13.png>
 Package pdftex.def Info: images2/Neutron/P-13.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-13.png>
 <a2,fr13>
-<images2/Neutron/P-14.png, id=1211, 462.528pt x 346.896pt>
+<images2/Neutron/P-14.png, id=1223, 462.528pt x 346.896pt>
 File: images2/Neutron/P-14.png Graphic file (type png)
 <use images2/Neutron/P-14.png>
 Package pdftex.def Info: images2/Neutron/P-14.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-14.png> <a2,fr14>
-<images2/Neutron/P-15.png, id=1220, 462.528pt x 346.896pt>
+<images2/Neutron/P-15.png, id=1232, 462.528pt x 346.896pt>
 File: images2/Neutron/P-15.png Graphic file (type png)
 <use images2/Neutron/P-15.png>
 Package pdftex.def Info: images2/Neutron/P-15.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-15.png>
 <a2,fr15>
-<images2/Neutron/P-16.png, id=1229, 462.528pt x 346.896pt>
+<images2/Neutron/P-16.png, id=1241, 462.528pt x 346.896pt>
 File: images2/Neutron/P-16.png Graphic file (type png)
 <use images2/Neutron/P-16.png>
 Package pdftex.def Info: images2/Neutron/P-16.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-16.png> <a2,fr16>
-<images2/Neutron/P-17.png, id=1238, 462.528pt x 346.896pt>
+<images2/Neutron/P-17.png, id=1250, 462.528pt x 346.896pt>
 File: images2/Neutron/P-17.png Graphic file (type png)
 <use images2/Neutron/P-17.png>
 Package pdftex.def Info: images2/Neutron/P-17.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-17.png>
 <a2,fr17>
-<images2/Neutron/P-18.png, id=1247, 462.528pt x 346.896pt>
+<images2/Neutron/P-18.png, id=1259, 462.528pt x 346.896pt>
 File: images2/Neutron/P-18.png Graphic file (type png)
 <use images2/Neutron/P-18.png>
 Package pdftex.def Info: images2/Neutron/P-18.png  used on input line 510.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-18.png> <a2,fr18>
-<images2/Neutron/P-19.png, id=1256, 462.528pt x 346.896pt>
+<images2/Neutron/P-19.png, id=1268, 462.528pt x 346.896pt>
 File: images2/Neutron/P-19.png Graphic file (type png)
 <use images2/Neutron/P-19.png>
 Package pdftex.def Info: images2/Neutron/P-19.png  used on input line 510.
@@ -4241,7 +4241,7 @@ Package pdftex.def Info: images2/Neutron/P-19.png  used on input line 510.
  [19 <./images2/Neutron/sigma.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images2/Human/sigma.png, id=1275, 462.528pt x 346.896pt>
+<images2/Human/sigma.png, id=1287, 462.528pt x 346.896pt>
 File: images2/Human/sigma.png Graphic file (type png)
 <use images2/Human/sigma.png>
 Package pdftex.def Info: images2/Human/sigma.png  used on input line 542.
@@ -4255,127 +4255,127 @@ Underfull \vbox (badness 1122) has occurred while \output is active []
 (./main.mw)
 \openout4 = `main.mw'.
 
-<images2/Human/P-0.png, id=1284, 462.528pt x 346.896pt>
+<images2/Human/P-0.png, id=1296, 462.528pt x 346.896pt>
 File: images2/Human/P-0.png Graphic file (type png)
 <use images2/Human/P-0.png>
 Package pdftex.def Info: images2/Human/P-0.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-0.png> <a3,fr0>
-<images2/Human/P-1.png, id=1293, 462.528pt x 346.896pt>
+<images2/Human/P-1.png, id=1305, 462.528pt x 346.896pt>
 File: images2/Human/P-1.png Graphic file (type png)
 <use images2/Human/P-1.png>
 Package pdftex.def Info: images2/Human/P-1.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-1.png>
 <a3,fr1>
-<images2/Human/P-2.png, id=1302, 462.528pt x 346.896pt>
+<images2/Human/P-2.png, id=1314, 462.528pt x 346.896pt>
 File: images2/Human/P-2.png Graphic file (type png)
 <use images2/Human/P-2.png>
 Package pdftex.def Info: images2/Human/P-2.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-2.png> <a3,fr2>
-<images2/Human/P-3.png, id=1311, 462.528pt x 346.896pt>
+<images2/Human/P-3.png, id=1323, 462.528pt x 346.896pt>
 File: images2/Human/P-3.png Graphic file (type png)
 <use images2/Human/P-3.png>
 Package pdftex.def Info: images2/Human/P-3.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-3.png> <a3,fr3>
-<images2/Human/P-4.png, id=1320, 462.528pt x 346.896pt>
+<images2/Human/P-4.png, id=1332, 462.528pt x 346.896pt>
 File: images2/Human/P-4.png Graphic file (type png)
 <use images2/Human/P-4.png>
 Package pdftex.def Info: images2/Human/P-4.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-4.png> <a3,fr4>
-<images2/Human/P-5.png, id=1329, 462.528pt x 346.896pt>
+<images2/Human/P-5.png, id=1341, 462.528pt x 346.896pt>
 File: images2/Human/P-5.png Graphic file (type png)
 <use images2/Human/P-5.png>
 Package pdftex.def Info: images2/Human/P-5.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-5.png> <a3,fr5>
-<images2/Human/P-6.png, id=1338, 462.528pt x 346.896pt>
+<images2/Human/P-6.png, id=1350, 462.528pt x 346.896pt>
 File: images2/Human/P-6.png Graphic file (type png)
 <use images2/Human/P-6.png>
 Package pdftex.def Info: images2/Human/P-6.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-6.png> <a3,fr6>
-<images2/Human/P-7.png, id=1347, 462.528pt x 346.896pt>
+<images2/Human/P-7.png, id=1359, 462.528pt x 346.896pt>
 File: images2/Human/P-7.png Graphic file (type png)
 <use images2/Human/P-7.png>
 Package pdftex.def Info: images2/Human/P-7.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-7.png> <a3,fr7>
-<images2/Human/P-8.png, id=1356, 462.528pt x 346.896pt>
+<images2/Human/P-8.png, id=1368, 462.528pt x 346.896pt>
 File: images2/Human/P-8.png Graphic file (type png)
 <use images2/Human/P-8.png>
 Package pdftex.def Info: images2/Human/P-8.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-8.png> <a3,fr8>
-<images2/Human/P-9.png, id=1365, 462.528pt x 346.896pt>
+<images2/Human/P-9.png, id=1377, 462.528pt x 346.896pt>
 File: images2/Human/P-9.png Graphic file (type png)
 <use images2/Human/P-9.png>
 Package pdftex.def Info: images2/Human/P-9.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-9.png> <a3,fr9>
-<images2/Human/P-10.png, id=1374, 462.528pt x 346.896pt>
+<images2/Human/P-10.png, id=1386, 462.528pt x 346.896pt>
 File: images2/Human/P-10.png Graphic file (type png)
 <use images2/Human/P-10.png>
 Package pdftex.def Info: images2/Human/P-10.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-10.png>
 <a3,fr10>
-<images2/Human/P-11.png, id=1383, 462.528pt x 346.896pt>
+<images2/Human/P-11.png, id=1395, 462.528pt x 346.896pt>
 File: images2/Human/P-11.png Graphic file (type png)
 <use images2/Human/P-11.png>
 Package pdftex.def Info: images2/Human/P-11.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-11.png> <a3,fr11>
-<images2/Human/P-12.png, id=1392, 462.528pt x 346.896pt>
+<images2/Human/P-12.png, id=1404, 462.528pt x 346.896pt>
 File: images2/Human/P-12.png Graphic file (type png)
 <use images2/Human/P-12.png>
 Package pdftex.def Info: images2/Human/P-12.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-12.png>
 <a3,fr12>
-<images2/Human/P-13.png, id=1401, 462.528pt x 346.896pt>
+<images2/Human/P-13.png, id=1413, 462.528pt x 346.896pt>
 File: images2/Human/P-13.png Graphic file (type png)
 <use images2/Human/P-13.png>
 Package pdftex.def Info: images2/Human/P-13.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-13.png> <a3,fr13>
-<images2/Human/P-14.png, id=1410, 462.528pt x 346.896pt>
+<images2/Human/P-14.png, id=1422, 462.528pt x 346.896pt>
 File: images2/Human/P-14.png Graphic file (type png)
 <use images2/Human/P-14.png>
 Package pdftex.def Info: images2/Human/P-14.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-14.png>
 <a3,fr14>
-<images2/Human/P-15.png, id=1419, 462.528pt x 346.896pt>
+<images2/Human/P-15.png, id=1431, 462.528pt x 346.896pt>
 File: images2/Human/P-15.png Graphic file (type png)
 <use images2/Human/P-15.png>
 Package pdftex.def Info: images2/Human/P-15.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-15.png> <a3,fr15>
-<images2/Human/P-16.png, id=1428, 462.528pt x 346.896pt>
+<images2/Human/P-16.png, id=1440, 462.528pt x 346.896pt>
 File: images2/Human/P-16.png Graphic file (type png)
 <use images2/Human/P-16.png>
 Package pdftex.def Info: images2/Human/P-16.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-16.png>
 <a3,fr16>
-<images2/Human/P-17.png, id=1437, 462.528pt x 346.896pt>
+<images2/Human/P-17.png, id=1449, 462.528pt x 346.896pt>
 File: images2/Human/P-17.png Graphic file (type png)
 <use images2/Human/P-17.png>
 Package pdftex.def Info: images2/Human/P-17.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-17.png> <a3,fr17>
-<images2/Human/P-18.png, id=1446, 462.528pt x 346.896pt>
+<images2/Human/P-18.png, id=1458, 462.528pt x 346.896pt>
 File: images2/Human/P-18.png Graphic file (type png)
 <use images2/Human/P-18.png>
 Package pdftex.def Info: images2/Human/P-18.png  used on input line 552.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-18.png>
 <a3,fr18>
-<images2/Human/P-19.png, id=1455, 462.528pt x 346.896pt>
+<images2/Human/P-19.png, id=1467, 462.528pt x 346.896pt>
 File: images2/Human/P-19.png Graphic file (type png)
 <use images2/Human/P-19.png>
 Package pdftex.def Info: images2/Human/P-19.png  used on input line 552.
@@ -4532,7 +4532,7 @@ Overfull \hbox (9.70001pt too wide) in paragraph at lines 58--58
 [23] (./main.mw)
 \openout4 = `main.mw'.
 
-<images3/theta_func.png, id=1493, 462.528pt x 346.896pt>
+<images3/theta_func.png, id=1505, 462.528pt x 346.896pt>
 File: images3/theta_func.png Graphic file (type png)
 <use images3/theta_func.png>
 Package pdftex.def Info: images3/theta_func.png  used on input line 78.
@@ -4542,7 +4542,7 @@ Package pdftex.def Info: images3/theta_func.png  used on input line 78.
  [24 <./images3/theta_func.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images3/square_potential.png, id=1505, 462.528pt x 346.896pt>
+<images3/square_potential.png, id=1517, 462.528pt x 346.896pt>
 File: images3/square_potential.png Graphic file (type png)
 <use images3/square_potential.png>
 Package pdftex.def Info: images3/square_potential.png  used on input line 124.
@@ -4562,7 +4562,7 @@ Package pdftex.def Info: images3/square_potential.png  used on input line 124.
  [27] (./main.mw)
 \openout4 = `main.mw'.
 
-<images3/alpha_beta.png, id=1542, 462.528pt x 346.896pt>
+<images3/alpha_beta.png, id=1554, 462.528pt x 346.896pt>
 File: images3/alpha_beta.png Graphic file (type png)
 <use images3/alpha_beta.png>
 Package pdftex.def Info: images3/alpha_beta.png  used on input line 307.
@@ -4591,13 +4591,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [29 <./images3/alpha_beta.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images3/phi_gamma=10.0_alpha=8.23.png, id=1562, 1084.05pt x 722.7pt>
+<images3/phi_gamma=10.0_alpha=8.23.png, id=1574, 1084.05pt x 722.7pt>
 File: images3/phi_gamma=10.0_alpha=8.23.png Graphic file (type png)
 <use images3/phi_gamma=10.0_alpha=8.23.png>
 Package pdftex.def Info: images3/phi_gamma=10.0_alpha=8.23.png  used on input l
 ine 383.
 (pdftex.def)             Requested size: 304.4417pt x 202.96112pt.
-<images3/phi_gamma=10.0_alpha=7.07.png, id=1563, 1084.05pt x 722.7pt>
+<images3/phi_gamma=10.0_alpha=7.07.png, id=1575, 1084.05pt x 722.7pt>
 File: images3/phi_gamma=10.0_alpha=7.07.png Graphic file (type png)
 <use images3/phi_gamma=10.0_alpha=7.07.png>
 Package pdftex.def Info: images3/phi_gamma=10.0_alpha=7.07.png  used on input l
@@ -4608,7 +4608,7 @@ ine 390.
  [30 <./images3/phi_gamma=10.0_alpha=8.23.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images3/phi_gamma=100.0_alpha=21.74.png, id=1572, 1084.05pt x 722.7pt>
+<images3/phi_gamma=100.0_alpha=21.74.png, id=1584, 1084.05pt x 722.7pt>
 File: images3/phi_gamma=100.0_alpha=21.74.png Graphic file (type png)
 <use images3/phi_gamma=100.0_alpha=21.74.png>
 Package pdftex.def Info: images3/phi_gamma=100.0_alpha=21.74.png  used on input
@@ -4635,7 +4635,7 @@ chapter 4.
 Package marginnote Info: Margin note 43.1 is on absolute page 43 on input line 
 166.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 166.
-<images4/delta.png, id=1593, 462.528pt x 346.896pt>
+<images4/delta.png, id=1606, 462.528pt x 346.896pt>
 File: images4/delta.png Graphic file (type png)
 <use images4/delta.png>
 Package pdftex.def Info: images4/delta.png  used on input line 183.
@@ -4655,7 +4655,7 @@ Overfull \hbox (9.0475pt too wide) detected at line 296
 [34] (./main.mw)
 \openout4 = `main.mw'.
 
-<images4/phi(x).png, id=1621, 462.528pt x 346.896pt>
+<images4/phi(x).png, id=1633, 462.528pt x 346.896pt>
 File: images4/phi(x).png Graphic file (type png)
 <use images4/phi(x).png>
 Package pdftex.def Info: images4/phi(x).png  used on input line 317.
@@ -4689,12 +4689,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--3
  [][][][]\T1/zpllf/b/n/9 Solution for all the posi-ble 
  []
 
-<images5/def.png, id=1654, 462.528pt x 346.896pt>
+<images5/def.png, id=1666, 462.528pt x 346.896pt>
 File: images5/def.png Graphic file (type png)
 <use images5/def.png>
 Package pdftex.def Info: images5/def.png  used on input line 11.
 (pdftex.def)             Requested size: 135.71764pt x 101.78822pt.
-<images5/def_n.png, id=1659, 462.528pt x 346.896pt>
+<images5/def_n.png, id=1671, 462.528pt x 346.896pt>
 File: images5/def_n.png Graphic file (type png)
 <use images5/def_n.png>
 Package pdftex.def Info: images5/def_n.png  used on input line 34.
@@ -4721,12 +4721,12 @@ Package marginnote Info: xpos seems to be 307.93106pt on input line 194.
 [39] (./main.mw)
 \openout4 = `main.mw'.
 
-<images5/N=2,d=2.png, id=1700, 462.528pt x 346.896pt>
+<images5/N=2,d=2.png, id=1712, 462.528pt x 346.896pt>
 File: images5/N=2,d=2.png Graphic file (type png)
 <use images5/N=2,d=2.png>
 Package pdftex.def Info: images5/N=2,d=2.png  used on input line 289.
 (pdftex.def)             Requested size: 135.71764pt x 101.78822pt.
-<images5/N=2,d=0.5.png, id=1705, 462.528pt x 346.896pt>
+<images5/N=2,d=0.5.png, id=1717, 462.528pt x 346.896pt>
 File: images5/N=2,d=0.5.png Graphic file (type png)
 <use images5/N=2,d=0.5.png>
 Package pdftex.def Info: images5/N=2,d=0.5.png  used on input line 298.
@@ -4744,7 +4744,7 @@ l.306 ...cludegraphics[H]{images5/N_E_d_eff=2.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<images5/N_E_d_eff=2.png, id=1706, 462.528pt x 346.896pt>
+<images5/N_E_d_eff=2.png, id=1718, 462.528pt x 346.896pt>
 File: images5/N_E_d_eff=2.png Graphic file (type png)
 <use images5/N_E_d_eff=2.png>
 Package pdftex.def Info: images5/N_E_d_eff=2.png  used on input line 306.
@@ -4764,12 +4764,12 @@ Overfull \hbox (6.9448pt too wide) in paragraph at lines 329--330
 [41 <./images5/N_E_d_eff=2.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images5/quasiperf.png, id=1729, 462.528pt x 346.896pt>
+<images5/quasiperf.png, id=1741, 462.528pt x 346.896pt>
 File: images5/quasiperf.png Graphic file (type png)
 <use images5/quasiperf.png>
 Package pdftex.def Info: images5/quasiperf.png  used on input line 389.
 (pdftex.def)             Requested size: 135.71764pt x 101.78822pt.
-<images5/E_d=2_N.png, id=1732, 462.528pt x 346.896pt>
+<images5/E_d=2_N.png, id=1744, 462.528pt x 346.896pt>
 File: images5/E_d=2_N.png Graphic file (type png)
 <use images5/E_d=2_N.png>
 Package pdftex.def Info: images5/E_d=2_N.png  used on input line 479.
@@ -4780,7 +4780,7 @@ Package pdftex.def Info: images5/E_d=2_N.png  used on input line 479.
 (./main.mw)
 \openout4 = `main.mw'.
 
-<images5/E_d_N=40.png, id=1747, 462.528pt x 346.896pt>
+<images5/E_d_N=40.png, id=1759, 462.528pt x 346.896pt>
 File: images5/E_d_N=40.png Graphic file (type png)
 <use images5/E_d_N=40.png>
 Package pdftex.def Info: images5/E_d_N=40.png  used on input line 525.
@@ -4790,7 +4790,7 @@ Package pdftex.def Info: images5/E_d_N=40.png  used on input line 525.
  [43 <./images5/E_d=2_N.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images5/Etotal_d=2_N.png, id=1758, 462.528pt x 346.896pt>
+<images5/Etotal_d=2_N.png, id=1770, 462.528pt x 346.896pt>
 File: images5/Etotal_d=2_N.png Graphic file (type png)
 <use images5/Etotal_d=2_N.png>
 Package pdftex.def Info: images5/Etotal_d=2_N.png  used on input line 543.
@@ -4803,7 +4803,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [44 <./images5/E_d_N=40.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images5/Etotal_d_N=100.png, id=1766, 1084.05pt x 722.7pt>
+<images5/Etotal_d_N=100.png, id=1778, 1084.05pt x 722.7pt>
 File: images5/Etotal_d_N=100.png Graphic file (type png)
 <use images5/Etotal_d_N=100.png>
 Package pdftex.def Info: images5/Etotal_d_N=100.png  used on input line 550.
@@ -4962,7 +4962,7 @@ you left one out. Proceed, with fingers crossed.
 [56] (./main.mw)
 \openout4 = `main.mw'.
 
-<images7/sol.png, id=1919, 462.528pt x 346.896pt>
+<images7/sol.png, id=1931, 462.528pt x 346.896pt>
 File: images7/sol.png Graphic file (type png)
 <use images7/sol.png>
 Package pdftex.def Info: images7/sol.png  used on input line 300.
@@ -4972,7 +4972,7 @@ Package pdftex.def Info: images7/sol.png  used on input line 300.
  [57 <./images7/sol.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images7/E_beta.png, id=1929, 462.528pt x 346.896pt>
+<images7/E_beta.png, id=1941, 462.528pt x 346.896pt>
 File: images7/E_beta.png Graphic file (type png)
 <use images7/E_beta.png>
 Package pdftex.def Info: images7/E_beta.png  used on input line 338.
@@ -5002,7 +5002,7 @@ Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
  [60] (./main.mw)
 \openout4 = `main.mw'.
 
-<images8/beta_tau.png, id=1974, 462.528pt x 346.896pt>
+<images8/beta_tau.png, id=1986, 462.528pt x 346.896pt>
 File: images8/beta_tau.png Graphic file (type png)
 <use images8/beta_tau.png>
 Package pdftex.def Info: images8/beta_tau.png  used on input line 162.
@@ -5121,7 +5121,7 @@ So I shall assume that you typed `$$' both times.
 [61 <./images8/beta_tau.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images8/beta_theta.png, id=1988, 462.528pt x 346.896pt>
+<images8/beta_theta.png, id=2000, 462.528pt x 346.896pt>
 File: images8/beta_theta.png Graphic file (type png)
 <use images8/beta_theta.png>
 Package pdftex.def Info: images8/beta_theta.png  used on input line 209.
@@ -5142,27 +5142,27 @@ Package pdftex.def Info: images8/beta_theta.png  used on input line 209.
  [64] (./main.mw)
 \openout4 = `main.mw'.
 
-<images8/P_0,0.png, id=2019, 462.528pt x 346.896pt>
+<images8/P_0,0.png, id=2031, 462.528pt x 346.896pt>
 File: images8/P_0,0.png Graphic file (type png)
 <use images8/P_0,0.png>
 Package pdftex.def Info: images8/P_0,0.png  used on input line 480.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images8/P_0,1.png, id=2020, 462.528pt x 346.896pt>
+<images8/P_0,1.png, id=2032, 462.528pt x 346.896pt>
 File: images8/P_0,1.png Graphic file (type png)
 <use images8/P_0,1.png>
 Package pdftex.def Info: images8/P_0,1.png  used on input line 486.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images8/P_1,0.png, id=2021, 462.528pt x 346.896pt>
+<images8/P_1,0.png, id=2033, 462.528pt x 346.896pt>
 File: images8/P_1,0.png Graphic file (type png)
 <use images8/P_1,0.png>
 Package pdftex.def Info: images8/P_1,0.png  used on input line 492.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images8/P_0,1(r).png, id=2022, 462.528pt x 346.896pt>
+<images8/P_0,1(r).png, id=2034, 462.528pt x 346.896pt>
 File: images8/P_0,1(r).png Graphic file (type png)
 <use images8/P_0,1(r).png>
 Package pdftex.def Info: images8/P_0,1(r).png  used on input line 498.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images8/P_1,0(r).png, id=2023, 462.528pt x 346.896pt>
+<images8/P_1,0(r).png, id=2035, 462.528pt x 346.896pt>
 File: images8/P_1,0(r).png Graphic file (type png)
 <use images8/P_1,0(r).png>
 Package pdftex.def Info: images8/P_1,0(r).png  used on input line 504.
@@ -5280,6 +5280,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
  [][][][]\T1/zpllf/b/n/9 Matrix rep-re-sen-ta-tion for 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+ [][][][]\T1/zpllf/b/n/9 Eigenvalues and uni-tary 
  []
 
 Package marginnote Info: Margin note 85.2 is on absolute page 85 on input line 
@@ -5445,20 +5450,20 @@ Package marginnote Info: Margin note 86.1 is on absolute page 86 on input line
 81.
 Package marginnote Info: xpos seems to be 222.49937pt on input line 81.
 
-Overfull \hbox (36.55014pt too wide) detected at line 107
+Overfull \hbox (36.55014pt too wide) detected at line 108
 []
  []
 
 Package marginnote Info: Margin note 86.2 is on absolute page 86 on input line 
-144.
-Package marginnote Info: xpos seems to be 222.49937pt on input line 144.
+145.
+Package marginnote Info: xpos seems to be 222.49937pt on input line 145.
 \openout4 = `main.mw'.
 
 [76] (./main.mw)
 \openout4 = `main.mw'.
 
 
-Overfull \hbox (46.76176pt too wide) detected at line 226
+Overfull \hbox (46.76176pt too wide) detected at line 227
 []
  []
 
@@ -5471,7 +5476,7 @@ Overfull \hbox (46.76176pt too wide) detected at line 226
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5480,7 +5485,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5492,14 +5497,14 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing = inserted for \ifdim.
 <to be read again> 
                    L
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 I was expecting to see `<', `=', or `>'. Didn't.
 
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5508,7 +5513,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5520,7 +5525,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    \unskip 
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5529,7 +5534,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \unskip 
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5541,7 +5546,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5550,7 +5555,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5562,7 +5567,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5570,7 +5575,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> ...\hskip \z@ plus.5fill\relax \egroup 
                                                   \egroup \begingroup \CT@se...
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5581,7 +5586,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <template> ...z@ plus.5fill\relax \egroup \egroup 
                                                   \begingroup \CT@setup \CT@...
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5592,7 +5597,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5600,7 +5605,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5611,7 +5616,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.282     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
+l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
                                           \ket{l,m_{max}} = 0
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5622,7 +5627,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5631,7 +5636,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5643,14 +5648,14 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing = inserted for \ifdim.
 <to be read again> 
                    L
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 I was expecting to see `<', `=', or `>'. Didn't.
 
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5659,7 +5664,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5671,7 +5676,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    \unskip 
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5680,7 +5685,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \unskip 
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5692,7 +5697,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5701,7 +5706,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5713,7 +5718,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5721,7 +5726,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> ...\hskip \z@ plus.5fill\relax \egroup 
                                                   \egroup \begingroup \CT@se...
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5732,7 +5737,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <template> ...z@ plus.5fill\relax \egroup \egroup 
                                                   \begingroup \CT@setup \CT@...
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5743,7 +5748,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5751,7 +5756,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5762,7 +5767,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.286     [L^2 - L_3^2 - \hbar L_3]
+l.287     [L^2 - L_3^2 - \hbar L_3]
                                    \ket{l,m_{max}} = 0
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5773,7 +5778,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5782,7 +5787,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5794,14 +5799,14 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing = inserted for \ifdim.
 <to be read again> 
                    L
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 I was expecting to see `<', `=', or `>'. Didn't.
 
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5810,7 +5815,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5822,7 +5827,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    \unskip 
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5831,7 +5836,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \unskip 
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5843,7 +5848,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5852,7 +5857,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5864,7 +5869,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5872,7 +5877,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> ...\hskip \z@ plus.5fill\relax \egroup 
                                                   \egroup \begingroup \CT@se...
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5883,7 +5888,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <template> ...z@ plus.5fill\relax \egroup \egroup 
                                                   \begingroup \CT@setup \CT@...
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5894,7 +5899,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5902,7 +5907,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5913,7 +5918,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.314     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
+l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
                                           \ket{l,m_min} = 0
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5924,7 +5929,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5933,7 +5938,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5945,14 +5950,14 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing = inserted for \ifdim.
 <to be read again> 
                    L
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 I was expecting to see `<', `=', or `>'. Didn't.
 
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5961,7 +5966,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5973,7 +5978,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    \unskip 
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5982,7 +5987,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \unskip 
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5994,7 +5999,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -6003,7 +6008,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -6015,7 +6020,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -6023,7 +6028,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> ...\hskip \z@ plus.5fill\relax \egroup 
                                                   \egroup \begingroup \CT@se...
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -6034,7 +6039,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <template> ...z@ plus.5fill\relax \egroup \egroup 
                                                   \begingroup \CT@setup \CT@...
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -6045,7 +6050,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -6053,7 +6058,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6064,7 +6069,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.318     [L^2 - L_3^2 + \hbar L_3]
+l.319     [L^2 - L_3^2 + \hbar L_3]
                                    \ket{l,m_min} = 0
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6083,7 +6088,7 @@ my insertion and my current dilemma will both disappear.
 \openout4 = `main.mw'.
 
 LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
-(Font)              scaled to size 5.335pt on input line 402.
+(Font)              scaled to size 5.335pt on input line 403.
 \openout4 = `main.mw'.
 
  [80] (./main.mw)
@@ -6099,7 +6104,7 @@ Missing character: There is no Š in font zpl-Regular-tlf-ot1!
 ! Missing { inserted.
 <to be read again> 
                    $
-l.620 ...ain, as we wanted. Knowing $L_+$ and $L_$
+l.621 ...ain, as we wanted. Knowing $L_+$ and $L_$
                                                    we can get the values for...
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -6109,7 +6114,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.620 ...ain, as we wanted. Knowing $L_+$ and $L_$
+l.621 ...ain, as we wanted. Knowing $L_+$ and $L_$
                                                    we can get the values for...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6123,33 +6128,18 @@ my insertion and my current dilemma will both disappear.
 \openout4 = `main.mw'.
 
 
-Overfull \hbox (90.75966pt too wide) detected at line 649
+Overfull \hbox (38.34789pt too wide) detected at line 650
 [][][]
  []
 
 
-Overfull \hbox (212.37833pt too wide) detected at line 667
+Overfull \hbox (186.1592pt too wide) detected at line 667
 []
  []
 
-
-! Package amsmath Error: \tag not allowed here.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.686 ...m_2$. We can use the expresions from \tag
-                                                  {9.44} to get the matrix r...
-
-\tag cannot be used at this point. If you don't understand why
-you should consult the documentation.
-But don't worry: just continue, and I'll forget what happened. 
-
-)
 \openout4 = `main.mw'.
 
- [83] (./main.mw)
+[83] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -6188,10 +6178,339 @@ But don't worry: just continue, and I'll forget what happened.
 
  [84
 
+] (./main.mw)
+\openout4 = `main.mw'.
 
+\openout4 = `main.mw'.
+
+ [85] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+ [86] (./main.mw)
+\openout4 = `main.mw'.
+
+
+Overfull \hbox (47.50829pt too wide) detected at line 1322
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+\openout4 = `main.mw'.
+
+ [87]
+(./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+ [88] (./main.mw)
+\openout4 = `main.mw'.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(70.56247pt, 304.44289pt, 222.49937pt)
+* v-part:(T,H,B)=(77.96011pt, 689.12218pt, 77.96011pt)
+* \paperwidth=597.50473pt
+* \paperheight=845.0424pt
+* \textwidth=304.44289pt
+* \textheight=689.12218pt
+* \oddsidemargin=-1.70752pt
+* \evensidemargin=150.22939pt
+* \topmargin=-40.60774pt
+* \headheight=15.0pt
+* \headsep=31.29787pt
+* \topskip=10.0pt
+* \footskip=42.0pt
+* \marginparwidth=135.71892pt
+* \marginparsep=17.6406pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package marginnote Info: Margin note 99.1 is on absolute page 99 on input line 
+1332.
+Package marginnote Info: xpos seems to be 70.56247pt on input line 1332.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing = inserted for \ifdim.
+<to be read again> 
+                   L
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \unskip 
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \unskip 
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   L
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   L
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> ...\hskip \z@ plus.5fill\relax \egroup 
+                                                  \egroup \begingroup \CT@se...
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+<template> ...z@ plus.5fill\relax \egroup \egroup 
+                                                  \begingroup \CT@setup \CT@...
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1378     [L_a',L_b']
+                      = i\hbar \epsilon_{abc} L_c'
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package amsmath Error: \vec allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1394 ...r} L_3 S \text{if ||\vec{v_{1,2,3}}||=1}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+\openout4 = `main.mw'.
+
+[89
 
 ] (./main.mw)
 \openout4 = `main.mw'.
+
+Package marginnote Info: Margin note 100.1 is on absolute page 100 on input lin
+e 1496.
+Package marginnote Info: xpos seems to be 222.49937pt on input line 1496.
+\openout4 = `main.mw'.
+
+ [90] (./main.mw)
+\openout4 = `main.mw'.
+
+Package marginnote Info: Margin note 101.1 is on absolute page 101 on input lin
+e 1605.
+Package marginnote Info: xpos seems to be 70.56247pt on input line 1605.
+Package marginnote Info: Margin note 101.2 is on absolute page 101 on input lin
+e 1626.
+Package marginnote Info: xpos seems to be 70.56247pt on input line 1626.
+\openout4 = `main.mw'.
+
+ [91] (./main.mw)
+\openout4 = `main.mw'.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(70.56247pt, 456.37979pt, 70.56247pt)
+* v-part:(T,H,B)=(77.96011pt, 689.12218pt, 77.96011pt)
+* \paperwidth=597.50473pt
+* \paperheight=845.0424pt
+* \textwidth=456.37979pt
+* \textheight=689.12218pt
+* \oddsidemargin=-1.70752pt
+* \evensidemargin=-1.70752pt
+* \topmargin=-40.60774pt
+* \headheight=15.0pt
+* \headsep=31.29787pt
+* \topskip=10.0pt
+* \footskip=42.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Overfull \hbox (17.44473pt too wide) detected at line 1745
+[]
+ []
+
+)
+\openout4 = `main.mw'.
+
+ [92
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(70.56247pt, 456.37979pt, 70.56247pt)
+* v-part:(T,H,B)=(77.96011pt, 689.12218pt, 77.96011pt)
+* \paperwidth=597.50473pt
+* \paperheight=845.0424pt
+* \textwidth=456.37979pt
+* \textheight=689.12218pt
+* \oddsidemargin=-1.70752pt
+* \evensidemargin=-1.70752pt
+* \topmargin=-40.60774pt
+* \headheight=15.0pt
+* \headsep=31.29787pt
+* \topskip=10.0pt
+* \footskip=42.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
 part without number
@@ -6211,12 +6530,16 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 \openout4 = `main.mw'.
 
-[85] (./main.mw)
+[93
+
+
+
+] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
- [86] (./main.mw)
+ [94] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -6298,7 +6621,7 @@ LaTeX Font Info:    Font shape `T1/zpllf/m/it' will be
 (./main.gls)
 \openout4 = `main.mw'.
 
- [87
+ [95
 
 
 
@@ -6318,7 +6641,7 @@ LaTeX Font Info:    Font shape `T1/zpllf/m/it' will be
 
 \openout4 = `main.mw'.
 
- [88
+ [96
 
 
 ] (./main.mw)
@@ -6331,7 +6654,7 @@ runsystem(makeindex main.idx)...executed safely (allowed).
  (./main.ind)
 \openout4 = `main.mw'.
 
- [89
+ [97
 
 
 ] (./main.mw)
@@ -6341,6 +6664,54 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 343.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 343.
 
 (./main.aux
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -7741,11 +8112,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 57975 strings out of 481239
- 1106234 string characters out of 5920376
- 2221458 words of memory out of 5000000
- 71176 multiletter control sequences out of 15000+600000
- 680418 words of font info for 269 fonts, out of 8000000 for 9000
+ 58062 strings out of 481239
+ 1107351 string characters out of 5920376
+ 2256156 words of memory out of 5000000
+ 71197 multiletter control sequences out of 15000+600000
+ 680664 words of font info for 271 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  120i,27n,128p,10096b,2242s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texli
@@ -7767,10 +8138,10 @@ xmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/newpx/zplb.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/newpx/zplr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/zplri
 .pfb>
-Output written on main.pdf (99 pages, 3107699 bytes).
+Output written on main.pdf (107 pages, 3138754 bytes).
 PDF statistics:
- 2700 PDF objects out of 2984 (max. 8388607)
- 2062 compressed objects within 21 object streams
- 540 named destinations out of 1000 (max. 500000)
- 37196 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 2818 PDF objects out of 2984 (max. 8388607)
+ 2171 compressed objects within 22 object streams
+ 586 named destinations out of 1000 (max. 500000)
+ 37228 words of extra memory for PDF output out of 42996 (max. 10000000)
 
