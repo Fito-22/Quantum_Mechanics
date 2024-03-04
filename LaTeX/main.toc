@@ -212,8 +212,16 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {9.5}Spherical Coordinates}{91}{section.9.5}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{93}{part*.54}%
+\contentsline {section}{\numberline {9.6}The eigenfunction Y}{94}{section.9.6}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{95}{chapter*.55}%
+\contentsline {mtocsection}{\numberline {9.6}The eigenfunction Y}{94}{section.9.6}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{97}{section*.56}%
+\contentsline {section}{\numberline {9.7}The wave equation in 3 dimensions}{95}{section.9.7}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {9.7}The wave equation in 3 dimensions}{95}{section.9.7}%
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Appendix}{99}{part*.54}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{101}{chapter*.55}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{103}{section*.56}%
