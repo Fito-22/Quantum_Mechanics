@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.31)  4 MAR 2024 18:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.31)  6 MAR 2024 00:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5295,157 +5295,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 Package marginnote Info: Margin note 85.2 is on absolute page 85 on input line 
 13.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 13.
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing = inserted for \ifdim.
-<to be read again> 
-                   L
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \unskip 
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \unskip 
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<template> ...\hskip \z@ plus.5fill\relax \egroup 
-                                                  \egroup \begingroup \CT@se...
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-<template> ...z@ plus.5fill\relax \egroup \egroup 
-                                                  \begingroup \CT@setup \CT@...
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.73   [L_z,L_x]
-                 =i\hbar L_y
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 \openout4 = `main.mw'.
 
 [75] (./main.mw)
@@ -5477,614 +5326,9 @@ Overfull \hbox (46.76176pt too wide) detected at line 227
 [77] (./main.mw)
 \openout4 = `main.mw'.
 
-
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing = inserted for \ifdim.
-<to be read again> 
-                   L
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \unskip 
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \unskip 
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<template> ...\hskip \z@ plus.5fill\relax \egroup 
-                                                  \egroup \begingroup \CT@se...
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-<template> ...z@ plus.5fill\relax \egroup \egroup 
-                                                  \begingroup \CT@setup \CT@...
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.283     [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_{max}} = 0
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing = inserted for \ifdim.
-<to be read again> 
-                   L
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \unskip 
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \unskip 
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<template> ...\hskip \z@ plus.5fill\relax \egroup 
-                                                  \egroup \begingroup \CT@se...
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-<template> ...z@ plus.5fill\relax \egroup \egroup 
-                                                  \begingroup \CT@setup \CT@...
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.287     [L^2 - L_3^2 - \hbar L_3]
-                                   \ket{l,m_{max}} = 0
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing = inserted for \ifdim.
-<to be read again> 
-                   L
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \unskip 
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \unskip 
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<template> ...\hskip \z@ plus.5fill\relax \egroup 
-                                                  \egroup \begingroup \CT@se...
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-<template> ...z@ plus.5fill\relax \egroup \egroup 
-                                                  \begingroup \CT@setup \CT@...
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.315     [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]
-                                          \ket{l,m_min} = 0
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing = inserted for \ifdim.
-<to be read again> 
-                   L
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \unskip 
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \unskip 
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   L
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   L
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<template> ...\hskip \z@ plus.5fill\relax \egroup 
-                                                  \egroup \begingroup \CT@se...
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-<template> ...z@ plus.5fill\relax \egroup \egroup 
-                                                  \begingroup \CT@setup \CT@...
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.319     [L^2 - L_3^2 + \hbar L_3]
-                                   \ket{l,m_min} = 0
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 \openout4 = `main.mw'.
 
-[78] (./main.mw)
+ [78] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -6099,10 +5343,10 @@ LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
  [80] (./main.mw)
 \openout4 = `main.mw'.
 
-Missing character: There is no Š in font zpl-Regular-tlf-ot1!
 \openout4 = `main.mw'.
 
- [81] (./main.mw)
+ [81]
+(./main.mw)
 \openout4 = `main.mw'.
 
 
@@ -6402,18 +5646,6 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-
-! Package amsmath Error: \vec allowed only in math mode.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1394 ...r} L_3 S \text{if ||\vec{v_{1,2,3}}||=1}
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 \openout4 = `main.mw'.
 
 [89
@@ -6422,22 +5654,208 @@ If that doesn't work, type  X <return>  to quit.
 \openout4 = `main.mw'.
 
 Package marginnote Info: Margin note 100.1 is on absolute page 100 on input lin
-e 1496.
-Package marginnote Info: xpos seems to be 222.49937pt on input line 1496.
+e 1484.
+Package marginnote Info: xpos seems to be 222.49937pt on input line 1484.
 \openout4 = `main.mw'.
 
  [90] (./main.mw)
 \openout4 = `main.mw'.
 
-Package marginnote Info: Margin note 101.1 is on absolute page 101 on input lin
-e 1605.
-Package marginnote Info: xpos seems to be 70.56247pt on input line 1605.
-Package marginnote Info: Margin note 101.2 is on absolute page 101 on input lin
-e 1626.
-Package marginnote Info: xpos seems to be 70.56247pt on input line 1626.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1569 ...akes the transformations we want. For L_
+                                                  1:
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1570 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1574 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Display math should end with $$.
+<to be read again> 
+                   \par 
+l.1574 
+       
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1576   =
+           \left[\begin{matrix}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1576   = \left
+                [\begin{matrix}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1592 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1592
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1594   =
+           \left[\begin{matrix}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1594   = \left
+                [\begin{matrix}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1606 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1594--1606
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1608   =
+          \left[\begin{matrix}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 \openout4 = `main.mw'.
 
- [91] (./main.mw)
+[91] (./main.mw)
+\openout4 = `main.mw'.
+
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1608   =\left
+               [\begin{matrix}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `\eqno' in math mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.1613 \end{equation}
+                     
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1613 \end{equation}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1615 For L_
+             2:
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1616 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1663 For L_
+             3:
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1664 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+\openout4 = `main.mw'.
+
+[92] (./main.mw)
+\openout4 = `main.mw'.
+
+Package marginnote Info: Margin note 103.1 is on absolute page 103 on input lin
+e 1741.
+Package marginnote Info: xpos seems to be 70.56247pt on input line 1741.
+Package marginnote Info: Margin note 103.2 is on absolute page 103 on input lin
+e 1762.
+Package marginnote Info: xpos seems to be 70.56247pt on input line 1762.
+\openout4 = `main.mw'.
+
+ [93] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -6473,14 +5891,29 @@ Package marginnote Info: xpos seems to be 70.56247pt on input line 1626.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (17.44473pt too wide) detected at line 1745
+Overfull \hbox (17.44473pt too wide) detected at line 1881
 []
  []
+
+
+LaTeX Warning: Command \i invalid in math mode on input line 1911.
+
+
+Underfull \vbox (badness 1122) has occurred while \output is active []
+
+\openout4 = `main.mw'.
+
+ [94
+
+]
+(./main.mw)
+\openout4 = `main.mw'.
+
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1767 We are also interested in the operator L^
+l.1919 We are also interested in the operator L^
                                                 2, as it is one of the opera...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -6488,13 +5921,13 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1768 
+l.1920 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (599.49352pt too wide) in paragraph at lines 1767--1768
+Overfull \hbox (599.49352pt too wide) in paragraph at lines 1919--1920
 []\T1/zpllf/m/n/10 (-20) We are also in-ter-ested in the op-er-a-tor L$[]\OML/n
 pxmi/m/it/10 ; asitisoneoftheoperatorsthancommutesandwearegoingtocalculateitin\
 OT1/zpltlf/m/n/10 3\OML/npxmi/m/it/10 dimensionstogetthewaveequationinafuturese
@@ -6503,26 +5936,19 @@ softheangularmomentum:$
  []
 
 
-Overfull \hbox (76.08192pt too wide) detected at line 1793
+Overfull \hbox (76.08192pt too wide) detected at line 1945
 []
  []
 
-\openout4 = `main.mw'.
 
-[92
-
-] (./main.mw)
-\openout4 = `main.mw'.
-
-
-Overfull \hbox (239.99939pt too wide) detected at line 1805
+Overfull \hbox (239.99939pt too wide) detected at line 1957
 []
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1807 With this relation we can finally get L^
+l.1959 With this relation we can finally get L^
                                                2.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -6530,14 +5956,14 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1808 
+l.1960 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 \openout4 = `main.mw'.
 
-[93] (./main.mw)
+[95] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -6573,18 +5999,18 @@ you left one out. Proceed, with fingers crossed.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (37.1464pt too wide) detected at line 1876
+Overfull \hbox (37.1464pt too wide) detected at line 2028
 []
  []
 
 
-Overfull \hbox (23.60265pt too wide) detected at line 1896
+Overfull \hbox (30.29263pt too wide) detected at line 2048
 []
  []
 
 \openout4 = `main.mw'.
 
-[94
+[96
 
 ] (./main.mw)
 \openout4 = `main.mw'.
@@ -6593,7 +6019,7 @@ Overfull \hbox (23.60265pt too wide) detected at line 1896
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1898 For the case m=j in L_
+l.2050 For the case m=j in L_
                              + and m=-j in L_-.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -6601,21 +6027,21 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1899 
+l.2051 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 \openout4 = `main.mw'.
 
-[95] (./main.mw)
+[97] (./main.mw)
 \openout4 = `main.mw'.
 
 
 ! Missing number, treated as zero.
 <to be read again> 
                    H
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -6624,7 +6050,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    H
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -6636,14 +6062,14 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing = inserted for \ifdim.
 <to be read again> 
                    H
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 I was expecting to see `<', `=', or `>'. Didn't.
 
 ! Missing number, treated as zero.
 <to be read again> 
                    H
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -6652,7 +6078,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    H
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -6664,7 +6090,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    \unskip 
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -6673,7 +6099,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \unskip 
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -6685,7 +6111,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    H
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -6694,7 +6120,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    H
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -6706,7 +6132,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -6714,7 +6140,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> ...\hskip \z@ plus.5fill\relax \egroup 
                                                   \egroup \begingroup \CT@se...
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -6725,7 +6151,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <template> ...z@ plus.5fill\relax \egroup \egroup 
                                                   \begingroup \CT@setup \CT@...
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -6736,7 +6162,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -6744,7 +6170,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6755,7 +6181,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1971     [H,L_a]
+l.2148     [H,L_a]
                    = 0
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6766,7 +6192,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing delimiter (. inserted).
 <to be read again> 
                    {
-l.2008   \left{
+l.2185   \left{
                -\frac{\hbar^2}{2mr^2}\left[\left(r\frac{d}{dr}\right)^2+\lef...
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -6778,7 +6204,7 @@ nonnegative, or you can use `\delimiter <delimiter code>'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.2008 ...{dr}\right)-j(j+1)\right]+V(r)- E \right
+l.2185 ...{dr}\right)-j(j+1)\right]+V(r)- E \right
                                                   } R_{E,j} (r) = 0
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6789,7 +6215,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing delimiter (. inserted).
 <to be read again> 
                    }
-l.2008 ...dr}\right)-j(j+1)\right]+V(r)- E \right}
+l.2185 ...dr}\right)-j(j+1)\right]+V(r)- E \right}
                                                    R_{E,j} (r) = 0
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -6801,7 +6227,7 @@ nonnegative, or you can use `\delimiter <delimiter code>'.
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.2008 ...dr}\right)-j(j+1)\right]+V(r)- E \right}
+l.2185 ...dr}\right)-j(j+1)\right]+V(r)- E \right}
                                                    R_{E,j} (r) = 0
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -6811,18 +6237,18 @@ deleted material, e.g., by typing `I$}'.
 
 \openout4 = `main.mw'.
 
-[96] (./main.mw)
+[98] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
- [97] (./main.mw)
+ [99] (./main.mw)
 \openout4 = `main.mw'.
 
 )
 \openout4 = `main.mw'.
 
- [98] (./main.mw)
+ [100] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -6875,7 +6301,7 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 \openout4 = `main.mw'.
 
-[99
+[101
 
 
 
@@ -6884,7 +6310,7 @@ Package microtype Info: Character `029' is missing
 
 \openout4 = `main.mw'.
 
- [100] (./main.mw)
+ [102] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -6966,7 +6392,7 @@ LaTeX Font Info:    Font shape `T1/zpllf/m/it' will be
 (./main.gls)
 \openout4 = `main.mw'.
 
- [101
+ [103
 
 
 
@@ -6986,7 +6412,7 @@ LaTeX Font Info:    Font shape `T1/zpllf/m/it' will be
 
 \openout4 = `main.mw'.
 
- [102
+ [104
 
 
 ] (./main.mw)
@@ -6999,7 +6425,7 @@ runsystem(makeindex main.idx)...executed safely (allowed).
  (./main.ind)
 \openout4 = `main.mw'.
 
- [103
+ [105
 
 
 ] (./main.mw)
@@ -8488,8 +7914,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58116 strings out of 481239
- 1108004 string characters out of 5920376
+ 58129 strings out of 481239
+ 1108164 string characters out of 5920376
  2256478 words of memory out of 5000000
  71201 multiletter control sequences out of 15000+600000
  680787 words of font info for 272 fonts, out of 8000000 for 9000
@@ -8514,10 +7940,10 @@ xmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/newpx/zplb.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/newpx/zplr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/zplri
 .pfb>
-Output written on main.pdf (113 pages, 3157770 bytes).
+Output written on main.pdf (115 pages, 3165694 bytes).
 PDF statistics:
- 2911 PDF objects out of 2984 (max. 8388607)
- 2257 compressed objects within 23 object streams
- 622 named destinations out of 1000 (max. 500000)
+ 2931 PDF objects out of 2984 (max. 8388607)
+ 2275 compressed objects within 23 object streams
+ 631 named destinations out of 1000 (max. 500000)
  37260 words of extra memory for PDF output out of 42996 (max. 10000000)
 

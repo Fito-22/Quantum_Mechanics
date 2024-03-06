@@ -10,7 +10,7 @@ We've been working with harmonic oscilators and gravitational potentials but the
   \item Higgs Potential $V(r) = \frac{\alpha}{r} e^{-mr}$
 \end{itemize}
 
-\marginnote[1cm]{There are others like: Reed Potential, Cornell Potential,...}
+\marginnote[3cm]{There are others like: Reed Potential, Cornell Potential,...}
 
 \section{Angular Momentum in 3 Dimensions}
 
@@ -66,11 +66,11 @@ In the same way it can be prooved that:
 
 \begin{equation}
   \begin{array}{c}
-  [L_y,L_z] =i\hbar L_x
+  \left[L_y,L_z\right] =i\hbar L_x
   \\
 
   \\
-  [L_z,L_x] =i\hbar L_y
+  \left[L_z,L_x\right] =i\hbar L_y
   \end{array}
 \end{equation}
 
@@ -103,7 +103,7 @@ Now using the properties from 6.22 we want to calculate the conmmutation between
     \\
 
     \\
-    \left[L_i,L_i^2 +L_j^2+L_k^2\right] = [L_i, L] = 0
+    \left[L_i,L_i^2 +L_j^2+L_k^2\right] = [L_i, L^2] = 0
   \end{array}
 \end{equation}
 
@@ -276,15 +276,15 @@ We are going to solve for the maximum values of m multiplying by $L_-$.
     \\
 
     \\
-    (L_1-iL_2)(L_1+iL_2)\ket{l,m_{max}} = 0
+    \left(L_1-iL_2\right)\left(L_1+iL_2\right)\ket{l,m_{max}} = 0
     \\
 
     \\
-    [L_1^2+L_2^2 + i(L_1L_2-L_2L_1)]\ket{l,m_{max}} = 0
+    \left[L_1^2+L_2^2 + i(L_1L_2-L_2L_1)\right]\ket{l,m_{max}} = 0
     \\
 
     \\
-    [L^2 - L_3^2 - \hbar L_3]\ket{l,m_{max}} = 0
+    \left[L^2 - L_3^2 - \hbar L_3\right]\ket{l,m_{max}} = 0
     \\
 
     \\
@@ -312,11 +312,11 @@ Which implies than the maximum m is less than l, this can only happen because $L
     \\
 
     \\
-    [L_1^2+L_2^2 - i(L_1L_2-L_2L_1)]\ket{l,m_min} = 0
+    \left[L_1^2+L_2^2 - i(L_1L_2-L_2L_1)\right]\ket{l,m_min} = 0
     \\
 
     \\
-    [L^2 - L_3^2 + \hbar L_3]\ket{l,m_min} = 0
+    \left[[L^2 - L_3^2 + \hbar L_3\right]\ket{l,m_min} = 0
     \\
 
     \\
@@ -534,7 +534,7 @@ We said before that the operators $L_+$ and $L_-$ are proportional to the next o
 
 \begin{equation}
   \begin{array}{c}
-    \L_+ \ket{j,m} = n_{+,j,m} \ket{j,m+1}
+    L_+ \ket{j,m} = n_{+,j,m} \ket{j,m+1}
     \\
 
     \\
@@ -1361,45 +1361,33 @@ We can observed that the eigenvalues are the same as the ones of $L_3$. Because 
 We can rewrite now our matrices as:
 
 \begin{equation}
-  L_a' = U L_a U^{\dagger}
+  L_a' = U^{\dagger} L_a U
 \end{equation}
 
 And it can be proved that this new system commute under the same rule.
 
 \begin{equation}
   \begin{array}{c}
-    [L_a',L_b'] = UL_aU^{\dagger}UL_bU^{\dagger} - UL_bU^{\dagger}UL_aU^{\dagger} =
+    [L_a',L_b'] = U^{\dagger}L_aU U^{\dagger}L_bU - U^{\dagger}L_bU U^{\dagger}L_aU =
     \\
 
     \\
-    = UL_aL_bU^{\dagger} - UL_bL_aU^{\dagger} = U[L_a,L_b]U^{\dagger} = i\hbar \epsilon_{abc} UL_cU^{\dagger} = i\hbar \epsilon_{abc} L_c'\\
+    = U^{\dagger}L_aL_bU - U^{\dagger}L_bL_aU = U^{\dagger}[L_a,L_b]U = i\hbar \epsilon_{abc} U^{\dagger}L_cU = i\hbar \epsilon_{abc} L_c'\\
 
     \\
     [L_a',L_b']= i\hbar \epsilon_{abc} L_c'
   \end{array}
 \end{equation}
 
-We want to find now the unitary matrix U that turns $L_1$ into $L_3$. As we saw in the beggining of the section $L_3$ is the diagonal matrix of $L_1$ so U will be the inverse of the matrix of eigenvalues.
+We want to find now the unitary matrix U that turns $L_1$ into $L_3$. As we saw in the beggining of the section $L_3$ is the diagonal matrix of $L_1$ so U will be the unitary matrix of eigenvalues.
 
 \begin{equation}
   \begin{array}{c}
-  L_1 = S L_3 S^{-1}
-  \\
-
-  \\
-  L_3 = S^{-1} L_1 S
-  \\
-
-  \\
-  L_1 = S^{\dagger} L_3 S \text{if ||\vec{v_{1,2,3}}||=1}
-  \\
-
-  \\
-  L_3 = S L_1 S^{\dagger}
+  L_1 = U L_3 U^{\dagger}
   \end{array}
 \end{equation}
 
-We can find the matrix S by finding the eigenvectors of $L_1$.
+We can find the matrix U by finding the eigenvectors of $L_1$.
 
 For $\lambda_1 = 0$
 
@@ -1490,27 +1478,27 @@ For $\lambda_3= -\hbar$
 We can now build the matrix U.
 
 \begin{equation}
-  S=[c_3 v_3 | c_1 v_1 | c_2 v_2]
+  U=[c_3 v_3 | c_1 v_1 | c_2 v_2]
 \end{equation}
 
 \marginnote[-1cm]{We choose the order of the vectors in S to be the same as the order of the eigenvalues for $L_3$, to be the diagonal matrix we want to find.}
 
-This matriz is not unique, there are multiple matrices that satisfied the equation, but if we want S to be unitary we need it to be formed by unitary vectors.
+This matrix is not unique, there are multiple matrices that satisfied the equation, but if we want U to be unitary, we need it to be formed by unitary vectors.
 
 \begin{equation}
-  S = \left[\begin{matrix}
+  U = \left[\begin{matrix}
     \frac{1}{2} & \frac{1}{\sqrt{2}} & \frac{1}{2}\\
-    -\frac{\sqrt{2}}{2} & 0 & \frac{\sqrt{2}}{2}\\
+    -\frac{1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}}\\
     \frac{1}{2} & -\frac{1}{\sqrt{2}} & \frac{1}{2}
   \end{matrix}\right]
 \end{equation}
 
 
 
-We can check that this matrix is unitary by checking that $S^{\dagger}S = I$.
+We can check that this matrix is unitary by checking that $U^{\dagger}U = I$.
 
 \begin{equation}
-  S^{\dagger} S = \left[\begin{matrix}
+  U^{\dagger} U = \left[\begin{matrix}
     \frac{1}{2} & -\frac{\sqrt{2}}{2} & \frac{1}{2}\\
     \frac{1}{\sqrt{2}} & 0 & -\frac{1}{\sqrt{2}}\\
     \frac{1}{2} & \frac{\sqrt{2}}{2} & \frac{1}{2}
@@ -1528,49 +1516,197 @@ We can check that this matrix is unitary by checking that $S^{\dagger}S = I$.
   \right]
 \end{equation}
 
-Now we can say that $U = S^{\dagger}$ to get what we want. Now we can prove that $L_1' = L_3$.
+So we know that $L_1'$ is $L_3$. What about $L_2'$ ?
 
 \begin{equation}
   \begin{array}{c}
-    L_1' = U L_1 U^{\dagger}
+    L_2' = U^{\dagger} L_2 U =
     \\
 
     \\
-    L_1' = S^{\dagger} L_1 S = L_3
+
+
   \end{array}
 \end{equation}
 
-So we know that $L_1'$ is $L_3$. What about $L_2'$ and $L_3'$
+
+We can see that $L_2'$ is not $L_1$ or $L_3$, is something else, which means that the unitary transformation is not unique. We have to be able to find a unitary transformation that follows or the next rules:
+\begin{equation}
+  \begin{array}{c}
+    L_1' = U^\dagger L_1 U = L_3
+    \\
+
+    \\
+    L_2' = U^\dagger L_2 U = L_1
+    \\
+
+    \\
+    L_3' = U^\dagger L_3 U = L_2
+  \end{array}
+\end{equation}
+
+When we calculate U we said that the unitary vectors have to be unitary, this means that we can multiply this vectors by a phase $e^{i\phi}$. U takes the form:
+
+\begin{equation}
+  U = \left[\begin{matrix}
+    \frac{e^{i\phi_1}}{2} & \frac{e^{i\phi_2}}{\sqrt{2}} & \frac{e^{i\phi_3}}{2}\\
+    -\frac{e^{i\phi_1}}{\sqrt{2}} & 0 & \frac{e^{i\phi_3}}{\sqrt{2}}\\
+    \frac{e^{i\phi_1}}{2} & -\frac{e^{i\phi_2}}{\sqrt{2}} & \frac{e^{i\phi_3}}{2}
+  \end{matrix}\right]
+\end{equation}
+
+We have to find $\phi_i$ for $i=1,2,3$ for U to satisfy the conditions listed before. The solution is:
+
+
+\begin{equation}
+  U = \left[\begin{matrix}
+    \frac{-i}{2} & \frac{-1}{\sqrt{2}} & \frac{i}{2}\\
+    \frac{i}{\sqrt{2}} & 0 & \frac{i}{\sqrt{2}}\\
+    \frac{-i}{2} & \frac{1}{\sqrt{2}} & \frac{i}{2}
+  \end{matrix}\right]
+\end{equation}
+
+We can probe that this matrix makes the transformations we want. For L_1:
+
+\begin{equation}
+  L_1' = U^\dagger L_1 U =
+  \\
+
+  \\
+  = \left[\begin{matrix}
+    \frac{i}{2} & \frac{-i}{\sqrt{2}} & \frac{i}{2}\\
+    \frac{-1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}}\\
+    \frac{-i}{2} & \frac{-i}{\sqrt{2}} & \frac{-i}{2}
+  \end{matrix}\right]
+  \left[\begin{matrix}
+    0 & \frac{\hbar}{\sqrt{2}} & 0\\
+    \frac{\hbar}{\sqrt{2}} & 0 & \frac{\hbar}{\sqrt{2}}\\
+    0 & \frac{\hbar}{\sqrt{2}} & 0
+  \end{matrix}\right]
+  \left[\begin{matrix}
+    \frac{-i}{2} & \frac{-1}{\sqrt{2}} & \frac{i}{2}\\
+    \frac{i}{\sqrt{2}} & 0 & \frac{i}{\sqrt{2}}\\
+    \frac{-i}{2} & \frac{1}{\sqrt{2}} & \frac{i}{2}
+  \end{matrix}\right] =
+  \\
+
+  \\
+  = \left[\begin{matrix}
+    \frac{-i\hbar}{2} & \frac{i\hbar}{\sqrt{2}} & \frac{-i\hbar}{2}\\
+    0 & 0 & 0\\
+    \frac{-i\hbar}{2} & \frac{-i\hbar}{\sqrt{2}} & \frac{-i\hbar}{2}
+  \end{matrix}\right]\left[
+    \begin{matrix}
+    \frac{-i}{2} & \frac{-1}{\sqrt{2}} & \frac{i}{2}\\
+    \frac{i}{\sqrt{2}} & 0 & \frac{i}{\sqrt{2}}\\
+    \frac{-i}{2} & \frac{1}{\sqrt{2}} & \frac{i}{2}
+    \end{matrix}
+  \right] =
+  \\
+
+  \\
+  =\left[\begin{matrix}
+  -\hbar & 0 & 0\\
+  0 & 0 & 0\\
+  0 & 0 & \hbar\\
+  \end{matrix}\right] = L_3
+\end{equation}
+
+For L_2:
 
 \begin{equation}
   \begin{array}{c}
-    L_2' = U L_2 U^{\dagger} =
+    L_2' = U^\dagger L_2 U =
     \\
 
     \\
-    \left[\begin{matrix}
-      1 & -\sqrt{2} & 1\\
-      1 & 0 & 1\\
-      1 & \sqrt{2} & 1
-    \end{matrix}\right] \frac{i\hbar}{\sqrt{2}}\left[\begin{matrix}
-      0 & 1 & 0\\
-      -1 & 0 & 1\\
-      0 & -1 & 0\\
+    = \left[\begin{matrix}
+      \frac{i}{2} & \frac{-i}{\sqrt{2}} & \frac{i}{2}\\
+      \frac{-1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}}\\
+      \frac{-i}{2} & \frac{-i}{\sqrt{2}} & \frac{-i}{2}
     \end{matrix}\right]
-    \left[
+    \left[\begin{matrix}
+      0 & \frac{i\hbar}{\sqrt{2}} & 0\\
+      \frac{-i\hbar}{\sqrt{2}} & 0 & \frac{i\hbar}{\sqrt{2}}\\
+      0 & \frac{-i\hbar}{\sqrt{2}} & 0
+    \end{matrix}\right]
+    \left[\begin{matrix}
+      \frac{-i}{2} & \frac{-1}{\sqrt{2}} & \frac{i}{2}\\
+      \frac{i}{\sqrt{2}} & 0 & \frac{i}{\sqrt{2}}\\
+      \frac{-i}{2} & \frac{1}{\sqrt{2}} & \frac{i}{2}
+    \end{matrix}\right] =
+    \\
+
+    \\
+    = \frac{i\hbar}{\sqrt{2}}\left[\begin{matrix}
+      \frac{i}{\sqrt{2}} & 0 & \frac{-i}{\sqrt{2}}\\
+      0 & -\sqrt{2} & 0\\
+      \frac{i}{\sqrt{2}} & 0 & \frac{-i}{\sqrt{2}}
+    \end{matrix}\right]\left[
       \begin{matrix}
-        1 & 1 & 1\\
-        -\sqrt{2} & 0 & \sqrt{2}\\
-        1 & 1 & 1
-      \end{matrix}\right] =
+      \frac{-i}{2} & \frac{-1}{\sqrt{2}} & \frac{i}{2}\\
+      \frac{i}{\sqrt{2}} & 0 & \frac{i}{\sqrt{2}}\\
+      \frac{-i}{2} & \frac{1}{\sqrt{2}} & \frac{i}{2}
+      \end{matrix}
+    \right] =
+    \\
 
-
-
+    \\
+    = \frac{\hbar}{\sqrt{2}}\left[\begin{matrix}
+      0 & 1 & 0\\
+      1 & 0 & 1\\
+      0 & 1 & 0
+    \end{matrix}\right] = L_1
   \end{array}
 \end{equation}
 
+For L_3:
 
+\begin{equation}
+  \begin{array}{c}
+    L_3' = U^\dagger L_3 U =
+    \\
 
+    \\
+    = \left[\begin{matrix}
+      \frac{i}{2} & \frac{-i}{\sqrt{2}} & \frac{i}{2}\\
+      \frac{-1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}}\\
+      \frac{-i}{2} & \frac{-i}{\sqrt{2}} & \frac{-i}{2}
+    \end{matrix}\right]
+    \left[\begin{matrix}
+      -\hbar & 0 & 0\\
+      0 & 0 & 0\\
+      0 & 0 & \hbar
+    \end{matrix}\right]
+    \left[\begin{matrix}
+      \frac{-i}{2} & \frac{-1}{\sqrt{2}} & \frac{i}{2}\\
+      \frac{i}{\sqrt{2}} & 0 & \frac{i}{\sqrt{2}}\\
+      \frac{-i}{2} & \frac{1}{\sqrt{2}} & \frac{i}{2}
+    \end{matrix}\right] =
+    \\
+
+    \\
+    = \hbar\left[\begin{matrix}
+      \frac{-i}{2} & 0 & \frac{i}{2}\\
+      \frac{1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}}\\
+      \frac{i}{2} & 0 & \frac{-i}{2}
+    \end{matrix}\right]\left[\begin{matrix}
+      \frac{-i}{2} & \frac{-1}{\sqrt{2}} & \frac{i}{2}\\
+      \frac{i}{\sqrt{2}} & 0 & \frac{i}{\sqrt{2}}\\
+      \frac{-i}{2} & \frac{1}{\sqrt{2}} & \frac{i}{2}
+    \end{matrix}\right]=
+    \\
+
+    \\
+    = \frac{\hbar}{\sqrt{2}}\left[\begin{matrix}
+      0 & i & 0\\
+      -i & 0 & i\\
+      0 & -i & 0
+    \end{matrix}\right] = L_2
+  \end{array}
+\end{equation}
+
+The unitary matrix we found satisfy all the conditions.
 
 \section{Spherical Coordinates}
 
@@ -1756,11 +1892,27 @@ We are going to need the expression for $L_+$ and $L_-$.
 
 \begin{equation}
   \begin{array}{c}
-    L_+ = L_1 + iL_2 = \hbar e^{i\phi}\left[\frac{\partial}{\partial\theta}+i\cot\theta\frac{\partial}{\partial\phi}\right]
+    L_+ = L_1 + iL_2 = i\hbar\left[sin\phi\frac{\partial}{\partial\theta}-\cos\phi\cot\theta\frac{\partial}{\partial\phi}\right] - \hbar\left[-\cos\phi\frac{\partial}{\partial\theta}+\sin\phi\cot\theta\frac{\partial}{\partial\phi}\right] =
     \\
 
     \\
-    L_- = L_1 - iL_2 = \hbar e^{-i\phi}\left[\frac{\partial}{\partial\theta}-i\cot\theta\frac{\partial}{\partial\phi}\right]
+    = \hbar\left[(\cos\phi+i\sin\phi)\frac{\partial}{\partial\theta}+i(\cos\phi+i\sin\phi)\cot\theta\frac{\partial}{\partial\phi}\right]
+    \\
+
+    \\
+    \hbar e^{i\phi}\left[\frac{\partial}{\partial\theta}+i\cot\theta\frac{\partial}{\partial\phi}\right]
+    \\
+
+    \\
+    L_- = L_1 - iL_2 = i\hbar\left[sin\phi\frac{\partial}{\partial\theta}+\cos\phi\cot\theta\frac{\partial}{\partial\phi}\right] + \hbar\left[-\cos\phi\frac{\partial}{\partial\theta}+\sin\phi\cot\theta\frac{\partial}{\partial\phi}\right] =
+    \\
+
+    \\
+    = \hbar\left[\left(\i\sin\phi-\cos\phi\right)\frac{\partial}{\partial \theta}+\left(i\cos\phi+\sin\phi\right)\cot\theta\frac{\partial}{\partial\phi}\right] =
+    \\
+
+    \\
+    = \hbar e^{-i\phi}\left[-\frac{\partial}{\partial\theta}+i\cot\theta\frac{\partial}{\partial\phi}\right]
   \end{array}
 \end{equation}
 
@@ -1800,7 +1952,7 @@ Now that we have the expression for $L^2$ in cartesian coordinates, we can chang
     \\
 
     \\
-    = r\frac{\partial}{\partial r}
+    \left(x\frac{\partial}{\partial x}+y\frac{\partial}{\partial y}+z\frac{\partial}{\partial z}\right) = r\frac{\partial}{\partial r}
   \end{array}
 \end{equation}
 
@@ -1821,7 +1973,7 @@ We've been labeling the eigen functions by $\ket{j,m}$, but we are going to rena
 
 \begin{equation}
   \begin{array}{c}
-    Y_{j,m}(\theta,\phi) <=> \bra{\theta,\phi}\ket{j,m}
+    Y_{j,m}(\theta,\phi) <=> \ket{j,m}
   \end{array}
 \end{equation}
 
@@ -1883,7 +2035,7 @@ We also have a expresion that with the same logic come from $L_-$.
     \\
 
     \\
-    \hbar e^{-i\phi}\left[\frac{\partial}{\partial \theta}-i\cot\theta\frac{\partial}{\partial \phi}\right]P_j^m(\theta)e^{im\phi} = \hbar\sqrt{j(j+1)-m(m-1)}P_j^{m-1}(\theta)e^{i(m-1)\phi}
+    \hbar e^{-i\phi}\left[-\frac{\partial}{\partial \theta}+i\cot\theta\frac{\partial}{\partial \phi}\right]P_j^m(\theta)e^{im\phi} = \hbar\sqrt{j(j+1)-m(m-1)}P_j^{m-1}(\theta)e^{i(m-1)\phi}
     \\
 
     \\
@@ -1923,16 +2075,41 @@ To get the value of $N_j$ we can use the normalization condition:
   \end{array}
 \end{equation}
 
+For j=1 the functions are:
+
+\begin{equation}
+  \begin{array}{c}
+    Y_{1,1}(\theta,\phi) = e^{i\phi} N_1 \sin(\theta)
+    \\
+
+    \\
+    Y_{1,0}(\theta,\phi) = N_0 \cos(\theta)
+    \\
+
+    \\
+    Y_{1,-1}(\theta,\phi) = e^{-i\phi} N_{-1} \sin(\theta)
+  \end{array}
+\end{equation}
+
+
+We can get the value of $N_j$ using the normalization condition.
+\begin{equation}
+  \begin{array}{c}
+    Y_{1,1}(\theta,\phi) = e^{i\phi} \frac{1}{\pi} \sin(\theta)
+    \\
+
+    \\
+    Y_{1,0}(\theta,\phi) = \frac{1}{\pi} \cos(\theta)
+    \\
+
+    \\
+    Y_{1,-1}(\theta,\phi) = e^{-i\phi} \frac{1}{\pi} \sin(\theta)
+  \end{array}
+\end{equation}
+
+
+
 The most important result of this chapter is that the function is a product function of the two parameters becuase we have two operators than commute, ($L^2$ and $L_3$).
-
-We can find this functions for every j, we will do it for j=1.
-
-%
-
-% INCLUDE THE SOLUTION FOR J=1
-
-%
-
 
 \section{The wave equation in 3 dimensions}
 
@@ -2104,4 +2281,3 @@ For the second solution of p we found that the only possible value is when $j=0$
 Our potential comes from a central force so it can not have a delta function term, so the wave equation is going to be incompatible. This implies that p=-j=0 is not a solution.
 
 We can say that the only possible value for p is j+1,for j=0,1,2,3...
-
