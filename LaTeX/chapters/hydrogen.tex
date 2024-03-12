@@ -1,0 +1,139 @@
+\setchapterpreamble[u]{\margintoc}
+\chapter{The Hydrogen Atom}
+\labch{intro}
+
+This is a very common and well study problem in quantum mechanics. The hydrogen atom is the simplest atom, and it is composed by a proton and an electron. The proton is located at the origin of the coordinate system, and the electron is located at a distance $r$ from the proton. The electron is described by a wave function $\psi(r,\theta,\phi)$, and the potential energy is given by the Coulomb potential. During this chapter we will go through all the theory and compare it with the result from the experiment done in the Modern Physics Lab.
+
+
+\section{The electric potential}
+
+The electric potential is well known since the 18th century. The potential is given by:
+
+\begin{equation}
+  \begin{array}{c}
+    V(r) = -\frac{1}{4\pi\epsilon_0}\frac{Ze^2}{r}
+  \end{array}
+\end{equation}
+
+Where $Z$ is the atomic number of the atom, $e$ is the absolut value of the charge of the electron, and $\epsilon_0$ is the vacuum permittivity. We are also going to define $\hbar$ as the Plank's constant and $m$ as the relative mass in this case, the mass of the electron. All these values are well known and the values get better every year. These values are:
+
+\begin{equation}
+  \begin{array}{c}
+    e = 1.602176634 \cdot 10^{-19} \, \text{C} \\
+    \epsilon_0 = 8.8541878128 \cdot 10^{-12} \, \frac{C^2 s^2}{kg m^2} \\
+    m = 9.1093837015 \cdot 10^{-31} \, \text{kg}\\
+    \hbar = 1.054571817 \cdot 10^{-34} \, \frac{kg m^2}{s}
+  \end{array}
+\end{equation}
+
+We are going to look at the wave equation with natural units.
+
+\begin{equation}
+  \begin{array}{c}
+    r = b u
+    \\
+
+    \\
+    W_{E,j}(r=bu) = \chi_{E,j}(u)
+  \end{array}
+\end{equation}
+
+So the wave equation is:
+
+\begin{equation}
+  \begin{array}{c}
+  \frac{1}{b^2} \frac{d^2\chi}{du^2} + \frac{2(j+1)}{b^2 u}\frac{d \chi}{du} + \left(\frac{2mE}{\hbar^2} + \frac{2m}{\hbar^2}\frac{Ze^2}{4\pi\epsilon_0}\frac{1}{ub}\right)\chi = 0
+  \\
+
+  \\
+  \frac{d^2\chi}{du^2} + \frac{2(j+1)}{u} \frac{d\chi}{du} + \left(\frac{2mEb^2}{\hbar^2}+\frac{2m}{\hbar^2}\frac{Ze^2 b}{4\pi\epsilon_0}\frac{1}{u}\right)\chi = 0
+  \end{array}
+\end{equation}
+
+We want to find b so the term that belongs to the potential is equal to 1.
+
+\begin{equation}
+  \begin{array}{c}
+    b = \frac{2\pi \epsilon_0 \hbar^2}{Z e^2 m} = [m] = \frac{1}{Z} 2.64588603 \cdot 10^{-19} m
+  \end{array}
+\end{equation}
+
+That number is the natural atomic unit for length. The natural scal, b, becomes smaller with bigger Z.
+
+We can also define the energy in natural units.
+
+\begin{equation}
+  \begin{array}{c}
+    E = -\frac{\hbar^2}{2mb^2}\alpha
+  \end{array}
+\end{equation}
+
+Where alpha can be either positive or negative. The wave equation looks like:
+
+\begin{equation}
+  \begin{array}{c}
+    \frac{d^2\chi}{du^2} + \frac{2(j+1)}{u}\frac{d\chi}{du}-\alpha\chi +\frac{1}{u}\chi= 0
+  \end{array}
+\end{equation}
+
+When u goes to infinite the equation become:
+
+\begin{equation}
+  \begin{array}{c}
+    \frac{d^2\chi}{du^2} = \alpha\chi \rightarrow \chi = C_1 e^{-\sqrt{\alpha}u} - C_2 e^{\sqrt{\alpha}u}
+  \end{array}
+\end{equation}
+
+Since $\chi$ has to go to 0 when $u$ goes to infinite, because of the normalization condition, $C_2$ is going to be 0 and alpha has to be postive, sowe can rewrite this in terms of:
+
+\begin{equation}
+  \begin{array}{c}
+    \alpha=\beta^2
+    \\
+
+    \\
+    E = -\frac{Z^2e^4m}{8\pi^2\epsilon_0^2\hbar^2}\beta^2
+    \\
+
+    \\
+    \chi(u) = e^{-\beta u}R(u)
+  \end{array}
+\end{equation}
+
+We are going to find the different terms in the wave equation separatly.
+
+\begin{equation}
+  \begin{array}{c}
+    \frac{d^2\chi}{du^2} = \beta^2 e^{-\beta u} R - 2\beta e^{-\beta u} \frac{dR}{du}+e^{-\beta u} \frac{d^2R}{du^2}
+    \\
+
+    \\
+    \frac{2(j+1)}{u} \frac{d\chi}{du} = \frac{-2(j+1)}{u} e^{\beta u} R + \frac{2(j+1)}{u} e^{\beta u} \frac{dR}{du}
+    \\
+
+    \\
+    \left(\frac{1}{u}-\beta^2\right)\chi = \frac{1}{u} e^{\beta u}R -e^{\beta u} R
+  \end{array}
+\end{equation}
+
+So the wave equation looks like:
+
+\begin{equation}
+  u\frac{d^2R}{du^2}+(2(j+1)-2\beta u)\frac{dR}{du} + (1 - 2(j+1)\beta)R = 0
+\end{equation}
+
+We can solve this differential equation using the power series method. We are going to assume that the solution is a power series.
+
+\begin{equation}
+  \begin{array}{c}
+    R(u) = \sum_{k=0}^{\infty} C_k u^k
+    \\
+
+    \\
+    \frac{dR}{du} = \sum_{k=0}^{\infty} C_{k+1} (k+1) u^{k}
+    \\
+
+    \\
+    \frac{d^2R}{du^2} = \sum_{k=0}^{\infty} C_{k+2} (k+2)(k+1) u^{k}
+  \end{array}
+\end{equation}

@@ -1916,7 +1916,7 @@ We are going to need the expression for $L_+$ and $L_-$.
   \end{array}
 \end{equation}
 
-We are also interested in the operator L^2, as it is one of the operators than commutes and we are going to calculate it in 3 dimensions to get the wave equation in a future section. First we need the square of the 3 components of the angular momentum.
+We are also interested in the operator $L^2$, as it is one of the operators than commutes and we are going to calculate it in 3 dimensions to get the wave equation in a future section. First we need the square of the 3 components of the angular momentum.
 
 \begin{equation}
   \begin{array}{c}
@@ -2141,11 +2141,11 @@ We inmideatly can say that $H$ and $L^2$ commute because $L^2$ commutes with the
 
 \begin{equation}
   \begin{array}{c}
-    [H,L^2] = 0
+    \left[H,L^2\right] = 0
     \\
 
     \\
-    [H,L_a] = 0
+    \left[H,L_a\right] = 0
   \end{array}
 \end{equation}
 
@@ -2278,6 +2278,38 @@ For the second solution of p we found that the only possible value is when $j=0$
   \end{array}
 \end{equation}
 
-Our potential comes from a central force so it can not have a delta function term, so the wave equation is going to be incompatible. This implies that p=-j=0 is not a solution.
+Our potential comes from a central force so it can not have a delta function term, so the wave equation is going to be incompatible. This implies that p=-j=0 is not a solution. We can say that the only possible value for p is j+1,for j=0,1,2,3...
 
-We can say that the only possible value for p is j+1,for j=0,1,2,3...
+Our function is going to look like:
+
+\begin{equation}
+  \begin{array}{c}
+    U_{E,j}(r) = r^{j+1}W_{E,j}(r)
+    \\
+
+    \\
+    \frac{dU}{dr} = (j+1)r^jW + r^{j+1}\frac{dW}{dr}
+    \\
+
+    \\
+    \frac{d^2U}{dr^2} = (j+1)jr^{j-1}W + 2(j+1)r^j\frac{dW}{dr} + r^{j+1}\frac{d^2W}{dr^2}
+  \end{array}
+\end{equation}
+
+Substituting the last equation in the wave equation we get:
+
+\begin{equation}
+  \begin{array}{c}
+    j(j+1)r^{j-1}W+\frac{2m}{\hbar^2}[E-V(r)]r^{j+1} W +
+    \\
+
+    \\
+    + 2(j+1)r^j\frac{dW}{dr} - j(j+1)r^{j-1}W + r^{j+1}\frac{d^2W}{dr^2} = 0
+    \\
+
+    \\
+    \frac{d^2W}{dr^2} + \frac{2(j+1)}{r}\frac{dW}{dr}+\frac{2m}{\hbar^2}[E-V(r)] W = 0
+  \end{array}
+\end{equation}
+
+This is the furthest we can get without defining an exactly V(r). In the next chapter we will continue with this equation for a given potential.

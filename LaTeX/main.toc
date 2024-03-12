@@ -220,8 +220,18 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {9.7}The wave equation in 3 dimensions}{98}{section.9.7}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{101}{part*.54}%
+\contentsline {chapter}{\numberline {10}The Hydrogen Atom}{101}{chapter.10}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{103}{chapter*.55}%
+\etoc@startlocaltoc {18}
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{105}{section*.56}%
+\etoc@startlocaltoc {19}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {10.1}The electric potential}{101}{section.10.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {10.1}The electric potential}{101}{section.10.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Appendix}{103}{part*.54}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{105}{chapter*.55}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{107}{section*.56}%
