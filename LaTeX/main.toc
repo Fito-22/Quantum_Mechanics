@@ -230,8 +230,20 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {10.1}The electric potential}{101}{section.10.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{103}{part*.54}%
+\contentsline {section}{\numberline {10.2}Eigen-functions of the hydrogen atom}{103}{section.10.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{105}{chapter*.55}%
+\contentsline {mtocsection}{\numberline {10.2}Eigen-functions of the hydrogen atom}{103}{section.10.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{107}{section*.56}%
+\contentsline {section}{\numberline {10.3}Temperature and Light}{103}{section.10.3}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {10.3}Temperature and Light}{103}{section.10.3}%
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {10.4}j as non-integer}{104}{section.10.4}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {10.4}j as non-integer}{104}{section.10.4}%
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Appendix}{105}{part*.54}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{107}{chapter*.55}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{109}{section*.56}%

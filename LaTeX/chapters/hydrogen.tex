@@ -134,6 +134,121 @@ We can solve this differential equation using the power series method. We are go
     \\
 
     \\
-    \frac{d^2R}{du^2} = \sum_{k=0}^{\infty} C_{k+2} (k+2)(k+1) u^{k}
+    \frac{d^2R}{du^2} = \sum_{k=0}^{\infty} C_{k+1} k(k+1) u^{k-1}
+  \end{array}
+\end{equation}
+
+We can substitute this into the wave equation, trying to match the indices of all the terms to the same $u^{k}$ and we get:
+
+\begin{equation}
+  \begin{array}{c}
+    \sum_{k=0}^{\infty} C_{k+1} k (k+1) u^k +
+    \\
+
+    \\
+    \sum_{k=0}^{\infty} C_{k+1} (k+1) 2(j+1) u^k -
+    \\
+
+    \\
+    \sum_{k=0}^{\infty} C_{k} 2\beta k u^k +
+    \\
+
+    \\
+    \sum_{k=0}^{\infty} C_{k} (1-2(j+1)\beta) u^k = 0
+    \\
+
+    \\
+    \sum_{k=0}^{\infty} u^k\left[C_{k+1}\left[k(k+1)+2(k+1)(j+1)\right]+ \right.
+    \\
+
+    \\
+    \left. C_k \left[ 1-2(j+1)\beta-2\beta k \right]\right] = 0
+    \\
+
+    \\
+    C_k+1 =\frac{2\beta k-1+2\beta(j+1)}{(k+1)(k+2(j+1))}C_k = \frac{2\beta (k+j+1)}{(k+1)(k+2(j+1))} C_k
+  \end{array}
+\end{equation}
+
+The power serie has to be finite because the $R_E,j(u)$ has to be normaliable. This means that for some k=p the coefficient $C_{p+1}$ has to be 0.
+
+\begin{equation}
+  \begin{array}{c}
+    2\beta (p+j+1) -1 = 0
+    \\
+
+    \\
+    \beta = \frac{1}{2(p+j+1)} = \frac{1}{2n}
+  \end{array}
+\end{equation}
+
+Where n is $n=p+j+1$. Because p and j are define as integer numbers from 0 to infinte, n is an integer number, but from 1 to infinite. Now we can define the energy in terms of n.
+
+\begin{equation}
+  \begin{array}{c}
+    E = -\frac{Z^2 e^4 m}{32\pi^2\epsilon_0^2 n^2}
+  \end{array}
+\end{equation}
+
+That is the energy for the eigen-functions:
+
+\begin{equation}
+  \begin{array}{c}
+    \psi_{n,j,m} = \left(\sum_{k=0}^{n-j-1} C_k u^k \right)e^{-\frac{1}{2n}u}(bu)P_j^m(\theta)e^{im\phi}
+  \end{array}
+\end{equation}
+
+We can plot some of the eigen-functions to see how they look like.
+
+\section{Eigen-functions of the hydrogen atom}
+
+
+%   I NEED THE CODE TO PLOT THIS FUNCTIONS
+
+
+\section{Temperature and Light}
+
+If we look at the plot of  the energy depending on n,we are going to see that the gap between the first energies is bigger than those of the higher energies. To move from one energy level to a higer one we need some temperature. The energy needed to move from the energy $E_i$ to $E_f$ is determined by the factor $KT$, where $K$ is the Boltzmann constant and $T$ is the temperature.
+
+\begin{equation}
+  \begin{array}{c}
+    \Delta E = E_f - E_i = KT
+  \end{array}
+\end{equation}
+
+This means that if the temperature is higher we will be able to reach higher energies. However the probability of the particle to be in the lowest energy is always greater or equal than the energy of the particle to be in a higher energy level. This is given by the Boltzmann distribution.
+
+\begin{equation}
+  \begin{array}{c}
+    P(E_n) \propto e^{-\frac{E_n}{KT}}
+  \end{array}
+\end{equation}
+
+In the same way we can see that energy can be emitted from the electron when it change from a higher energy to a lower energy state. This energy is going to be emitted in the form of light. The energy of the light is going to be the same as the energy difference between the two energy levels.
+
+\begin{equation}
+  \begin{array}{c}
+    \Delta E = E_f - E_i = h\omega_{light}
+  \end{array}
+\end{equation}
+
+
+\section{j as non-integer}
+
+We are going to start this chapter with the question of what happens if j is not an integer number. We are going to need a new approach to answer this question because we are basing all our calculations in the fact that m is an integer because there is a symmetry in the problem, $(f(\phi)=f(\phi+2\pi))$.
+
+For this new aproach we are going to redefine the energy using what we know from relativity.
+
+\begin{equation}
+  \begin{array}{c}
+    E^2 = p^2c^2 + m^2c^4
+  \end{array}
+\end{equation}
+
+Let's try to find the wave equation using this relation for one dimension.
+
+\begin{equation}
+  \begin{array}{c}
+   \left[-\hbar^2\frac{d^2}{dt^2}\right]\psi(x,t) = \left[- \hbar^2c^2\frac{d^2}{dx^2}+m^2c^4\right]\psi(x,t)
   \end{array}
 \end{equation}
