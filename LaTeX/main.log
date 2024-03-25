@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.31)  15 MAR 2024 07:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.31)  25 MAR 2024 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2168,6 +2168,8 @@ OK, entering \nonstopmode...
 \l_MT_below_intertext_sep=\dimen345
 \l_MT_above_shortintertext_sep=\dimen346
 \l_MT_below_shortintertext_sep=\dimen347
+) (/usr/share/texlive/texmf-dist/tex/latex/carlisle/slashed.sty
+Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
 )
 \main@idxfile=\write20
 \openout4 = `main.idx'.
@@ -2178,12 +2180,12 @@ Writing index file main.idx
 \glo@main@file=\write22
 \openout4 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 78.
+Package glossaries Info: Writing glossary file main.glo on input line 82.
 (./glossary.tex)
 \@nomenclaturefile=\write23
 \openout4 = `main.nlo'.
 
-Package nomencl Info: Writing nomenclature file main.nlo on input line 81.
+Package nomencl Info: Writing nomenclature file main.nlo on input line 85.
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrhack.sty
 Package: scrhack 2020/01/24 v3.29 KOMA-Script package (hacking other packages)
@@ -2231,13 +2233,13 @@ File: setspace.hak 2020/01/24 v3.29 KOMA-Script scrhack part (hacking package s
 etspace)
 ))
 LaTeX Font Info:    Trying to load font information for T1+zpllf on input line 
-88.
+92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newpx/t1zpllf.fd
 File: t1zpllf.fd 2015/01/17 v1.0 font definition file for T1/zpl/lf
 )
 LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
-(Font)              scaled to size 9.70001pt on input line 88.
+(Font)              scaled to size 9.70001pt on input line 92.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -2302,57 +2304,63 @@ LaTeX Warning: Label `ch:intro' multiply defined.
 
 LaTeX Warning: Label `ch:intro@cref' multiply defined.
 
+
+LaTeX Warning: Label `tab:Dirac_solutions' multiply defined.
+
+
+LaTeX Warning: Label `tab:Dirac_solutions@cref' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 88.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 92.
 LaTeX Font Info:    Trying to load font information for OML+npxmi on input line
- 88.
+ 92.
  (/usr/share/texlive/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 92.
 LaTeX Font Info:    Trying to load font information for U+npxexa on input line 
-88.
+92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 92.
 LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line
- 88.
+ 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 92.
 LaTeX Font Info:    Trying to load font information for LMX+npxexx on input lin
-e 88.
+e 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-Package scrbase Info: activating english \contentsname on input line 88.
-Package scrbase Info: activating english \listfigurename on input line 88.
-Package scrbase Info: activating english \listtablename on input line 88.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+Package scrbase Info: activating english \contentsname on input line 92.
+Package scrbase Info: activating english \listfigurename on input line 92.
+Package scrbase Info: activating english \listtablename on input line 92.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2443,15 +2451,15 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 88.
-LaTeX Info: Redefining \microtypecontext on input line 88.
+LaTeX Info: Redefining \selectfont on input line 92.
+LaTeX Info: Redefining \microtypecontext on input line 92.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 88.
+LaTeX Info: Redefining \showhyphens on input line 92.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -2475,7 +2483,7 @@ Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \@sidenotes@extrawidth=\skip301
 \AtBeginShipoutBox=\box150
-Package hyperref Info: Link coloring ON on input line 88.
+Package hyperref Info: Link coloring ON on input line 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -2489,10 +2497,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \c@section@level=\count592
 LaTeX Info: Redefining \Ref on input line 520.
 )
-LaTeX Info: Redefining \ref on input line 88.
-LaTeX Info: Redefining \pageref on input line 88.
-LaTeX Info: Redefining \nameref on input line 88.
-LaTeX Info: Redefining \Ref on input line 88.
+LaTeX Info: Redefining \ref on input line 92.
+LaTeX Info: Redefining \pageref on input line 92.
+LaTeX Info: Redefining \nameref on input line 92.
+LaTeX Info: Redefining \Ref on input line 92.
 
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count593
@@ -2543,9 +2551,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 88.
-Package biblatex Info: Reference segment=0 on input line 88.
-Package scrhack Info: undefining \float@addtolists on input line 88.
+Package biblatex Info: Reference section=0 on input line 92.
+Package biblatex Info: Reference segment=0 on input line 92.
+Package scrhack Info: undefining \float@addtolists on input line 92.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: custom
@@ -2578,36 +2586,36 @@ Package scrhack Info: undefining \float@addtolists on input line 88.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 17
-6.
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 18
+0.
 (/usr/share/texmf/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 9.02084pt on input line 176.
+(Font)              scaled to size 9.02084pt on input line 180.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `qhv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 9.02084pt on input line 176.
+(Font)              scaled to size 9.02084pt on input line 180.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 18.70923pt on input line 176.
+(Font)              scaled to size 18.70923pt on input line 180.
 LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
-(Font)              scaled to size 13.968pt on input line 176.
+(Font)              scaled to size 13.968pt on input line 180.
 LaTeX Font Info:    Trying to load font information for OT1+zpltlf on input lin
-e 176.
+e 180.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newpx/ot1zpltlf.fd
 File: ot1zpltlf.fd 2015/01/17 v1.0 font definition file for OT1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 13.968pt on input line 176.
+(Font)              scaled to size 13.968pt on input line 180.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 10.18501pt on input line 176.
+(Font)              scaled to size 10.18501pt on input line 180.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 7.663pt on input line 176.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 176
+(Font)              scaled to size 7.663pt on input line 180.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 180
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -2616,7 +2624,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 176
+LaTeX Font Info:    Trying to load font information for U+msb on input line 180
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -2626,19 +2634,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+npxmia on input line 
-176.
+180.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+npxsym on input line 
-176.
+180.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 
-176.
+180.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
@@ -3113,29 +3121,29 @@ File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 \openout4 = `main.xdy'.
 
 LaTeX Font Info:    Font shape `T1/zpllf/b/n' will be
-(Font)              scaled to size 9.70001pt on input line 176.
+(Font)              scaled to size 9.70001pt on input line 180.
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 10.0pt on input line 176.
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 17
-6.
+(Font)              scaled to size 10.0pt on input line 180.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 18
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 176.
+(Font)              scaled to size 8.50006pt on input line 180.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 9.70001pt on input line 176.
+(Font)              scaled to size 9.70001pt on input line 180.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 7.08101pt on input line 176.
+(Font)              scaled to size 7.08101pt on input line 180.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 5.335pt on input line 176.
+(Font)              scaled to size 5.335pt on input line 180.
 LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
-(Font)              scaled to size 7.08101pt on input line 176.
+(Font)              scaled to size 7.08101pt on input line 180.
 \openout4 = `main.mw'.
 
  [2
@@ -3176,24 +3184,24 @@ Package tocbasic Warning: Usage of deprecated command `\iftocfeature'.
 (tocbasic)                The command has been renamed because of a
 (tocbasic)                recommendation of The LaTeX Project Team.
 (tocbasic)                Please replace `\iftocfeature' by `\Iftocfeature' on 
-input line 200.
+input line 204.
 
 
 Package tocbasic Warning: Usage of deprecated command `\iftocfeature'.
 (tocbasic)                The command has been renamed because of a
 (tocbasic)                recommendation of The LaTeX Project Team.
 (tocbasic)                Please replace `\iftocfeature' by `\Iftocfeature' on 
-input line 200.
+input line 204.
 
 
 Package tocbasic Warning: Usage of deprecated command `\iftocfeature'.
 (tocbasic)                The command has been renamed because of a
 (tocbasic)                recommendation of The LaTeX Project Team.
 (tocbasic)                Please replace `\iftocfeature' by `\Iftocfeature' on 
-input line 200.
+input line 204.
 
 LaTeX Font Info:    Font shape `T1/zpllf/m/sl' will be
-(Font)              scaled to size 9.70001pt on input line 200.
+(Font)              scaled to size 9.70001pt on input line 204.
 \openout4 = `main.mw'.
 
 [5
@@ -3220,26 +3228,26 @@ Package tocbasic Warning: Usage of deprecated command `\iftocfeature'.
 (tocbasic)                The command has been renamed because of a
 (tocbasic)                recommendation of The LaTeX Project Team.
 (tocbasic)                Please replace `\iftocfeature' by `\Iftocfeature' on 
-input line 200.
+input line 204.
 
 Package tocbasic Info: character protrusion at toc deactivated on input line 20
-0.
+4.
 \openout4 = `main.mw'.
 
 [7] (./main.mw)
 \openout4 = `main.mw'.
 
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.82501pt on input line 200.
+(Font)              scaled to size 10.82501pt on input line 204.
 LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
-(Font)              scaled to size 11.64001pt on input line 200.
+(Font)              scaled to size 11.64001pt on input line 204.
 LaTeX Font Info:    Font shape `T1/zpllf/m/sc' will be
-(Font)              scaled to size 11.64001pt on input line 200.
+(Font)              scaled to size 11.64001pt on input line 204.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/zpllf/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/zpllf/b/sc' will be
-(Font)              scaled to size 11.64001pt on input line 200.
+(Font)              scaled to size 11.64001pt on input line 204.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/zpllf/b/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -3249,7 +3257,7 @@ Package microtype Info: Character `029' is missing
 \openout4 = `main.mw'.
 
 Package tocbasic Info: character protrusion at lof deactivated on input line 20
-0.
+4.
  (./main.lof
 \openout4 = `main.mw'.
 
@@ -3263,8 +3271,8 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 20
 \tf@lof=\write25
 \openout4 = `main.lof'.
 
-Package tocbasic Info: character protrusion at lot deactivated on input line 20
-6.
+Package tocbasic Info: character protrusion at lot deactivated on input line 21
+0.
  (./main.lot)
 \tf@lot=\write26
 \openout4 = `main.lot'.
@@ -3398,7 +3406,7 @@ Package marginnote Info: xpos seems to be 222.49937pt on input line 184.
 [2] (./main.mw)
 \openout4 = `main.mw'.
 
-<images/cylindrical.png, id=495, 247.21869pt x 278.4172pt>
+<images/cylindrical.png, id=510, 247.21869pt x 278.4172pt>
 File: images/cylindrical.png Graphic file (type png)
 <use images/cylindrical.png>
 Package pdftex.def Info: images/cylindrical.png  used on input line 232.
@@ -3552,7 +3560,7 @@ Package marginnote Info: xpos seems to be 197.21815pt on input line 320.
 [4] (./main.mw)
 \openout4 = `main.mw'.
 
-<images/general.png, id=531, 349.0641pt x 255.1131pt>
+<images/general.png, id=546, 349.0641pt x 255.1131pt>
 File: images/general.png Graphic file (type png)
 <use images/general.png>
 Package pdftex.def Info: images/general.png  used on input line 329.
@@ -3564,7 +3572,7 @@ Package textcomp Info: Symbol \textasciiacute not provided by
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-<images/E-S_Potential_Well.png, id=539, 462.528pt x 346.896pt>
+<images/E-S_Potential_Well.png, id=554, 462.528pt x 346.896pt>
 File: images/E-S_Potential_Well.png Graphic file (type png)
 <use images/E-S_Potential_Well.png>
 Package pdftex.def Info: images/E-S_Potential_Well.png  used on input line 369.
@@ -3576,7 +3584,7 @@ Package pdftex.def Info: images/E-S_Potential_Well.png  used on input line 369.
 [5 <./images/general.png> <./images/E-S_Potential_Well.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images/E-P_Potential_Well.png, id=554, 462.528pt x 346.896pt>
+<images/E-P_Potential_Well.png, id=570, 462.528pt x 346.896pt>
 File: images/E-P_Potential_Well.png Graphic file (type png)
 <use images/E-P_Potential_Well.png>
 Package pdftex.def Info: images/E-P_Potential_Well.png  used on input line 422.
@@ -3596,7 +3604,7 @@ Package marginnote Info: xpos seems to be 194.73721pt on input line 431.
 [6 <./images/E-P_Potential_Well.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images/E-P_elec_Potential_Well.png, id=575, 462.528pt x 346.896pt>
+<images/E-P_elec_Potential_Well.png, id=590, 462.528pt x 346.896pt>
 File: images/E-P_elec_Potential_Well.png Graphic file (type png)
 <use images/E-P_elec_Potential_Well.png>
 Package pdftex.def Info: images/E-P_elec_Potential_Well.png  used on input line
@@ -3710,7 +3718,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-<images2/PDF_function.png, id=633, 462.528pt x 346.896pt>
+<images2/PDF_function.png, id=648, 462.528pt x 346.896pt>
 File: images2/PDF_function.png Graphic file (type png)
 <use images2/PDF_function.png>
 Package pdftex.def Info: images2/PDF_function.png  used on input line 72.
@@ -3798,13 +3806,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
  [14] (./main.mw)
 \openout4 = `main.mw'.
 
-<images2/P_x&P_k_sigma=0.1.png, id=702, 462.528pt x 346.896pt>
+<images2/P_x&P_k_sigma=0.1.png, id=717, 462.528pt x 346.896pt>
 File: images2/P_x&P_k_sigma=0.1.png Graphic file (type png)
 <use images2/P_x&P_k_sigma=0.1.png>
 Package pdftex.def Info: images2/P_x&P_k_sigma=0.1.png  used on input line 337.
 
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images2/P_x&P_k_sigma=5.png, id=703, 462.528pt x 346.896pt>
+<images2/P_x&P_k_sigma=5.png, id=718, 462.528pt x 346.896pt>
 File: images2/P_x&P_k_sigma=5.png Graphic file (type png)
 <use images2/P_x&P_k_sigma=5.png>
 Package pdftex.def Info: images2/P_x&P_k_sigma=5.png  used on input line 344.
@@ -3820,130 +3828,130 @@ Package pdftex.def Info: images2/P_x&P_k_sigma=5.png  used on input line 344.
  [16] (./main.mw)
 \openout4 = `main.mw'.
 
-<images2/Earth/sigma.png, id=729, 462.528pt x 346.896pt>
+<images2/Earth/sigma.png, id=744, 462.528pt x 346.896pt>
 File: images2/Earth/sigma.png Graphic file (type png)
 <use images2/Earth/sigma.png>
 Package pdftex.def Info: images2/Earth/sigma.png  used on input line 438.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images2/Earth/P-0.png, id=730, 462.528pt x 346.896pt>
+<images2/Earth/P-0.png, id=745, 462.528pt x 346.896pt>
 File: images2/Earth/P-0.png Graphic file (type png)
 <use images2/Earth/P-0.png>
 Package pdftex.def Info: images2/Earth/P-0.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-0.png> <a0,fr0>
-<images2/Earth/P-1.png, id=739, 462.528pt x 346.896pt>
+<images2/Earth/P-1.png, id=754, 462.528pt x 346.896pt>
 File: images2/Earth/P-1.png Graphic file (type png)
 <use images2/Earth/P-1.png>
 Package pdftex.def Info: images2/Earth/P-1.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-1.png> <a0,fr1>
-<images2/Earth/P-2.png, id=748, 462.528pt x 346.896pt>
+<images2/Earth/P-2.png, id=763, 462.528pt x 346.896pt>
 File: images2/Earth/P-2.png Graphic file (type png)
 <use images2/Earth/P-2.png>
 Package pdftex.def Info: images2/Earth/P-2.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-2.png>
 <a0,fr2>
-<images2/Earth/P-3.png, id=757, 462.528pt x 346.896pt>
+<images2/Earth/P-3.png, id=772, 462.528pt x 346.896pt>
 File: images2/Earth/P-3.png Graphic file (type png)
 <use images2/Earth/P-3.png>
 Package pdftex.def Info: images2/Earth/P-3.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-3.png> <a0,fr3>
-<images2/Earth/P-4.png, id=766, 462.528pt x 346.896pt>
+<images2/Earth/P-4.png, id=781, 462.528pt x 346.896pt>
 File: images2/Earth/P-4.png Graphic file (type png)
 <use images2/Earth/P-4.png>
 Package pdftex.def Info: images2/Earth/P-4.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-4.png> <a0,fr4>
-<images2/Earth/P-5.png, id=775, 462.528pt x 346.896pt>
+<images2/Earth/P-5.png, id=790, 462.528pt x 346.896pt>
 File: images2/Earth/P-5.png Graphic file (type png)
 <use images2/Earth/P-5.png>
 Package pdftex.def Info: images2/Earth/P-5.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-5.png> <a0,fr5>
-<images2/Earth/P-6.png, id=784, 462.528pt x 346.896pt>
+<images2/Earth/P-6.png, id=799, 462.528pt x 346.896pt>
 File: images2/Earth/P-6.png Graphic file (type png)
 <use images2/Earth/P-6.png>
 Package pdftex.def Info: images2/Earth/P-6.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-6.png> <a0,fr6>
-<images2/Earth/P-7.png, id=793, 462.528pt x 346.896pt>
+<images2/Earth/P-7.png, id=808, 462.528pt x 346.896pt>
 File: images2/Earth/P-7.png Graphic file (type png)
 <use images2/Earth/P-7.png>
 Package pdftex.def Info: images2/Earth/P-7.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-7.png> <a0,fr7>
-<images2/Earth/P-8.png, id=802, 462.528pt x 346.896pt>
+<images2/Earth/P-8.png, id=817, 462.528pt x 346.896pt>
 File: images2/Earth/P-8.png Graphic file (type png)
 <use images2/Earth/P-8.png>
 Package pdftex.def Info: images2/Earth/P-8.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-8.png> <a0,fr8>
-<images2/Earth/P-9.png, id=811, 462.528pt x 346.896pt>
+<images2/Earth/P-9.png, id=826, 462.528pt x 346.896pt>
 File: images2/Earth/P-9.png Graphic file (type png)
 <use images2/Earth/P-9.png>
 Package pdftex.def Info: images2/Earth/P-9.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-9.png> <a0,fr9>
-<images2/Earth/P-10.png, id=820, 462.528pt x 346.896pt>
+<images2/Earth/P-10.png, id=835, 462.528pt x 346.896pt>
 File: images2/Earth/P-10.png Graphic file (type png)
 <use images2/Earth/P-10.png>
 Package pdftex.def Info: images2/Earth/P-10.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-10.png> <a0,fr10>
-<images2/Earth/P-11.png, id=829, 462.528pt x 346.896pt>
+<images2/Earth/P-11.png, id=844, 462.528pt x 346.896pt>
 File: images2/Earth/P-11.png Graphic file (type png)
 <use images2/Earth/P-11.png>
 Package pdftex.def Info: images2/Earth/P-11.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-11.png> <a0,fr11>
-<images2/Earth/P-12.png, id=838, 462.528pt x 346.896pt>
+<images2/Earth/P-12.png, id=854, 462.528pt x 346.896pt>
 File: images2/Earth/P-12.png Graphic file (type png)
 <use images2/Earth/P-12.png>
 Package pdftex.def Info: images2/Earth/P-12.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-12.png> <a0,fr12>
-<images2/Earth/P-13.png, id=847, 462.528pt x 346.896pt>
+<images2/Earth/P-13.png, id=863, 462.528pt x 346.896pt>
 File: images2/Earth/P-13.png Graphic file (type png)
 <use images2/Earth/P-13.png>
 Package pdftex.def Info: images2/Earth/P-13.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-13.png>
 <a0,fr13>
-<images2/Earth/P-14.png, id=856, 462.528pt x 346.896pt>
+<images2/Earth/P-14.png, id=872, 462.528pt x 346.896pt>
 File: images2/Earth/P-14.png Graphic file (type png)
 <use images2/Earth/P-14.png>
 Package pdftex.def Info: images2/Earth/P-14.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-14.png> <a0,fr14>
-<images2/Earth/P-15.png, id=866, 462.528pt x 346.896pt>
+<images2/Earth/P-15.png, id=881, 462.528pt x 346.896pt>
 File: images2/Earth/P-15.png Graphic file (type png)
 <use images2/Earth/P-15.png>
 Package pdftex.def Info: images2/Earth/P-15.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-15.png>
 <a0,fr15>
-<images2/Earth/P-16.png, id=875, 462.528pt x 346.896pt>
+<images2/Earth/P-16.png, id=890, 462.528pt x 346.896pt>
 File: images2/Earth/P-16.png Graphic file (type png)
 <use images2/Earth/P-16.png>
 Package pdftex.def Info: images2/Earth/P-16.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-16.png> <a0,fr16>
-<images2/Earth/P-17.png, id=884, 462.528pt x 346.896pt>
+<images2/Earth/P-17.png, id=899, 462.528pt x 346.896pt>
 File: images2/Earth/P-17.png Graphic file (type png)
 <use images2/Earth/P-17.png>
 Package pdftex.def Info: images2/Earth/P-17.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-17.png>
 <a0,fr17>
-<images2/Earth/P-18.png, id=893, 462.528pt x 346.896pt>
+<images2/Earth/P-18.png, id=908, 462.528pt x 346.896pt>
 File: images2/Earth/P-18.png Graphic file (type png)
 <use images2/Earth/P-18.png>
 Package pdftex.def Info: images2/Earth/P-18.png  used on input line 448.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Earth/P-18.png> <a0,fr18>
-<images2/Earth/P-19.png, id=902, 462.528pt x 346.896pt>
+<images2/Earth/P-19.png, id=917, 462.528pt x 346.896pt>
 File: images2/Earth/P-19.png Graphic file (type png)
 <use images2/Earth/P-19.png>
 Package pdftex.def Info: images2/Earth/P-19.png  used on input line 448.
@@ -3955,130 +3963,130 @@ Package pdftex.def Info: images2/Earth/P-19.png  used on input line 448.
  [17 <./images2/Earth/sigma.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images2/Electron/sigma.png, id=924, 462.528pt x 346.896pt>
+<images2/Electron/sigma.png, id=939, 462.528pt x 346.896pt>
 File: images2/Electron/sigma.png Graphic file (type png)
 <use images2/Electron/sigma.png>
 Package pdftex.def Info: images2/Electron/sigma.png  used on input line 472.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images2/Electron/P-0.png, id=925, 462.528pt x 346.896pt>
+<images2/Electron/P-0.png, id=940, 462.528pt x 346.896pt>
 File: images2/Electron/P-0.png Graphic file (type png)
 <use images2/Electron/P-0.png>
 Package pdftex.def Info: images2/Electron/P-0.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-0.png> <a1,fr0>
-<images2/Electron/P-1.png, id=934, 462.528pt x 346.896pt>
+<images2/Electron/P-1.png, id=949, 462.528pt x 346.896pt>
 File: images2/Electron/P-1.png Graphic file (type png)
 <use images2/Electron/P-1.png>
 Package pdftex.def Info: images2/Electron/P-1.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-1.png> <a1,fr1>
-<images2/Electron/P-2.png, id=943, 462.528pt x 346.896pt>
+<images2/Electron/P-2.png, id=958, 462.528pt x 346.896pt>
 File: images2/Electron/P-2.png Graphic file (type png)
 <use images2/Electron/P-2.png>
 Package pdftex.def Info: images2/Electron/P-2.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-2.png> <a1,fr2>
-<images2/Electron/P-3.png, id=952, 462.528pt x 346.896pt>
+<images2/Electron/P-3.png, id=967, 462.528pt x 346.896pt>
 File: images2/Electron/P-3.png Graphic file (type png)
 <use images2/Electron/P-3.png>
 Package pdftex.def Info: images2/Electron/P-3.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-3.png> <a1,fr3>
-<images2/Electron/P-4.png, id=961, 462.528pt x 346.896pt>
+<images2/Electron/P-4.png, id=976, 462.528pt x 346.896pt>
 File: images2/Electron/P-4.png Graphic file (type png)
 <use images2/Electron/P-4.png>
 Package pdftex.def Info: images2/Electron/P-4.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-4.png>
 <a1,fr4>
-<images2/Electron/P-5.png, id=970, 462.528pt x 346.896pt>
+<images2/Electron/P-5.png, id=985, 462.528pt x 346.896pt>
 File: images2/Electron/P-5.png Graphic file (type png)
 <use images2/Electron/P-5.png>
 Package pdftex.def Info: images2/Electron/P-5.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-5.png> <a1,fr5>
-<images2/Electron/P-6.png, id=979, 462.528pt x 346.896pt>
+<images2/Electron/P-6.png, id=994, 462.528pt x 346.896pt>
 File: images2/Electron/P-6.png Graphic file (type png)
 <use images2/Electron/P-6.png>
 Package pdftex.def Info: images2/Electron/P-6.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-6.png>
 <a1,fr6>
-<images2/Electron/P-7.png, id=988, 462.528pt x 346.896pt>
+<images2/Electron/P-7.png, id=1003, 462.528pt x 346.896pt>
 File: images2/Electron/P-7.png Graphic file (type png)
 <use images2/Electron/P-7.png>
 Package pdftex.def Info: images2/Electron/P-7.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-7.png> <a1,fr7>
-<images2/Electron/P-8.png, id=997, 462.528pt x 346.896pt>
+<images2/Electron/P-8.png, id=1012, 462.528pt x 346.896pt>
 File: images2/Electron/P-8.png Graphic file (type png)
 <use images2/Electron/P-8.png>
 Package pdftex.def Info: images2/Electron/P-8.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-8.png>
 <a1,fr8>
-<images2/Electron/P-9.png, id=1006, 462.528pt x 346.896pt>
+<images2/Electron/P-9.png, id=1021, 462.528pt x 346.896pt>
 File: images2/Electron/P-9.png Graphic file (type png)
 <use images2/Electron/P-9.png>
 Package pdftex.def Info: images2/Electron/P-9.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-9.png> <a1,fr9>
-<images2/Electron/P-10.png, id=1015, 462.528pt x 346.896pt>
+<images2/Electron/P-10.png, id=1030, 462.528pt x 346.896pt>
 File: images2/Electron/P-10.png Graphic file (type png)
 <use images2/Electron/P-10.png>
 Package pdftex.def Info: images2/Electron/P-10.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-10.png>
 <a1,fr10>
-<images2/Electron/P-11.png, id=1024, 462.528pt x 346.896pt>
+<images2/Electron/P-11.png, id=1039, 462.528pt x 346.896pt>
 File: images2/Electron/P-11.png Graphic file (type png)
 <use images2/Electron/P-11.png>
 Package pdftex.def Info: images2/Electron/P-11.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-11.png> <a1,fr11>
-<images2/Electron/P-12.png, id=1033, 462.528pt x 346.896pt>
+<images2/Electron/P-12.png, id=1048, 462.528pt x 346.896pt>
 File: images2/Electron/P-12.png Graphic file (type png)
 <use images2/Electron/P-12.png>
 Package pdftex.def Info: images2/Electron/P-12.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-12.png> <a1,fr12>
-<images2/Electron/P-13.png, id=1042, 462.528pt x 346.896pt>
+<images2/Electron/P-13.png, id=1057, 462.528pt x 346.896pt>
 File: images2/Electron/P-13.png Graphic file (type png)
 <use images2/Electron/P-13.png>
 Package pdftex.def Info: images2/Electron/P-13.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-13.png> <a1,fr13>
-<images2/Electron/P-14.png, id=1051, 462.528pt x 346.896pt>
+<images2/Electron/P-14.png, id=1066, 462.528pt x 346.896pt>
 File: images2/Electron/P-14.png Graphic file (type png)
 <use images2/Electron/P-14.png>
 Package pdftex.def Info: images2/Electron/P-14.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-14.png> <a1,fr14>
-<images2/Electron/P-15.png, id=1060, 462.528pt x 346.896pt>
+<images2/Electron/P-15.png, id=1075, 462.528pt x 346.896pt>
 File: images2/Electron/P-15.png Graphic file (type png)
 <use images2/Electron/P-15.png>
 Package pdftex.def Info: images2/Electron/P-15.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-15.png> <a1,fr15>
-<images2/Electron/P-16.png, id=1069, 462.528pt x 346.896pt>
+<images2/Electron/P-16.png, id=1084, 462.528pt x 346.896pt>
 File: images2/Electron/P-16.png Graphic file (type png)
 <use images2/Electron/P-16.png>
 Package pdftex.def Info: images2/Electron/P-16.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-16.png> <a1,fr16>
-<images2/Electron/P-17.png, id=1078, 462.528pt x 346.896pt>
+<images2/Electron/P-17.png, id=1093, 462.528pt x 346.896pt>
 File: images2/Electron/P-17.png Graphic file (type png)
 <use images2/Electron/P-17.png>
 Package pdftex.def Info: images2/Electron/P-17.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-17.png> <a1,fr17>
-<images2/Electron/P-18.png, id=1087, 462.528pt x 346.896pt>
+<images2/Electron/P-18.png, id=1102, 462.528pt x 346.896pt>
 File: images2/Electron/P-18.png Graphic file (type png)
 <use images2/Electron/P-18.png>
 Package pdftex.def Info: images2/Electron/P-18.png  used on input line 482.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Electron/P-18.png> <a1,fr18>
-<images2/Electron/P-19.png, id=1096, 462.528pt x 346.896pt>
+<images2/Electron/P-19.png, id=1111, 462.528pt x 346.896pt>
 File: images2/Electron/P-19.png Graphic file (type png)
 <use images2/Electron/P-19.png>
 Package pdftex.def Info: images2/Electron/P-19.png  used on input line 482.
@@ -4089,133 +4097,133 @@ Package pdftex.def Info: images2/Electron/P-19.png  used on input line 482.
  [18 <./images2/Electron/sigma.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images2/Neutron/sigma.png, id=1117, 462.528pt x 346.896pt>
+<images2/Neutron/sigma.png, id=1132, 462.528pt x 346.896pt>
 File: images2/Neutron/sigma.png Graphic file (type png)
 <use images2/Neutron/sigma.png>
 Package pdftex.def Info: images2/Neutron/sigma.png  used on input line 501.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images2/Neutron/P-0.png, id=1118, 462.528pt x 346.896pt>
+<images2/Neutron/P-0.png, id=1133, 462.528pt x 346.896pt>
 File: images2/Neutron/P-0.png Graphic file (type png)
 <use images2/Neutron/P-0.png>
 Package pdftex.def Info: images2/Neutron/P-0.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-0.png> <a2,fr0>
-<images2/Neutron/P-1.png, id=1127, 462.528pt x 346.896pt>
+<images2/Neutron/P-1.png, id=1142, 462.528pt x 346.896pt>
 File: images2/Neutron/P-1.png Graphic file (type png)
 <use images2/Neutron/P-1.png>
 Package pdftex.def Info: images2/Neutron/P-1.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-1.png> <a2,fr1>
-<images2/Neutron/P-2.png, id=1136, 462.528pt x 346.896pt>
+<images2/Neutron/P-2.png, id=1151, 462.528pt x 346.896pt>
 File: images2/Neutron/P-2.png Graphic file (type png)
 <use images2/Neutron/P-2.png>
 Package pdftex.def Info: images2/Neutron/P-2.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-2.png> <a2,fr2>
-<images2/Neutron/P-3.png, id=1145, 462.528pt x 346.896pt>
+<images2/Neutron/P-3.png, id=1160, 462.528pt x 346.896pt>
 File: images2/Neutron/P-3.png Graphic file (type png)
 <use images2/Neutron/P-3.png>
 Package pdftex.def Info: images2/Neutron/P-3.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-3.png> <a2,fr3>
-<images2/Neutron/P-4.png, id=1154, 462.528pt x 346.896pt>
+<images2/Neutron/P-4.png, id=1169, 462.528pt x 346.896pt>
 File: images2/Neutron/P-4.png Graphic file (type png)
 <use images2/Neutron/P-4.png>
 Package pdftex.def Info: images2/Neutron/P-4.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-4.png> <a2,fr4>
-<images2/Neutron/P-5.png, id=1163, 462.528pt x 346.896pt>
+<images2/Neutron/P-5.png, id=1178, 462.528pt x 346.896pt>
 File: images2/Neutron/P-5.png Graphic file (type png)
 <use images2/Neutron/P-5.png>
 Package pdftex.def Info: images2/Neutron/P-5.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-5.png>
 <a2,fr5>
-<images2/Neutron/P-6.png, id=1172, 462.528pt x 346.896pt>
+<images2/Neutron/P-6.png, id=1187, 462.528pt x 346.896pt>
 File: images2/Neutron/P-6.png Graphic file (type png)
 <use images2/Neutron/P-6.png>
 Package pdftex.def Info: images2/Neutron/P-6.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-6.png> <a2,fr6>
-<images2/Neutron/P-7.png, id=1181, 462.528pt x 346.896pt>
+<images2/Neutron/P-7.png, id=1196, 462.528pt x 346.896pt>
 File: images2/Neutron/P-7.png Graphic file (type png)
 <use images2/Neutron/P-7.png>
 Package pdftex.def Info: images2/Neutron/P-7.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-7.png>
 <a2,fr7>
-<images2/Neutron/P-8.png, id=1190, 462.528pt x 346.896pt>
+<images2/Neutron/P-8.png, id=1205, 462.528pt x 346.896pt>
 File: images2/Neutron/P-8.png Graphic file (type png)
 <use images2/Neutron/P-8.png>
 Package pdftex.def Info: images2/Neutron/P-8.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-8.png> <a2,fr8>
-<images2/Neutron/P-9.png, id=1199, 462.528pt x 346.896pt>
+<images2/Neutron/P-9.png, id=1214, 462.528pt x 346.896pt>
 File: images2/Neutron/P-9.png Graphic file (type png)
 <use images2/Neutron/P-9.png>
 Package pdftex.def Info: images2/Neutron/P-9.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-9.png>
 <a2,fr9>
-<images2/Neutron/P-10.png, id=1208, 462.528pt x 346.896pt>
+<images2/Neutron/P-10.png, id=1223, 462.528pt x 346.896pt>
 File: images2/Neutron/P-10.png Graphic file (type png)
 <use images2/Neutron/P-10.png>
 Package pdftex.def Info: images2/Neutron/P-10.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-10.png> <a2,fr10>
-<images2/Neutron/P-11.png, id=1217, 462.528pt x 346.896pt>
+<images2/Neutron/P-11.png, id=1232, 462.528pt x 346.896pt>
 File: images2/Neutron/P-11.png Graphic file (type png)
 <use images2/Neutron/P-11.png>
 Package pdftex.def Info: images2/Neutron/P-11.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-11.png>
 <a2,fr11>
-<images2/Neutron/P-12.png, id=1226, 462.528pt x 346.896pt>
+<images2/Neutron/P-12.png, id=1241, 462.528pt x 346.896pt>
 File: images2/Neutron/P-12.png Graphic file (type png)
 <use images2/Neutron/P-12.png>
 Package pdftex.def Info: images2/Neutron/P-12.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-12.png> <a2,fr12>
-<images2/Neutron/P-13.png, id=1235, 462.528pt x 346.896pt>
+<images2/Neutron/P-13.png, id=1250, 462.528pt x 346.896pt>
 File: images2/Neutron/P-13.png Graphic file (type png)
 <use images2/Neutron/P-13.png>
 Package pdftex.def Info: images2/Neutron/P-13.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-13.png>
 <a2,fr13>
-<images2/Neutron/P-14.png, id=1244, 462.528pt x 346.896pt>
+<images2/Neutron/P-14.png, id=1259, 462.528pt x 346.896pt>
 File: images2/Neutron/P-14.png Graphic file (type png)
 <use images2/Neutron/P-14.png>
 Package pdftex.def Info: images2/Neutron/P-14.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-14.png> <a2,fr14>
-<images2/Neutron/P-15.png, id=1253, 462.528pt x 346.896pt>
+<images2/Neutron/P-15.png, id=1268, 462.528pt x 346.896pt>
 File: images2/Neutron/P-15.png Graphic file (type png)
 <use images2/Neutron/P-15.png>
 Package pdftex.def Info: images2/Neutron/P-15.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-15.png>
 <a2,fr15>
-<images2/Neutron/P-16.png, id=1262, 462.528pt x 346.896pt>
+<images2/Neutron/P-16.png, id=1277, 462.528pt x 346.896pt>
 File: images2/Neutron/P-16.png Graphic file (type png)
 <use images2/Neutron/P-16.png>
 Package pdftex.def Info: images2/Neutron/P-16.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-16.png> <a2,fr16>
-<images2/Neutron/P-17.png, id=1271, 462.528pt x 346.896pt>
+<images2/Neutron/P-17.png, id=1286, 462.528pt x 346.896pt>
 File: images2/Neutron/P-17.png Graphic file (type png)
 <use images2/Neutron/P-17.png>
 Package pdftex.def Info: images2/Neutron/P-17.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-17.png>
 <a2,fr17>
-<images2/Neutron/P-18.png, id=1280, 462.528pt x 346.896pt>
+<images2/Neutron/P-18.png, id=1295, 462.528pt x 346.896pt>
 File: images2/Neutron/P-18.png Graphic file (type png)
 <use images2/Neutron/P-18.png>
 Package pdftex.def Info: images2/Neutron/P-18.png  used on input line 511.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Neutron/P-18.png> <a2,fr18>
-<images2/Neutron/P-19.png, id=1289, 462.528pt x 346.896pt>
+<images2/Neutron/P-19.png, id=1304, 462.528pt x 346.896pt>
 File: images2/Neutron/P-19.png Graphic file (type png)
 <use images2/Neutron/P-19.png>
 Package pdftex.def Info: images2/Neutron/P-19.png  used on input line 511.
@@ -4227,7 +4235,7 @@ Package pdftex.def Info: images2/Neutron/P-19.png  used on input line 511.
  [19 <./images2/Neutron/sigma.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images2/Human/sigma.png, id=1309, 462.528pt x 346.896pt>
+<images2/Human/sigma.png, id=1324, 462.528pt x 346.896pt>
 File: images2/Human/sigma.png Graphic file (type png)
 <use images2/Human/sigma.png>
 Package pdftex.def Info: images2/Human/sigma.png  used on input line 543.
@@ -4241,127 +4249,127 @@ Underfull \vbox (badness 1122) has occurred while \output is active []
 (./main.mw)
 \openout4 = `main.mw'.
 
-<images2/Human/P-0.png, id=1317, 462.528pt x 346.896pt>
+<images2/Human/P-0.png, id=1332, 462.528pt x 346.896pt>
 File: images2/Human/P-0.png Graphic file (type png)
 <use images2/Human/P-0.png>
 Package pdftex.def Info: images2/Human/P-0.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-0.png> <a3,fr0>
-<images2/Human/P-1.png, id=1326, 462.528pt x 346.896pt>
+<images2/Human/P-1.png, id=1341, 462.528pt x 346.896pt>
 File: images2/Human/P-1.png Graphic file (type png)
 <use images2/Human/P-1.png>
 Package pdftex.def Info: images2/Human/P-1.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-1.png>
 <a3,fr1>
-<images2/Human/P-2.png, id=1335, 462.528pt x 346.896pt>
+<images2/Human/P-2.png, id=1350, 462.528pt x 346.896pt>
 File: images2/Human/P-2.png Graphic file (type png)
 <use images2/Human/P-2.png>
 Package pdftex.def Info: images2/Human/P-2.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-2.png> <a3,fr2>
-<images2/Human/P-3.png, id=1344, 462.528pt x 346.896pt>
+<images2/Human/P-3.png, id=1359, 462.528pt x 346.896pt>
 File: images2/Human/P-3.png Graphic file (type png)
 <use images2/Human/P-3.png>
 Package pdftex.def Info: images2/Human/P-3.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-3.png> <a3,fr3>
-<images2/Human/P-4.png, id=1353, 462.528pt x 346.896pt>
+<images2/Human/P-4.png, id=1368, 462.528pt x 346.896pt>
 File: images2/Human/P-4.png Graphic file (type png)
 <use images2/Human/P-4.png>
 Package pdftex.def Info: images2/Human/P-4.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-4.png> <a3,fr4>
-<images2/Human/P-5.png, id=1362, 462.528pt x 346.896pt>
+<images2/Human/P-5.png, id=1377, 462.528pt x 346.896pt>
 File: images2/Human/P-5.png Graphic file (type png)
 <use images2/Human/P-5.png>
 Package pdftex.def Info: images2/Human/P-5.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-5.png> <a3,fr5>
-<images2/Human/P-6.png, id=1371, 462.528pt x 346.896pt>
+<images2/Human/P-6.png, id=1386, 462.528pt x 346.896pt>
 File: images2/Human/P-6.png Graphic file (type png)
 <use images2/Human/P-6.png>
 Package pdftex.def Info: images2/Human/P-6.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-6.png> <a3,fr6>
-<images2/Human/P-7.png, id=1380, 462.528pt x 346.896pt>
+<images2/Human/P-7.png, id=1395, 462.528pt x 346.896pt>
 File: images2/Human/P-7.png Graphic file (type png)
 <use images2/Human/P-7.png>
 Package pdftex.def Info: images2/Human/P-7.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-7.png> <a3,fr7>
-<images2/Human/P-8.png, id=1389, 462.528pt x 346.896pt>
+<images2/Human/P-8.png, id=1404, 462.528pt x 346.896pt>
 File: images2/Human/P-8.png Graphic file (type png)
 <use images2/Human/P-8.png>
 Package pdftex.def Info: images2/Human/P-8.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-8.png> <a3,fr8>
-<images2/Human/P-9.png, id=1398, 462.528pt x 346.896pt>
+<images2/Human/P-9.png, id=1413, 462.528pt x 346.896pt>
 File: images2/Human/P-9.png Graphic file (type png)
 <use images2/Human/P-9.png>
 Package pdftex.def Info: images2/Human/P-9.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-9.png> <a3,fr9>
-<images2/Human/P-10.png, id=1407, 462.528pt x 346.896pt>
+<images2/Human/P-10.png, id=1422, 462.528pt x 346.896pt>
 File: images2/Human/P-10.png Graphic file (type png)
 <use images2/Human/P-10.png>
 Package pdftex.def Info: images2/Human/P-10.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-10.png>
 <a3,fr10>
-<images2/Human/P-11.png, id=1416, 462.528pt x 346.896pt>
+<images2/Human/P-11.png, id=1431, 462.528pt x 346.896pt>
 File: images2/Human/P-11.png Graphic file (type png)
 <use images2/Human/P-11.png>
 Package pdftex.def Info: images2/Human/P-11.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-11.png> <a3,fr11>
-<images2/Human/P-12.png, id=1425, 462.528pt x 346.896pt>
+<images2/Human/P-12.png, id=1440, 462.528pt x 346.896pt>
 File: images2/Human/P-12.png Graphic file (type png)
 <use images2/Human/P-12.png>
 Package pdftex.def Info: images2/Human/P-12.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-12.png>
 <a3,fr12>
-<images2/Human/P-13.png, id=1434, 462.528pt x 346.896pt>
+<images2/Human/P-13.png, id=1449, 462.528pt x 346.896pt>
 File: images2/Human/P-13.png Graphic file (type png)
 <use images2/Human/P-13.png>
 Package pdftex.def Info: images2/Human/P-13.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-13.png> <a3,fr13>
-<images2/Human/P-14.png, id=1443, 462.528pt x 346.896pt>
+<images2/Human/P-14.png, id=1458, 462.528pt x 346.896pt>
 File: images2/Human/P-14.png Graphic file (type png)
 <use images2/Human/P-14.png>
 Package pdftex.def Info: images2/Human/P-14.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-14.png>
 <a3,fr14>
-<images2/Human/P-15.png, id=1452, 462.528pt x 346.896pt>
+<images2/Human/P-15.png, id=1467, 462.528pt x 346.896pt>
 File: images2/Human/P-15.png Graphic file (type png)
 <use images2/Human/P-15.png>
 Package pdftex.def Info: images2/Human/P-15.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-15.png> <a3,fr15>
-<images2/Human/P-16.png, id=1461, 462.528pt x 346.896pt>
+<images2/Human/P-16.png, id=1476, 462.528pt x 346.896pt>
 File: images2/Human/P-16.png Graphic file (type png)
 <use images2/Human/P-16.png>
 Package pdftex.def Info: images2/Human/P-16.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-16.png>
 <a3,fr16>
-<images2/Human/P-17.png, id=1470, 462.528pt x 346.896pt>
+<images2/Human/P-17.png, id=1485, 462.528pt x 346.896pt>
 File: images2/Human/P-17.png Graphic file (type png)
 <use images2/Human/P-17.png>
 Package pdftex.def Info: images2/Human/P-17.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-17.png> <a3,fr17>
-<images2/Human/P-18.png, id=1479, 462.528pt x 346.896pt>
+<images2/Human/P-18.png, id=1494, 462.528pt x 346.896pt>
 File: images2/Human/P-18.png Graphic file (type png)
 <use images2/Human/P-18.png>
 Package pdftex.def Info: images2/Human/P-18.png  used on input line 553.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
  <./images2/Human/P-18.png>
 <a3,fr18>
-<images2/Human/P-19.png, id=1488, 462.528pt x 346.896pt>
+<images2/Human/P-19.png, id=1503, 462.528pt x 346.896pt>
 File: images2/Human/P-19.png Graphic file (type png)
 <use images2/Human/P-19.png>
 Package pdftex.def Info: images2/Human/P-19.png  used on input line 553.
@@ -4518,7 +4526,7 @@ Overfull \hbox (9.70001pt too wide) in paragraph at lines 58--58
 [23] (./main.mw)
 \openout4 = `main.mw'.
 
-<images3/theta_func.png, id=1526, 462.528pt x 346.896pt>
+<images3/theta_func.png, id=1541, 462.528pt x 346.896pt>
 File: images3/theta_func.png Graphic file (type png)
 <use images3/theta_func.png>
 Package pdftex.def Info: images3/theta_func.png  used on input line 78.
@@ -4528,7 +4536,7 @@ Package pdftex.def Info: images3/theta_func.png  used on input line 78.
  [24 <./images3/theta_func.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images3/square_potential.png, id=1538, 462.528pt x 346.896pt>
+<images3/square_potential.png, id=1553, 462.528pt x 346.896pt>
 File: images3/square_potential.png Graphic file (type png)
 <use images3/square_potential.png>
 Package pdftex.def Info: images3/square_potential.png  used on input line 124.
@@ -4548,7 +4556,7 @@ Package pdftex.def Info: images3/square_potential.png  used on input line 124.
  [27] (./main.mw)
 \openout4 = `main.mw'.
 
-<images3/alpha_beta.png, id=1575, 462.528pt x 346.896pt>
+<images3/alpha_beta.png, id=1590, 462.528pt x 346.896pt>
 File: images3/alpha_beta.png Graphic file (type png)
 <use images3/alpha_beta.png>
 Package pdftex.def Info: images3/alpha_beta.png  used on input line 307.
@@ -4577,13 +4585,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [29 <./images3/alpha_beta.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images3/phi_gamma=10.0_alpha=8.23.png, id=1595, 1084.05pt x 722.7pt>
+<images3/phi_gamma=10.0_alpha=8.23.png, id=1611, 1084.05pt x 722.7pt>
 File: images3/phi_gamma=10.0_alpha=8.23.png Graphic file (type png)
 <use images3/phi_gamma=10.0_alpha=8.23.png>
 Package pdftex.def Info: images3/phi_gamma=10.0_alpha=8.23.png  used on input l
 ine 383.
 (pdftex.def)             Requested size: 304.4417pt x 202.96112pt.
-<images3/phi_gamma=10.0_alpha=7.07.png, id=1596, 1084.05pt x 722.7pt>
+<images3/phi_gamma=10.0_alpha=7.07.png, id=1612, 1084.05pt x 722.7pt>
 File: images3/phi_gamma=10.0_alpha=7.07.png Graphic file (type png)
 <use images3/phi_gamma=10.0_alpha=7.07.png>
 Package pdftex.def Info: images3/phi_gamma=10.0_alpha=7.07.png  used on input l
@@ -4594,7 +4602,7 @@ ine 390.
  [30 <./images3/phi_gamma=10.0_alpha=8.23.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images3/phi_gamma=100.0_alpha=21.74.png, id=1606, 1084.05pt x 722.7pt>
+<images3/phi_gamma=100.0_alpha=21.74.png, id=1621, 1084.05pt x 722.7pt>
 File: images3/phi_gamma=100.0_alpha=21.74.png Graphic file (type png)
 <use images3/phi_gamma=100.0_alpha=21.74.png>
 Package pdftex.def Info: images3/phi_gamma=100.0_alpha=21.74.png  used on input
@@ -4621,7 +4629,7 @@ chapter 4.
 Package marginnote Info: Margin note 43.1 is on absolute page 43 on input line 
 166.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 166.
-<images4/delta.png, id=1627, 462.528pt x 346.896pt>
+<images4/delta.png, id=1642, 462.528pt x 346.896pt>
 File: images4/delta.png Graphic file (type png)
 <use images4/delta.png>
 Package pdftex.def Info: images4/delta.png  used on input line 183.
@@ -4641,7 +4649,7 @@ Overfull \hbox (9.0475pt too wide) detected at line 296
 [34] (./main.mw)
 \openout4 = `main.mw'.
 
-<images4/phi(x).png, id=1654, 462.528pt x 346.896pt>
+<images4/phi(x).png, id=1669, 462.528pt x 346.896pt>
 File: images4/phi(x).png Graphic file (type png)
 <use images4/phi(x).png>
 Package pdftex.def Info: images4/phi(x).png  used on input line 317.
@@ -4675,12 +4683,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--3
  [][][][]\T1/zpllf/b/n/9 Solution for all the posi-ble 
  []
 
-<images5/def.png, id=1687, 462.528pt x 346.896pt>
+<images5/def.png, id=1702, 462.528pt x 346.896pt>
 File: images5/def.png Graphic file (type png)
 <use images5/def.png>
 Package pdftex.def Info: images5/def.png  used on input line 11.
 (pdftex.def)             Requested size: 135.71764pt x 101.78822pt.
-<images5/def_n.png, id=1692, 462.528pt x 346.896pt>
+<images5/def_n.png, id=1707, 462.528pt x 346.896pt>
 File: images5/def_n.png Graphic file (type png)
 <use images5/def_n.png>
 Package pdftex.def Info: images5/def_n.png  used on input line 34.
@@ -4707,12 +4715,12 @@ Package marginnote Info: xpos seems to be 307.93106pt on input line 194.
 [39] (./main.mw)
 \openout4 = `main.mw'.
 
-<images5/N=2,d=2.png, id=1733, 462.528pt x 346.896pt>
+<images5/N=2,d=2.png, id=1748, 462.528pt x 346.896pt>
 File: images5/N=2,d=2.png Graphic file (type png)
 <use images5/N=2,d=2.png>
 Package pdftex.def Info: images5/N=2,d=2.png  used on input line 289.
 (pdftex.def)             Requested size: 135.71764pt x 101.78822pt.
-<images5/N=2,d=0.5.png, id=1738, 462.528pt x 346.896pt>
+<images5/N=2,d=0.5.png, id=1753, 462.528pt x 346.896pt>
 File: images5/N=2,d=0.5.png Graphic file (type png)
 <use images5/N=2,d=0.5.png>
 Package pdftex.def Info: images5/N=2,d=0.5.png  used on input line 298.
@@ -4730,7 +4738,7 @@ l.306 ...cludegraphics[H]{images5/N_E_d_eff=2.png}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<images5/N_E_d_eff=2.png, id=1739, 462.528pt x 346.896pt>
+<images5/N_E_d_eff=2.png, id=1754, 462.528pt x 346.896pt>
 File: images5/N_E_d_eff=2.png Graphic file (type png)
 <use images5/N_E_d_eff=2.png>
 Package pdftex.def Info: images5/N_E_d_eff=2.png  used on input line 306.
@@ -4750,12 +4758,12 @@ Overfull \hbox (6.9448pt too wide) in paragraph at lines 329--330
 [41 <./images5/N_E_d_eff=2.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images5/quasiperf.png, id=1762, 462.528pt x 346.896pt>
+<images5/quasiperf.png, id=1777, 462.528pt x 346.896pt>
 File: images5/quasiperf.png Graphic file (type png)
 <use images5/quasiperf.png>
 Package pdftex.def Info: images5/quasiperf.png  used on input line 389.
 (pdftex.def)             Requested size: 135.71764pt x 101.78822pt.
-<images5/E_d=2_N.png, id=1765, 462.528pt x 346.896pt>
+<images5/E_d=2_N.png, id=1780, 462.528pt x 346.896pt>
 File: images5/E_d=2_N.png Graphic file (type png)
 <use images5/E_d=2_N.png>
 Package pdftex.def Info: images5/E_d=2_N.png  used on input line 479.
@@ -4766,7 +4774,7 @@ Package pdftex.def Info: images5/E_d=2_N.png  used on input line 479.
 (./main.mw)
 \openout4 = `main.mw'.
 
-<images5/E_d_N=40.png, id=1780, 462.528pt x 346.896pt>
+<images5/E_d_N=40.png, id=1795, 462.528pt x 346.896pt>
 File: images5/E_d_N=40.png Graphic file (type png)
 <use images5/E_d_N=40.png>
 Package pdftex.def Info: images5/E_d_N=40.png  used on input line 525.
@@ -4776,7 +4784,7 @@ Package pdftex.def Info: images5/E_d_N=40.png  used on input line 525.
  [43 <./images5/E_d=2_N.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images5/Etotal_d=2_N.png, id=1791, 462.528pt x 346.896pt>
+<images5/Etotal_d=2_N.png, id=1806, 462.528pt x 346.896pt>
 File: images5/Etotal_d=2_N.png Graphic file (type png)
 <use images5/Etotal_d=2_N.png>
 Package pdftex.def Info: images5/Etotal_d=2_N.png  used on input line 543.
@@ -4789,7 +4797,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [44 <./images5/E_d_N=40.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images5/Etotal_d_N=100.png, id=1799, 1084.05pt x 722.7pt>
+<images5/Etotal_d_N=100.png, id=1814, 1084.05pt x 722.7pt>
 File: images5/Etotal_d_N=100.png Graphic file (type png)
 <use images5/Etotal_d_N=100.png>
 Package pdftex.def Info: images5/Etotal_d_N=100.png  used on input line 550.
@@ -4948,7 +4956,7 @@ you left one out. Proceed, with fingers crossed.
 [56] (./main.mw)
 \openout4 = `main.mw'.
 
-<images7/sol.png, id=1952, 462.528pt x 346.896pt>
+<images7/sol.png, id=1967, 462.528pt x 346.896pt>
 File: images7/sol.png Graphic file (type png)
 <use images7/sol.png>
 Package pdftex.def Info: images7/sol.png  used on input line 300.
@@ -4958,7 +4966,7 @@ Package pdftex.def Info: images7/sol.png  used on input line 300.
  [57 <./images7/sol.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images7/E_beta.png, id=1962, 462.528pt x 346.896pt>
+<images7/E_beta.png, id=1977, 462.528pt x 346.896pt>
 File: images7/E_beta.png Graphic file (type png)
 <use images7/E_beta.png>
 Package pdftex.def Info: images7/E_beta.png  used on input line 338.
@@ -4988,7 +4996,7 @@ Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
  [60] (./main.mw)
 \openout4 = `main.mw'.
 
-<images8/beta_tau.png, id=2007, 462.528pt x 346.896pt>
+<images8/beta_tau.png, id=2022, 462.528pt x 346.896pt>
 File: images8/beta_tau.png Graphic file (type png)
 <use images8/beta_tau.png>
 Package pdftex.def Info: images8/beta_tau.png  used on input line 162.
@@ -5107,7 +5115,7 @@ So I shall assume that you typed `$$' both times.
 [61 <./images8/beta_tau.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images8/beta_theta.png, id=2021, 462.528pt x 346.896pt>
+<images8/beta_theta.png, id=2036, 462.528pt x 346.896pt>
 File: images8/beta_theta.png Graphic file (type png)
 <use images8/beta_theta.png>
 Package pdftex.def Info: images8/beta_theta.png  used on input line 209.
@@ -5128,27 +5136,27 @@ Package pdftex.def Info: images8/beta_theta.png  used on input line 209.
  [64] (./main.mw)
 \openout4 = `main.mw'.
 
-<images8/P_0,0.png, id=2053, 462.528pt x 346.896pt>
+<images8/P_0,0.png, id=2068, 462.528pt x 346.896pt>
 File: images8/P_0,0.png Graphic file (type png)
 <use images8/P_0,0.png>
 Package pdftex.def Info: images8/P_0,0.png  used on input line 480.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images8/P_0,1.png, id=2054, 462.528pt x 346.896pt>
+<images8/P_0,1.png, id=2069, 462.528pt x 346.896pt>
 File: images8/P_0,1.png Graphic file (type png)
 <use images8/P_0,1.png>
 Package pdftex.def Info: images8/P_0,1.png  used on input line 486.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images8/P_1,0.png, id=2055, 462.528pt x 346.896pt>
+<images8/P_1,0.png, id=2070, 462.528pt x 346.896pt>
 File: images8/P_1,0.png Graphic file (type png)
 <use images8/P_1,0.png>
 Package pdftex.def Info: images8/P_1,0.png  used on input line 492.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images8/P_0,1(r).png, id=2056, 462.528pt x 346.896pt>
+<images8/P_0,1(r).png, id=2071, 462.528pt x 346.896pt>
 File: images8/P_0,1(r).png Graphic file (type png)
 <use images8/P_0,1(r).png>
 Package pdftex.def Info: images8/P_0,1(r).png  used on input line 498.
 (pdftex.def)             Requested size: 304.4578pt x 228.34334pt.
-<images8/P_1,0(r).png, id=2057, 462.528pt x 346.896pt>
+<images8/P_1,0(r).png, id=2072, 462.528pt x 346.896pt>
 File: images8/P_1,0(r).png Graphic file (type png)
 <use images8/P_1,0(r).png>
 Package pdftex.def Info: images8/P_1,0(r).png  used on input line 504.
@@ -5427,7 +5435,7 @@ Overfull \hbox (186.1592pt too wide) detected at line 667
 \openout4 = `main.mw'.
 
 
-Overfull \hbox (47.50829pt too wide) detected at line 1322
+Overfull \hbox (47.50829pt too wide) detected at line 1324
 []
  []
 
@@ -5478,13 +5486,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package marginnote Info: Margin note 99.1 is on absolute page 99 on input line 
-1332.
-Package marginnote Info: xpos seems to be 70.56247pt on input line 1332.
+1334.
+Package marginnote Info: xpos seems to be 70.56247pt on input line 1334.
 
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5493,7 +5501,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5505,14 +5513,14 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing = inserted for \ifdim.
 <to be read again> 
                    L
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 I was expecting to see `<', `=', or `>'. Didn't.
 
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5521,7 +5529,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5533,7 +5541,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    \unskip 
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5542,7 +5550,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \unskip 
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5554,7 +5562,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    L
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -5563,7 +5571,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    L
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5575,7 +5583,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5583,7 +5591,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> ...\hskip \z@ plus.5fill\relax \egroup 
                                                   \egroup \begingroup \CT@se...
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5594,7 +5602,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <template> ...z@ plus.5fill\relax \egroup \egroup 
                                                   \begingroup \CT@setup \CT@...
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5605,7 +5613,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5613,7 +5621,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5624,7 +5632,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1378     [L_a',L_b']
+l.1380     [L_a',L_b']
                       = i\hbar \epsilon_{abc} L_c'
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5640,8 +5648,8 @@ my insertion and my current dilemma will both disappear.
 \openout4 = `main.mw'.
 
 Package marginnote Info: Margin note 100.1 is on absolute page 100 on input lin
-e 1484.
-Package marginnote Info: xpos seems to be 222.49937pt on input line 1484.
+e 1486.
+Package marginnote Info: xpos seems to be 222.49937pt on input line 1486.
 \openout4 = `main.mw'.
 
  [90] (./main.mw)
@@ -5651,7 +5659,7 @@ Package marginnote Info: xpos seems to be 222.49937pt on input line 1484.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1569 ...akes the transformations we want. For L_
+l.1571 ...akes the transformations we want. For L_
                                                   1:
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5659,7 +5667,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1570 
+l.1572 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5667,7 +5675,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1574 
+l.1576 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5675,7 +5683,7 @@ you left one out. Proceed, with fingers crossed.
 ! Display math should end with $$.
 <to be read again> 
                    \par 
-l.1574 
+l.1576 
        
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -5687,7 +5695,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1576   =
+l.1578   =
            \left[\begin{matrix}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5696,7 +5704,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1576   = \left
+l.1578   = \left
                 [\begin{matrix}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5704,13 +5712,13 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1592 
+l.1594 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1576--1592
+Underfull \hbox (badness 10000) in paragraph at lines 1578--1594
 
  []
 
@@ -5721,7 +5729,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1594   =
+l.1596   =
            \left[\begin{matrix}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5730,7 +5738,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1594   = \left
+l.1596   = \left
                 [\begin{matrix}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5738,13 +5746,13 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1606 
+l.1608 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1594--1606
+Underfull \hbox (badness 10000) in paragraph at lines 1596--1608
 
  []
 
@@ -5755,7 +5763,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1608   =
+l.1610   =
           \left[\begin{matrix}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5770,7 +5778,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1608   =\left
+l.1610   =\left
                [\begin{matrix}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5778,7 +5786,7 @@ you left one out. Proceed, with fingers crossed.
 ! You can't use `\eqno' in math mode.
 \endmathdisplay@a ...\df@tag \@empty \else \veqno 
                                                   \alt@tag \df@tag \fi \ifx ...
-l.1613 \end{equation}
+l.1615 \end{equation}
                      
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -5788,7 +5796,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1613 \end{equation}
+l.1615 \end{equation}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -5799,7 +5807,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1615 For L_
+l.1617 For L_
              2:
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5807,7 +5815,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1616 
+l.1618 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5815,7 +5823,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1663 For L_
+l.1665 For L_
              3:
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5823,7 +5831,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1664 
+l.1666 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5834,11 +5842,11 @@ you left one out. Proceed, with fingers crossed.
 \openout4 = `main.mw'.
 
 Package marginnote Info: Margin note 103.1 is on absolute page 103 on input lin
-e 1741.
-Package marginnote Info: xpos seems to be 70.56247pt on input line 1741.
+e 1743.
+Package marginnote Info: xpos seems to be 70.56247pt on input line 1743.
 Package marginnote Info: Margin note 103.2 is on absolute page 103 on input lin
-e 1762.
-Package marginnote Info: xpos seems to be 70.56247pt on input line 1762.
+e 1764.
+Package marginnote Info: xpos seems to be 70.56247pt on input line 1764.
 \openout4 = `main.mw'.
 
  [93] (./main.mw)
@@ -5877,12 +5885,12 @@ Package marginnote Info: xpos seems to be 70.56247pt on input line 1762.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (17.44473pt too wide) detected at line 1881
+Overfull \hbox (17.44473pt too wide) detected at line 1883
 []
  []
 
 
-LaTeX Warning: Command \i invalid in math mode on input line 1911.
+LaTeX Warning: Command \i invalid in math mode on input line 1913.
 
 
 Underfull \vbox (badness 1122) has occurred while \output is active []
@@ -5896,19 +5904,19 @@ Underfull \vbox (badness 1122) has occurred while \output is active []
 \openout4 = `main.mw'.
 
 
-Overfull \hbox (76.08192pt too wide) detected at line 1945
+Overfull \hbox (76.08192pt too wide) detected at line 1947
 []
  []
 
 
-Overfull \hbox (239.99939pt too wide) detected at line 1957
+Overfull \hbox (239.99939pt too wide) detected at line 1959
 []
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1959 With this relation we can finally get L^
+l.1961 With this relation we can finally get L^
                                                2.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5916,7 +5924,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1960 
+l.1962 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5959,12 +5967,12 @@ you left one out. Proceed, with fingers crossed.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (37.1464pt too wide) detected at line 2028
+Overfull \hbox (37.1464pt too wide) detected at line 2030
 []
  []
 
 
-Overfull \hbox (30.29263pt too wide) detected at line 2048
+Overfull \hbox (30.29263pt too wide) detected at line 2050
 []
  []
 
@@ -5979,7 +5987,7 @@ Overfull \hbox (30.29263pt too wide) detected at line 2048
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.2050 For the case m=j in L_
+l.2052 For the case m=j in L_
                              + and m=-j in L_-.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -5987,7 +5995,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.2051 
+l.2053 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -6001,7 +6009,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing delimiter (. inserted).
 <to be read again> 
                    {
-l.2185   \left{
+l.2187   \left{
                -\frac{\hbar^2}{2mr^2}\left[\left(r\frac{d}{dr}\right)^2+\lef...
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -6013,7 +6021,7 @@ nonnegative, or you can use `\delimiter <delimiter code>'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.2185 ...{dr}\right)-j(j+1)\right]+V(r)- E \right
+l.2187 ...{dr}\right)-j(j+1)\right]+V(r)- E \right
                                                   } R_{E,j} (r) = 0
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -6024,7 +6032,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing delimiter (. inserted).
 <to be read again> 
                    }
-l.2185 ...dr}\right)-j(j+1)\right]+V(r)- E \right}
+l.2187 ...dr}\right)-j(j+1)\right]+V(r)- E \right}
                                                    R_{E,j} (r) = 0
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -6036,7 +6044,7 @@ nonnegative, or you can use `\delimiter <delimiter code>'.
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.2185 ...dr}\right)-j(j+1)\right]+V(r)- E \right}
+l.2187 ...dr}\right)-j(j+1)\right]+V(r)- E \right}
                                                    R_{E,j} (r) = 0
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -6070,6 +6078,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
  [][][][]\T1/zpllf/b/n/9 Eigen-functions of the 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+ [][][][]\T1/zpllf/b/n/9 The rel-a-tivis-tic wave 
+ []
+
 \openout4 = `main.mw'.
 
 [101
@@ -6088,10 +6101,290 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
  [103] (./main.mw)
 \openout4 = `main.mw'.
 
-)
 \openout4 = `main.mw'.
 
  [104] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+[105] (./main.mw)
+\openout4 = `main.mw'.
+
+
+Overfull \hbox (8.7713pt too wide) detected at line 411
+[]
+ []
+
+
+Overfull \hbox (8.7713pt too wide) detected at line 455
+[]
+ []
+
+\openout4 = `main.mw'.
+
+[106] (./main.mw)
+\openout4 = `main.mw'.
+
+Package marginnote Info: Margin note 117.1 is on absolute page 117 on input lin
+e 490.
+Package marginnote Info: xpos seems to be 70.56247pt on input line 490.
+\openout4 = `main.mw'.
+
+ [107] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+ [108] (./main.mw)
+\openout4 = `main.mw'.
+
+
+
+LaTeX Warning: Reference `10.49' on page 109 undefined on input line 707.
+
+
+Overfull \hbox (131.75558pt too wide) detected at line 754
+[]
+ []
+
+! Double subscript.
+l.769       \chi_R_
+                   1\\
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.770       \chi_R_
+                   2
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   {
+l.787   \left{
+              
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.795   \right
+              .
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+\openout4 = `main.mw'.
+
+[109] (./main.mw)
+\openout4 = `main.mw'.
+
+
+
+LaTeX Warning: Reference `10.50' on page 110 undefined on input line 833.
+
+Package marginnote Info: Margin note 120.1 is on absolute page 120 on input lin
+e 846.
+Package marginnote Info: xpos seems to be 222.49937pt on input line 846.
+\openout4 = `main.mw'.
+
+[110] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+ [111] (./main.mw)
+\openout4 = `main.mw'.
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(70.56247pt, 456.37979pt, 70.56247pt)
+* v-part:(T,H,B)=(77.96011pt, 689.12218pt, 77.96011pt)
+* \paperwidth=597.50473pt
+* \paperheight=845.0424pt
+* \textwidth=456.37979pt
+* \textheight=689.12218pt
+* \oddsidemargin=-1.70752pt
+* \evensidemargin=-1.70752pt
+* \topmargin=-40.60774pt
+* \headheight=15.0pt
+* \headsep=31.29787pt
+* \topskip=10.0pt
+* \footskip=42.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package marginnote Info: Margin note 122.1 is on absolute page 122 on input lin
+e 1060.
+
+Overfull \hbox (12.48987pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) The
+ []
+
+
+Overfull \hbox (17.39229pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) word
+ []
+
+
+Overfull \hbox (14.43388pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) spin
+ []
+
+
+Overfull \hbox (5.43742pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) is
+ []
+
+
+Overfull \hbox (11.9524pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) just
+ []
+
+
+Overfull \hbox (3.8024pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) a
+ []
+
+
+Overfull \hbox (12.65437pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) bad
+ []
+
+
+Overfull \hbox (11.45282pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) use
+ []
+
+
+Overfull \hbox (6.68462pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) of
+ []
+
+
+Overfull \hbox (9.82243pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) no-
+ []
+
+
+Overfull \hbox (7.52579pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) ta-
+ []
+
+
+Overfull \hbox (14.20155pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) tion,
+ []
+
+
+Overfull \hbox (10.66423pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) the
+ []
+
+
+Overfull \hbox (14.11916pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) elec-
+ []
+
+
+Overfull \hbox (14.06125pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) tron
+ []
+
+
+Overfull \hbox (11.6049pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) can
+ []
+
+
+Overfull \hbox (10.94095pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) not
+ []
+
+
+Overfull \hbox (7.89082pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) re-
+ []
+
+
+Overfull \hbox (11.96002pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) ally
+ []
+
+
+Overfull \hbox (14.43388pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) spin
+ []
+
+
+Overfull \hbox (9.09238pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) be-
+ []
+
+
+Overfull \hbox (18.63174pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) cause
+ []
+
+
+Overfull \hbox (5.43742pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) is
+ []
+
+
+Overfull \hbox (3.8024pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) a
+ []
+
+
+Overfull \hbox (17.60803pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) point
+ []
+
+
+Overfull \hbox (12.1554pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) par-
+ []
+
+
+Overfull \hbox (5.93639pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) ti-
+ []
+
+
+Overfull \hbox (9.77542pt too wide) in paragraph at lines 1060--1060
+\T1/zpllf/m/n/8 (-20) cle. 
+ []
+
+Package marginnote Info: xpos seems to be 70.56247pt on input line 1060.
+)
+\openout4 = `main.mw'.
+
+ [112
+
+] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -6129,22 +6422,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 
 part without number
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 22.44386pt on input line 251.
+(Font)              scaled to size 22.44386pt on input line 255.
 LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
-(Font)              scaled to size 24.13362pt on input line 251.
+(Font)              scaled to size 24.13362pt on input line 255.
 LaTeX Font Info:    Font shape `T1/zpllf/m/sc' will be
-(Font)              scaled to size 24.13362pt on input line 251.
+(Font)              scaled to size 24.13362pt on input line 255.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/zpllf/m/sc/24.88'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/zpllf/b/sc' will be
-(Font)              scaled to size 24.13362pt on input line 251.
+(Font)              scaled to size 24.13362pt on input line 255.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/zpllf/b/sc/24.88'.
 (microtype)             Ignoring protrusion settings for this character.
 \openout4 = `main.mw'.
 
-[105
+[113
 
 
 
@@ -6153,7 +6446,7 @@ Package microtype Info: Character `029' is missing
 
 \openout4 = `main.mw'.
 
- [106] (./main.mw)
+ [114] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -6223,19 +6516,19 @@ Package microtype Info: Character `029' is missing
 
 
 
-LaTeX Warning: Empty bibliography on input line 268.
+LaTeX Warning: Empty bibliography on input line 272.
 
 (./main.nls)
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
 LaTeX Font Info:    Font shape `T1/zpllf/m/it' will be
-(Font)              scaled to size 8.73001pt on input line 298.
+(Font)              scaled to size 8.73001pt on input line 302.
 (./main.gls)
 \openout4 = `main.mw'.
 
- [107
+ [115
 
 
 
@@ -6255,7 +6548,7 @@ LaTeX Font Info:    Font shape `T1/zpllf/m/it' will be
 
 \openout4 = `main.mw'.
 
- [108
+ [116
 
 
 ] (./main.mw)
@@ -6268,14 +6561,14 @@ runsystem(makeindex main.idx)...executed safely (allowed).
  (./main.ind)
 \openout4 = `main.mw'.
 
- [109
+ [117
 
 
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 350.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 350.
 (./main.aux
 \openout4 = `main.mw'.
 
@@ -7833,9 +8126,68 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
 
 \openout4 = `main.mw'.
 
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 346.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 346.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 350.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 350.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -7861,11 +8213,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58191 strings out of 481239
- 1108918 string characters out of 5920376
- 2257487 words of memory out of 5000000
- 71218 multiletter control sequences out of 15000+600000
- 680787 words of font info for 272 fonts, out of 8000000 for 9000
+ 58315 strings out of 481239
+ 1110703 string characters out of 5920376
+ 2258799 words of memory out of 5000000
+ 71264 multiletter control sequences out of 15000+600000
+ 686593 words of font info for 274 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  120i,27n,128p,10096b,2242s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texli
@@ -7887,10 +8239,10 @@ xmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/newpx/zplb.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/newpx/zplr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/zplri
 .pfb>
-Output written on main.pdf (119 pages, 3181678 bytes).
+Output written on main.pdf (127 pages, 3212385 bytes).
 PDF statistics:
- 3039 PDF objects out of 3580 (max. 8388607)
- 2378 compressed objects within 24 object streams
- 665 named destinations out of 1000 (max. 500000)
- 37332 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 3177 PDF objects out of 3580 (max. 8388607)
+ 2506 compressed objects within 26 object streams
+ 723 named destinations out of 1000 (max. 500000)
+ 38388 words of extra memory for PDF output out of 42996 (max. 10000000)
 
