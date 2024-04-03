@@ -238,38 +238,44 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {10.3}Temperature and Light}{107}{section.10.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {10.4}The relativistic wave equation.}{107}{section.10.4}%
-\defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {10.4}The relativistic wave equation.}{107}{section.10.4}%
-\defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {10.5}Pauli matrices}{108}{section.10.5}%
-\defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {10.5}Pauli matrices}{108}{section.10.5}%
-\defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {10.6}The Dirac operator}{109}{section.10.6}%
-\defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {10.6}The Dirac operator}{109}{section.10.6}%
-\defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {10.7}Normalization under $\gamma _0$}{117}{section.10.7}%
-\defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {10.7}Normalization under $\gamma _0$}{117}{section.10.7}%
-\defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {11}Magnetic Field}{119}{chapter.11}%
+\contentsline {chapter}{\numberline {11}Magnetic Field}{109}{chapter.11}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {20}
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {21}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {11.1}Introduction}{119}{section.11.1}%
+\contentsline {section}{\numberline {11.1}Introduction}{109}{section.11.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {11.1}Introduction}{119}{section.11.1}%
+\contentsline {mtocsection}{\numberline {11.1}Introduction}{109}{section.11.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {11.2}Wave Equation}{120}{section.11.2}%
+\contentsline {section}{\numberline {11.2}Wave Equation}{110}{section.11.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {11.2}Wave Equation}{120}{section.11.2}%
+\contentsline {mtocsection}{\numberline {11.2}Wave Equation}{110}{section.11.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{123}{part*.62}%
+\contentsline {chapter}{\numberline {12}Dirac's Equation}{113}{chapter.12}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{125}{chapter*.63}%
+\etoc@startlocaltoc {22}
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{127}{section*.64}%
+\etoc@startlocaltoc {23}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {12.1}The relativistic wave equation.}{113}{section.12.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {12.1}The relativistic wave equation.}{113}{section.12.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {12.2}Pauli matrices}{113}{section.12.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {12.2}Pauli matrices}{113}{section.12.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {12.3}The Dirac operator}{114}{section.12.3}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {12.3}The Dirac operator}{114}{section.12.3}%
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {12.4}Normalization under $\gamma _0$}{122}{section.12.4}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {12.4}Normalization under $\gamma _0$}{122}{section.12.4}%
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Appendix}{123}{part*.63}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{125}{chapter*.64}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{127}{section*.65}%
