@@ -2,6 +2,8 @@
 
 ALL THIS CODE WAS GIVE IT TO ME BY ALEX LOHR, CLASSMATE IN QUANTUM MECHANICS II IN FIU
 
+Alex email: alohr001@fiu.edu
+
 """
 
 import numpy as np
