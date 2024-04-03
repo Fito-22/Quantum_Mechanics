@@ -1,0 +1,5 @@
+[1] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[2] Config.pm:307> INFO - Logfile is 'main.blg'
+[366] biber:322> INFO - === Wed Apr  3, 2024, 04:02:50
+[412] Utils.pm:309> ERROR - main.bcf is not UTF-8 or even latin1, please delete it and run latex again or check that biblatex is writing a valid .bcf file.
+[413] Biber.pm:132> INFO - ERRORS: 1

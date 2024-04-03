@@ -234,24 +234,42 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {10.2}Eigen-functions of the hydrogen atom}{103}{section.10.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {10.3}Temperature and Light}{103}{section.10.3}%
+\contentsline {section}{\numberline {10.3}Temperature and Light}{107}{section.10.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {10.3}Temperature and Light}{103}{section.10.3}%
+\contentsline {mtocsection}{\numberline {10.3}Temperature and Light}{107}{section.10.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {10.4}The relativistic wave equation.}{104}{section.10.4}%
+\contentsline {section}{\numberline {10.4}The relativistic wave equation.}{107}{section.10.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {10.4}The relativistic wave equation.}{104}{section.10.4}%
+\contentsline {mtocsection}{\numberline {10.4}The relativistic wave equation.}{107}{section.10.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {10.5}Pauli matrices}{104}{section.10.5}%
+\contentsline {section}{\numberline {10.5}Pauli matrices}{108}{section.10.5}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {10.5}Pauli matrices}{104}{section.10.5}%
+\contentsline {mtocsection}{\numberline {10.5}Pauli matrices}{108}{section.10.5}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {10.6}The Dirac operator}{105}{section.10.6}%
+\contentsline {section}{\numberline {10.6}The Dirac operator}{109}{section.10.6}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {10.6}The Dirac operator}{105}{section.10.6}%
+\contentsline {mtocsection}{\numberline {10.6}The Dirac operator}{109}{section.10.6}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{113}{part*.57}%
+\contentsline {section}{\numberline {10.7}Normalization under $\gamma _0$}{117}{section.10.7}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{115}{chapter*.58}%
+\contentsline {mtocsection}{\numberline {10.7}Normalization under $\gamma _0$}{117}{section.10.7}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{117}{section*.59}%
+\contentsline {chapter}{\numberline {11}Magnetic Field}{119}{chapter.11}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {20}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {21}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {11.1}Introduction}{119}{section.11.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {11.1}Introduction}{119}{section.11.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {11.2}Wave Equation}{120}{section.11.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {11.2}Wave Equation}{120}{section.11.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Appendix}{123}{part*.62}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{125}{chapter*.63}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{127}{section*.64}%
