@@ -9,11 +9,11 @@ Alex email: alohr001@fiu.edu
 import numpy as np
 import matplotlib.pyplot as plt
 
-n = 1
+n = 3
 Z = 1
-m = 9.1093837e-31
-e = 1.60217662e-19
-ep = 8.854187817e-12
+m = 9.1093837015e-31
+e = 1.602176634e-19
+ep = 8.8541878128e-12
 hbar = 1.054571817e-34
 
 E = (-Z**2*e**4*m)/(32*np.pi**2*ep**2*hbar**2*n**2)

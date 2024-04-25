@@ -10,6 +10,7 @@ This is a very common and well study problem in quantum mechanics. The hydrogen 
 The electric potential is well known since the 18th century. The potential is given by:
 
 \begin{equation}
+  \label{10.1}
   \begin{array}{c}
     V(r) = -\frac{1}{4\pi\epsilon_0}\frac{Ze^2}{r}
   \end{array}
@@ -166,7 +167,7 @@ We can substitute this into the wave equation, trying to match the indices of al
     \\
 
     \\
-    C_k+1 =\frac{2\beta k-1+2\beta(j+1)}{(k+1)(k+2(j+1))}C_k = \frac{2\beta (k+j+1)}{(k+1)(k+2(j+1))} C_k
+    C_{k+1} =\frac{2\beta k-1+2\beta(j+1)}{(k+1)(k+2(j+1))}C_k = \frac{2\beta (k+j+1)-1}{(k+1)(k+2(j+1))} C_k
   \end{array}
 \end{equation}
 
@@ -194,7 +195,11 @@ That is the energy for the eigen-functions:
 
 \begin{equation}
   \begin{array}{c}
-    \psi_{n,j,m} = \left(\sum_{k=0}^{n-j-1} C_k u^k \right)e^{-\frac{1}{2n}u}(bu)P_j^m(\theta)e^{im\phi}
+    \psi_{n,j,m} = \left(\sum_{k=0}^{n-j-1} C_k u^k \right)e^{-\frac{1}{2n}u}(bu)^j P_j^m(\theta)e^{im\phi}
+    \\
+
+    \\
+    \psi_{n,j,m} = \left(\sum_{k=0}^{n-j-1} C_k \left(\frac{r}{b}\right)^k \right)e^{-\frac{r}{2nb}}r^j P_j^m(\theta)e^{im\phi}
   \end{array}
 \end{equation}
 
@@ -202,18 +207,131 @@ We can plot some of the eigen-functions to see how they look like.
 
 \section{Eigen-functions of the hydrogen atom}
 
+This are some of the solutions from the Hydrogen atom.
 
-\begin{figure}
+For n=1,j=0,m=0:
+
+\begin{equation}
+  \psi_{1,0,0} = C_0 e^{-r/2b}
+\end{equation}
+
+We can find the normalization constant by using the normalization condition:
+
+\begin{equation}
+\begin{array}{c}
+  \int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{\infty} \psi^*\psi r^2 \sin(\theta) dr d\theta d\phi = 1
+  \\
+
+  \\
+  \int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{\infty} C_0^2 e^{-r/b} r^2 \sin(\theta) dr d\theta d\phi = 1
+  \\
+
+  \\
+  4 \pi C_0^2 \int_{0}^{\infty} e^{-r/b} r^2 dr = 1
+  \\
+
+  \\
+  4 \pi C_0^2 (2b^3) = 1
+  \\
+
+  \\
+  C_0 = \frac{1}{\sqrt{8\pi b^3}}
+\end{array}
+\end{equation}
+
+The final solution is:
+
+\begin{equation}
+  \psi_{1,0,0} = \frac{1}{\sqrt{8\pi b^3}} e^{-r/2b}
+\end{equation}
+
+
+\begin{figure}[H]
   \centering
   \includegraphics{images9/3d_plot_1,0,0.png}
   \caption{Probability distribution (n=1,j=0,m=0)}
 \end{figure}
 
-\begin{figure}
+For n=2,j=0,m=0:
+
+\begin{equation}
+  \psi_{2,0,0} = \left[C_0-\frac{1}{4}C_0 \frac{r}{b}\right] e^{-r/4b}
+\end{equation}
+
+We can find the normalization constant by using the normalization condition:
+
+\begin{equation}
+\begin{array}{c}
+  \int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{\infty} \psi^*\psi r^2 \sin(\theta) dr d\theta d\phi = 1
+  \\
+
+  \\
+  \int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{\infty} C_0^2 \left[C_0-\frac{1}{4}C_0 \frac{r}{b}\right]^2 e^{-r/2b} r^2 \sin(\theta) dr d\theta d\phi = 1
+  \\
+
+  \\
+  4 \pi C_0^2 \left(\int_{0}^{\infty} e^{-r/2b} r^2 dr-\frac{1}{2b}\int_{0}^{\infty} e^{-r/2b} r^3 dr + \int_{0}^{\infty}\frac{1}{16b^2}e^{-r(2b)}r^4 dr \right) = 1
+  \\
+
+  \\
+  4 \pi C_0^2 [(2b^3)2-6(2b^3)+6(2b^3)] = 1
+  \\
+
+  \\
+  C_0 = \frac{1}{\sqrt{64\pi b^3}}
+\end{array}
+\end{equation}
+
+The final solution is:
+
+\begin{equation}
+  \psi_{2,0,0} = \frac{1}{\sqrt{64\pi b^3}} \left[1-\frac{1}{4}\frac{r}{b}\right] e^{-r/4b}
+\end{equation}
+
+
+
+\begin{figure}[H]
   \centering
   \includegraphics{images9/3d_plot_2,0,0.png}
   \caption{Probability distribution (n=2,j=0,m=0)}
 \end{figure}
+
+
+For n=2,j=1,m=1:
+
+\begin{equation}
+  \psi_{2,1,1} = C_0 e^{-r/4b} r \sin\theta e^{i\phi}
+\end{equation}
+
+We can find the normalization constant by using the normalization condition:
+
+\begin{equation}
+\begin{array}{c}
+  \int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{\infty} \psi^*\psi r^2 \sin(\theta) dr d\theta d\phi = 1
+  \\
+
+  \\
+  \int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{\infty} C_0^2 e^{-r/2b} r^2 \sin^2\theta r^2 \sin(\theta) dr d\theta d\phi = 1
+  \\
+
+  \\
+  2 \pi C_0^2\int_{0}^{\pi}\sin^3\theta d\theta \int_{0}^{\infty} e^{-r/b} r^4 dr = 1
+  \\
+
+  \\
+  2 \pi C_0^2 (\frac{4}{3}) (24(2b)^5) = 1
+  \\
+
+  \\
+  C_0 = \frac{1}{\sqrt{2^{11}\pi b^5}}
+\end{array}
+\end{equation}
+
+The final solution is:
+
+\begin{equation}
+  \psi_{2,1,1} = \frac{1}{\sqrt{2^{11}\pi b^5}} e^{-r/4b} r \sin\theta e^{i\phi}
+\end{equation}
 
 \begin{figure}
   \centering
@@ -221,11 +339,85 @@ We can plot some of the eigen-functions to see how they look like.
   \caption{Probability distribution (n=2,j=1,m=1)}
 \end{figure}
 
+For n=2,j=1,m=0:
+
+\begin{equation}
+  \psi_{2,1,0} = C_0 e^{-r/4b} r \cos\theta
+\end{equation}
+
+We can find the normalization constant by using the normalization condition:
+
+\begin{equation}
+\begin{array}{c}
+  \int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{\infty} \psi^*\psi r^2 \sin(\theta) dr d\theta d\phi = 1
+  \\
+
+  \\
+  \int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{\infty} C_0^2 e^{-r/2b} r^2 \cos^2\theta r^2 \sin(\theta) dr d\theta d\phi = 1
+  \\
+
+  \\
+  2 \pi C_0^2\int_{0}^{\pi}\cos^2\theta\sin\theta d\theta \int_{0}^{\infty} e^{-r/b} r^4 dr = 1
+  \\
+
+  \\
+  2 \pi C_0^2 (\frac{2}{3}) (24(2b)^5) = 1
+  \\
+
+  \\
+  C_0 = \frac{1}{\sqrt{2^{10}\pi b^5}}
+\end{array}
+\end{equation}
+
+The final solution is:
+
+\begin{equation}
+  \psi_{2,1,0} = \frac{1}{\sqrt{2^{10}\pi b^5}} e^{-r/4b} r \cos\theta
+\end{equation}
+
+
 \begin{figure}
   \centering
   \includegraphics{images9/3d_plot_2,1,0.png}
   \caption{Probability distribution (n=2,j=1,m=0)}
 \end{figure}
+
+For n=1,j=1,m=-1:
+
+\begin{equation}
+  \psi_{2,1,-1} = C_0 e^{-r/4b} r \sin\theta e^{-i\phi}
+\end{equation}
+
+We can find the normalization constant by using the normalization condition:
+
+\begin{equation}
+\begin{array}{c}
+  \int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{\infty} \psi^*\psi r^2 \sin(\theta) dr d\theta d\phi = 1
+  \\
+
+  \\
+  \int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{\infty} C_0^2 e^{-r/2b} r^2 \sin^2\theta r^2 \sin(\theta) dr d\theta d\phi = 1
+  \\
+
+  \\
+  2 \pi C_0^2\int_{0}^{\pi}\sin^3\theta d\theta \int_{0}^{\infty} e^{-r/b} r^4 dr = 1
+  \\
+
+  \\
+  2 \pi C_0^2 (\frac{4}{3}) (24(2b)^5) = 1
+  \\
+
+  \\
+  C_0 = \frac{1}{\sqrt{2^{11}\pi b^5}}
+\end{array}
+\end{equation}
+
+The final solution is:
+
+\begin{equation}
+  \psi_{2,1,-1} = \frac{1}{\sqrt{2^{11}\pi b^5}} e^{-r/4b} r \sin\theta e^{i\phi}
+\end{equation}
+
 
 \begin{figure}
   \centering
@@ -259,4 +451,3 @@ In the same way we can see that energy can be emitted from the electron when it 
     \Delta E = E_f - E_i = h\omega_{light}
   \end{array}
 \end{equation}
-

@@ -234,48 +234,74 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {10.2}Eigen-functions of the hydrogen atom}{103}{section.10.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {10.3}Temperature and Light}{107}{section.10.3}%
+\contentsline {section}{\numberline {10.3}Temperature and Light}{108}{section.10.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {10.3}Temperature and Light}{107}{section.10.3}%
+\contentsline {mtocsection}{\numberline {10.3}Temperature and Light}{108}{section.10.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {11}Magnetic Field}{109}{chapter.11}%
+\contentsline {chapter}{\numberline {11}Magnetic Field}{111}{chapter.11}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {20}
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {21}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {11.1}Introduction}{109}{section.11.1}%
+\contentsline {section}{\numberline {11.1}Introduction}{111}{section.11.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {11.1}Introduction}{109}{section.11.1}%
+\contentsline {mtocsection}{\numberline {11.1}Introduction}{111}{section.11.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {11.2}Wave Equation}{110}{section.11.2}%
+\contentsline {section}{\numberline {11.2}Wave Equation}{112}{section.11.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {11.2}Wave Equation}{110}{section.11.2}%
+\contentsline {mtocsection}{\numberline {11.2}Wave Equation}{112}{section.11.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {12}Dirac's Equation}{113}{chapter.12}%
+\contentsline {chapter}{\numberline {12}Dirac's Equation}{115}{chapter.12}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {22}
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {23}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {12.1}The relativistic wave equation.}{113}{section.12.1}%
+\contentsline {section}{\numberline {12.1}The relativistic wave equation.}{115}{section.12.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {12.1}The relativistic wave equation.}{113}{section.12.1}%
+\contentsline {mtocsection}{\numberline {12.1}The relativistic wave equation.}{115}{section.12.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {12.2}Pauli matrices}{113}{section.12.2}%
+\contentsline {section}{\numberline {12.2}Pauli matrices}{115}{section.12.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {12.2}Pauli matrices}{113}{section.12.2}%
+\contentsline {mtocsection}{\numberline {12.2}Pauli matrices}{115}{section.12.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {12.3}The Dirac operator}{114}{section.12.3}%
+\contentsline {section}{\numberline {12.3}The Dirac operator}{116}{section.12.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {12.3}The Dirac operator}{114}{section.12.3}%
+\contentsline {mtocsection}{\numberline {12.3}The Dirac operator}{116}{section.12.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {12.4}Normalization under $\gamma _0$}{122}{section.12.4}%
+\contentsline {section}{\numberline {12.4}Normalization under $\gamma _0$}{124}{section.12.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {12.4}Normalization under $\gamma _0$}{122}{section.12.4}%
+\contentsline {mtocsection}{\numberline {12.4}Normalization under $\gamma _0$}{124}{section.12.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{123}{part*.63}%
+\contentsline {chapter}{\numberline {13}Perturbation theory}{125}{chapter.13}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{125}{chapter*.64}%
+\etoc@startlocaltoc {24}
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{127}{section*.65}%
+\etoc@startlocaltoc {25}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {13.1}Introduction}{125}{section.13.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {13.1}Introduction}{125}{section.13.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {13.2}Equation with perturbation}{126}{section.13.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {13.2}Equation with perturbation}{126}{section.13.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {13.3}Proton as a sphere}{128}{section.13.3}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {13.3}Proton as a sphere}{128}{section.13.3}%
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {13.4}Constant electric field}{131}{section.13.4}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {13.4}Constant electric field}{131}{section.13.4}%
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {13.5}Harmonic oscillator with a perturbation}{131}{section.13.5}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {13.5}Harmonic oscillator with a perturbation}{131}{section.13.5}%
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Appendix}{133}{part*.65}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{135}{chapter*.66}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{137}{section*.67}%

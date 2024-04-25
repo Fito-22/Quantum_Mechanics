@@ -1,0 +1,512 @@
+\setchapterpreamble[u]{\margintoc}
+\chapter{Perturbation theory}
+
+This subject proposed solutions for problemsthat can not be solved exactly.
+
+\section{Introduction}
+
+We are going to recall our hamiltonian for the schrodinguer wave equation.
+
+\begin{equation}
+  H \psi(x,y,z,t) =i \hbar \frac{\partial \psi(x,y,z,t)}{\partial t}
+\end{equation}
+
+Where H is non depending on time. Let's assume once more that the solution of this equation looks like:
+
+\begin{equation}
+  \psi(x,y,z,t) = \phi(x,y,z) e^{-i\frac{E}{\hbar}t}
+\end{equation}
+
+Then:
+
+\begin{equation}
+  \begin{array}{c}
+  e^{-i\frac{E}{\hbar}t}(H \phi(x,y,z)) = E e^{-i\frac{E}{\hbar}t} \phi(x,y,z)
+  \\
+
+  \\
+  H \phi(x,y,z) = E \phi(x,y,z)
+  \end{array}
+\end{equation}
+
+As we have been doing since the beginning of the semester. But then how can a state go to the ground state if the states are stationary in time?. We need to include in our equation the variation with time.
+
+The change of states must be solutions to:
+
+\begin{equation}
+  V(\tau) = V(r) + \delta V(r,t)
+\end{equation}
+
+This second term is 0 for small changes, But
+
+\begin{equation}
+  \bra{n=2,j=1,m=1}\delta V(r,t)\ket{n=1,j=0,m=0} \neq 0
+\end{equation}
+
+For as the perturbation is going to be a function of r only. An example of this is a circuit with a gas chamber, as the one show in METER FIJURA. When the switch is open the gas is stable, onece we closed the switch the gas gets excited andif we closed the switch the gas dexcites. For as this switch control is going to be defined by a function $\delta V(r)$.
+
+% METER FIGURA
+
+\section{Equation with perturbation}
+
+We are going to assume that $H_0$ can be solved exactly. It can be any know hamiltonian, not necessarily the solutions for the hydrogen atom. We say that $H_0$ can be solved in:
+
+\begin{equation}
+  \begin{array}{c}
+    n=0,1,2,3,\dots
+    \\
+
+    \\
+    E_0 \leq E_1 \leq E_2 \dots
+    \\
+
+    \\
+    H_0 \ket{n} = E_n \ket{n}
+  \end{array}
+\end{equation}
+
+We are going to assume that the perturbation is small, so we can write the hamiltonian as:
+
+\begin{equation}
+  H = H_0 + \lambda V_1(r)
+\end{equation}
+
+Where $\lambda$ is a small number. This can not be exactly solved. Our equation is going to look like:
+
+\begin{equation}
+  (H_0+\lambda_1 V_1) \phi = E_\phi\phi
+\end{equation}
+
+Where I'am going to define the eigen-values as:
+
+\begin{equation}
+  E_\phi =\sum_{k=0}^{\infty} \lambda^k \mu_k
+\end{equation}
+
+I'm also going to redefine the eigen-vectors as:
+
+\begin{equation}
+  \ket{\phi} = \sum_{k=0}^{\infty} \lambda^k \ket{\phi_k}
+\end{equation}
+
+We need to solve for every k.
+
+For some range of $\lambda$ the next assumption must be true.
+
+\begin{equation}
+  (H_0 + \lambda_1V_1) (\ket{\phi_0}+\lambda\ket{\phi_1}+...) = (\mu_0 + \lambda\mu_1 + \lambda^2\mu_2 + \dots)(\ket{\phi_0}+\lambda\ket{\phi_1}+...)
+\end{equation}
+
+This equation must be true term by term in $\lambda$.
+
+\begin{equation}
+  \begin{array}{lc}
+    \lambda^0 => & H_0 \ket{\phi_0} = \mu_0 \ket{\phi_0}
+    \\
+
+    \\
+    \lambda^1 => & H_0 \ket{\phi_1} + V_1 \ket{\phi_0} = \mu_0\ket{\phi_1} + \mu_1\ket{\phi_0}
+    \\
+
+    \\
+                 & (H_0-\mu_0) \ket{phi_1} = (\mu_0 - V_1) \ket{\phi_0}
+    \\
+
+    \\
+    \lambda^2 => & H_0 \ket{\phi_2} + V_1 \ket{\phi_1} = \mu_0\ket{\phi_2} + \mu_1\ket{\phi_1} + \mu_2\ket{\phi_0}
+    \\
+
+    \\
+                 & (H_0-\mu_0) \ket{\phi_2} = (\mu_1 - V_1) \ket{\phi_1} + \mu_2\ket{\phi_0}
+  \end{array}
+\end{equation}
+
+If we solved for the first term:
+
+\begin{equation}
+  \begin{array}{c}
+    H_0 \ket{\phi_0}= \mu_0 \ket{\phi_0}
+    \\
+
+    \\
+    E_n \ket{\phi_0} = \mu_0 \ket{\phi_0}
+    \\
+
+    \\
+    \ket{\phi_0} = \ket{n}
+    \\
+
+    \\
+    \mu_0 = E_n
+  \end{array}
+\end{equation}
+
+We can use this result to solve the next term.
+
+\begin{equation}
+\begin{array}{c}
+  (H_0 - \mu_0)\ket{\phi_1} = (\mu_1 - V_1)\ket{\phi_0}
+  \\
+
+  \\
+  (H_0 - E_n)\ket{\phi_1} = (\mu_1 - V_1)\ket{n}
+\end{array}
+\end{equation}
+
+We are going to solve it multiplying by $\bra{n}$ at both sides of the equation.
+
+\begin{equation}
+  \begin{array}{c}
+    \bra{n}(H_0 - E_n)\ket{\phi_1} = \bra{n}\mu_1\ket{n} - \bra{n}V_1\ket{n}
+    \\
+
+    \\
+    E_n\bra{n}\ket{\phi_1} - E_n\bra{n}\ket{\phi_1} = \mu_1 - \bra{n}V_1\ket{n}
+    \\
+
+    \\
+    \mu_1 = \bra{n}V_1\ket{n}
+  \end{array}
+\end{equation}
+
+We can rewrite $\ket{\phi_1}$ as a linear combination of the eigen-vectors of $H_0$.
+
+\begin{equation}
+  \label{13.16}
+  \ket{\phi_1} = \sum_{m=0}^{\infty} C_{1,m} \ket{m}
+\end{equation}
+
+If we plug this in the equation above:
+
+\begin{equation}
+\begin{array}{c}
+  (H_0 - E_n) (\sum_{m} C_{1,m} \ket{m}) = \mu_1 \ket{n} - V_1 \ket{n}
+  \\
+
+  \\
+  \sum_{m} C_{1,m} (H_0 - E_n) \ket{m} = \mu_1 \ket{n} - V_1 \ket{n}
+  \\
+
+  \\
+  \sum_{m} C_{1,m} (E_m - E_n) \ket{m} = \mu_1 \ket{n} - V_1 \ket{n}
+\end{array}
+\end{equation}
+
+We are going to solve taking the inner product with k.
+
+\begin{equation}
+  \begin{array}{c}
+    \sum_{m} C_{1,m} (E_m-E_n) \braket{k}{m} = \mu_1 \braket{k}{n} - V_1 \braket{k}{n}
+    \\
+
+    \\
+    C_{1,k} (E_k - E_n) = \mu_1 \delta_{k,n} - \bra{k}V_1\ket{n}
+    \\
+
+    \\
+    C_{1,k} = \frac{-\bra{k}V_1\ket{n}}{E_k-E_n} ; k \neq n
+  \end{array}
+\end{equation}
+
+Our eigen-vector looks like:
+
+\begin{equation}
+  \ket{\phi_1} = C_{1,n}\ket{n} + \sum_{m \neq n} \frac{-\bra{m}V_1\ket{n}}{E_m - E_n} \ket{m}
+\end{equation}
+
+All the eigen-values and eigen-vectors look like:
+
+\begin{equation}
+  \begin{array}{c}
+  E_{\phi} = E_n + \lambda\bra{n}V_1\ket{n} + ...
+  \\
+
+  \\
+  \ket{\phi} = (1+\lambda C_1) \ket{n} + \lambda \sum_{m \neq n} \frac{\bra{m}V_1\ket{n}}{E_n - E_m}\ket{m} + ...
+  \end{array}
+\end{equation}
+
+Where $C_1$ can be found using normalization. Sometimes the first orderaproximation is zero, then we have to use the second order aproximation.
+
+\begin{equation}
+  \begin{array}{c}
+    (H_0 - E_n) \ket{\phi_2} = \mu_1 \ket{\phi_1} - V_1 \ket{\phi_1} + \mu_2 \ket{n}
+  \end{array}
+\end{equation}
+
+Let's assume again solutions like the ones from \ref{13.16} for $\ket{\phi_2}$.
+
+\begin{equation}
+\begin{array}{c}
+  \sum_{k} C_{2,k}(H_0-E_n)\ket{k} = \sum_{l} C_{1,l} (\mu_1 - V_1)\ket{l} + \mu_2 \ket{n}
+  \\
+
+  \\
+  \bra{m} \left[\sum_{k} C_{2,k}(H_0-E_n)\ket{k} = \sum_{l} C_{1,l} (\mu_1 - V_1)\ket{l} + \mu_2 \ket{n}\right]
+  \\
+
+  \\
+  \sum_k C_{2,k}(E_k -E_n)\delta_{k,m} = \sum_l C_{1,l} (\mu_1 \delta_{m,l} - \bra{m}V_1\ket{l}) + \mu_2 \delta_m,n
+\end{array}
+\end{equation}
+
+If m = n:
+
+\begin{equation}
+\begin{array}{c}
+  0 = \mu_1 C_{1,n} - \sum_l C_{1,l} \bra{n}V_1\ket{l} + \mu_2
+  \\
+
+  \\
+  0 = \mu_1 C_{1,n} - C_{1,n}\bra{n}V_1\ket{n} - \sum_{l\neq n} C_{1,l} \bra{n}V_1\ket{l} + \mu_2
+  \\
+
+  \\
+  \mu_2 = \sum_{l\neq n} C_{1,l} \bra{n}V_1\ket{l} = \sum_{l\neq n} \frac{\bra{l}V_1\ket{n} \bra{n}V_1\ket{l}}{E_n - E_l}
+\end{array}
+\end{equation}
+
+If $m \neq n$:
+
+\begin{equation}
+  \begin{array}{c}
+    C_{2,k}= \frac{\mu_1 C_1,k - \sum_l \bra{m}V_1\ket{l}}{E_m - E_n}
+  \end{array}
+\end{equation}
+
+And you can keep going with this process. In the next two chapters we are going to focus in two interesting physical systems.
+
+\section{Proton as a sphere}
+
+We've been assuming that the proton is a point particle all this time, but we know it is not. We are going to assume that the proton is a sphere with a charge distribution $\rho$.
+
+\begin{marginfigure}[-4cm]
+  \label{figure_proton}
+  \begin{tikzpicture}
+    \shade[ball color = gray!40, opacity = 0.4] (0,0) circle (2cm);
+    \draw (0,0) circle (2cm);
+    \draw (-2,0) arc (180:360:2 and 0.6);
+    \draw[dashed] (2,0) arc (0:180:2 and 0.6);
+    \fill[fill=black] (0,0) circle (1pt);
+    \draw[dashed] (0,0 ) -- node[above]{$R$} (2,0);
+    \filldraw[black] (0,2) circle (0pt) node [anchor=east]{$\rho$};
+  \end{tikzpicture}
+  \caption{Proton as a sphere of radious R and charge density $\rho$}
+\end{marginfigure}
+
+The potential of an electron inside the radious of the proton, R, the potential can be calculated aplying Gauss to calculate the electric field.
+
+\begin{equation}
+\begin{array}{c}
+  \int \vec{E} \cdot d\vec{s} = \frac{Q_{in}}{\epsilon_0}
+  \\
+
+  \\
+  E 4\pi r^2 = \frac{\rho \frac{4\pi}{3}r^3}{\epsilon_0}
+  \\
+
+  \\
+  E_{in}  = \frac{e}{4\pi\epsilon_0 R^3} r
+\end{array}
+\end{equation}
+
+We are going to need also the electric field outside the sphere.
+
+\begin{equation}
+\begin{array}{c}
+  \int \vec{E} \cdot d\vec{s} = \frac{Q_{in}}{\epsilon_0}
+  \\
+
+  \\
+  E_{out} = \frac{e}{4\pi \epsilon_0 r^2}
+\end{array}
+\end{equation}
+
+Now we can define our potential through all space assuming that the potential at the infinite is 0 and knowing that it has to be conitnuous.
+
+\begin{equation}
+  \begin{array}{c}
+    V(r) - V(\infty) = \int_{r}^{\infty} E_{out} dr
+    \\
+
+    \\
+    V(r) = \frac{e}{4\pi \epsilon_0} \frac{1}{r}
+  \end{array}
+\end{equation}
+
+This is the potential that we used for the Hydrogen atom, now we can calculate the potential inside using the continuity of V(r).
+
+\begin{equation}
+  \begin{array}{c}
+    V(r) - V(R) = \int_{r}^{R} E_{in} dr
+    \\
+
+    \\
+    V(r) - \frac{e}{4\pi\epsilon_0 R} = \int_{r}^{R} E_{in} dr
+    \\
+
+    \\
+    V(r) - \frac{e}{4\pi\epsilon_0 R} = \frac{e}{8\pi\epsilon_0 R^3} (R^2-r^2)
+    \\
+
+    \\
+    V(r) = \frac{e}{8\pi\epsilon_0 R^3} (3R^2-r^2)
+  \end{array}
+\end{equation}
+
+Knowing the potentials we can find the potential energy that is going to be this potential times the charge of the electron.
+
+\begin{equation}
+  U(r) = - e V(r)
+\end{equation}
+
+We want to find some potential energy of the form:
+
+\begin{equation}
+  U(r) = \left\{\begin{array}{cc}
+    V(r) & r \geq R
+    \\
+
+    \\
+    V(r) + V_1 & r < R
+  \end{array}
+\end{equation}
+
+Where $V(r)$ is the one from \ref{10.1} and $V_1$ is the perturbation. Then $V_1$ is going to be:
+
+\begin{equation}
+  \begin{array}{c}
+    V_1 = \frac{e^2}{8\pi\epsilon_0 R^3} (-3R^2+r^2) + \frac{e^2}{4\pi \epsilon_0 r}
+    \\
+
+    \\
+    V_1 = \frac{e^2}{8\pi\epsilon_0 R^3} \left( -3R^2 + r^2 + \frac{2R^3}{r} \right)
+  \end{array}
+\end{equation}
+
+Now that we know $V_1$, we can apply the theory in the previous section to calculate the energy. For $E_1$ we can calculate $E_{\phi}$ knowing that $\ket{n}$ = $\ket{n=1,j=0,m=0}$.
+
+\begin{equation}
+  \begin{array}{c}
+    E_{\phi} = E_1 + \bra{n}V_1\ket{n}
+    \\
+
+    \\
+    = E_1 + \bra{n=1,j=0,m=0}V_1\ket{n=1,j=0,m=0}
+    \\
+
+    \\
+    = E_1 + \int_{0}^{2\pi} \int_{0}^{\pi} \int_{0}^{\infty} \psi_{1,0,0}^* V_1 \psi_{1,0,0} r^2 sin\theta dr d\theta d\phi
+    \\
+
+    \\
+    = E_1 + \int_{0}^{2\pi} d\phi \int_{0}^{\pi} sin\theta d\theta \int_{0}^{\infty} \frac{1}{8\pi b^3} e^{-r/b} \frac{e^2}{8\pi\epsilon_0 R^3}\left(-3R^2+r^2+\frac{2R^3}{r}\right) r^2 dr =
+    \\
+
+    \\
+    = E_1 + \frac{e^2}{16\pi b^3 \epsilon_0 R^3}  \int_{0}^{\infty} \left[-3R^2e^{-r/b}r^2 + e^{-r/b} r^4 + 2R^3e^{-r/b} r\right] dr
+  \end{array}
+\end{equation}
+
+Where each integral is:
+
+\begin{equation}
+  \begin{array}{c}
+    \int_{0}^{R} -3R^2 e^{-r/b}r^2 dr = -3R^2 \int_{0}^{R} e^{-r/b} r^2 dr =
+    \\
+
+    \\
+    3R^2 (bR^2 e^{-R/b} + 2b^2 R e^{-R/b} + 2b^3 e^{-R/b} - 2b^3)
+    \\
+
+    \\
+    \int_{0}^{R} e^{-r/b} r^4 dr =
+    \\
+
+    \\
+    = -b R^4 e^{-R/b} - 4b^2 R^3 e^{-R/b} - 12b^3 R^2 e^{-R/b} - 24b^4 R e^{-R/b} - 24b^5 e^{-R/b} + 24b^5
+    \\
+
+    \\
+    \int_{0}^{R} 2R^3 e^{-r/b} r dr =
+    \\
+
+    \\
+    = 2R^3 (-R b e^{-R/b} - b^2 e^{-R/b} + b^2)
+  \end{array}
+\end{equation}
+
+If we put everything together:
+
+\begin{equation}
+  \begin{array}{c}
+    E_{\phi} = E_1 +
+    \\
+
+    \\
+    + \frac{e^2}{8\pi b^3 \epsilon_0 R^3} \left(12b^5+R^3b^2-3R^2b^3-12b^5e^{-R/b}-12b^4Re^{-R/b}-3b^3R^2e^{-R/b}\right) =
+    \\
+
+    \\
+    E_1 + \frac{e^2 b^2}{8 \pi\epsilon_0 R^3} \left(12 + \frac{R^3}{b^3} - 3\frac{R^2}{b^2} - 12 e^{-R/b} - 12 \frac{R}{b} e^{-R/b} - 3\frac{R^2}{b^2} e^{-R/b}\right)
+  \end{array}
+\end{equation}
+
+Using \ref{10.5} we get that:
+
+\begin{equation}
+  \begin{array}{c}
+  E_{\phi} = E_1 + \frac{\pi \epsilon_0 \hbar^4}{2 e^2 m_e R^3} \left(12 + \frac{R^3}{b^3} - 3\frac{R^2}{b^2} - 12 e^{-R/b} - 12 \frac{R}{b} e^{-R/b} - 3\frac{R^2}{b^2} e^{-R/b}\right)
+  \end{array}
+\end{equation}
+
+We can see that for $R/b \to 0$ the solution is $E_1$ again.
+
+
+
+\section{Constant electric field}
+
+Like in the previous section we are going to find the potential first. Let's assume that we have a constant electric potential going into the z direction like the one in Figure \ref{figure_const_elec}.
+
+\begin{marginfigure}
+  \label{figure_const_elec}
+  \begin{tikzpicture}
+    \draw[-] (0,0) -- (-1.63,-1.14); % x axis
+    \draw[-] (-2,0) -- (2,0); % y axis
+    \draw[-] (0,-2) -- (0,2); % z axis
+    \filldraw[black] (-1.6,-1.1) circle (0pt) node [anchor=north]{$x$};
+    \filldraw[black] (2,0) circle (0pt) node [anchor=north]{$y$};
+    \filldraw[black] (0,2) circle (0pt) node [anchor=east]{$z$};
+
+    %vector
+    \draw[->] (0,0.5) -- (0,1);
+    \draw[->] (0.5,0.5) -- (0.5,1);
+    \draw[->] (-0.5,0.5) -- (-0.5,1);
+    \filldraw[black] (0,1.2) circle (0pt) node [anchor=east]{$\vec{E}$};
+  \end{tikzpicture}
+  \captin{Constant electric field going into the z direction}
+\end{marginfigure}
+
+This electric field is going to affect both the proton and the electron, is going to "attract" the proton to the electron and the electron to the proton in the z direction, which implies that following the concepts from Chapter 1, we can consider a potential like:
+
+\begin{equation}
+  \begin{array}{c}
+    U = -e E_0 |z_1-z_2|
+  \end{array}
+\end{equation}
+
+\begin{equation}
+  \begin{array}{c}
+    \vec{E} = E \hat{z}
+    \\
+
+    \\
+    V = - \int \vec{E} \cdot d\vec{r}
+    \\
+
+    \\
+    V = - \int E dz = -Ez + constant
+  \end{array}
+\end{equation}
+
+\section{Harmonic oscillator with a perturbation}
