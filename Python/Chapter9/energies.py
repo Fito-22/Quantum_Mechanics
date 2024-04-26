@@ -5,11 +5,11 @@ ALL THIS CODE WAS GIVE IT TO ME BY ALEX LOHR, CLASSMATE IN QUANTUM MECHANICS II 
 Alex email: alohr001@fiu.edu
 
 """
-
+#%%
 import numpy as np
 import matplotlib.pyplot as plt
 
-n = 3
+n = 1
 Z = 1
 m = 9.1093837015e-31
 e = 1.602176634e-19
@@ -34,3 +34,11 @@ plt.ylabel('Energy (J)')
 plt.title('Energy vs. Principal Quantum Number (n)')
 plt.grid(True)
 plt.savefig('images/energy_vs_n.png')
+
+#%%
+print(E(1))
+print(E(2)-E(1))
+c = 299792458
+h = 6.62607015 * 10**(-34)
+
+print((4/3)* (E(2)-E(1))/(c*h))

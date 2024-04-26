@@ -238,6 +238,10 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {10.3}Temperature and Light}{108}{section.10.3}%
 \defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {10.4}Comparison with the experiment}{109}{section.10.4}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {10.4}Comparison with the experiment}{109}{section.10.4}%
+\defcounter {refsection}{0}\relax
 \contentsline {chapter}{\numberline {11}Magnetic Field}{111}{chapter.11}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {20}
@@ -288,20 +292,34 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {13.2}Equation with perturbation}{126}{section.13.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {13.3}Proton as a sphere}{128}{section.13.3}%
+\contentsline {section}{\numberline {13.3}Degenerate States}{128}{section.13.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {13.3}Proton as a sphere}{128}{section.13.3}%
+\contentsline {mtocsection}{\numberline {13.3}Degenerate States}{128}{section.13.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {13.4}Constant electric field}{131}{section.13.4}%
+\contentsline {section}{\numberline {13.4}Proton as a sphere}{129}{section.13.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {13.4}Constant electric field}{131}{section.13.4}%
+\contentsline {mtocsection}{\numberline {13.4}Proton as a sphere}{129}{section.13.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {13.5}Harmonic oscillator with a perturbation}{131}{section.13.5}%
+\contentsline {section}{\numberline {13.5}Constant electric field}{133}{section.13.5}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {13.5}Harmonic oscillator with a perturbation}{131}{section.13.5}%
+\contentsline {mtocsection}{\numberline {13.5}Constant electric field}{133}{section.13.5}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{133}{part*.65}%
+\contentsline {section}{\numberline {13.6}Harmonic oscillator with a perturbation in 1D}{135}{section.13.6}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{135}{chapter*.66}%
+\contentsline {mtocsection}{\numberline {13.6}Harmonic oscillator with a perturbation in 1D}{135}{section.13.6}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{137}{section*.67}%
+\contentsline {section}{\numberline {13.7}Harmonic oscillator with x^4 perturbation}{136}{section.13.7}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {13.7}Harmonic oscillator with x^4 perturbation}{136}{section.13.7}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {14}The Harmonic Oscillator in 3D}{139}{chapter.14}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {26}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {27}
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Appendix}{141}{part*.66}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Notation}{143}{chapter*.67}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{145}{section*.68}%

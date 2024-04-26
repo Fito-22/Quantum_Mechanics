@@ -55,7 +55,7 @@ We want to find b so the term that belongs to the potential is equal to 1.
 
 \begin{equation}
   \begin{array}{c}
-    b = \frac{2\pi \epsilon_0 \hbar^2}{Z e^2 m} = [m] = \frac{1}{Z} 2.64588603 \cdot 10^{-19} m
+    b = \frac{2\pi \epsilon_0 \hbar^2}{Z e^2 m} = [m] = \frac{1}{Z} 2.64588603 \cdot 10^{-11} m
   \end{array}
 \end{equation}
 
@@ -187,7 +187,7 @@ Where n is $n=p+j+1$. Because p and j are define as integer numbers from 0 to in
 
 \begin{equation}
   \begin{array}{c}
-    E = -\frac{Z^2 e^4 m}{32\pi^2\epsilon_0^2\hbar^2 n^2}
+    E = -\frac{Z^2 e^4 m}{32\pi^2\epsilon_0^2\hbar^2 n^2} = -2.1798723637575177e-18 \frac{1}{n^2}
   \end{array}
 \end{equation}
 
@@ -451,3 +451,42 @@ In the same way we can see that energy can be emitted from the electron when it 
     \Delta E = E_f - E_i = h\omega_{light}
   \end{array}
 \end{equation}
+
+\section{Comparison with the experiment}
+
+We are going to look at the lab experiment done by Kevin A. Acosta, partner in this clasroom that was friendly enough to let me his report, because i haven't done the experiment myself.
+
+
+\begin{marginfigure}
+  \centering
+  \includegraphics{images9/experiment.jpeg}
+  \caption{Experimental setup}
+  \label{figure_experiment}
+\end{marginfigure}
+
+
+The experimental setup can be observed in Figure \ref{figure_experiment}. The experiment was done using a Hydrogen Lamp closed to a collimating slit, a diffraction grating and a telescope. The angle of the diffraction grating is taken after a few initial adjustments. Once everything is prepared the telescope is gently moved until the first line is visible, and that angle will be recorded. After some data analysis we can get the total path length between the two beams of light, (only two orders are being used for the experiment). Knowing the total path length one can determined the wavelength of the light. The wavelength is related with the Rydberg constant and the energy levels, (the one from where the electron is coming and the one where the electron is going). The Rydberg constant is given by:
+
+\begin{equation}
+\frac{1}{\lambda} = R_H \left(\frac{1}{n_1^2}-\frac{1}{n_2^2}\right)
+\end{equation}
+
+This equation can be used in terms of the difference between the energy levels, and is what we are going to use to determined the theoretical Rydberg constant.
+
+\begin{equation}
+  R = \frac{4}{3} \frac{E_2-E_1}{c h}
+\end{equation}
+
+Where c is the speed of light and h is the Plank's constant. The values $E_2$ and $E_1$ are obtain from our analysis in the previous sections. The theoretical value is:
+
+\begin{equation}
+  R = \frac{4}{3} \frac{E_2-E_1}{c h} = 1.0973731 \cdot 10^7 m^{-1}
+\end{equation}
+
+Comming back to the experiment, after some analysis of the data we can observed that the $n_1$ we are measuring is actually n=2. This is because only the photons emited from n=3,4,5 and 6 to n=2 have frequencies in the visible spectrum, any other transition will not be appreciate without more sotisficate observational methods. The experimental value of the Rydberg constant in Kevin's experiment is:
+
+\begin{equation}
+  R_{exp} = 1.097 \cdot 10^7 \pm 5.656 \cdot 10^{-1} m^{-1}
+\end{equation}
+
+This value is very similar to the one obtained using the model we have been working through the whole chapter. So we can say that the theory does explain the experiments, which is our main goal because physics is a experimental science.

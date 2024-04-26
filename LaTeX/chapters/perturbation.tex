@@ -274,7 +274,61 @@ If $m \neq n$:
   \end{array}
 \end{equation}
 
-And you can keep going with this process. In the next two chapters we are going to focus in two interesting physical systems.
+And you can keep going with this process.
+
+\section{Degenerate States}
+
+If we have more than one state with the same energ, we can have something like:
+
+\begin{equation}
+  \begin{array}{c}
+    \ket{\phi_0} = C_n \ket{n} +C_{n+1}\ket{n+1}
+    \\
+
+    \\
+    \mu_0 = E_n = E_{n+1}
+  \end{array}
+\end{equation}
+
+Equation \ref{13.14} is going to look like:
+
+\begin{array}{c}
+  (H_0-E_n) = (\mu_1-V_1)\left[C_n \ket{n} + C_{n+1}\ket{n+1}\right]
+\end{array}
+
+We can still solve this multiplying by $\bra{n}$ and $\bra{n+1}$, which is going to give as two equations that are similar to \ref{13.15}.
+
+\begin{equation}
+\begin{array}{c}
+  0 = \mu_1 C_n - C_n \bra{n}V_1\ket{n} - C_{n+1} \bra{n}V_1\ket{n+1}
+  \\
+
+  \\
+  0 = \mu_1 C_{n+1} - C_{n+1} \bra{n+1}V_1\ket{n+1} - C_n \bra{n+1}V_1\ket{n}
+\end{array}
+\end{equation}
+
+If we look at this system of equation in a matrix system we get:
+
+\begin{equation}
+  \begin{array}{c}
+    \begin{bmatrix}
+      \bra{n}V_1\ket{n} & \bra{n}V_1\ket{n+1}\\
+      \bra{n+1}V_1\ket{n} & \bra{n+1}V_1\ket{n+1}
+    \end{bmatrix}
+    \begin{bmatrix}
+      C_n\\
+      C_{n+1}
+    \end{bmatrix}
+    = \mu_1
+    \begin{bmatrix}
+      C_n\\
+      C_{n+1}
+    \end{bmatrix}
+  \end{array}
+\end{equation}
+
+This implies that $\mu_1$ is an eigenvalue of the matrix where the eigenvectors are the coefficients.
 
 \section{Proton as a sphere}
 
@@ -289,7 +343,7 @@ We've been assuming that the proton is a point particle all this time, but we kn
     \draw[dashed] (2,0) arc (0:180:2 and 0.6);
     \fill[fill=black] (0,0) circle (1pt);
     \draw[dashed] (0,0 ) -- node[above]{$R$} (2,0);
-    \filldraw[black] (0,2) circle (0pt) node [anchor=east]{$\rho$};
+    \filldraw[black] (0,2.5) circle (0pt) node [anchor=east]{$\rho$};
   \end{tikzpicture}
   \caption{Proton as a sphere of radious R and charge density $\rho$}
 \end{marginfigure}
@@ -462,13 +516,97 @@ Using \ref{10.5} we get that:
 
 We can see that for $R/b \to 0$ the solution is $E_1$ again.
 
+For the second level of energy we are going to assume a mix degeneratestate. We are goint to solve the system getting a 4x4 matrix following the steps from the previous section in degenerate states. The initial state and the energy are going to be defined as:
 
+\begin{equation}
+  \begin{array}{c}
+    \phi_0 = C_0 \ket{n=2,j=0,m=0} +
+    \\
+    +C_1 \ket{n=2,j=1,m=1} +
+    \\
+    +C_2 \ket{n=2,j=1,m=0} +
+    \\
+    +C_3 \ket{n=2,j=1,m=-1}
+    \\
+
+    \\
+    \phi_0 = C_0 \ket{1} + C_1 \ket{2} + C_2 \ket{3} + C_3 \ket{4}
+    \\
+
+    \\
+    \mu_0 = E_2
+  \end{array}
+\end{equation}
+
+Im going to use this labels just for sake of simplicity. The matrix is going to look like:
+
+\begin{equation}
+  \begin{bmatrix}
+    \bra{1}V_1\ket{1} & \bra{1}V_1\ket{2} & \bra{1}V_1\ket{3} & \bra{1}V_1\ket{4}\\
+    \bra{2}V_1\ket{1} & \bra{2}V_1\ket{2} & \bra{2}V_1\ket{3} & \bra{2}V_1\ket{4}\\
+    \bra{3}V_1\ket{1} & \bra{3}V_1\ket{2} & \bra{3}V_1\ket{3} & \bra{3}V_1\ket{4}\\
+    \bra{4}V_1\ket{1} & \bra{4}V_1\ket{2} & \bra{4}V_1\ket{3} & \bra{4}V_1\ket{4}
+  \end{bmatrix}
+\end{equation}
+
+We have to get the eigenvalues of this matrix to get $\mu_1$, but this is matrix is going to be a diagonal matrix because $V_1$ only dependes on r, which implies that the inner product is going to be proportional to $\delta_{j1,j2}\delta_{m1,m2}$ and because all the degenerate states have different j or m values the inner product of every different function with $V_1$ is going to be 0.
+
+\begin{equation}
+  \begin{bmatrix}
+    \bra{1}V_1\ket{1} & 0 & 0 & 0\\
+    0 & \bra{2}V_1\ket{2} & 0 & 0\\
+    0 & 0 & \bra{3}V_1\ket{3} & 0\\
+    0 & 0 & 0 & \bra{4}V_1\ket{4}
+  \end{bmatrix}
+\end{equation}
+
+The eigenvalues of this matrix is going to be the own values. Only the exact calculation of one of them is gonna be provided, the rest are solve in a similar way.
+
+\begin{equation}
+  \begin{array}{c}
+    \bra{1}V_1\ket{1} =
+    \\
+
+    \\
+    \int_{0}^{2\pi} \int_{0}^{\pi} \int_{0}^{R} \psi_{2,0,0}^* V_1 \psi_{2,0,0} r^2 sin\theta dr d\theta d\phi =
+    \\
+
+    \\
+    = \frac{e^2}{128b^3\epsilon_0 R^3}\left(-\left(2688b^5+1344Rb^4+288R^2b^3+36R^3b^2+3R^4b\right)\mathrm{e}^{-\frac{R}{2b}}+
+    \\
+    \left. + 2688b^5-48R^2b^3+4R^3b^2 \right\) =
+    \\
+
+    \\
+    = \frac{e^2 b^2}{128\epsilon_0 R^3}\left(-(2688+1344\frac{R}{b}+288\frac{R^2}{b^2}+36\frac{R^3}{b^3}+3\frac{R^4}{b^4})e^{-R/2b}+2688-48\frac{R^2}{b^2}+4\frac{R^3}{b^3}\right)
+  \end{array}
+\end{equation}
+
+
+
+
+
+Again we can see that if we find the limit $R/b \to 0$ we get that this inner product is 0, recovering the energy without the perturbation. The other energies can be calculated in a similar way.
+
+\begin{equation}
+  \begin{array}{c}
+    \bra{2}V_1\ket{2} = \bra{3}V_1\ket{3} = \bra{4}V_1\ket{4} =
+    \\
+
+    \\
+    = \frac{e^2 b^2}{2^{11} 3 \epsilon_0 R^3}\left(-\left(92160 + 46080 \frac{R}{b} + 9216\frac{R^2}{b^2}+960\frac{R^3}{b^3}+48\frac{R^4}{b^4} \right)e^{-R/2b} +
+    \\
+    \left. + 92160 - 2304 \frac{R^2}{b^2} + 192 \frac{R^3}{b^3} \right)
+  \end{array}
+\end{equation}
+
+This implies that we have a different energy dephase, one for the state $\ket{1}$ and another for the other states, so both energies are going to change but the ones with j=1 are going to keep being the same value and the one with j=0 is going to separate from the other two. This was expected because $V_1$ only depends on r.
 
 \section{Constant electric field}
 
 Like in the previous section we are going to find the potential first. Let's assume that we have a constant electric potential going into the z direction like the one in Figure \ref{figure_const_elec}.
 
-\begin{marginfigure}
+\begin{marginfigure}[3cm]
   \label{figure_const_elec}
   \begin{tikzpicture}
     \draw[-] (0,0) -- (-1.63,-1.14); % x axis
@@ -483,30 +621,312 @@ Like in the previous section we are going to find the potential first. Let's ass
     \draw[->] (0.5,0.5) -- (0.5,1);
     \draw[->] (-0.5,0.5) -- (-0.5,1);
     \filldraw[black] (0,1.2) circle (0pt) node [anchor=east]{$\vec{E}$};
+
+    \filldraw[black] (0,0) circle (1pt) node [anchor=north]{$p+$};
   \end{tikzpicture}
-  \captin{Constant electric field going into the z direction}
+  \caption{Constant electric field going into the z direction}
 \end{marginfigure}
 
 This electric field is going to affect both the proton and the electron, is going to "attract" the proton to the electron and the electron to the proton in the z direction, which implies that following the concepts from Chapter 1, we can consider a potential like:
 
 \begin{equation}
   \begin{array}{c}
-    U = -e E_0 |z_1-z_2|
+    U = - q E_0 |z_1-z_2| = - q E_0 z
   \end{array}
 \end{equation}
+
+Where q is the absolut value of the charge of the electron. This potential is what we called $V_1$ in the theory section, so the final potential is going to look like:
+
+\begin{equation}
+  V = H_0 + V_1 = H_0 - q E_0 z = H_0 - q E_0 r \cos(\theta)
+\end{equation}
+
+Now we can get the perturbation energy.
+
+\begin{equation}
+  E_\phi = E_1 + \bra{n=1,j=0,m=0} V_1 \ket{n=1,j=0,m=0}
+\end{equation}
+
+Where $E_1$ is the energy of the first state of the hydrogen atom and the function is the one that correspond to this energy. The inner product is going to be:
+
+\begin{equation}
+\begin{array}{c}
+  \bra{n=1,j=0,m=0} V_1 \ket{n=1,j=0,m=0} =
+  \\
+
+  \\
+  \int_{0}^{2\pi} \int_{0}^{\pi} \int_{0}^{\infty} \psi_{1,0,0}^* V_1 \psi_{1,0,0} r^2 sin\theta dr d\theta d\phi =
+  \\
+
+  \\
+  = 2\pi \int_{0}^{\pi}  \sin\theta\cos\theta d\theta \int_{0}^{\infty}\frac{-1}{8\pi b^3} e^{-r/b} q E_0 r^3 dr =
+  \\
+
+  \\
+  = [2 \pi] [0] \left[\int_{0}^{\infty}\frac{-1}{8\pi b^3} e^{-r/b} q E_0 r^3 dr\right] = 0
+\end{array}
+\end{equation}
+
+This implies that the perturbation energy in the first order is 0, we are going to get the second order, but only counting the four states from the second energy level of the hydrogen atom. \marginnote{We are assuming that the third, fourth,... states are going to give us much smaller contributions.}
 
 \begin{equation}
   \begin{array}{c}
-    \vec{E} = E \hat{z}
-    \\
+  \mu_2 = \frac{\bra{n=2,j=0,m=0} V_1 \ket{n=1,j=0,m=0}\bra{n=1,j=0,m=0} V_1 \ket{n=2,j=0,m=0}}{E_1-E_2} +
+  \\
 
-    \\
-    V = - \int \vec{E} \cdot d\vec{r}
-    \\
+  \\
+  + \frac{\bra{n=2,j=1,m=1} V_1 \ket{n=1,j=0,m=0}\bra{n=1,j=0,m=0} V_1 \ket{n=2,j=1,m=1}}{E_1-E_2} +
+  \\
 
-    \\
-    V = - \int E dz = -Ez + constant
+  \\
+  + \frac{\bra{n=2,j=1,m=0} V_1 \ket{n=1,j=0,m=0}\bra{n=1,j=0,m=0} V_1 \ket{n=2,j=1,m=0}}{E_1-E_2} +
+  \\
+
+  \\
+  \frac{\bra{n=2,j=1,m=-1} V_1 \ket{n=1,j=0,m=0}\bra{n=1,j=0,m=0} V_1 \ket{n=2,j=1,m=-1}}{E_1-E_2}
   \end{array}
 \end{equation}
 
-\section{Harmonic oscillator with a perturbation}
+This calculation that looks so complicated can be simplified knowing that the inner product is going to be 0 if $j_1 = j_2$ or if $m_1 \neq m_2$. The only term that survives is the third one.
+
+\begin{equation}
+  \mu_2 = \frac{\bra{n=2,j=1,m=0} V_1 \ket{n=1,j=0,m=0}\bra{n=1,j=0,m=0} V_1 \ket{n=2,j=1,m=0}}{E_1-E_2}
+\end{equation}
+
+The inner product is going to be:
+
+\begin{equation}
+  \begin{array}{c}
+    \int_{0}^{2\pi} \int_{0}^{\pi} \int_{0}^{\infty} \psi_{2,1,0}^* V_1 \psi_{1,0,0} r^2 sin\theta dr d\theta d\phi =
+    \\
+
+    \\
+    \int_{0}^{2\pi} d\phi \int_{0}^{\pi} sin\theta \cos^2\theta d\theta \int_{0}^{\infty} \sqrt{\frac{1}{2^13 \pi^2 b^8}} e^{3r/4b} r^4 dr =
+    \\
+
+    \\
+    = [2\pi]\left[\frac{2}{3}\right]\left[\frac{qE_0}{2^6\pi b^4\sqrt{2}}\frac{4!4^5 b^5}{3^5} \right] =
+    \\
+
+    \\
+    = \frac{qE_0 \sqrt{2} 2^8 b}{3^5}
+  \end{array}
+\end{equation}
+
+The function doesn't include any complex term, so we can say:
+
+\begin{equation}
+  \begin{array}{c}
+  \bra{n=2,j=1,m=0} V_1 \ket{n=1,j=0,m=0} =
+  \\
+
+  \\
+  = \bra{n=1,j=0,m=0} V_1 \ket{n=2,j=1,m=0} =
+  \\
+
+  \\
+  =\frac{qE_0 \sqrt{2} 2^8 b}{3^5}
+  \end{array}
+\end{equation}
+
+The final energy would be:
+
+\begin{equation}
+  \begin{array}{c}
+    E_{\phi} = E_1 + \mu_1 \mu_2 = E_1 + 0 + \frac{\left(\frac{qE_0 \sqrt{2} 2^8 b}{3^5}\right)^2}{E_2-E_1}
+  \end{array}
+\end{equation}
+
+The first order perturbation for the second level of energy is going to be solve by finding the eigenvectors of the matrix:
+
+\begin{equation}
+  \begin{bmatrix}
+    \bra{1}V_1\ket{1} & \bra{1}V_1\ket{2} & \bra{1}V_1\ket{3} & \bra{1}V_1\ket{4}\\
+    \bra{2}V_1\ket{1} & \bra{2}V_1\ket{2} & \bra{2}V_1\ket{3} & \bra{2}V_1\ket{4}\\
+    \bra{3}V_1\ket{1} & \bra{3}V_1\ket{2} & \bra{3}V_1\ket{3} & \bra{3}V_1\ket{4}\\
+    \bra{4}V_1\ket{1} & \bra{4}V_1\ket{2} & \bra{4}V_1\ket{3} & \bra{4}V_1\ket{4}
+  \end{bmatrix}
+\end{equation}
+
+Where the functions are defined as in the previous problem.We know that if $j_1=j_2$ or if $m_1 \neq m_2$.
+
+\begin{equation}
+  \begin{bmatrix}
+    0 & 0 & \bra{1}V_1\ket{3} & 0\\
+    0 & 0 & 0 & 0\\
+    \bra{3}V_1\ket{1} & 0 & 0 & 0\\
+    0 & 0 & 0 & 0
+  \end{bmatrix}
+\end{equation}
+
+The eigenvalues are going to be given by the equation:
+
+\begin{equation}
+  p(\lambda) = \lmabda^2(\lambda^2-(\bra{1}V_1\ket{3})^2) = 0
+\end{equation}
+
+Because the matrix is hermitian. The eigenvalues are going to be $\lambda = 0$ and $\lambda = \pm \bra{1}V_1\ket{3}$.
+
+The inner product is:
+
+\begin{equation}
+  \begin{array}{c}
+    \bra{1}V_1\ket{3} =
+    \\
+
+    \\
+    = \int_{0}^{2\pi} \int_{0}^{\pi} \int_{0}^{\infty} \psi_{1,0,0}^* V_1 \psi_{2,1,0} r^2 sin\theta dr d\theta d\phi =
+    \\
+
+    \\
+    = \frac{4\pi}{3} \frac{-qE_0}{b^42^8\pi}\int_{0}^{\infty} e^{-r/b} r^4 \left(1-\frac{r}{4b}\right) dr =
+    \\
+
+    \\
+    = 6 q E_0 b
+  \end{array}
+\end{equation}
+
+One of the states is going to increase the energy by $6 q E_0 b$ and the other one is going to decrease the energy by the same amount. The states with $m\neq0$ are going to remain constant.
+
+\section{Harmonic oscillator with a perturbation in 1D}
+
+This time let's directly assume that we have a Hamiltonian that looks like:
+
+\begin{equation}
+  H = H_0 + V_1 = H_0 + \lambda x
+\end{equation}
+
+Where $H_0$ is the energy that correspond to the Harmonic Oscilator problem saw in Chapter 7, were the energy is defined as:
+
+\begin{equation}
+  \mu_0 = E_0 = \left(n+\frac{1}{2}\right) \hbar \omega
+\end{equation}
+
+Where $\omega$ is defined in \ref{7.2}
+
+We can define $V_1$ in terms of the operators defined in \ref{7.11}.
+
+\begin{equation}
+  V_1 = \lambda x = \lambda b y = \lambda b \frac{\sqrt{2}}{2} (a^\dagger + a)
+\end{equation}
+
+We can directly see that the first order energiesis goingto be 0.
+
+\begin{equation}
+  \mu_1 = \bra{n}V_1\ket{n} = \lambda b \frac{\sqrt{2}}{2} \bra{n}(a^\dagger + a)\ket{n} = 0
+\end{equation}
+
+This is zero because the inner product of the $n^{th}$ state with the next or the previous state is zero. The second order approximation is going to be:
+
+\begin{equation}
+\begin{array}{c}
+  \sum_{m \neq n} \frac{\bra{n}V_1\ket{m}\bra{m}V_1\ket{n}}{E_n-E_m} =
+  \\
+
+  \\
+  = \frac{\bra{n}V_1\ket{n+1}\bra{n+1}V_1\ket{n}}{E_{n}-E_{n+1}} + \frac{\bra{n}V_1\ket{n-1}\bra{n-1}V_1\ket{n}}{E_{n}-E_{n-1}}
+\end{array}
+\end{equation}
+
+Because all the other therms are going to be zero.
+
+\begin{equation}
+  \begin{array}{c}
+    \frac{\bra{n}V_1\ket{n+1}\bra{n+1}V_1\ket{n}}{E_{n}-E_{n+1}} =
+    \\
+
+    \\
+    =\frac{\frac{\lambda b \sqrt{2}}{2} (\bra{n}a^\dagger\ket{n+1}+\bra{n}a\ket{n+1}) \cdot \frac{\lambda b \sqrt{2}}{2} (\bra{n+1}a^\dagger\ket{n}+\bra{n+1}a\ket{n})}{\hbar \omega} =
+    \\
+
+    \\
+    = \frac{\frac{\lambda^2 b^2 (n+1)}{2} }{\hbar \omega} = \frac{\lambda^2 (n+1)^2}{2 m \omega^2}
+  \end{array}
+\end{equation}
+
+The other term is going to be the same but with the $n-1$ state.
+
+\begin{equation}
+  \begin{array}{c}
+    \frac{\bra{n}V_1\ket{n-1}\bra{n-1}V_1\ket{n}}{E_{n}-E_{n-1}} =
+    \\
+
+    \\
+    =\frac{\frac{\lambda b \sqrt{2}}{2} (\bra{n}a^\dagger\ket{n-1}+\bra{n}a\ket{n-1}) \cdot \frac{\lambda b \sqrt{2}}{2} (\bra{n-1}a^\dagger\ket{n}+\bra{n-1}a\ket{n})}{-\hbar \omega} =
+    \\
+
+    \\
+    = \frac{\frac{\lambda^2 b^2 (n)}{2} }{-\hbar \omega} = -\frac{\lambda^2 (n)}{2 m \omega^2}
+  \end{array}
+\end{equation}
+
+The total energy looks like:
+
+\begin{equation}
+  E_{\phi} = E_n + \mu_2 = \left(n+\frac{1}{2}\right)\hbar \omega + \frac{\lambda^2}{2m\omega^2}
+\end{equation}
+
+\section{Harmonic oscillator with x^4 perturbation}
+
+This problem is going to be solved similarly to the previous one butnow our hamiltonian is:
+
+\begin{equation}
+  H = H_0 + \lambda x^4 = H_0 + \lambda b^4 y^4
+\end{equation}
+
+We again can express $V_1$ in terms of the operators.
+
+\begin{equation}
+  V_1 = \lambda b^4 y^4 = \lambda b^4 \frac{1}{4} (a^\dagger + a)^4
+\end{equation}
+
+The first order is not going to be zero as before, in this case, we are going tohave 6 terms that are going to be nonzero when we calculate $\mu_1$ and all the rest are going to be zero.
+
+\begin{equation}
+  \begin{array}{cc}
+    \mu_1 = & \bra{n}V_1\ket{n} = \frac{\lambda b^4}{4} \bra{n}(a+a^\dagger)^4\ket{n} =
+    \\
+
+    \\
+    = \frac{\lambda b^4}{4} & \left(\bra{n}(a a a^\dagger a^\dagger)\ket{n}\right) +
+    \\
+
+    \\
+      \frac{\lambda b^4}{4}  & \left(\bra{n}(a a^\dagger a a^\dagger)\ket{n}\right) +
+    \\
+
+    \\
+    \frac{\lambda b^4}{4}& \left(\bra{n}(a^\dagger a a a^\dagger)\ket{n}\right) +
+    \\
+
+    \\
+    \frac{\lambda b^4}{4}           & \left(\bra{n}(a^\dagger a a^\dagger a)\ket{n}\right) +
+    \\
+
+    \\
+    \frac{\lambda b^4}{4}       & \left(\bra{n}(a a^\dagger a^\dagger a)\ket{n}\right) +
+    \\
+
+    \\
+    \frac{\lambda b^4}{4}      & \left(\bra{n}(a^\dagger a^\dagger a a)\ket{n}\right)
+  \end{array}
+\end{equation}
+
+Solving the inner products we get:
+
+\begin{equation}
+  \begin{array}{c}
+    \mu_1 = \frac{\lambda b^4}{4} \left[(n+2)(n+1)+(n+1)^2+2(n+1)(n)+n^2+n(n-1)\right] =
+    \\
+
+    \\
+    \mu_1 = \frac{\lambda b^4}{4} (6n^2+5n+3) = \frac{\lambda \hbar^2}{4 m^2\omega^2} (6n^2+5n+3)
+  \end{array}
+\end{equation}
+
+The fractional correction is going to be:
+
+\begin{equation}
+  \frac{\mu_1}{E_n+\mu_1} = \frac{\frac{\lambda \hbar^2}{4 m^2\omega^2} (6n^2+5n+3)}{\left(n+\frac{1}{2}\right)\hbar \omega + \frac{\lambda \hbar^2}{4 m^2\omega^2} (6n^2+5n+3)}
+\end{equation}

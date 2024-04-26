@@ -9,11 +9,14 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as anim
 
 # Define the functions
+def beta(phi,a):
+    return 1 / ( a*(a - np.sqrt(a**2-1)*np.sin(2*phi)) )
+
 def my_function1(x, a):
-    return np.sqrt((1 + np.sqrt(1-1/a**2) * np.sin(2*np.arctan((1/a)*np.tan(x))))*a)*np.cos(x)
+    return np.sqrt(a*beta(x,a)) * np.cos(x)
 
 def my_function2(x, a):
-    return np.sqrt((1 + np.sqrt(1-1/a**2) * np.sin(2*np.arctan((1/a)*np.tan(x))))*a)*np.sin(x)
+    return np.sqrt(a*beta(x,a)) * np.sin(x)
 
 # Set up the figure and axis
 fig, ax = plt.subplots()
@@ -32,7 +35,7 @@ ax.legend()
 ax.grid(True)
 
 plt.figure()
-for i in [1,10,100]:
+for i in [1,3,100]:
     plt.plot(my_function1(x_values,i),my_function2(x_values,i),label=f'a={i}')
 plt.legend()
 plt.xlabel('x')
