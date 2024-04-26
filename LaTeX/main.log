@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.31)  26 APR 2024 06:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.31)  26 APR 2024 07:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6350,7 +6350,7 @@ Package marginnote Info: xpos seems to be 222.49937pt on input line 260.
 
 
 
-LaTeX Warning: Reference `10.49' on page 120 undefined on input line 477.
+LaTeX Warning: Reference `10.49' on page 120 undefined on input line 476.
 
 
 Overfull \hbox (131.75558pt too wide) detected at line 524
@@ -6496,17 +6496,31 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 841.
 
-) (./chapters/perturbation.tex
 \openout4 = `main.mw'.
 
- [124
+[124
 
 ] (./main.mw)
 \openout4 = `main.mw'.
 
+) (./chapters/perturbation.tex
+\openout4 = `main.mw'.
+
+ [125] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+ [126
+
+
+]
+(./main.mw)
+\openout4 = `main.mw'.
+
 
 chapter 13.
-Package marginnote Info: Margin note 135.1 is on absolute page 135 on input lin
+Package marginnote Info: Margin note 137.1 is on absolute page 137 on input lin
 e 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
 
@@ -6545,25 +6559,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 
 \openout4 = `main.mw'.
 
-[125
-
-
-] (./main.mw)
+[127] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
- [126] (./main.mw)
+ [128] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
- [127] (./main.mw)
+ [129] (./main.mw)
 \openout4 = `main.mw'.
 
 
 
-LaTeX Warning: Reference `13.14' on page 128 undefined on input line 293.
+LaTeX Warning: Reference `13.14' on page 130 undefined on input line 293.
 
 ! Missing $ inserted.
 <inserted text> 
@@ -6585,19 +6596,19 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-LaTeX Warning: Reference `13.15' on page 128 undefined on input line 299.
+LaTeX Warning: Reference `13.15' on page 130 undefined on input line 299.
 
 \openout4 = `main.mw'.
 
-[128] (./main.mw)
+[130] (./main.mw)
 \openout4 = `main.mw'.
 
-Package marginnote Info: Margin note 139.1 is on absolute page 139 on input lin
+Package marginnote Info: Margin note 141.1 is on absolute page 141 on input lin
 e 349.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 349.
 \openout4 = `main.mw'.
 
- [129] (./main.mw)
+ [131] (./main.mw)
 \openout4 = `main.mw'.
 
 
@@ -6634,7 +6645,7 @@ Overfull \hbox (27.71477pt too wide) detected at line 491
 
 \openout4 = `main.mw'.
 
-[130] (./main.mw)
+[132] (./main.mw)
 \openout4 = `main.mw'.
 
 
@@ -6643,11 +6654,11 @@ Overfull \hbox (24.31607pt too wide) detected at line 507
  []
 
 
-LaTeX Warning: Reference `10.5' on page 131 undefined on input line 509.
+LaTeX Warning: Reference `10.5' on page 133 undefined on input line 509.
 
 \openout4 = `main.mw'.
 
-[131] (./main.mw)
+[133] (./main.mw)
 \openout4 = `main.mw'.
 
 
@@ -6747,15 +6758,15 @@ Package caption Warning: \label without proper reference on input line 610.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `figure_const_elec' on page 132 undefined on input lin
+LaTeX Warning: Reference `figure_const_elec' on page 134 undefined on input lin
 e 607.
 
 \openout4 = `main.mw'.
 
-[132] (./main.mw)
+[134] (./main.mw)
 \openout4 = `main.mw'.
 
-Package marginnote Info: Margin note 143.1 is on absolute page 143 on input lin
+Package marginnote Info: Margin note 145.1 is on absolute page 145 on input lin
 e 628.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 628.
 
@@ -6765,7 +6776,7 @@ Overfull \hbox (86.81169pt too wide) detected at line 694
 
 \openout4 = `main.mw'.
 
-[133] (./main.mw)
+[135] (./main.mw)
 \openout4 = `main.mw'.
 
 
@@ -6780,19 +6791,19 @@ and I'll forget about whatever was undefined.
 
 \openout4 = `main.mw'.
 
-[134] (./main.mw)
+[136] (./main.mw)
 \openout4 = `main.mw'.
 
 
 
-LaTeX Warning: Reference `7.2' on page 135 undefined on input line 806.
+LaTeX Warning: Reference `7.2' on page 137 undefined on input line 806.
 
 
-LaTeX Warning: Reference `7.11' on page 135 undefined on input line 808.
+LaTeX Warning: Reference `7.11' on page 137 undefined on input line 808.
 
 \openout4 = `main.mw'.
 
-[135] (./main.mw)
+[137] (./main.mw)
 \openout4 = `main.mw'.
 
 
@@ -6844,7 +6855,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 \openout4 = `main.mw'.
 
-[136] (./main.mw)
+[138] (./main.mw)
 \openout4 = `main.mw'.
 
 ) (./chapters/harm3d.tex
@@ -6869,12 +6880,12 @@ my insertion and my current dilemma will both disappear.
 
 \openout4 = `main.mw'.
 
-[137] (./main.mw)
+[139] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
- [138
+ [140
 
 
 ] (./main.mw)
@@ -6882,16 +6893,16 @@ my insertion and my current dilemma will both disappear.
 
 
 chapter 14.
-Package marginnote Info: Margin note 149.1 is on absolute page 149 on input lin
+Package marginnote Info: Margin note 151.1 is on absolute page 151 on input lin
 e 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
 
-LaTeX Warning: Reference `9.115' on page 139 undefined on input line 5.
+LaTeX Warning: Reference `9.115' on page 141 undefined on input line 5.
 
 )
 \openout4 = `main.mw'.
 
- [139] (./main.mw)
+ [141] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -6928,7 +6939,7 @@ LaTeX Warning: Reference `9.115' on page 139 undefined on input line 5.
 
 \openout4 = `main.mw'.
 
- [140
+ [142
 
 
 
@@ -6953,12 +6964,12 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 \openout4 = `main.mw'.
 
-[141] (./main.mw)
+[143] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
- [142] (./main.mw)
+ [144] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -7040,7 +7051,7 @@ LaTeX Font Info:    Font shape `T1/zpllf/m/it' will be
 (./main.gls)
 \openout4 = `main.mw'.
 
- [143
+ [145
 
 
 
@@ -7060,7 +7071,7 @@ LaTeX Font Info:    Font shape `T1/zpllf/m/it' will be
 
 \openout4 = `main.mw'.
 
- [144
+ [146
 
 
 ] (./main.mw)
@@ -7073,7 +7084,7 @@ runsystem(makeindex main.idx)...executed safely (allowed).
  (./main.ind)
 \openout4 = `main.mw'.
 
- [145
+ [147
 
 
 ] (./main.mw)
@@ -9133,8 +9144,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58691 strings out of 481239
- 1116139 string characters out of 5920376
+ 58698 strings out of 481239
+ 1116203 string characters out of 5920376
  2261865 words of memory out of 5000000
  71391 multiletter control sequences out of 15000+600000
  686716 words of font info for 275 fonts, out of 8000000 for 9000
@@ -9159,10 +9170,10 @@ xmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/newpx/zplb.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/newpx/zplr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newpx/zplri
 .pfb>
-Output written on main.pdf (155 pages, 3982155 bytes).
+Output written on main.pdf (157 pages, 3984445 bytes).
 PDF statistics:
- 3682 PDF objects out of 4296 (max. 8388607)
- 2965 compressed objects within 30 object streams
- 891 named destinations out of 1000 (max. 500000)
+ 3694 PDF objects out of 4296 (max. 8388607)
+ 2975 compressed objects within 30 object streams
+ 894 named destinations out of 1000 (max. 500000)
  38637 words of extra memory for PDF output out of 42996 (max. 10000000)
 
